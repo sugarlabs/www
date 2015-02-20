@@ -1,0 +1,347 @@
+/* Grid dimensions */
+
+/* Total page width: 988px */
+/* Large column width: 223px */
+/* Gutters: 20px */
+
+/* Column 1 x: 20px */
+/* Column 2 x: 263px */
+/* Column 3 x: 506px */
+/* Column 4 x: 749px */
+
+
+/* default styles for logo text if images disabled */
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+
+/* formatting */
+
+body
+{
+	margin-top: 10px;
+	margin-left: 19px;
+	background-color: black;
+}
+ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	clear: left;
+}
+.bullet
+{
+	list-style: none;
+	padding-left: 17px;
+	text-indent: -1em;
+}
+.bullet li:before {
+	content: "/\A0\A0";
+}
+
+a.link:link, a.link:visited
+{
+	text-decoration: none;
+	font-weight: normal;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+a.link:hover
+{
+	text-decoration: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: black;
+}
+.links
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #999;
+}
+.links a.link:link, .links a.link:visited, 
+.pagination a.link:link, .pagination a.link:visited,
+.footer a.link:link, .footer a.link:visited,
+.thumb-wrapper a.link:link, .thumb-wrapper a.link:visited 
+{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.links a.link:hover, .pagination a.link:hover, .footer a.link:hover, .thumb-wrapper a.link:hover
+
+{
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+.pagination
+{
+	float: left;
+	width: 709px;
+	height: 19px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #999;
+	padding-bottom: 36px;
+}
+#menu li a:link, #menu li a:visited
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	line-height: 32px;
+	text-decoration: none;
+	font-weight: normal;
+	padding-left: 2px;
+	padding-right: 2px;
+	display: block;
+}
+#menu li a:hover, #menu li a.selected:link, #menu li a.selected:visited
+{
+	text-decoration: none;
+}
+.content li
+{
+	padding-bottom: 8px;
+}
+.content li a:link, .content li a:visited
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	line-height: 32px;
+	text-decoration: none;
+	font-weight: normal;
+}
+.content .text
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	line-height: 32px;
+	color: white;
+	margin-bottom: 30px;
+}
+.headline
+{
+	font-size: 19px;
+	line-height: 32px;
+}
+.headline a.link:hover
+{
+	text-decoration: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.footer
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #999;
+}
+.media
+{
+	padding-bottom: 36px;
+}
+.thumb-wrapper
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #999;
+}
+.media
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	color: white;
+	width: 729px;
+}
+
+#menu li a.selected:link,
+#menu li a.selected:visited,
+#menu li a.selected:hover
+{
+	color: black;
+}
+
+
+/* layout */
+
+.logo
+{
+	padding-top: 30px;
+	padding-bottom: 120px;
+	height: 51px;
+	position: relative;
+}
+.links-container
+{
+	left: 749px;
+	top: 10px;
+	position: absolute;
+	width: 223px;
+	display: block;
+}
+.content-container
+{
+	width: 972px;
+}
+.content
+{
+	width: 709px;
+	float: left;
+}
+.content-index
+{
+	width: 709px;
+	float: left;
+	padding-bottom: 19px;
+}
+.sidebar
+{
+	width: 223px;
+	float: right;
+	padding-right: 20px;
+}
+.footer
+{
+	width: 709px;
+	margin-bottom: 19px;
+	clear: both;
+}
+.thumb-wrapper
+{
+	float: left;
+	vertical-align: top;
+	width: 223px;
+	padding-right: 20px;
+	display: block;
+	position: relative;
+	padding-bottom: 36px;
+}
+.thumbnails
+{
+	width: 972px;
+	position: relative;
+}
+
+/* modifiers */
+
+.clr
+{
+	margin-bottom: 19px;
+}
+.spc
+{
+	margin-bottom: 7px;
+}
+.last
+{
+	padding-right: 0px;
+}
+
+
+/* menu */
+
+#menu
+{
+	position: absolute;
+	left: 17px;
+	top: 144px;
+	padding: 3px;
+}
+#menu li ul {
+	position: absolute;
+	left: 0;
+	background-color: white;
+	width: 237px;
+	margin: -35px 0 0 0;
+	padding: 3px 3px 20px 3px;
+	display: none;
+}
+#menu ul li ul {
+	position: absolute;
+	left: 0;
+	background-color: white;
+	width: 237px;
+	margin: -35px 0 0 240px;
+	padding: 3px 3px 20px 3px;
+	display: none;
+}
+#menu ul ul li ul {
+	position: absolute;
+	left: 0;
+	background-color: white;
+	width: 237px;
+	margin: -35px 0 0 240px;
+	padding: 3px 3px 20px 3px;
+	display: none;
+}
+#menu ul ul ul li ul {
+	position: absolute;
+	left: 0;
+	background-color: white;
+	width: 237px;
+	margin: -35px 0 0 240px;
+	padding: 3px 3px 20px 3px;
+	display: none;
+}
+
+/* SHOW SUBMENU 1 */
+#menu li:hover ul, #menu li.over ul {
+	display:block;
+}
+#menu li:hover ul ul, #menu li.over ul ul {
+	display:none;
+}
+
+/* SHOW SUBMENU 2 */
+#menu ul li:hover ul, #menu ul li.over ul {
+	display:block;
+}
+#menu li:hover ul ul ul, #menu li.over ul ul ul {
+	display:none;
+}
+
+/* SHOW SUBMENU 3 */
+#menu ul ul li:hover ul, #menu ul ul li.over ul {
+	display:block;
+}
+#menu li:hover ul ul ul ul, #menu li.over ul ul ul ul {
+	display:none;
+}
+
+/* SHOW SUBMENU 4 */
+#menu ul ul ul li:hover ul, #menu ul ul li.over ul {
+	display:block;
+}
+
+#menu {
+	z-index:1;
+}
+#menu ul {
+	z-index:2;
+}
+#menu ul ul {
+	z-index:3;
+}
+#menu ul ul ul {
+	z-index:4;
+}
+#menu ul ul ul {
+	z-index:5;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #menu ul li { float: left; height: 1%; }
+* html #menu ul li a { height: 1%; }
+/* End */

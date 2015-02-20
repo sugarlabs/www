@@ -1,0 +1,40 @@
+/* main text color */
+.headline,
+a.link:link,
+a.link:visited,
+a,
+.title
+{
+	color: #006E00;
+}
+
+/* main background color */
+a.link:hover,
+.tab-header
+{
+	color: white;
+	background-color: #006E00;
+}
+
+
+/* secondary text color */
+#menu li a:link,
+#menu li a:visited
+{
+	color: #FFE132;
+}
+
+
+/* secondary text and background */
+#menu li a:hover
+{
+	color: black;
+	background-color: #FFE132;
+}
+
+#menu li a.current:link,
+#menu li a.current:visited
+{
+	color: white;
+	background-color: #FFE132;
+}
