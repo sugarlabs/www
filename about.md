@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - about
+title: About
 thumb1: assets/gallery_thumb_16.png
 link1: gallery.html
 ---

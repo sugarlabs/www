@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Homepage
+title: Homepage
 thumb1: assets/soas_thumb_mirabelle.png
 thumb2: assets/gallery_thumb_01.png
 link1: http://wiki.sugarlabs.org/go/Sugar_on_a_Stick

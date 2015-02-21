@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Contributors
+title: Contributors
 ---
 ## A learning and software-development community
 There are many ways you can take an active hand in making Sugar even better. Financial contributions large and small are greatly appreciated and will be used to support grassroots learning innovations and face-to-face meetings between developers and educators. The community is organized into teams. Please join a team in order to help us expand our educational, technical, and community goals.

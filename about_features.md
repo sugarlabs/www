@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Features
+title: Features
 thumb1: assets/gallery_thumb_06.png
 thumb2: assets/gallery_thumb_08.png
 link1: gallery.html

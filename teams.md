@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Teams
+title: Teams
 ---
 ### Education team
 The mission of the education team is to explain why Sugar is an ideal platform for learning, and to provide guidance and feedback to those who are working on how Sugar enhances learning. [Learn more](http://wiki.sugarlabs.org/go/EducationTeam)

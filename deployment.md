@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Deployment
+title: Deployment
 ---
 **The deployment team is in charge of answering the question: How can Sugar Labs facilitate the distribution and support of deployments of Sugar all around the world?**
 

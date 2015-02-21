@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Learners
+title: Learners
 ---
 {:.center-imgs}
 ![Narrative 1](assets/narrative_01.png)

@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Teachers
+title: Teachers
 thumb1: assets/gallery_thumb_06.png
 thumb2: assets/gallery_thumb_05.png
 link1: gallery.html

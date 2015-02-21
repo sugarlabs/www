@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Education
+title: Education
 ---
 **The computer can help get new pedagogical approaches into the classroom. While getting computers into the hands of more children is undoubtedly of benefit, the question remains, “how does one maximize the learning that occurs?”**
 

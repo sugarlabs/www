@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: Sugar Labs - Parents
+title: Parents
 thumb1: assets/gallery_thumb_15.png
 thumb2: assets/gallery_thumb_12.png
 link1: gallery.html
