@@ -1,0 +1,29 @@
+---
+layout: standard
+title: Sugar Labs - Deployment
+---
+**The deployment team is in charge of answering the question: How can Sugar Labs facilitate the distribution and support of deployments of Sugar all around the world?**
+
+The Sugar Labs mission provides an answer, namely to voice the needs of Sugar deployments to the Sugar community, to find ways to support those needs, to organize forums for the exchange of experiences between Sugar users and Sugar developers, and to build local Sugar Labs organizations worldwide.
+
+### A local Sugar Lab would:
+- Adapt the technology and pedagogy to an area’s culture and resources (e.g. developing activities and content specific to a region)
+- Help translate Sugar to the local language(s)
+- Support Sugar deployments in area schools
+- Create a local community devoted to the Sugar Labs principles, making Sugar more open and sustainable
+- Provide for communication between the local communities and the global Sugar Labs community
+- Develop Local content and software that can be used not only for local purposes but also for the overall community
+- Host, co-host or partner in the organization of conferences, workshops, talks and meetings related to the use or development of Sugar
+
+### Organizational structure
+A distributed project—we pluralized the name Sugar Labs deliberately—where there is a local sense of ownership and associated entrepreneurship feels like the right course for us as an organization. Sugar Labs “central” is the community itself, which would be responsible for setting clear goals and maintaining any necessary infrastructure needed by the project as a whole, while the regional labs would use the own means to make Sugar relevant to their local communities.
+
+### Conditions for success
+What is the “business model” for a successful Sugar Lab? Some conditions for ensuring success might be:
+
+- A university connection as a local human resource
+- A local pilot user group from which to learn
+- A local passion or sub-goal that provides a rationale for the work
+- Bi-directional communication with the global Sugar community and other Sugar Labs
+- A sustainable and well-defined entrepreneurship model
+- A program to reach out to local free-software community and local industry

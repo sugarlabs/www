@@ -1,0 +1,22 @@
+---
+layout: standard
+title: Sugar Labs - Parents
+thumb1: assets/gallery_thumb_15.png
+thumb2: assets/gallery_thumb_12.png
+link1: gallery.html
+link2: gallery.html
+---
+### The Sugar Learning Platform
+The award-winning Sugar Learning Platform is a revolutionary new approach to technology and learning. With Sugar’s Activities, your children will engage in exploring knowledge, expressing themselves through writing, drawing, video—even programming the computer. Working collaboratively, they can reflect upon their work and use Sugar to create a portfolio of their accomplishments.
+
+### The Journal
+With the Sugar Learning Platform, the age-old question “What did you do in school today?” takes on new meaning. Sugar maintains a diary (the Journal) of what they make (nouns), how they make it (verbs), and with whom they are collaborating (proper nouns). You can sit down with your child and walk through the Journal to review progress and leave comments for the teacher.
+
+### Activities
+The heart of Sugar is its [Activities](about_activities.html)—not applications in the traditional sense, but ways of working and thinking together. Curious children can view the source code of Activities and even try their hand at programming. More traditional Activities such as a web browser, an ebook reader, a multimedia player, and a word processor, open a window to the Web (if connectivity is available), allow dozens or even hundreds of books to be stored and read, rich content to be played back, documents to be composed. Kids love games, and Sugar has several which aid learning and build dexterity. Sugar comes with a rich collection of music Activities, both for playing and composing music, and programming tools that are accessible to child as young as 4-years old, but interesting enough to keep a teenager engaged. A hallmark of Sugar is its simplicity—even pre-schoolers can use the Sugar basics—while putting no upper bound on the complexity of expression to which your child can reach.
+
+### Collaboration
+Collaboration is fundamental in Sugar. Your child can collaborate with friends, family, and classmates—playing games, chatting, sharing bookmarks, and helping each other with homework.
+
+### Try Sugar
+You can [try Sugar](http://sugarlabs.org/go/DocumentationTeam/Try_Sugar) by downloading it to a CD or USB key and then using it to boot your desktop or laptop computer. (Sugar will not change anything on your computer—it uses the USB instead of your hard disk.) You can introduce Sugar to your child’s school using USB sticks as well. With Sugar, children grow into confident, joyful learners and realize their unlimited potentials.

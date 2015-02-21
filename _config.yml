@@ -1,0 +1,4 @@
+#Sugar site settings
+title: Sugar Labs WWW
+markdown: kramdown
+url: "http://sugarlabs.org"
