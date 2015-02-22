@@ -4,13 +4,13 @@
 	<page id="index" section="index" paginate="true">
 		<content>
 			<paragraph>
-				<headline>The award-winning Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education. Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.</headline>
+				<headline>The award-winning Sugar Learning Platform promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education. Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software. Unlike “apps”, Sugar empowers the learner by providing a collection of tools for problem-solving.</headline>
 			</paragraph>
 			<paragraph>
-				<text>Sugar is the core component of a worldwide effort to provide every child with equal opportunity for a quality education. Available in 25 languages, Sugar’s <link id="about_activities">Activities</link> are used every school day by nearly 3 million children in more than forty countries.</text>
+				<text>Sugar is the core component of a worldwide effort to provide every child with equal opportunity for a quality education. Available in more than 25 languages, Sugar’s <link id="about_activities">Activities</link> are used every school day by nearly four-million children in more than forty countries.</text>
 			</paragraph>
 			<paragraph>
-				<text>Originally developed for the One Laptop per Child XO-1 netbook, Sugar runs on most computers. Sugar is free/libre and open-source software. <link url="http://sugarlabs.org/go/DocumentationTeam/Try_Sugar">Try it with a child today.</link></text>
+				<text>Originally developed for the One Laptop per Child XO netbook, Sugar runs on most computers. Sugar is free/libre and open-source software. <link url="http://sugarlabs.org/go/DocumentationTeam/Try_Sugar">Try it with a child today.</link></text>
 			</paragraph>
 			<paragraph>
 				<text>more information for <link id="learners">learners</link> / <link id="parents">parents</link> / <link id="teachers">teachers</link> / <link id="contributors">contributors</link></text>
@@ -38,11 +38,11 @@
 		<content>
 			<paragraph>
 				<headline>What is Sugar?</headline>
-				<text>The Sugar Learning Platform is a computer environment composed of Activities designed to help children from 5 to 12 years of age <keyphrase title="collaborative learning through rich-media expression">learn together through rich-media expression</keyphrase>. Sugar is the core component of a worldwide effort to provide every child with the opportunity for a quality education—it is currently used by nearly nearly 3 million children worldwide speaking 25 languages in over 40 countries. Sugar provides the means to help people lead fulfilling lives through access to a quality education that is currently missed by so many.</text>
+				<text>The Sugar Learning Platform is a computer environment composed of Activities designed to help children from 5 to 12 years of age <keyphrase title="collaborative learning through rich-media expression">learn together through rich-media expression</keyphrase>. Sugar is the core component of a worldwide effort to provide every child with the opportunity for a quality education—it is currently used by nearly four-million children worldwide speaking more that 25 languages in more 40 countries. Sugar provides the means to help people lead fulfilling lives through access to a quality education that is currently missed by so many.</text>
 			</paragraph>
 			<paragraph>
 				<headline>Runs on most PCs</headline>
-				<text>Originally developed for the revolutionary <link url="http://www.laptop.org">One Laptop per Child</link> XO-1 netbook, Sugar can run on almost any PC, including small netbooks, older and donated machines, and new energy efficient computers with limited processing power. Sugar is now packaged as part of most major GNU/Linux distributions and is compatible with recent Macs using virtualization. A liveCD which does not touch the existing hard disk installation is available; a liveUSB stick which can run on most PCs is under active development.</text>
+				<text>Originally developed for the revolutionary <link url="http://www.laptop.org">One Laptop per Child</link> XO netbook, Sugar can run on almost any PC, including small netbooks, older and donated machines, and new energy efficient computers with limited processing power. Sugar is now packaged as part of most major GNU/Linux distributions and is compatible with recent Macs using virtualization. A liveCD which does not touch the existing hard disk installation is available; a liveUSB stick which can run on most PCs is under active development.</text>
 			</paragraph>
 			<paragraph>
 				<headline>Why Sugar?</headline>
@@ -139,7 +139,7 @@
 			</paragraph>
 			<paragraph>
 				<headline>The free software culture</headline>
-				<text>These ideas are embodied in <keyphrase title="the culture of free software is a powerful culture for learning">the culture of free software, which is a powerful culture for learning</keyphrase>. Educators are discovering the culture, technology, and values of the open source movement which engages both teachers and students: empowering them with both the freedom to act and the freedom to be critical. Criticism of ideas is a powerful force in learning and in fostering economic development; unleashing that is an important part of the mission. Teachers are learners too and Sugar provides a way for teachers and students to share.</text>
+				<text>These ideas are embodied in <keyphrase title="the culture of free software is a powerful culture for learning">the culture of free software, which is a powerful culture for learning</keyphrase>. Educators are discovering the culture, technology, and values of the open source movement which engages both teachers and students: empowering them with both the freedom to act and the freedom to be critical. Criticism of ideas is a powerful force in learning and in fostering economic development; unleashing that is an important part of the mission. Teachers are learners too and Sugar provides a way for teachers and students to share. More than 50 percent of the patches (code contributions) in the most recent Sugar release came from our users; they have approproated the tools.</text>
 			</paragraph>
 			<sidebar>
 				<paragraph>Memos on learning by Marvin Minsky
