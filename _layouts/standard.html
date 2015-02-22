@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="css/main.css" />
-		<link rel="shortcut icon" href="assets/favicon_06.png" />
+		<link id="defaultIcon" rel="shortcut icon" href="assets/favicon_06.png" />
 		<title>{{ page.title }}</title>
 		<style>
 			.navbar-brand {
@@ -56,7 +56,8 @@
 			$(window).load(function(){
 				$('.preload_bg').fadeOut();
 				}
-			)
+			) // loading animation
+			
 		</script>
 	</head>
 	<body>
@@ -70,7 +71,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="assets/logo_black_06.png" alt="Sugar logo" /></a>
+					<a class="navbar-brand" href="index.html"><img id="logoMain" src="assets/logo_black_06.png" alt="Sugar logo" /></a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -121,7 +122,24 @@
 				</div>
 			</div>
 		</div>
+		<script>
 		
+			var logoNo = Math.floor((Math.random() * 12) + 1);
+			if(logoNo < 10) logoNo = "0"+logoNo; //generate random logo number
+			
+			$("#defaultIcon").remove(); //remove old one favicon
+			
+			(function() {
+				var link = document.createElement('link');
+				link.type = 'image/x-icon';
+				link.rel = 'shortcut icon';
+				link.href = 'assets/favicon_' + logoNo + '.png';
+				document.getElementsByTagName('head')[0].appendChild(link);
+			}()); //change favicon
+					
+			document.getElementById('logoMain').src = "assets/logo_black_" + logoNo + ".png"; //change topbar logo
+		
+		</script>
 	</body>
 </html>
 	
