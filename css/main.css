@@ -111,12 +111,15 @@ body {
 }
 
 .social {
-
 	overflow: hidden;
 }
 
-.social li {
+.social {
+	padding: 0;
+	list-style-type: none;
+}
 
+.social li {
     float:left;
     list-style-type: none;
     height:32px;

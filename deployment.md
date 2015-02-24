@@ -2,7 +2,7 @@
 layout: standard
 title: Deployment
 ---
-**The deployment team is in charge of answering the question: How can Sugar Labs facilitate the distribution and support of deployments of Sugar all around the world?**
+The deployment team is in charge of answering the question: How can Sugar Labs facilitate the distribution and support of deployments of Sugar all around the world?
 
 The Sugar Labs mission provides an answer, namely to voice the needs of Sugar deployments to the Sugar community, to find ways to support those needs, to organize forums for the exchange of experiences between Sugar users and Sugar developers, and to build local Sugar Labs organizations worldwide.
 

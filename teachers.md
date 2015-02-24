@@ -6,7 +6,7 @@ thumb2: assets/gallery_thumb_05.png
 link1: gallery.html
 link2: gallery.html
 ---
-**Imagine a classroom where instruction is complimented by learners engaged in self-discovery; where collaboration, expression, and reflection are integrated directly into the learning experience.**
+Imagine a classroom where instruction is complimented by learners engaged in self-discovery; where collaboration, expression, and reflection are integrated directly into the learning experience.
 
 Through the award-winning Sugar Learning Platform, students appropriate knowledge by engaging in activities that are authentic to them. With Sugar, your students at all skill levels can explore any curriculum goal more deeply. Your students will learn and they will learn to learn.
 

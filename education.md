@@ -2,7 +2,7 @@
 layout: standard
 title: Education
 ---
-**The computer can help get new pedagogical approaches into the classroom. While getting computers into the hands of more children is undoubtedly of benefit, the question remains, “how does one maximize the learning that occurs?”**
+The computer can help get new pedagogical approaches into the classroom. While getting computers into the hands of more children is undoubtedly of benefit, the question remains, “how does one maximize the learning that occurs?”
 
 ### A “learning-centric” approach
 The question often is framed in terms of teacher-centric versus child-centric methods. With Sugar, we strive for a “learning-centric” approach, where teachers mentor students as they engage with powerful ideas, “teaching less and learning more.” While we want to give children access to knowledge—through media such as electronic books, the world-wide web, and multimedia—we also want them to acquire this knowledge by putting it to use and engaging in critical dialog. With Sugar, we help learners acquire knowledge by giving them tools that make them consumers, critics, and creators of knowledge; Sugar welcomes them as members of a learning community.
@@ -13,7 +13,7 @@ One-to-one computing initiatives—where children have access to computing “an
 ### The free software culture
 These ideas are embodied in the culture of free software, which is a powerful culture for learning. Educators are discovering the culture, technology, and values of the open source movement which engages both teachers and students: empowering them with both the freedom to act and the freedom to be critical. Criticism of ideas is a powerful force in learning and in fostering economic development; unleashing that is an important part of the mission. Teachers are learners too and Sugar provides a way for teachers and students to share.
 
-**Sugar is based on Constructionism. Like any good theory, Constructionism is accurate on some points, and needs further research on other areas. But what is Constructionism? Is it true? Is it effective?**
+Sugar is based on Constructionism. Like any good theory, Constructionism is accurate on some points, and needs further research on other areas. But what is Constructionism? Is it true? Is it effective?
 
 Seymour Papert, the father of constructionism, slyly points out that simply giving a definition would not be a Constructionist way to teach you. Instead he suggests ways in which you can experience what works and what doesn’t in current Constructionist programs. We can be a little more explicit, but the need for experience remains central.
 
