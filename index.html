@@ -1,0 +1,273 @@
+---
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="animate.min.css">
+		<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+		<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/main.css" />
+		<link id="defaultIcon" rel="shortcut icon" href="assets/favicon_06.png" />
+		<title>{{ page.title }}</title>
+		<style>
+			.navbar-brand {
+			padding: 0;
+ 			 }
+
+			.navbar-brand img {
+			margin-top: 5px;
+			margin-left: 5px;
+			max-height: 90%;
+			 }
+			 
+			 .zdjecia img {
+			max-width: 100%;
+			height: auto;
+			 }
+			 
+			.preload_bg{
+				background:#fff;
+				width:100%;
+				height:100%;
+				position:fixed;
+				top:0;
+				bottom:0;
+			}
+			.loading_ani{
+				width:128px;
+				height:15px;
+				background:url(assets/ajax-loader.gif) no-repeat;
+				position:fixed;
+				margin-left:50%;
+				margin-right:50%;
+				left:-64px;
+				margin-top:310px;
+			}
+			#loading_logo{
+				background: url(assets/logo_black_06.png) no-repeat;
+				width: 241px;
+				height: 100px;
+				display: inline-block;
+				margin-top: 10px;
+			}
+			
+			.standardbox {
+				border-radius: 5px;
+				text-align: justify;
+				margin-top: 5px;
+				font-size: 1.2em;
+				padding: 30px;	
+			}
+			
+			.standardbox h1 {
+				text-align: left;
+			}
+			
+			a {
+				color: black;
+				text-decoration: underline;
+			}
+			
+			ul a {
+				text-decoration: none;
+			}
+			
+			.videocon {
+				overflow: hidden;
+				position: relative;
+				padding-top: 10px;
+				padding-bottom: 56.25%;
+			}
+			
+			.videocon iframe {
+				position: absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height: 100%;
+			}
+		</style>
+		<script>
+			$(window).load(function(){
+				$('.preload_bg').fadeOut();
+				}
+			) // loading animation
+			
+		</script>
+	</head>
+	<body style="background-color: #033CD2">
+		<a name="">
+		<div class="preload_bg" style="z-index: 1000; width: 100%; height: 100%;"><div id="loading_logo" style="margin-left: 50%; margin-right: 50%; left: -118px; position: fixed; z-index: 1000; margin-top: 180px;"></div><div class="loading_ani"></div></div>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container"><div class="col-md-12">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img id="logoMain" src="assets/logo_black_06.png" alt="Sugar logo" /></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right" style="margin-left: 10px" style="margin: 0 auto; width: 80%">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#about">Overview</a></sli>
+								<li><a href="#activities">Activities</a></li>
+								<li><a href="#features">Features</a></li>
+								<li><a href="#education">Education</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">People <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#parents">Parents</a></li>
+								<li><a href="#learners">Learners</a></li>
+								<li><a href="#teachers">Teachers</a></li>
+								<li><a href="press/">Press</a></li>
+								<li><a href="#contributors">Contributors</a></li>
+								<li><a href="#social">Social links</a></li>
+							</ul>
+						</li>
+						<li><a target="_blank" href="http://server.sugarizer.org">Try it now!</a></li>
+						<li><a href="http://wiki.sugarlabs.org/">Wiki</a></li>
+						<li><a href="http://wiki.sugarlabs.org/go/Downloads">Download</a></li>
+						<li><a href="http://activities.sugarlabs.org">Activities</a></li>
+						<li><a href="http://wiki.sugarlabs.org/go/Sugar_Labs/Donate">Donate</a></li>
+					</ul>
+				</div></div>
+			</div>
+		</nav>
+		
+		<div class="container">	
+			<div class="jumbotron" style="text-align: left; margin-bottom: 0px; padding-left: 30px; padding-right: 30px;padding-top: 10px" >
+				<h1 class="page-header wow tada" data-wow-delay="0.3s">Welcome to Sugar Labs!</h1>
+				<p style="text-align: justify">
+					Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education. Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.
+					Sugar is the core component of a worldwide effort to provide every child with equal opportunity for a quality education. Available in 25 languages, Sugar’s <a href="#activities">activities</a> are used every school day by nearly 3 million children in more than forty countries.
+					Originally developed for the One Laptop per Child XO-1 netbook, Sugar runs on most computers. Sugar is free/libre and open-source software. <a href="http://sugarlabs.org/go/DocumentationTeam/Try_Sugar">Try it with a child today!</a>
+				</p>
+				<br/><br/><div style="width:80%; margin: 0 auto; max-width: 560px; height: auto;">
+				<div class="videocon">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/RVRReDdoW9g" frameborder="0" style="display: block;margin: 0 auto" allowfullscreen></iframe>
+				</div></div>
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #78e600; margin: 0 auto;">
+				<a name="about"></a>
+				<h1 class="wow shake" data-wow-delay="1.5s">About</h1>
+				{% include about.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #00beff; text-align: left; margin: 0 auto;">
+				<a name="activities"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">Activities</h1>
+				{% include about_activites.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #ff7800; margin: 0 auto;">
+				<a name="features"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">Features</h1>
+				{% include about_features.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #ff64d2; margin: 0 auto;">
+				<a name="education"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">Education</h1>
+				{% include education.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #ffd732; margin: 0 auto;">
+				<a name="parents"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">Parents</h1>
+				{% include parents.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #78e600; margin: 0 auto;">
+				<a name="learners"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">Learners</h1>
+				{% include learners.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #00beff; margin: 0 auto;">
+				<a name="teachers"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">Teachers</h1>
+				{% include teachers.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #ff7800; margin: 0 auto;">
+				<a name="contributors"></a>
+				<h1 class="wow shake" data-wow-delay="0.5s">A learning and software-development community</h1>
+				{% include contributors.html %}
+			</div>
+			
+			<div class="col-md-12 standardbox" style="background-color: #ffd732; margin: 0 auto;">
+				<p>See more for <a href="#contributors">contributors</a> / <a href="press/">press</a></p>
+				
+			</div>
+			
+			<div class="col-md-12">
+				<footer style="width: 100%; height: auto; left: 0; padding: 5px; color: white; font-size: small">
+					<a name="social"></a>
+					<hr/>
+					Created for Sugar Labs by Tymon Radzik 2015
+					<br/>
+					content is available under <a href="http://creativecommons.org/licenses/by/3.0/">creative commons attribution 3.0 unported</a> license
+					<br/>
+					Copyright © 2009 - 20{{ site.time | date: '%y' }} Software Freedom Conservancy—Sugar Labs®—learning software for children
+					<br/>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/pages/SugarLabs/187845102582"><img src="assets/social/facebook.png"></a></li>
+						<li><a href="https://twitter.com/sugarlabs"><img src="assets/social/twitter.png"></a></li>
+						<li><a href="https://www.linkedin.com/company/454719"><img src="assets/social/linkedin.png"></a></li>
+						<li><a href="https://github.com/sugarlabs"><img src="assets/social/github.png"></a></li>
+						<li><a href="https://flickr.com/search/?tags=sugarlabs"><img src="assets/social/flickr.png"></a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Sugar_Labs"><img src="assets/social/wiki.png"></a></li>
+						<li><a href="https://socialhelp.sugarlabs.org" title="Sugar Social Help"><img src="assets/social/socialsugar.png"></a></li>
+					</ul>
+				</footer>
+			</div>
+		</div>
+		<script src="wow.min.js"></script>
+		<script>
+		
+						$(document).ready(function() {
+				function scrollToAnchor(aid){
+					var aTag = $("a[name='"+ aid +"']");
+					$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+				}
+				$("a").click(function() {
+					var href = $(this).attr('href').replace('#', '')
+					scrollToAnchor(href);
+				});			
+			});
+			
+			var logoNo = Math.floor((Math.random() * 12) + 1);
+			if(logoNo < 10) logoNo = "0"+logoNo; //generate random logo number
+			
+			$("#defaultIcon").remove(); //remove old one favicon
+			
+			(function() {
+				var link = document.createElement('link');
+				link.type = 'image/x-icon';
+				link.rel = 'shortcut icon';
+				link.href = 'assets/favicon_' + logoNo + '.png';
+				document.getElementsByTagName('head')[0].appendChild(link);
+			}()); //change favicon
+					
+			document.getElementById('logoMain').src = "assets/logo_black_" + logoNo + ".png"; //change topbar logo
+			new WOW().init();
+		</script>
+		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+		<script src="bootstrap-image-gallery.min.js"></script>
+	</body>
+</html>
+	
