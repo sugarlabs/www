@@ -1,0 +1,58 @@
+---
+---
+
+@import colors
+@import util
+@import nav
+@import social
+
+body
+  margin: 0
+  background-color: #C0C0C0
+  font: 1em sans, sans-serif
+
+body > *:not(.no-center), .headerbox > *, .standardbox > *, .center
+  +center()
+  max-width: #{ $maxw }
+
+p
+  text-align: justify
+
+a
+  color: black
+  text-decoration: underline
+			
+ul a
+  text-decoration: none
+
+.headerbox
+  margin-top: 16px
+  // TODO: blury video background of people using sugar
+  // like http://fernando.is/all-about/ or http://mediaboom.com/home
+  background: linear-gradient(30deg, #9BE2FE 0%, #67D1FB 100%) repeat scroll 0% 0% transparent
+
+.standardbox
+  margin-top: 16px
+  padding: 16px
+
+  text-align: justify
+
+  &#about
+    margin-top: 0
+  &#about, &#learners
+    background: $lime
+  &#activities, &#teachers
+    background: $aqua
+  &#features, &#community
+    background: $orange
+  &#education, &#more
+    background: $pink
+  &#parents
+    background: $yellow
+
+footer
+  margin-top: 16px
+  font-size: 0.6em
+
+h1
+  text-align: center
