@@ -92,6 +92,17 @@
 				width:100%;
 				height: 100%;
 			}
+			.gradientTexts{
+                
+                background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+               background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+              background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+              background: linear-gradient(red, green); /* Standard syntax (must be last) */
+               font-family: georgia;
+               font-variant: small-caps;
+               font-size: 30px;
+               color:white;
+			}
 		</style>
 		<script>
 			$(window).load(function(){
@@ -137,7 +148,7 @@
 								<li><a href="#social">Social links</a></li>
 							</ul>
 						</li>
-						<li><a target="_blank" href="http://server.sugarizer.org">Try it now!</a></li>
+						<li><a class="gradientTexts" target="_blank" href="http://server.sugarizer.org">Try it now!</a></li>
 						<li><a href="http://wiki.sugarlabs.org/">Wiki</a></li>
 						<li><a href="http://wiki.sugarlabs.org/go/Downloads">Download</a></li>
 						<li><a href="http://activities.sugarlabs.org">Activities</a></li>
