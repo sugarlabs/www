@@ -1,0 +1,86 @@
+// Copyright (C) Sam Parkinson 2014
+//
+// This file is part of ASLO.
+//
+// ASLO is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// ASLO is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with ASLO.  If not, see <http://www.gnu.org/licenses/>.
+
+@import util
+
+=colorClass($y, $cat)
+  .categories i[filter="#{ $cat }"]
+    color: $y
+
+  .categories i[filter="#{ $cat }"].checked
+    color: $white
+    background-color: $y
+
+  ul.activities > .activity.category-#{ $cat }
+    background-color: $y
+
++colorClass($red,     game)
++colorClass($yellow,  programming)
++colorClass($black,   robotics)
++colorClass($green,   science)
++colorClass($blue,    internet)
++colorClass($aqua,    maths)
++colorClass($lime,    language)
++colorClass($olive,   geography)
++colorClass($navy,    documents)
++colorClass($orange,  music)
++colorClass($purple,  media)
++colorClass($fuchsia, art)
++colorClass($black,   teacher)
++colorClass($black,   system)
+
+ul.activities
+  max-width: #{ $maxw }
+  +center()
+  padding-left: 0
+
+  list-style: none
+  overflow: hidden
+
+  .activity
+    display: block
+    float: left
+
+    width: 30%
+    margin-right: 1%
+    margin-bottom: 2%
+    padding: 1%
+
+    border-radius: 5px
+    text-align: center
+
+    background-color: $blue
+    text-decoration: none
+
+    img.icon
+      display: block
+      +center()
+      background-color: rgba(255, 255, 255, 0.5)
+
+      padding: 5px
+      border-radius: 5px
+      width: 55px
+      height: 55px
+
+    span
+      color: $white
+      font-weight: bold
+      font-size: 1.25em
+
+      word-wrap: break-word
+
+    +hover_shrink(0.95)
