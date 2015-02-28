@@ -7,6 +7,23 @@
 @import social
 @import activity_list
 
+.video-background
+  z-index: -1
+  position: fixed
+  top: 0
+  left: 0
+
+  bottom: 0
+  right: 0
+  min-width: 100%
+  min-height: 100%
+
+  overflow: hidden
+  object-fit: cover
+
+  background: url(../assets/blur_bg.jpg)
+  background-size: cover
+
 body
   margin: 0
   background-color: #C0C0C0
@@ -28,9 +45,11 @@ ul a
 
 .headerbox
   margin-top: 16px
-  // TODO: blury video background of people using sugar
-  // like http://fernando.is/all-about/ or http://mediaboom.com/home
-  background: linear-gradient(30deg, #9BE2FE 0%, #67D1FB 100%) repeat scroll 0% 0% transparent
+  background: $blue
+
+  color: $white
+  a
+    color: $gray
 
 .standardbox
   margin-top: 16px
@@ -59,3 +78,7 @@ footer
 
 h1
   text-align: center
+  color: $white
+
+iframe
+  max-width: 100%

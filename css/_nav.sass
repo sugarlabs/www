@@ -18,13 +18,25 @@
 @import colors
 @import util
 
-.logo-background
-  background: $black
+$sugar_fonts: 'MgOpen Modata', 'Comic Sans MS', 'FreeMono', cursive, sans-serif
 
-  .logo
-    +center()
-    width: 100%
-    max-width: #{ $maxw }
+.logo
+  +center()
+  width: 100%
+  max-width: #{ $maxw }
+  min-height: 100vh
+
+  p
+    margin-top: -32px
+    text-align: center
+
+    color: $white
+    font-size: 1.5em
+    font-family: $sugar_fonts
+
+@media (max-width: #{ $maxw })
+  nav
+    margin-top: -2.5em
 
 nav
   text-align: center

@@ -10,11 +10,13 @@
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
-        <div class="logo-background no-center">
-            <div class="logo">
-                {% include logo.svg %}
-            </div>
-        </div>
+        <video loop autoplay controls=false class="video-background no-center"
+               placeholder="assets/blur_bg.jpg">
+			<!-- These files are too large for git (~5mb each) -->
+            <source type="video/webm" src="http://people.sugarlabs.org/sam/blur_bg_384kbs.webm"></source>
+            <source type="video/ogg" src="http://people.sugarlabs.org/sam/blur_bg_384kbs.ogg"></source>
+			<!-- TODO: h264 for apple -->
+        </video>
 
         <nav>
             <div>
@@ -23,6 +25,11 @@
                 <a class="purple last" href="https://socialhelp.sugarlabs.org/">Social Help</a>
             </div>
         </nav>
+
+        <div class="logo">
+            {% include logo.svg %}
+            <p>Learning software for children</p>
+        </div>
 		
 		<div class="headerbox no-center">
 			<h1>Welcome to Sugar Labs!</h1>
@@ -35,7 +42,7 @@
             <p>
 				Originally developed for the One Laptop per Child XO-1 netbook, Sugar runs on most computers. Sugar is free/libre and open-source software. <a href="http://sugarlabs.org/go/DocumentationTeam/Try_Sugar">Try it with a child today!</a>
 			</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/RVRReDdoW9g" frameborder="0" style="display: block;margin: 0 auto" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/RVRReDdoW9g" frameborder="0" style="display: block;margin: 0 auto" allowfullscreen></iframe>
 		</div>
 
 		<h1>About</h1>
@@ -105,4 +112,3 @@
 		<script src="js/main.js"></script>
 	</body>
 </html>
-	

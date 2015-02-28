@@ -18,3 +18,5 @@ var h = document.querySelector('.logo').innerHTML;
 h = h.replace(/033cd2/g, COLORS[color][0]);
 h = h.replace(/78e600/g, COLORS[color][1]);
 document.querySelector('.logo').innerHTML = h;
+
+document.querySelector('video').play();
