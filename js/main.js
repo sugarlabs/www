@@ -8,7 +8,7 @@ var COLORS = [['006E00', '78E600'], ['68008C', '78E600'],
 var color = Math.floor((Math.random() * 12));
 var logoID = color + 1;
 if (color < 10) {
-       logoID = "0" + logoID;
+    logoID = "0" + logoID;
 }
 
 document.querySelector('#defaultIcon').href = 
@@ -19,4 +19,28 @@ h = h.replace(/033cd2/g, COLORS[color][0]);
 h = h.replace(/78e600/g, COLORS[color][1]);
 document.querySelector('.logo').innerHTML = h;
 
-document.querySelector('video').play();
+// Only for the home page, but whatever
+// https://developer.mozilla.org/en-US/docs/Browser_detection_using_the_user_agent#OS
+
+function hide(e) {
+    e.style.display = 'none';
+}
+
+var ua = navigator.userAgent.toLowerCase();
+var get = {
+    soas: document.querySelector('#get-soas'),
+    desktop: document.querySelector('#get-desktop'),
+    linux: document.querySelector('#get-sugar-linux'),
+    sugarizer: document.querySelector('#get-sugarizer')
+};
+var l = document.querySelector('.creator-link');
+
+if (ua.indexOf('mobile') !== -1 || ua.indexOf('tablet') !== -1) {
+    hide(get.soas);  hide(get.linux);
+} else if (ua.indexOf('linux') !== -1) {
+    hide(get.desktop);  hide(get.sugarizer);
+    l.href = '/creator/linux';
+} else if (ua.indexOf('windows') !== -1) {
+    hide(get.desktop);  hide(get.linux);  hide(get.sugarizer);
+    l.href = '/creator/windows';
+} else {}

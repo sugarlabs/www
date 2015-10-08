@@ -1,6 +1,7 @@
-title: Sugar Labs WWW
+title: Sugar Labs
 markdown: kramdown
-url: "https://sugarlabs.org"
+url: "https://www.sugarlabs.org"
+permalink: pretty
 
 sass:
   sass_dir: css

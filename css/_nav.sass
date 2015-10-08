@@ -18,21 +18,18 @@
 @import colors
 @import util
 
-$sugar_fonts: 'MgOpen Modata', 'Comic Sans MS', 'FreeMono', cursive, sans-serif
-
 .logo
   +center()
   width: 100%
   max-width: #{ $maxw }
-  min-height: 100vh
 
   p
-    margin-top: -32px
+    margin-top: -16px
     text-align: center
+    font-size: 2em
 
-    color: $white
-    font-size: 1.5em
-    font-family: $sugar_fonts
+.content-page .logo
+  margin-bottom: -32px
 
 @media (max-width: #{ $maxw })
   nav
@@ -45,23 +42,6 @@ nav
   div
     max-width: #{ $maxw }
     +center()
-
-    /*&:before
-      display: block
-      float: left
-
-      width: 2em
-      height: 0
-      margin-left: -1.5em
-      margin-top: -8px
-
-      content: "S"
-
-      font-size: 2.5em
-      font-family: cursive, 'OpenDyslexic', sans-serif
-      
-      color: #6E008C
-      text-shadow: 0px 2px 0px #FF7800, 0px -2px 0px #FF7800, 2px 0px 0px #FF7800, -2px 0px 0px #FF7800*/
 
     a
       display: block
