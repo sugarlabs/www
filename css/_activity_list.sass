@@ -1,0 +1,91 @@
+// Copyright (C) Sam Parkinson 2015
+//
+// This file is part of ASLO.
+//
+// ASLO is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// ASLO is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with ASLO.  If not, see <http://www.gnu.org/licenses/>.
+
+@import util
+
+=colorClass($y, $cat, $rotate)
+  ul.activities > .activity.category-#{ $cat }
+    background-color: $y
+
+  ul.activities > .activity.category-#{ $cat }:hover
+    transform: scale(0.9) rotate($rotate / 5 + deg)
+
++colorClass($red,     game,        -18)
++colorClass($yellow,  programming, -15)
++colorClass($black,   robotics,    -12)
++colorClass($green,   science,     -9)
++colorClass($blue,    internet,    -6)
++colorClass($aqua,    maths,       -3)
++colorClass($lime,    language,    -1)
++colorClass($olive,   geography,    1)
++colorClass($navy,    documents,    3)
++colorClass($orange,  music,        6)
++colorClass($purple,  media,        9)
++colorClass($fuchsia, art,          12)
++colorClass($black,   teacher,      15)
++colorClass($black,   system,       18)
+
+ul.activities
+  max-width: #{ $maxw }
+  +center()
+  padding-left: 0
+
+  list-style: none
+  overflow: hidden
+
+  .activity
+    display: block
+    float: left
+
+    width: 32.666%
+    box-sizing: border-box
+    margin-right: 1%
+    margin-bottom: 2%
+    padding: 1%
+
+    &:nth-child(3n)
+      margin-right: 0%
+
+    border-radius: 5px
+    text-align: center
+
+    background-color: $blue
+    text-decoration: none
+
+    transition: 0.25s ease all
+    &:hover
+      transform: scale(0.9)
+
+    img.icon
+      display: block
+      +center()
+      background-color: rgba(255, 255, 255, 0.5)
+
+      padding: 5px
+      border-radius: 5px
+      width: 55px
+      height: 55px
+
+    span
+      display: block
+      height: 1.3em
+      overflow: hidden
+      text-overflow: ellipsis
+
+      color: $white
+      font-weight: bold
+      font-size: 1.25em

@@ -1,4 +1,7 @@
-#Sugar site settings
-title: Sugar Labs WWW
+title: Sugar Labs
 markdown: kramdown
-url: "http://sugarlabs.org"
+url: "https://www.sugarlabs.org"
+permalink: pretty
+
+sass:
+  sass_dir: css

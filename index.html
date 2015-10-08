@@ -1,273 +1,142 @@
 ---
+layout: base
+title: Sugar Labs
 ---
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/animate.min.css">
-		<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-		<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/main.css" />
-		<link id="defaultIcon" rel="shortcut icon" href="assets/favicon_06.png" />
-		<title>{{ page.title }}</title>
-		<style>
-			.navbar-brand {
-			padding: 0;
- 			 }
+{% include nav.html %}
 
-			.navbar-brand img {
-			margin-top: 5px;
-			margin-left: 5px;
-			max-height: 90%;
-			 }
-			 
-			 .zdjecia img {
-			max-width: 100%;
-			height: auto;
-			 }
-			 
-			.preload_bg{
-				background:#fff;
-				width:100%;
-				height:100%;
-				position:fixed;
-				top:0;
-				bottom:0;
-			}
-			.loading_ani{
-				width:128px;
-				height:15px;
-				background:url(assets/ajax-loader.gif) no-repeat;
-				position:fixed;
-				margin-left:50%;
-				margin-right:50%;
-				left:-64px;
-				margin-top:310px;
-			}
-			#loading_logo{
-				background: url(assets/logo_black_06.png) no-repeat;
-				width: 241px;
-				height: 100px;
-				display: inline-block;
-				margin-top: 10px;
-			}
-			
-			.standardbox {
-				border-radius: 5px;
-				text-align: justify;
-				margin-top: 5px;
-				font-size: 1.2em;
-				padding: 30px;	
-			}
-			
-			.standardbox h1 {
-				text-align: left;
-			}
-			
-			a {
-				color: black;
-				text-decoration: underline;
-			}
-			
-			ul a {
-				text-decoration: none;
-			}
-			
-			.videocon {
-				overflow: hidden;
-				position: relative;
-				padding-top: 10px;
-				padding-bottom: 56.25%;
-			}
-			
-			.videocon iframe {
-				position: absolute;
-				top:0;
-				left:0;
-				width:100%;
-				height: 100%;
-			}
-		</style>
-		<script>
-			$(window).load(function(){
-				$('.preload_bg').fadeOut();
-				}
-			) // loading animation
-			
-		</script>
-	</head>
-	<body>
-		<a name="">
-		<div class="preload_bg" style="z-index: 1000; width: 100%; height: 100%;"><div id="loading_logo" style="margin-left: 50%; margin-right: 50%; left: -118px; position: fixed; z-index: 1000; margin-top: 180px;"></div><div class="loading_ani"></div></div>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container"><div class="col-md-12">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><img id="logoMain" src="assets/logo_black_06.png" alt="Sugar logo" /></a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right" style="margin-left: 10px" style="margin: 0 auto; width: 80%">
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#about">Overview</a></sli>
-								<li><a href="#activities">Activities</a></li>
-								<li><a href="#features">Features</a></li>
-								<li><a href="#education">Education</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">People <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#parents">Parents</a></li>
-								<li><a href="#learners">Learners</a></li>
-								<li><a href="#teachers">Teachers</a></li>
-								<li><a href="press/">Press</a></li>
-								<li><a href="#contributors">Contributors</a></li>
-								<li><a href="#social">Social links</a></li>
-							</ul>
-						</li>
-						<li><a target="_blank" href="http://server.sugarizer.org">Try it now!</a></li>
-						<li><a href="http://wiki.sugarlabs.org/">Wiki</a></li>
-						<li><a href="http://wiki.sugarlabs.org/go/Downloads">Download</a></li>
-						<li><a href="http://activities.sugarlabs.org">Activities</a></li>
-						<li><a href="http://wiki.sugarlabs.org/go/Sugar_Labs/Donate">Donate</a></li>
-					</ul>
-				</div></div>
-			</div>
-		</nav>
-		
-		<div class="container">	
-			<div class="jumbotron" style="text-align: left; margin-bottom: 0px; padding-left: 30px; padding-right: 30px;padding-top: 10px" >
-				<h1 class="page-header wow tada" data-wow-delay="0.3s">Welcome to Sugar Labs!</h1>
-				<p style="text-align: justify">
-					Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities that encourage critical thinking, the heart of a quality education. Designed from the ground up especially for children, Sugar offers an alternative to traditional “office-desktop” software.
-					Sugar is the core component of a worldwide effort to provide every child with equal opportunity for a quality education. Available in 25 languages, Sugar’s <a href="#activities">activities</a> are used every school day by nearly 3 million children in more than forty countries.
-					Originally developed for the One Laptop per Child XO-1 netbook, Sugar runs on most computers. Sugar is free/libre and open-source software. <a href="http://sugarlabs.org/go/DocumentationTeam/Try_Sugar">Try it with a child today!</a>
-				</p>
-				<br/><br/><div style="width:80%; margin: 0 auto; max-width: 560px; height: auto;">
-				<div class="videocon">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/RVRReDdoW9g" frameborder="0" style="display: block;margin: 0 auto" allowfullscreen></iframe>
-				</div></div>
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #78e600; margin: 0 auto;">
-				<a name="about"></a>
-				<h1 class="wow shake" data-wow-delay="1.5s">About</h1>
-				{% include about.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #00beff; text-align: left; margin: 0 auto;">
-				<a name="activities"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">Activities</h1>
-				{% include about_activites.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #ff7800; margin: 0 auto;">
-				<a name="features"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">Features</h1>
-				{% include about_features.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #ff64d2; margin: 0 auto;">
-				<a name="education"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">Education</h1>
-				{% include education.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #ffd732; margin: 0 auto;">
-				<a name="parents"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">Parents</h1>
-				{% include parents.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #78e600; margin: 0 auto;">
-				<a name="learners"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">Learners</h1>
-				{% include learners.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #00beff; margin: 0 auto;">
-				<a name="teachers"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">Teachers</h1>
-				{% include teachers.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #ff7800; margin: 0 auto;">
-				<a name="contributors"></a>
-				<h1 class="wow shake" data-wow-delay="0.5s">A learning and software-development community</h1>
-				{% include contributors.html %}
-			</div>
-			
-			<div class="col-md-12 standardbox" style="background-color: #ffd732; margin: 0 auto;">
-				<p>See more for <a href="#contributors">contributors</a> / <a href="press/">press</a></p>
-				
-			</div>
-			
-			<div class="col-md-12">
-				<footer style="width: 100%; height: auto; left: 0; padding: 5px; font-size: small">
-					<a name="social"></a>
-					<hr/>
-					Created for Sugar Labs by Tymon Radzik 2015
-					<br/>
-					content is available under <a href="http://creativecommons.org/licenses/by/3.0/">creative commons attribution 3.0 unported</a> license
-					<br/>
-					Copyright © 2009 - 20{{ site.time | date: '%y' }} Software Freedom Conservancy—Sugar Labs®—learning software for children
-					<br/>
-					<ul class="social">
-						<li><a href="https://www.facebook.com/pages/SugarLabs/187845102582"><img src="assets/social/facebook.png"></a></li>
-						<li><a href="https://twitter.com/sugarlabs"><img src="assets/social/twitter.png"></a></li>
-						<li><a href="https://www.linkedin.com/company/454719"><img src="assets/social/linkedin.png"></a></li>
-						<li><a href="https://github.com/sugarlabs"><img src="assets/social/github.png"></a></li>
-						<li><a href="https://flickr.com/search/?tags=sugarlabs"><img src="assets/social/flickr.png"></a></li>
-						<li><a href="http://en.wikipedia.org/wiki/Sugar_Labs"><img src="assets/social/wiki.png"></a></li>
-						<li><a href="https://socialhelp.sugarlabs.org" title="Sugar Social Help"><img src="assets/social/socialsugar.png"></a></li>
-					</ul>
-				</footer>
-			</div>
-		</div>
-		<script src="wow.min.js"></script>
-		<script>
-		
-						$(document).ready(function() {
-				function scrollToAnchor(aid){
-					var aTag = $("a[name='"+ aid +"']");
-					$('html,body').animate({scrollTop: aTag.offset().top},'slow');
-				}
-				$("a").click(function() {
-					var href = $(this).attr('href').replace('#', '')
-					scrollToAnchor(href);
-				});			
-			});
-			
-			var logoNo = Math.floor((Math.random() * 12) + 1);
-			if(logoNo < 10) logoNo = "0"+logoNo; //generate random logo number
-			
-			$("#defaultIcon").remove(); //remove old one favicon
-			
-			(function() {
-				var link = document.createElement('link');
-				link.type = 'image/x-icon';
-				link.rel = 'shortcut icon';
-				link.href = 'assets/favicon_' + logoNo + '.png';
-				document.getElementsByTagName('head')[0].appendChild(link);
-			}()); //change favicon
-					
-			document.getElementById('logoMain').src = "assets/logo_black_" + logoNo + ".png"; //change topbar logo
-			new WOW().init();
-		</script>
-		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-		<script src="bootstrap-image-gallery.min.js"></script>
-	</body>
-</html>
-	
+<div class="logo">
+  {% include logo.svg %}
+  <p>Learning software for children</p>
+</div>
+
+<div class="headerbox standardbox">
+  <p>At Sugar Labs, we make we make a collection of tools that learners
+  use to explore, discover, create, and reflect.
+  We distribute these tools freely and encourage our users to
+  appropriate them, taking ownership and responsibility for their
+  learning.</p>
+</div>
+
+<div id="this-is-sugar">
+  <h1 class="from-toolbar">This is Sugar</h1>
+
+  <img class="first-of-type" src="assets/home-screenshot.svg">
+  <p class="from-white">Sugar is both a desktop and a collection of Activities.
+  Activities, as the name implies, are Apps that involve active
+  engagement of the learner. Activities automatically save
+  results to a journal, where reflections are recorded. Activity
+  instances can be shared between learners; many support real-time
+  collaboration.</p>
+
+  <img class="toolbar-border" src="assets/neighbourhood-screenshot.svg">
+  <p class="from-toolbar">In the Sugar Neighborhood view, learners see their
+  friends clustered around their current activities; from this view they can
+  join each other’s activities.  Sugar collaboration works "peer to
+  peer", in a classroom or under a tree; Sugar does not require the
+  Internet.</p>
+
+  <img src="assets/journal-detail-ss.png">
+  <p class="from-white">The Sugar Journal records everything a learner does
+  using Sugar. There is no need to remember to click a Save Button. The focus is on
+  the activity, not the computer. The Journal is also a place for
+  reflection, where learners and their teachers can monitor progress.</p>
+</div>
+
+<div>
+  <a href="inquiry"><div class="star-link maroon">
+    See how Sugar intergrates into your classroom<br/>
+    Sugar & <b>Inquiry</b>
+  </div></a>
+</div><br/>
+
+<div class="standardbox" id="activities">
+  <h1>Activities</h1>
+  <p>Below is a selection of the many hundreds of activities from the
+  <a href="https://activities-2.sugarlabs.org/">Sugar Activity Library</a>:</p>
+    {% render_activities %}
+</div>
+
+<div>
+  <a href="getting-started"><div class="star-link lime">
+    Learn how to use Sugar to its potential<br/>
+    <b>Getting Started</b>
+  </div></a>
+</div><br/>
+
+<div class="standardbox" id="get-sugar">
+  <h1 class="get-sugar">Get Sugar</h1>
+  <div class="grid grid-stay-mobile" id="get-soas">
+    <img class="col col-1-4 col-padding-top" src="assets/soas.svg">
+    <div class="col col-3-4">
+      <p><b>Sugar on a Stick</b> &ndash; The full Sugar environment &ndash; on
+        any computer at any time &ndash; from a thumb drive.
+        <a class="creator-link" href="#">Download Sugar Stick Creator to get started</a>.</p>
+      <p><small>Sugar Stick Creator requires a thumb drive with at least 2GB
+        storage and downloading ~650MB.  Sugar on a Stick is avaliable for free
+        and does not permanatly effect your computer.</small></p>
+    </div>
+  </div>
+  <div class="grid grid-stay-mobile" id="get-sugar-linux">
+    <img class="col col-1-4" src="assets/computer.svg">
+    <div class="col col-3-4">
+      <p><b>GNU/Linux Install</b> &ndash; The full Sugar environment &ndash;
+        installed on a GNU/Linux computer.</p>
+      <p>Sugar is avaliable as a desktop environment on GNU/Linux.  Up to date
+        packages are avaliable for
+        <a href="http://wiki.sugarlabs.org/go/Fedora">Fedora</a>,
+        <a href="http://wiki.sugarlabs.org/go/Debian">Debian</a>,
+        <a href="http://wiki.sugarlabs.org/go/Ubuntu">Ubuntu</a> and
+        <a href="http://wiki.sugarlabs.org/go/Downloads#Do_you_use_GNU.2FLinux.3F">
+            many other</a> distros.</p>
+    </div>
+  </div>
+  <div class="grid" id="get-desktop">
+    <img class="col col-1-4" src="assets/computer.svg">
+    <div class="col col-3-4">
+      <p><b>Sugar Runs Best on Computers</b>.</p>
+      <p>Come back to <a href="/">www.sugarlabs.org</a> on a computer to find
+        how to get the full Sugar environment.</p>
+    </div>
+  </div>
+  <div class="grid" id="get-sugarizer">
+    <img class="col col-1-4" src="assets/sugarizer.svg">
+    <div class="col col-3-4">
+      <p><b>Sugarizer (alpha)</b> &ndash; A taste of Sugar within your browser.</p>
+      <p>Sugarizer provides basic Sugar features and some activities.
+        Sugarizer works in any modern browser, on mobile, tablet or dektop.</p>
+      <p>Use <a href="http://server.sugarizer.org/">Sugarizer online</a>,
+        <a href="http://sugarizer.org/">download the app</a> or
+        <a href="http://sugarizer.org/">set up a server</a>.</p>
+    </div>
+  </div>
+</div>
+
+<div class="standardbox" id="what-is-sugarlabs">
+  <h1>What is Sugar Labs?</h1>
+
+  <p>Sugar Labs, a volunteer-driven, non-profit organization, is a
+  member project of the <a href="http://conservancy.softwarefreedom.org/">
+  Software Freedom Conservancy</a>. The mission of Sugar Labs is to support
+  the Sugar community of users and developers and establish regional,
+  autonomous “Sugar Labs” around the world to help learners “learn how to
+  learn” by tailoring Sugar to local languages and curricula.</p>
+
+  <p><a href="more">Read more about Sugar Lab's culture and pedagogy.</a></p>
+
+  <p><a href="press">Read press releases and find press resources.</a></p>
+</div>
+
+<div class="standardbox" id="contact">
+  <h1>Join the Conversation</h1>
+
+  <p>Sugar Labs is an orginization built around engaging people.  We strive
+  to create software that work great for teachers and students - something that
+  can only happen with your engagement.</p>
+
+  <p>Join us on <a href="https://socialhelp.sugarlabs.org/">Social Help</a> or
+  on our <a href="http://lists.sugarlabs.org/listinfo/iaep">"It's An Education
+  Project" mailing list</a>. Don't feel shy to raise consurns and bring
+  feedback to the table.</p>
+</div>
+
+{% include footer.html %}

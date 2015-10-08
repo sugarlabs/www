@@ -1,0 +1,50 @@
+// Copyright (C) Sam Parkinson 2014
+//
+// This file is part of ASLO.
+//
+// ASLO is free software: you can redistribute it and/or modify it under
+// the terms of the GNU Affero General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// ASLO is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with ASLO.  If not, see <http://www.gnu.org/licenses/>.
+
+$maxw: 800px
+$sugar_fonts: 'MgOpen Modata', 'Comic Sans MS', 'FreeMono', cursive, sans-serif
+$normal_fonts: 'Sans', sans-serif
+
+=center()
+  margin-left: auto
+  margin-right: auto
+
+=cool_button()
+  display: inline-block
+  margin-bottom: 20px
+      
+  color: white
+  text-decoration: none
+  background-color: $red
+  box-shadow: 0 10px 0 $orange, 0 11px 3px $orange
+  
+  border: none
+  padding: 5px
+  width: auto
+    
+  transition: 0.7sec ease-in all
+  &:hover
+    margin-top: 5px
+    box-shadow: 0 5px 0 $orange, 0 6px 10px $orange
+    margin-bottom: 15px
+
+=hover_shrink($scale)
+  // 0.3s for $scale = 0.9
+  transition: ($scale*10-8)*0.3s ease all
+
+  &:hover
+    transform: scale($scale)
