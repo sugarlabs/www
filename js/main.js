@@ -39,8 +39,8 @@ if (ua.indexOf('mobile') !== -1 || ua.indexOf('tablet') !== -1) {
     hide(get.soas);  hide(get.linux);
 } else if (ua.indexOf('linux') !== -1) {
     hide(get.desktop);  hide(get.sugarizer);
-    l.href = '/creator/linux';
+    //l.href = '/creator/linux';
 } else if (ua.indexOf('windows') !== -1) {
     hide(get.desktop);  hide(get.linux);  hide(get.sugarizer);
-    l.href = '/creator/windows';
+    //l.href = '/creator/windows';
 } else {}
