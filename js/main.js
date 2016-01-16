@@ -1,3 +1,5 @@
+// @license magnet:?xt=urn:btih:0b31508aeb0634b347b8270c7bee4d411b5d4109&dn=agpl-3.0.txt AGPL-v3-or-later
+
 var COLORS = [['006E00', '78E600'], ['68008C', '78E600'],
               ['006E00', '00BEFF'], ['033CD2', '00BEFF'],
               ['6E008C', '00BEFF'], ['A00000', 'FF7800'],
@@ -44,3 +46,5 @@ if (ua.indexOf('mobile') !== -1 || ua.indexOf('tablet') !== -1) {
     hide(get.desktop);  hide(get.linux);  hide(get.sugarizer);
     //l.href = '/creator/windows';
 } else {}
+
+// @license-end
