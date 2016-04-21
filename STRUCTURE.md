@@ -46,7 +46,8 @@ The elements on the 1st level of the list form the 'primary navigation' that typ
 The elements on the 2nd/3rd levels of the list are the 'secondary navigation' and may appear in a drop down menu on the primary toolbar, or as links inside the landing page each primary element, etc.
 
 home
-* What do middle school kids need? How Sugar addresses those needs
+* What do middle school kids need? How Sugar addresses those needs.
+* "A successful technology creates problems that only it can solve." - Alan Kay
 * Story telling: one great case study
 * Calls To Action
 
