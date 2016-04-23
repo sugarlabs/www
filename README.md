@@ -17,5 +17,5 @@ Website will be available at [localhost:4000](http://localhost:4000)
 
 ---
 
-Live preview: [sugarlabs.org/~tymon](http://sugarlabs.org/~tymon)
+Live preview: [sugarlabs.org/](http://sugarlabs.org/)
 
