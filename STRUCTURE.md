@@ -54,7 +54,15 @@ home
 about
 * "Learning To Change The World" full text liberated
 * case studies
-* detailed information about the organization
+   * a table listing each user community ("deployment") and a person in each community who Sugar Labs can talk with? (Starting with http://wiki.laptop.org/go/Manufacturing_data)
+* detailed information about the Sugar Labs organization
+   * Explanation of Conservancy
+   * SLOB Minutes
+   * Current SLOB members
+   * SLOB historical membership data
+   * Finance data
+   * Current Members data
+   * historical membership data
 
 try now
 * http://server.sugarizer.org with guiders
