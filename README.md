@@ -2,7 +2,7 @@
 
 Website created using Jekyll, Bootstrap, some plugins and pure jQuery.
 
-Suggestion are welcome!
+Suggestions are welcome!
  
 ---
 
