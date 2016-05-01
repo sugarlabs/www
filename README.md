@@ -1,21 +1,11 @@
-## New, open-source Sugar Labs website
+## SugarLabs.org Website Sources
 
-Website created using Jekyll, Bootstrap, some plugins and pure jQuery.
+This website is created using Jekyll, Bootstrap, some plugins and pure jQuery.
 
-Suggestion are welcome!
- 
----
+Suggestions are welcome!
 
+To build locally, install `jekyll` and, from this director, run: 
 
-To build locally install `jekyll` from Linux repositories and run: 
+    jekyll serve
 
-```bash
-jekyll serve
-```
-
-Website will be available at [localhost:4000](http://localhost:4000)
-
----
-
-Live preview: [sugarlabs.org/](http://sugarlabs.org/)
-
+Then open [http://localhost:4000](http://localhost:4000)
