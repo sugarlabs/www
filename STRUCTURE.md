@@ -46,9 +46,11 @@ A [conversion funnel](https://www.google.com/search?q=conversion+funnel&tbm=isch
       * post usability testing reports
       * post bugs
       * post pull requests
-    * Advocate on behalf of sugar labs
-      * post on social media
-      * post conference submissions to do public speaking
+    * Become a Member
+      * Commit access on Github, community standards
+      * Advocate on behalf of sugar labs
+        * post on social media
+        * post conference submissions to do public speaking
 
 ## Primary/Secondary Elements
 
@@ -104,6 +106,7 @@ buy
 
 join/support/participate
 * how to join the community conversation (single discuss mailing list via mailman3 web forum)
+* 
 * how to start a local lab
 * how to contribute to translation
 * how to contribute to usability
