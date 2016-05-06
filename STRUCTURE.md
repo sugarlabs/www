@@ -64,6 +64,7 @@ home
 * What do middle school kids need? How Sugar addresses those needs.
 * "A successful technology creates problems that only it can solve." - Alan Kay
 * Story telling: one great case study
+* Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), etc.
 * Calls To Action
    * try
    * download + email mini course ([#38](https://github.com/sugarlabs/www-sugarlabs/issues/38))
