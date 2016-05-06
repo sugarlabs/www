@@ -110,6 +110,7 @@ join/support/participate
 * 
 * how to start a local lab
 * how to contribute to translation
+  * raise funds to pay (Nigeria case study?)
 * how to contribute to usability
 * how to contribute to software (Activity, Sugar Desktop/izer)
    * report issues 
