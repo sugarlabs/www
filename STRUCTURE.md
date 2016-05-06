@@ -134,3 +134,4 @@ These elements appear on all pages (typically in a footer area)
 * donate, to contribute to funds
 * 'edit this page' link
 * survey (ux questionaire, tell us what you think, tell us if you are a user)
+* 10th year anniversity banner
