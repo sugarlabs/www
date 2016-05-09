@@ -63,7 +63,7 @@ The elements on the 2nd/3rd levels of the list are the 'secondary navigation' an
 home
 * What do middle school kids need? How Sugar addresses those needs.
 * "A successful technology creates problems that only it can solve." - Alan Kay
-* Story telling: one great case study
+* Story telling: one great case study (from OLPC France?)
 * Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), etc.
 * Calls To Action
    * try
