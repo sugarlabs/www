@@ -124,6 +124,10 @@ join/support/participate
    * unfilled office positions
    * how to become a member
    * how to join the SLOB
+* related projects
+   * http://school-network.org
+   * http://unleashkids.org
+   * http://www.one-education.org
 
 ## Tertiary Elements 
 
