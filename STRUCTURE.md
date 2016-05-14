@@ -107,7 +107,9 @@ buy
 
 join/support/participate
 * how to join the community conversation (single discuss mailing list via mailman3 web forum)
-* 
+* how to develop sugar software
+  * javascript
+  * python
 * how to start a local lab
 * how to contribute to translation
   * raise funds to pay (Nigeria case study?)
