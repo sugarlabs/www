@@ -12,7 +12,8 @@ date: 2016-05-15
 
 ### C
 
-* Craig Cabrey
+* [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey)
+    * **About**: RIT student that worked on the Math Hurdler XO game.
 * [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}  
     * **E-mail**: scanterog AT gmail DOT com  
     * **Freenode IRC nickname**: scg on #sugar channel  
@@ -34,6 +35,11 @@ date: 2016-05-15
 
 ### H
 
+* [Eli Heuer](https://wiki.sugarlabs.org/go/User:Elih){:target="_blank"}  
+    * **E-mail**: eliheuer AT gmail DOT com  
+    * **Freenode IRC nickname**: Elih on #sugar channel  
+    * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank"}
+    * **About**: Type designer and GSoC 2016 mentor
 * Miguel Angel Asencio Hurtado
 
 ### K
@@ -42,7 +48,12 @@ date: 2016-05-15
 * Puneet Kaur
 * Abhishek Kaushik
 * Sanchit Kapoor
-
+* [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank"}  
+    * **E-mail**: avni AT kidsoncomputers DOT org  
+    * **Freenode IRC nickname**: avni on #sugar channel  
+    * **LinkedIn profile**: [https://www.linkedin.com/in/avnikhatri](https://www.linkedin.com/in/avnikhatri){:target="_blank"}  
+    * **Twittter**: [http://twitter.com/avni321](http:/twitter.com/avni321){:target="_blank"}
+    * **About**: President of Kids on Computers.  
 ### L
 
 * Gabriel Lee
