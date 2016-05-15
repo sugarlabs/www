@@ -1,48 +1,99 @@
-# Sugar Labs Contributors
+---
+layout: profile
+title: Sugar Labs Contributors
+date: 2016-05-15
+---
 
-This document list contributors who are currently active in the Sugar Labs community and working on projects. Please email [www@sugarlabs.org](mailto:www@sugarlabs.org) if you belong here!  
-
-## Profiles
+### B
 
 * Roshan Bagla
 * Manveer Singh Basra
+* Walter Bender
+
+### C
+
 * Craig Cabrey
-* Samuel Cantero [wiki profile](https://wiki.sugarlabs.org/go/User:Scg)
+* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}  
+    * **E-mail**: scanterog AT gmail DOT com  
+    * **Freenode IRC nickname**: scg on #sugar channel  
+    * **LinkedIn profile**: [https://www.linkedin.com/in/scantero](https://www.linkedin.com/in/scantero){:target="_blank"}  
+    * **About**: Computer engineer and a GNU/Linux passionate.  
+
 * Ibiam Chihurumnaya
-* Dave Crossland [wiki profile](https://wiki.sugarlabs.org/go/User:Davelab6)
+* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
+
+### F
+
 * Justin W. Flory
+
+### G
+
 * José Miguel García
 * Samson Goddy
 * Ayush Goyal
+
+### H
+
 * Miguel Angel Asencio Hurtado
+
+### K
+
 * Ben Kantor
 * Puneet Kaur
 * Abhishek Kaushik
 * Sanchit Kapoor
+
+### L
+
 * Gabriel Lee
+
+### M
+
 * Sushil Mandi
 * Nilmadhab Mondal
+
+### N
+
 * Goutam Nair
 * Nikhil Nawani
 * Kovida Nelakuditi
+
+### P
+
 * Gaurav Parida
 * Shawn Pereira
 * Manash Pratim Das
 * Premraj Pushpakaran
+
+### R
+
 * Josh Rosenberg
 * Ariel Rakovitsky
 * German Ruiz
+
+### S
+
 * Daksh Shah
 * Mandeep Singh
 * Rajdeep Singh
 * Jayasurya Sridharan
+
+### T
+
 * Ivan Tham
+
+### U
+
 * Neha Ummareddy
+
+### Y
+
 * Danny Yin
 
 
-## Profiles - No Last Name
+### Unknown
 
+<div>
 * <https://wiki.sugarlabs.org/go/User:Abalaji>
 * <https://wiki.sugarlabs.org/go/User:AnjaliK>
 * <https://wiki.sugarlabs.org/go/User:Boquete>
@@ -62,3 +113,4 @@ This document list contributors who are currently active in the Sugar Labs commu
 * <https://wiki.sugarlabs.org/go/User:Vipulroxx>
 * <https://wiki.sugarlabs.org/go/User:Ydymsky>
 * <https://wiki.sugarlabs.org/go/User:Zephyr>
+</div>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p>Last Updated: {{ page.date | date: "%b %-d %Y" }}</p>
+<div id="accordion">
+{{ content }}
+</div>
+
+<p><a href='/'>Return to main page</a></p>
+<script>
+$(function() {
+    $( "#accordion" ).children("ul").wrap("<div></div>");
+
+    $( "#accordion" ).accordion({
+      collapsible: true, 
+      heightStyle: "content",
+      active: false
+    });
+  });
+</script>
