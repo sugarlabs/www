@@ -9,7 +9,7 @@ This document list contributors who are currently active in the Sugar Labs commu
 * Craig Cabrey
 * Samuel Cantero [wiki profile](https://wiki.sugarlabs.org/go/User:Scg)
 * Ibiam Chihurumnaya
-* Dave Crossland
+* Dave Crossland [wiki profile](https://wiki.sugarlabs.org/go/User:Davelab6)
 * Justin W. Flory
 * José Miguel García
 * Samson Goddy
