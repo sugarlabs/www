@@ -43,22 +43,22 @@ This document list contributors who are currently active in the Sugar Labs commu
 
 ## Profiles - No Last Name
 
-* Abalaji 
-* AnjaliK
-* Boquete
-* Etowah 
-* Evan.er
-* Hrishi1999
-* Lissacoffey (no first or last name)
-* Mariahnoelle
-* Ignacio
-* Niels321
-* Paarthri
-* PickledChicken
-* Pierlo
-* SAMdroid
-* Sbeck
-* Sehgalvibhor
-* Vipulroxx
-* Ydymsky
-* Zephyr
+* <https://wiki.sugarlabs.org/go/User:Abalaji>
+* <https://wiki.sugarlabs.org/go/User:AnjaliK>
+* <https://wiki.sugarlabs.org/go/User:Boquete>
+* <https://wiki.sugarlabs.org/go/User:Etowah>
+* <https://wiki.sugarlabs.org/go/User:Evan.er>
+* <https://wiki.sugarlabs.org/go/User:Hrishi1999>
+* <https://wiki.sugarlabs.org/go/User:Lissacoffey> (no first or last name)
+* <https://wiki.sugarlabs.org/go/User:Mariahnoelle>
+* <https://wiki.sugarlabs.org/go/User:Ignacio>
+* <https://wiki.sugarlabs.org/go/User:Niels321>
+* <https://wiki.sugarlabs.org/go/User:Paarthri>
+* <https://wiki.sugarlabs.org/go/User:PickledChicken>
+* <https://wiki.sugarlabs.org/go/User:Pierlo>
+* <https://wiki.sugarlabs.org/go/User:SAMdroid>
+* <https://wiki.sugarlabs.org/go/User:Sbeck>
+* <https://wiki.sugarlabs.org/go/User:Sehgalvibhor>
+* <https://wiki.sugarlabs.org/go/User:Vipulroxx>
+* <https://wiki.sugarlabs.org/go/User:Ydymsky>
+* <https://wiki.sugarlabs.org/go/User:Zephyr>
