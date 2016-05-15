@@ -111,6 +111,7 @@ join/support/participate
   * javascript
   * python
 * how to start a local lab
+  * funding (Google RISE)
 * how to contribute to translation
   * raise funds to pay (Nigeria case study?)
 * how to contribute to usability
