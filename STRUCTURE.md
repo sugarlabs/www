@@ -3,7 +3,6 @@ layout: post
 title: Information Architecture
 date: 2016-05-15
 ---
-# SugarLabs.org Information Architecture
 
 This document proposes a structure of the Sugar Labs homepage, [sugarlabs.org](http://www.sugarlabs.org)
 
