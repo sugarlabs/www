@@ -7,7 +7,7 @@ This document list contributors who are currently active in the Sugar Labs commu
 * Roshan Bagla
 * Manveer Singh Basra
 * Craig Cabrey
-* Samuel Cantero
+* Samuel Cantero [wiki profile](https://wiki.sugarlabs.org/go/User:Scg)
 * Ibiam Chihurumnaya
 * Dave Crossland
 * Justin W. Flory
