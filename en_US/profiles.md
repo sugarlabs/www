@@ -8,7 +8,7 @@ date: 2016-05-16
 * [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank"}
     * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank"}
     * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is http://cscott.net
-    
+
 ### B
 
 * Roshan Bagla
@@ -93,7 +93,7 @@ aaron@lo-res.org
 ### L
 
 * Gabriel Lee
-* [Aleksey Lim](https://wiki.sugarlabs.org/go/User:Alsroot){:target="_blank"}  
+* [Aleksey Lim](https://wiki.sugarlabs.org/go/User:Alsroot){:target="_blank"}
     * **E-mail**: alsroot AT member DOT fsf DOT org
     * **Freenode IRC nickname**: alsroot
     * **About**: School Network project. Maintains Sugar Labs services: jita, meeting, chat, activities, jabber
@@ -102,6 +102,8 @@ aaron@lo-res.org
 
 * Sushil Mandi
 * Nilmadhab Mondal
+* [Caroline Meeks](https://wiki.sugarlabs.org/go/User:CarolineM){:target="_blank"}
+    * **About**: Lead for Gardener Pilot Academy (GPA) Pilot and Sugar on a Stick project.
 
 ### N
 
@@ -139,6 +141,11 @@ aaron@lo-res.org
 * Ivan Tham
 
 ### U
+
+### W
+* [Kalpa Welivitigoda](https://wiki.sugarlabs.org/go/User:Callkalpa){:target="_blank"}
+    * **About**: Hi I am Kalpa Welivitigoda from Sri Lanka. My work with sugar has been involved with packaging sugar activities for Fedora.
+
 
 * Neha Ummareddy
 
