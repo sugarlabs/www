@@ -31,7 +31,10 @@ date: 2016-05-15
 ### F
 
 * Justin W. Flory
-* [Bert Freudenberg]
+* [Bert Freudenberg](https://wiki.sugarlabs.org/go/User:Bert){:target="_blank"}  
+    * **E-mail**: bert at freudenbergs.de  
+    * **Freenode IRC nickname**: bertf (#sugar, #olpc-de)
+    * **About**: Bert Freudenberg is a freelancing Software Engineer based in Magdeburg, Germany. From 2006-2008 he was contracted to port the Squeak Etoys learning environment to Sugar. Bert still voluntarily maintains the Sugar version of Etoys.
 
 ### G
 
@@ -46,6 +49,7 @@ date: 2016-05-15
     * **Freenode IRC nickname**: Elih on #sugar channel  
     * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank"}
     * **About**: Type designer and GSoC 2016 mentor
+
 * Miguel Angel Asencio Hurtado
 
 ### I
