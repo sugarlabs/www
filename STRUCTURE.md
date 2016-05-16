@@ -116,7 +116,7 @@ buy
 
 join/support/participate
 * how to join the community conversation (single discuss mailing list via mailman3 web forum)
-* how to develop sugar software
+* how to develop sugar software ([www-sugarlabs#20](https://github.com/sugarlabs/www-sugarlabs/issues/20))
   * javascript
   * python
 * how to start a local lab
