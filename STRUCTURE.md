@@ -118,6 +118,7 @@ join/support/participate
   * python
 * how to start a local lab
   * funding (Google RISE)
+  * training materials (eg <https://olpcnyc.wordpress.com/training-materials>)
 * how to contribute to translation
   * raise funds to pay (Nigeria case study?)
 * how to contribute to usability
