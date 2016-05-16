@@ -104,6 +104,9 @@ download
    * Curated list of activities to try (cf. https://www.sam.today/blog/sugar-onboard-user-testing.html)
 * eBook Library (including interactive OERs, curricula)
 
+use
+* <https://help.sugarlabs.org>
+
 buy
 * offer sugar sticks (from http://www.recycleusb.com or even branded usb keys) 
 * offer sugarizer servers (raspberry pi)
