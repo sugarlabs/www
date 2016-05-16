@@ -13,9 +13,18 @@ date: 2016-05-16
 
 * Roshan Bagla
 * Manveer Singh Basra
-* Walter Bender
+* Walter Bender(https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
+    * **E-mail**: walter AT sugarlabs DOT org  
+    * **Freenode IRC nickname**: walterbender    
+    * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs is a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
+
+Bender received his undergraduate degree from Harvard University in 1977 and a masters degree from MIT in 1980, where he built the Electronic Publishing research group. He was a founding member of the MIT Media Lab, where he was a Senior Scientist and holder of the Alexander W Dreyfoos Chair.
+
+Bender serves or has served on numerous boards and committees, including IBM's mobile computing advisory board and the GNOME technical advisory board. He is on the advisory board of the Squeak Foundation, the Center for Educational Technology (CET) in Israel, and Libre Corps, a new program at RIT that builds long-term, on-going relationships between university students and humanitarian organizations. He has held visiting faculty appointments at international universities, including the University of Tampere, and continues to serve on university research advisory boards and on occasion teaches at Hult and MIT Sloan business schools. Bender's book, Leaning to Change the World, on technology. learning, and social entrepreneurship was published in 2012.
 * [Bryan Berry](https://wiki.sugarlabs.org/go/User:BryanWB){:target="_blank"}
     * **About**: I worked for OLE Nepal as CTO but I can't code to save my life. I also co-edited OLPC News together with Christoph Derndorfer.
+* [Wade Brainerd](https://wiki.sugarlabs.org/go/User:Wade){:target="_blank"}
+    * **About**: I am involved with Sugar Labs as a volunteer, developing activities and helping to coordinate the Activity Team.
 
 ### C
 
@@ -39,13 +48,19 @@ date: 2016-05-16
 
 * Justin W. Flory
 * [Bert Freudenberg](https://wiki.sugarlabs.org/go/User:Bert){:target="_blank"}  
-    * **E-mail**: bert at freudenbergs.de  
+    * **E-mail**: bert AT freudenbergs DOT de  
     * **Freenode IRC nickname**: bertf (#sugar, #olpc-de)
     * **About**: Bert Freudenberg is a freelancing Software Engineer based in Magdeburg, Germany. From 2006-2008 he was contracted to port the Squeak Etoys learning environment to Sugar. Bert still voluntarily maintains the Sugar version of Etoys.
+* [Tony Forster](https://wiki.sugarlabs.org/go/User:Tonyforster){:target="_blank"}  
+    * **E-mail**: forster AT ozonline DOT com DOT au  
+    * **About**: Interests: Activities which maximise the opportunity for self-directed learning: low floor, wide walls and high ceiling with particular emphasis on the walls and ceiling. My Sugar favourites: Turtleart, Scratch, Etoys. Game Maker still my Windows favourite.
+
+Currently user testing Turtleart and Sliderule, experimenting with Pippy. Supporting the Timor Leste deployment.
+
 
 ### G
 
-* José Miguel García
+* JosÃ© Miguel GarcÃ­a
 * Samson Goddy
 * Ayush Goyal
 
@@ -111,12 +126,21 @@ aaron@lo-res.org
 * Nikhil Nawani
 * Kovida Nelakuditi
 
+### O
+
+* [Vik Olliver](https://wiki.sugarlabs.org/go/User:Vik){:target="_blank"} 
+    * **About**: G'day. You've found Vik Olliver's user page. Vik is a longhair systems analyst who works for Catalyst IT Ltd. from his home and workshops in Waitakere, New Zealand. Vik's main ability is to find bugs, and to create useful add-ons... My two main abilities are finding bugs and creating useful add-ons and interfacing the OLPC to bits of hardware that the developing world may find useful. No, my three main ... er, I'll come back and do it again, shall I?
+    When not working or playing with an XO, or called out by the fire brigade, Vik is probably fiddling with a RepRap 3D Printer - a machine that uses plastic to print 3D objects, including a set of its own parts if you want. At the moment it seems to be printing XO viewfinders, driven by an XO of course.
+
 ### P
 
 * Gaurav Parida
 * Aditya Patawari
 * Shawn Pereira
 * Manash Pratim Das
+* [Yamandu Ploskonka y Rivas](https://wiki.sugarlabs.org/go/User:Yamaplos){:target="_blank"}  
+    * **E-mail**: yamaplos AT bolinux DOT org
+    * **About**: Past admin of OLPC Sur.
 * Premraj Pushpakaran
 
 ### R
@@ -127,7 +151,7 @@ aaron@lo-res.org
 
 ### S
 
-* [Agustín Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
+* [AgustÃ­n Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
     * **E-mail**: aguz AT sugarlabs DOT org
     * **Freenode IRC nickname**: aguz  
     * **About**: Activity developer.
@@ -141,6 +165,12 @@ aaron@lo-res.org
 * Ivan Tham
 
 ### U
+
+### V
+
+* [Rajan Vaish](https://wiki.sugarlabs.org/go/User:Vaish.rajan){:target="_blank"}  
+    * **E-mail**: vaish.rajan AT gmail DOT com  
+    * **About**: Worked on a Geography teaching tool especially teaching maps of North and South America under its first release during Summer 2008. 
 
 ### W
 * [Kalpa Welivitigoda](https://wiki.sugarlabs.org/go/User:Callkalpa){:target="_blank"}
@@ -177,3 +207,4 @@ aaron@lo-res.org
 * <https://wiki.sugarlabs.org/go/User:Ydymsky>
 * <https://wiki.sugarlabs.org/go/User:Zephyr>
 </div>
+ 
