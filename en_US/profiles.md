@@ -23,9 +23,15 @@ date: 2016-05-15
 * Ibiam Chihurumnaya
 * [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
 
+### D
+[Aneesh Dogra](https://wiki.sugarlabs.org/go/User:Aneesh_Dogra){:target="_blank"}  
+    * **E-mail**: <first name> at sugarlabs dot org
+    * **About**: Has maintained level tool, IRC
+
 ### F
 
 * Justin W. Flory
+* [Bert Freudenberg]
 
 ### G
 
@@ -42,9 +48,28 @@ date: 2016-05-15
     * **About**: Type designer and GSoC 2016 mentor
 * Miguel Angel Asencio Hurtado
 
+### I
+
+* [Bernie Innocenti](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank"}  
+    * **E-mail**: bernie AT codewiz DOT org   
+    * **Freenode IRC nickname**: _bernie
+    * **Personal homepage**: http://codewiz.org/
+    * **About**: I'm a volunteer working for the Sugar Labs foundation. Before that, I was a full-time volunteer developer at OLPC. My job was hacking on X11, the base Fedora OS, the Linux kernel, some i18n and input work. I have also worked on-site at OLPC deployments in Nepal, Paraguay, Uruguay and Mozambique.
+
+### J
+
+* [Alex Jones](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank"}  
+    * **E-mail**: acj3840 AT rit DOT edu   
+    * **Freenode IRC nickname**: Boe08
+    * **About**: Worked on the Teacher's Tools activity
+
 ### K
 
 * Ben Kantor
+* [Aaron Kaplan](https://wiki.sugarlabs.org/go/User:Aaron){:target="_blank"}
+aaron@lo-res.org
+    * **E-mail**: aaron AT lo-res DOT org
+    * **About**: Blogger
 * Puneet Kaur
 * Abhishek Kaushik
 * Sanchit Kapoor
@@ -57,6 +82,10 @@ date: 2016-05-15
 ### L
 
 * Gabriel Lee
+* [Aleksey Lim](https://wiki.sugarlabs.org/go/User:Alsroot){:target="_blank"}  
+    * **E-mail**: alsroot AT member DOT fsf DOT org
+    * **Freenode IRC nickname**: alsroot
+    * **About**: School Network project. Maintains Sugar Labs services: jita, meeting, chat, activities, jabber
 
 ### M
 
@@ -72,6 +101,7 @@ date: 2016-05-15
 ### P
 
 * Gaurav Parida
+* Aditya Patawari
 * Shawn Pereira
 * Manash Pratim Das
 * Premraj Pushpakaran
@@ -84,6 +114,10 @@ date: 2016-05-15
 
 ### S
 
+* [Agustín Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
+    * **E-mail**: aguz AT sugarlabs DOT org
+    * **Freenode IRC nickname**: aguz  
+    * **About**: Activity developer.
 * Daksh Shah
 * Mandeep Singh
 * Rajdeep Singh
