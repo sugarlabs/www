@@ -1,20 +1,27 @@
 ---
 layout: profile
 title: Sugar Labs Contributors
-date: 2016-05-15
+date: 2016-05-16
 ---
+### A
 
+* [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank"}
+    * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank"}
+    * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is http://cscott.net
+    
 ### B
 
 * Roshan Bagla
 * Manveer Singh Basra
 * Walter Bender
+* [Bryan Berry](https://wiki.sugarlabs.org/go/User:BryanWB){:target="_blank"}
+    * **About**: I worked for OLE Nepal as CTO but I can't code to save my life. I also co-edited OLPC News together with Christoph Derndorfer.
 
 ### C
 
 * [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey)
     * **About**: RIT student that worked on the Math Hurdler XO game.
-* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}  
+* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}
     * **E-mail**: scanterog AT gmail DOT com  
     * **Freenode IRC nickname**: scg on #sugar channel  
     * **LinkedIn profile**: [https://www.linkedin.com/in/scantero](https://www.linkedin.com/in/scantero){:target="_blank"}  
