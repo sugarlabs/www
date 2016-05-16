@@ -135,6 +135,7 @@ join/support/participate
    * http://school-network.org
    * http://unleashkids.org
    * http://www.one-education.org
+   * http://mifos.org
 
 ## Tertiary Elements 
 
