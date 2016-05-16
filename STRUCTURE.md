@@ -136,6 +136,10 @@ join/support/participate
    * http://unleashkids.org
    * http://www.one-education.org
    * http://mifos.org
+   * http://www.kano.me
+   * http://beagleboard.org
+   * http://getchip.com/pages/pocketchip
+   * http://www.recycleusb.com
 
 ## Tertiary Elements 
 
