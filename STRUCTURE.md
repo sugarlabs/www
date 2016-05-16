@@ -98,9 +98,10 @@ download
    * www.fedora-project.org www.centos.com
    * www.archlinux.org
    * www.pclinuxos.com
-* <https://github.com/walterbender/training>
+* <https://github.com/walterbender/training> 
 * Sugar Handbook (User Manual, tutorial videos)
 * Activities Library (http://activities.sugarlabs.org)
+   * Curated list of activities to try (cf. https://www.sam.today/blog/sugar-onboard-user-testing.html)
 * eBook Library (including interactive OERs, curricula)
 
 buy
