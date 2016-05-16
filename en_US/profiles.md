@@ -8,19 +8,23 @@ date: 2016-05-15
 
 * Roshan Bagla
 * Manveer Singh Basra
-* Walter Bender
+* [Walter Bender](http://wiki.sugarlabs.org/go/User:Walter)
+    * [GitHub](https://github.com/walterbender) (many Activities here)
 
 ### C
 
 * Craig Cabrey
-* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}  
-    * **E-mail**: scanterog AT gmail DOT com  
-    * **Freenode IRC nickname**: scg on #sugar channel  
-    * **LinkedIn profile**: [https://www.linkedin.com/in/scantero](https://www.linkedin.com/in/scantero){:target="_blank"}  
-    * **About**: Computer engineer and a GNU/Linux passionate.  
-
+* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg)
+    * Computer engineer and GNU/Linux enthusiast.
+    * [E-mail](mailto:scanterog@gmail.com)
+    * IRC: scg
+    * [LinkedIn](https://www.linkedin.com/in/scantero)
+    * [Github](https://github.com/scanterog)
 * Ibiam Chihurumnaya
-* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
+* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6) 
+    * [GitHub](https://github.com/davelab6)
+    * [Email](mailto:dave@lab6.com)
+    * IRC: davelab6
 
 ### F
 
@@ -31,6 +35,8 @@ date: 2016-05-15
 * José Miguel García
 * Samson Goddy
 * Ayush Goyal
+* [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
+    * [GitHub](https://github.com/godiard) (many Activities here)
 
 ### H
 
