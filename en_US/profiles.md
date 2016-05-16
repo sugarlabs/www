@@ -36,6 +36,10 @@ date: 2016-05-15
 
 * Miguel Angel Asencio Hurtado
 
+### I
+
+* [Ignacio](https://wiki.sugarlabs.org/go/User:Ignacio)
+
 ### K
 
 * Ben Kantor
