@@ -1,4 +1,8 @@
-# SugarLabs.org Information Architecture
+---
+layout: post
+title: Information Architecture
+date: 2016-05-15
+---
 
 This document proposes a structure of the Sugar Labs homepage, [sugarlabs.org](http://www.sugarlabs.org)
 
@@ -63,7 +67,8 @@ The elements on the 2nd/3rd levels of the list are the 'secondary navigation' an
 home
 * What do middle school kids need? How Sugar addresses those needs.
 * "A successful technology creates problems that only it can solve." - Alan Kay
-* Story telling: one great case study
+* Story telling: one great case study (from OLPC France?)
+* Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), size of active user base from <http://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf>, http://wiki.laptop.org/go/ALEARN_Network, etc.
 * Calls To Action
    * try
    * download + email mini course ([#38](https://github.com/sugarlabs/www-sugarlabs/issues/38))
@@ -93,9 +98,14 @@ download
    * www.fedora-project.org www.centos.com
    * www.archlinux.org
    * www.pclinuxos.com
+* <https://github.com/walterbender/training> 
 * Sugar Handbook (User Manual, tutorial videos)
 * Activities Library (http://activities.sugarlabs.org)
+   * Curated list of activities to try (cf. https://www.sam.today/blog/sugar-onboard-user-testing.html)
 * eBook Library (including interactive OERs, curricula)
+
+use
+* <https://help.sugarlabs.org>
 
 buy
 * offer sugar sticks (from http://www.recycleusb.com or even branded usb keys) 
@@ -106,9 +116,14 @@ buy
 
 join/support/participate
 * how to join the community conversation (single discuss mailing list via mailman3 web forum)
-* 
+* how to develop sugar software ([www-sugarlabs#20](https://github.com/sugarlabs/www-sugarlabs/issues/20))
+  * javascript
+  * python
 * how to start a local lab
+  * funding (Google RISE)
+  * training materials (eg <https://olpcnyc.wordpress.com/training-materials>, <https://wiki.sugarlabs.org/go/Tutorials/Tutorials.iso>)
 * how to contribute to translation
+  * raise funds to pay (Nigeria case study?)
 * how to contribute to usability
 * how to contribute to software (Activity, Sugar Desktop/izer)
    * report issues 
@@ -120,6 +135,15 @@ join/support/participate
    * unfilled office positions
    * how to become a member
    * how to join the SLOB
+* related projects
+   * http://school-network.org
+   * http://unleashkids.org
+   * http://www.one-education.org
+   * http://mifos.org
+   * http://www.kano.me
+   * http://beagleboard.org
+   * http://getchip.com/pages/pocketchip
+   * http://www.recycleusb.com
 
 ## Tertiary Elements 
 
@@ -132,3 +156,4 @@ These elements appear on all pages (typically in a footer area)
 * donate, to contribute to funds
 * 'edit this page' link
 * survey (ux questionaire, tell us what you think, tell us if you are a user)
+* 10th year anniversity banner
