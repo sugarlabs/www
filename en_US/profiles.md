@@ -13,14 +13,14 @@ date: 2016-05-16
 
 * Roshan Bagla
 * Manveer Singh Basra
-* Walter Bender(https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
+* [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
     * **E-mail**: walter AT sugarlabs DOT org  
     * **Freenode IRC nickname**: walterbender    
     * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs is a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
 
-Bender received his undergraduate degree from Harvard University in 1977 and a masters degree from MIT in 1980, where he built the Electronic Publishing research group. He was a founding member of the MIT Media Lab, where he was a Senior Scientist and holder of the Alexander W Dreyfoos Chair.
+      Bender received his undergraduate degree from Harvard University in 1977 and a masters degree from MIT in 1980, where he built the Electronic Publishing research group. He was a founding member of the MIT Media Lab, where he was a Senior Scientist and holder of the Alexander W Dreyfoos Chair.
 
-Bender serves or has served on numerous boards and committees, including IBM's mobile computing advisory board and the GNOME technical advisory board. He is on the advisory board of the Squeak Foundation, the Center for Educational Technology (CET) in Israel, and Libre Corps, a new program at RIT that builds long-term, on-going relationships between university students and humanitarian organizations. He has held visiting faculty appointments at international universities, including the University of Tampere, and continues to serve on university research advisory boards and on occasion teaches at Hult and MIT Sloan business schools. Bender's book, Leaning to Change the World, on technology. learning, and social entrepreneurship was published in 2012.
+      Bender serves or has served on numerous boards and committees, including IBM's mobile computing advisory board and the GNOME technical advisory board. He is on the advisory board of the Squeak Foundation, the Center for Educational Technology (CET) in Israel, and Libre Corps, a new program at RIT that builds long-term, on-going relationships between university students and humanitarian organizations. He has held visiting faculty appointments at international universities, including the University of Tampere, and continues to serve on university research advisory boards and on occasion teaches at Hult and MIT Sloan business schools. Bender's book, Leaning to Change the World, on technology. learning, and social entrepreneurship was published in 2012.
 * [Bryan Berry](https://wiki.sugarlabs.org/go/User:BryanWB){:target="_blank"}
     * **About**: I worked for OLE Nepal as CTO but I can't code to save my life. I also co-edited OLPC News together with Christoph Derndorfer.
 * [Wade Brainerd](https://wiki.sugarlabs.org/go/User:Wade){:target="_blank"}
@@ -55,12 +55,12 @@ Bender serves or has served on numerous boards and committees, including IBM's m
     * **E-mail**: forster AT ozonline DOT com DOT au  
     * **About**: Interests: Activities which maximise the opportunity for self-directed learning: low floor, wide walls and high ceiling with particular emphasis on the walls and ceiling. My Sugar favourites: Turtleart, Scratch, Etoys. Game Maker still my Windows favourite.
 
-Currently user testing Turtleart and Sliderule, experimenting with Pippy. Supporting the Timor Leste deployment.
+      Currently user testing Turtleart and Sliderule, experimenting with Pippy. Supporting the Timor Leste deployment.
 
 
 ### G
 
-* JosÃ© Miguel GarcÃ­a
+* Jose Miguel Garcia
 * Samson Goddy
 * Ayush Goyal
 
@@ -151,7 +151,7 @@ aaron@lo-res.org
 
 ### S
 
-* [AgustÃ­n Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
+* [Agustinn Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
     * **E-mail**: aguz AT sugarlabs DOT org
     * **Freenode IRC nickname**: aguz  
     * **About**: Activity developer.
@@ -166,6 +166,9 @@ aaron@lo-res.org
 
 ### U
 
+* Neha Ummareddy
+
+
 ### V
 
 * [Rajan Vaish](https://wiki.sugarlabs.org/go/User:Vaish.rajan){:target="_blank"}  
@@ -177,7 +180,6 @@ aaron@lo-res.org
     * **About**: Hi I am Kalpa Welivitigoda from Sri Lanka. My work with sugar has been involved with packaging sugar activities for Fedora.
 
 
-* Neha Ummareddy
 
 ### Y
 
@@ -186,7 +188,6 @@ aaron@lo-res.org
 
 ### Unknown
 
-<div>
 * <https://wiki.sugarlabs.org/go/User:Abalaji>
 * <https://wiki.sugarlabs.org/go/User:AnjaliK>
 * <https://wiki.sugarlabs.org/go/User:Boquete>
@@ -206,5 +207,5 @@ aaron@lo-res.org
 * <https://wiki.sugarlabs.org/go/User:Vipulroxx>
 * <https://wiki.sugarlabs.org/go/User:Ydymsky>
 * <https://wiki.sugarlabs.org/go/User:Zephyr>
-</div>
- 
+
+
