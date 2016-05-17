@@ -65,7 +65,7 @@ date: 2016-05-16
 
 ### G
 
-* Jose Miguel Garcia
+* José Miguel García
 * Samson Goddy
 * Ayush Goyal
 * [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
