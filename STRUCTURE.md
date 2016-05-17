@@ -68,7 +68,7 @@ home
 * What do middle school kids need? How Sugar addresses those needs.
 * "A successful technology creates problems that only it can solve." - Alan Kay
 * Story telling: one great case study (from OLPC France?)
-* Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), etc.
+* Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), size of active user base from <http://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf>, http://wiki.laptop.org/go/ALEARN_Network, etc.
 * Calls To Action
    * try
    * download + email mini course ([#38](https://github.com/sugarlabs/www-sugarlabs/issues/38))
@@ -98,9 +98,14 @@ download
    * www.fedora-project.org www.centos.com
    * www.archlinux.org
    * www.pclinuxos.com
+* <https://github.com/walterbender/training> 
 * Sugar Handbook (User Manual, tutorial videos)
 * Activities Library (http://activities.sugarlabs.org)
+   * Curated list of activities to try (cf. https://www.sam.today/blog/sugar-onboard-user-testing.html)
 * eBook Library (including interactive OERs, curricula)
+
+use
+* <https://help.sugarlabs.org>
 
 buy
 * offer sugar sticks (from http://www.recycleusb.com or even branded usb keys) 
@@ -111,11 +116,12 @@ buy
 
 join/support/participate
 * how to join the community conversation (single discuss mailing list via mailman3 web forum)
-* how to develop sugar software
+* how to develop sugar software ([www-sugarlabs#20](https://github.com/sugarlabs/www-sugarlabs/issues/20))
   * javascript
   * python
 * how to start a local lab
   * funding (Google RISE)
+  * training materials (eg <https://olpcnyc.wordpress.com/training-materials>, <https://wiki.sugarlabs.org/go/Tutorials/Tutorials.iso>)
 * how to contribute to translation
   * raise funds to pay (Nigeria case study?)
 * how to contribute to usability
@@ -133,6 +139,11 @@ join/support/participate
    * http://school-network.org
    * http://unleashkids.org
    * http://www.one-education.org
+   * http://mifos.org
+   * http://www.kano.me
+   * http://beagleboard.org
+   * http://getchip.com/pages/pocketchip
+   * http://www.recycleusb.com
 
 ## Tertiary Elements 
 

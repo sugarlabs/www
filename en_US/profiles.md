@@ -14,6 +14,7 @@ date: 2016-05-16
 * Roshan Bagla
 * Manveer Singh Basra
 * [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
+    * [GitHub](https://github.com/walterbender) (many Activities here)
     * **E-mail**: walter AT sugarlabs DOT org  
     * **Freenode IRC nickname**: walterbender    
     * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs is a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
@@ -30,18 +31,22 @@ date: 2016-05-16
 
 * [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey)
     * **About**: RIT student that worked on the Math Hurdler XO game.
-* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}
-    * **E-mail**: scanterog AT gmail DOT com  
-    * **Freenode IRC nickname**: scg on #sugar channel  
-    * **LinkedIn profile**: [https://www.linkedin.com/in/scantero](https://www.linkedin.com/in/scantero){:target="_blank"}  
-    * **About**: Computer engineer and a GNU/Linux passionate.  
-
+* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg)
+    * Computer engineer and GNU/Linux enthusiast.
+    * [E-mail](mailto:scanterog@gmail.com)
+    * IRC: scg
+    * [LinkedIn](https://www.linkedin.com/in/scantero)
+    * [Github](https://github.com/scanterog)
 * Ibiam Chihurumnaya
-* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
+* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6) 
+    * [GitHub](https://github.com/davelab6)
+    * [Email](mailto:dave@lab6.com)
+    * IRC: davelab6
 
 ### D
-[Aneesh Dogra](https://wiki.sugarlabs.org/go/User:Aneesh_Dogra){:target="_blank"}  
-    * **E-mail**: <first name> at sugarlabs dot org
+
+* [Aneesh Dogra](https://wiki.sugarlabs.org/go/User:Aneesh_Dogra){:target="_blank"}  
+    * **E-mail**: &lt;first name&gt; at sugarlabs dot org
     * **About**: Has maintained level tool, IRC
 
 ### F
@@ -63,6 +68,8 @@ date: 2016-05-16
 * Jose Miguel Garcia
 * Samson Goddy
 * Ayush Goyal
+* [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
+    * [GitHub](https://github.com/godiard) (many Activities here)
 
 ### H
 
@@ -76,7 +83,9 @@ date: 2016-05-16
 
 ### I
 
-* [Bernie Innocenti](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank"}  
+* [Ignacio](https://wiki.sugarlabs.org/go/User:Ignacio){:target="_blank"}  
+
+* [Bernie Innocenti](https://wiki.sugarlabs.org/go/User:Bernie){:target="_blank"}  
     * **E-mail**: bernie AT codewiz DOT org   
     * **Freenode IRC nickname**: _bernie
     * **Personal homepage**: http://codewiz.org/
@@ -93,18 +102,19 @@ date: 2016-05-16
 
 * Ben Kantor
 * [Aaron Kaplan](https://wiki.sugarlabs.org/go/User:Aaron){:target="_blank"}
-aaron@lo-res.org
+    * aaron@lo-res.org
     * **E-mail**: aaron AT lo-res DOT org
     * **About**: Blogger
 * Puneet Kaur
 * Abhishek Kaushik
 * Sanchit Kapoor
 * [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank"}  
-    * **E-mail**: avni AT kidsoncomputers DOT org  
-    * **Freenode IRC nickname**: avni on #sugar channel  
-    * **LinkedIn profile**: [https://www.linkedin.com/in/avnikhatri](https://www.linkedin.com/in/avnikhatri){:target="_blank"}  
-    * **Twittter**: [http://twitter.com/avni321](http:/twitter.com/avni321){:target="_blank"}
-    * **About**: President of Kids on Computers.  
+    * [E-mail](mailto:avni@kidsoncomputers.org)
+    * IRC: avni
+    * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank"}  
+    * [Twitter](http:/twitter.com/avni321){:target="_blank"}
+    * About: President of [Kids on Computers](http://kidsoncomputers.org/blog){:target="_blank"}  
+
 ### L
 
 * Gabriel Lee
@@ -207,5 +217,4 @@ aaron@lo-res.org
 * <https://wiki.sugarlabs.org/go/User:Vipulroxx>
 * <https://wiki.sugarlabs.org/go/User:Ydymsky>
 * <https://wiki.sugarlabs.org/go/User:Zephyr>
-
 
