@@ -144,6 +144,7 @@ join/support/participate
    * http://beagleboard.org
    * http://getchip.com/pages/pocketchip
    * http://www.recycleusb.com
+   * http://www.qimo4kids.com
 
 ## Tertiary Elements 
 
