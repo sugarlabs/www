@@ -79,6 +79,7 @@ about
 * "Learning To Change The World" full text liberated
 * case studies
    * a table listing each user community ("deployment" or "local lab"?) and a person in each community who Sugar Labs can talk with? (Starting with http://wiki.laptop.org/go/Manufacturing_data)
+   * show off where our users are ([map](http://stats.sugarlabs.org/activities.sugarlabs.org/awstats.pl?framename=mainright&output=alldomains))
 * detailed information about the Sugar Labs organization
    * Explanation of Conservancy
    * SLOB Minutes
