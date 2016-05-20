@@ -81,6 +81,8 @@ about
    * a table listing each user community ("deployment" or "local lab"?) and a person in each community who Sugar Labs can talk with? (Starting with http://wiki.laptop.org/go/Manufacturing_data)
    * show off where our users are ([map](http://stats.sugarlabs.org/activities.sugarlabs.org/awstats.pl?framename=mainright&output=alldomains))
    * statistics ([scratch example](https://scratch.mit.edu/statistics))
+   * conference presentations
+      * https://www.youtube.com/watch?v=h1RBAq6GN7o
 * detailed information about the Sugar Labs organization
    * Explanation of Conservancy
    * SLOB Minutes
