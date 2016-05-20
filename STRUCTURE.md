@@ -97,6 +97,7 @@ try now
 
 download
 * SOAS
+* Chromebooks
 * Instructions + videos showing how to install on major distro packaging systems
    * www.ubuntu.com www.linuxmint.com www.debian.org www.raspbian.org
    * www.fedora-project.org www.centos.com
