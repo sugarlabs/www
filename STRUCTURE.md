@@ -128,6 +128,7 @@ join/support/participate
 * how to start a local lab
   * funding (Google RISE)
   * training materials (eg <https://olpcnyc.wordpress.com/training-materials>, <https://wiki.sugarlabs.org/go/Tutorials/Tutorials.iso>)
+  * [mariah's guide](http://mariahnoelle.com/wp-content/uploads/2014/04/sugarlabsgcioutreach.png)
 * how to contribute to translation
   * raise funds to pay (Nigeria case study?)
 * how to contribute to usability
