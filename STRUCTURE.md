@@ -44,7 +44,7 @@ A [conversion funnel](https://www.google.com/search?q=conversion+funnel&tbm=isch
 
 5. Participants: Retention/Loyalty
     * Schedule for 12+ months of usage (curricular scale)    
-      * Lesson plans (eg, [how to get a microscope working with an XO](https://wiki.sugarlabs.org/go/Talk:EduJAM/2011))
+      * Lesson plans (eg, [how to get a microscope working with an XO](https://wiki.sugarlabs.org/go/Talk:EduJAM/2011), [4th grade curriculum lessons](https://wiki.sugarlabs.org/go/Math4Team/Resources/Curriculum_Chart))
     * Actively participate in the community
       * post on mailing list
       * post translation improvements
