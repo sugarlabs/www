@@ -84,6 +84,7 @@ about
    * statistics ([scratch example](https://scratch.mit.edu/statistics))
    * conference presentations
       * https://www.youtube.com/watch?v=h1RBAq6GN7o
+   * [sf summit posters](http://www.olpcsf.org/CommunitySummit2013/posters)
 * detailed information about the Sugar Labs organization
    * Explanation of Conservancy
    * SLOB Minutes
@@ -152,6 +153,7 @@ join/support/participate
    * http://getchip.com/pages/pocketchip
    * http://www.recycleusb.com
    * http://www.qimo4kids.com
+   * https://kidswrite.org/our-story
 
 ## Tertiary Elements 
 
