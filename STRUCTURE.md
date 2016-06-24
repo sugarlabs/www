@@ -15,7 +15,7 @@ A [conversion funnel](https://www.google.com/search?q=conversion+funnel&tbm=isch
     * Measure impressions/reach
 
 2. Visitors: Landing Page, Realization of Need, Interest/Desire, Engage leads, Familiarity
-    * Assert the unmet needs the "one key fan" users face, and how the products/services addresse their needs
+    * Assert the unmet needs the "one key fan" users face, and how the products/services address their needs
     * Survey their needs/expectations
     * Calls To Action
     * Measure active daily users
@@ -67,6 +67,7 @@ The elements on the 2nd/3rd levels of the list are the 'secondary navigation' an
 
 home
 * What do middle school kids need? How Sugar addresses those needs.
+   * "What I would like from marketing is some mechanism for highlighting the powerful ideas in Sugar that seem to be lacking in most other systems so that even if a school decides to go with a different product/project, they put pressure on that project to provide tools, not apps, collaboration, transparency, self reflection and group critique, and responsibility on the shoulders of students and teachers to shape their own world." - Walter Bender
 * "A successful technology creates problems that only it can solve." - Alan Kay
 * Story telling: one great case study (from OLPC France?)
 * Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), size of active user base from <http://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf>, http://wiki.laptop.org/go/ALEARN_Network, etc.
