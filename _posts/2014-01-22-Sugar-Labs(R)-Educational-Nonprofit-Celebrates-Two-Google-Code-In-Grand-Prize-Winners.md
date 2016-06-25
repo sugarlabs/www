@@ -61,10 +61,9 @@ director of the Software Freedom Conservancy.
 [1] <http://developers.google.com/open-source/gci/>  
 [2] <http://google-opensource.blogspot.fr/2014/01/google-code-in-2013-drumroll-please.html>
 
-![SugarLabs_GCI_2013_Winner_Ignacio.jpg](/press/SugarLabs_GCI_2013_Win
-ner_Ignacio.jpg)  
-![SugarLabs_GCI_2013_Winner_Jorge.jpg](/press/SugarLabs_GCI_2013_Winne
-r_Jorge.jpg)
+<img src="/press/SugarLabs_GCI_2013_Winner_Ignacio.jpg" alt="SugarLabs_GCI_2013_Winner_Ignacio.jpg" style="width:100%">  
+
+<img src="/press/SugarLabs_GCI_2013_Winner_Jorge.jpg" alt="SugarLabs_GCI_2013_Winner_Jorge.jpg" style="width:100%">  
 
 About Sugar Labs(R): Sugar Labs(R) is a volunteer-driven member project of
 Software Freedom Conservancy, a nonprofit corporation. Originally part of the
