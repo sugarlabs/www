@@ -168,3 +168,10 @@ These elements appear on all pages (typically in a footer area)
 * 'edit this page' link
 * survey (ux questionaire, tell us what you think, tell us if you are a user)
 * 10th year anniversity banner
+
+# Peer Analysis
+
+Here's a list of organizations that might be considered peers with Sugar Labs. 
+Comparing their websites with ours may give us ideas for how we can improve. 
+
+* https://learningequality.org
