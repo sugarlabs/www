@@ -175,3 +175,4 @@ Here's a list of organizations that might be considered peers with Sugar Labs.
 Comparing their websites with ours may give us ideas for how we can improve. 
 
 * https://learningequality.org
+* http://haxe.org
