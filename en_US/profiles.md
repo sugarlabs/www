@@ -66,7 +66,15 @@ date: 2016-05-16
 ### G
 
 * José Miguel García
-* Samson Goddy
+* [Samson Goddy](https://wiki.sugarlabs.org/go/User:Samson_Goddy)
+    * [Twitter](http://twitter.com/samson_goddy){:target="_blank"}
+    * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank"}
+    * [Github](https://github.com/samswag){:target="_blank"}
+    * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank"
+    * **E-mail**: samsongoddy AT gmail DOT com
+    * **Freenode IRC nickname**: samsongoddy
+    * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria. 
+
 * Ayush Goyal
 * [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
     * [GitHub](https://github.com/godiard) (many Activities here)
