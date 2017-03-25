@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Sugar Labs Contributors
-date: 2016-05-16
+date: 2017-03-25
 ---
 ### A
 
