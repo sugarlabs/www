@@ -4,27 +4,65 @@ title: Press Information - Sugar Labs
 permalink: /press/index.html
 ---
 
-<h1>Press Releases</h1>
-<ul class="press">
-  {% for post in site.posts %}<li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <i>{{ post.date | date: "%b %-d %Y" }}</i>
-  </li>{% endfor %}
-</ul>
-<p><a href='/'>Return to main page</a></p>
+<!-- Title section -->
+<div class="section-title1" >
+    <span class="tag tag-regular">PRESS INFORMATION</span>
+</div>
 
-<h1>Contacts & Resources</h1>
-<p>Sean Daly<br/>
-   Marketing Coordinator<br/>
-   <a href="mailto:pr@sugarlabs.org">pr@sugarlabs.org</a><br/>
-   <a href="tel:+1-617-500-9610">+1 (617) 500-9610</a></p>
-<address>Sugar Labs<br/>
-         c/o Software Freedom Conservancy<br/>
-         137 Montague Street, Suite 380<br/>
-         Brooklyn, NY 11201-3548<br/>
-         USA</address>
-<p><a href="http://wiki.sugarlabs.org/go/Marketing_Team/Screen_Shots">
-  High-resolution/vector screenshots</a>,
-  <a href="http://wiki.sugarlabs.org/go/Marketing_Team/Logo">
-  logo materials</a></p>
-<p><a href='/'>Return to main page</a></p>
+<!-- "Press information" section -->
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2">
+                        <div class="border-box customBox">
+                            <h2 class="text-center">Press resources</h2>
+                            <hr>
+                            <ol>
+                                {% for post in site.posts %}<li class="listFont">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                <i>{{ post.date | date: "%b %-d %Y" }}</i>
+                                </li>{% endfor %}
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2">
+                        <div class="border-box customBox" >
+                            <h2 class="text-center" >Contacts & Resources</h2>
+                            <hr>
+                            <ul>
+                                <li class="listFont"><i class="icon ion-ios-person"></i>&nbsp;&nbsp;&nbsp;Sean Daly</li>
+                                <li class="listFont"><i class="icon ion-ios-people"></i>&nbsp;&nbsp;Marketing Coordinator</li>
+                                <li class="listFont"><i class="icon ion-android-mail"></i>&nbsp;&nbsp;<a href="mailto:pr@sugarlabs.org">pr@sugarlabs.org</a></li>
+                                <li class="listFont"><i class="icon ion-ios-telephone"></i>&nbsp;&nbsp;<a href="tel:+1-617-500-9610">+1 (617) 500-9610</a></li>
+                                <li class="listFont"><address><i class="icon ion-ios-home"></i>&nbsp;&nbsp;Sugar Labs<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c/o Software Freedom Conservancy<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;137 Montague Street, Suite 380<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brooklyn, NY 11201-3548<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</address></li>
+                            </ul>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Useful materials and "Back to main page" section -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >
+                <h2>MANY MORE TO CHECK OUT!</h2>
+                <a href="http://wiki.sugarlabs.org/go/Marketing_Team/Screen_Shots"><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >High-resolution/vector screenshots</button></a>
+                <a href="http://wiki.sugarlabs.org/go/Marketing_Team/Logo"><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Logo materials</button></a>
+                <a href="{{ site.baseurl }}/" ><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Return to main page</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
