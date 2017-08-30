@@ -38,6 +38,9 @@ date: 2017-03-25
     * [LinkedIn](https://www.linkedin.com/in/scantero)
     * [Github](https://github.com/scanterog)
 * Ibiam Chihurumnaya
+    * [Facebook](https://www.facebook.com/ibiamchihurumnaya){:target="_blank"}
+    * [E-mail](mailto:ibiamchihurumnaya@sugarlabs.org)
+    * IRC: ibiam
 * [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6) 
     * [GitHub](https://github.com/davelab6)
     * [Email](mailto:dave@lab6.com)
