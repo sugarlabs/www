@@ -4,5 +4,20 @@ https://www.sugarlabs.org/
 https://www.sugarlabs.org/more
 https://www.sugarlabs.org/press
 https://www.sugarlabs.org/inquiry
+https://www.sugarlabs.org/contact-us
+https://www.sugarlabs.org/about-us
+https://www.sugarlabs.org/about-libre-software-culture
+https://www.sugarlabs.org/about-irc
+https://www.sugarlabs.org/booting-soas
+https://www.sugarlabs.org/parents
+https://www.sugarlabs.org/students
+https://www.sugarlabs.org/school-administrators
+https://www.sugarlabs.org/sugar-lesson-plans
+https://www.sugarlabs.org/sugar-stories
+https://www.sugarlabs.org/sugar-for-raspberry-pi
+https://www.sugarlabs.org/sugar-for-raspbian
+https://www.sugarlabs.org/search
+https://www.sugarlabs.org/music-blocks
+https://www.sugarlabs.org/turtle-blocks-js
 {% for post in site.posts %}https://www.sugarlabs.org{{ post.url }}
 {% endfor %}

@@ -1,58 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-	   <meta charset="utf-8">
-	   <meta name="viewport" content="width=device-width, initial-scale=1">
-	   <link rel="stylesheet" href="/css/jquery-ui.min.css">
-	   <link rel="stylesheet" href="/css/main.css" />
+<html class="no-js" lang="en">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<link id="defaultIcon1" rel="shortcut icon" href="https://www.sugarlabs.org/assets/favicon_06.png" />
+        <title>{{ page.title }}</title>
+        <link href="{{ site.baseurl }}/css/googleFonts.css" rel="stylesheet" type="text/css" >
+        <meta name="robots" content="index,follow,NOODP" />
+        <meta name="description" Content="At Sugar Labs, we make FOSS tools that learners use to explore, discover, create, and reflect. We encourage our users to take responsibility for their learning." />
+        <meta name="keywords" Content="Sugar Labs, Sugar, Sugarlabs, Education, Opensource, OpenSource, Sugar activities, activities, Sugar OS, Sugarizer, Sugar on Stick, SOAS, FOSS, Free software, software libre, Free/Libre Software, Constructionism, GSOC, GCI, Outreachy" />
+        <!-- Facebook card -->
+        <meta property="fb:admins" content="552694361,100003527081308,100003017988002,100007693992282" />
+        <meta property="fb:page_id" content="187845102582" />
+        <!-- Twitter card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sugar_labs" />
+        <meta name="twitter:creator" content="@sugar_labs" />
+        <meta name="twitter:title" content="The Sugar Labs" /> 
+        <meta name="twitter:description" content="Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities" />
+        <meta name="twitter:image" content="https://sugarlabs.org/assets/home-screenshot.png" />  
+        <!-- Open graph -->
+        <meta property="og:site_name" content="Sugar Labs" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sugar Labs" />
+        <meta property="og:url" content="https://geekrypter.github.io/sugarLabsWebsiteRedesign/" />
+        <meta property="og:description" content="Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities." />
+        <meta property="og:image" content="https://sugarlabs.org/assets/home-screenshot.png" />
+        <!-- Google Knowledge Graph card -->
+        <script type='application/ld+json'> 
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Organization",
+              "name": "Sugar Labs",
+              "url": "https://sugarlabs.org/",
+              "logo": "https://sugarlabs.org/assets/logo.png",
+              "description": "Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities."
+            } 
+        </script>
+        <!-- CSS files-->
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/minified/airspace.css" />
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/dist/css/social-share-kit.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/dist/css/social-share-kit.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/ionicons.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/owl.carousel.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css"></noscript>
+        <!-- Javascript files-->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script>
+            if(typeof($.fn.modal) === 'undefined') {document.write('<script src="{{ site.baseurl }}/js/bootstrap.js"><\/script>')}
+        </script>
+        <script  type="text/javascript" src="{{ site.baseurl }}/js/minified/main.js" defer></script>
+        <link rel="canonical" href="https://geekrypter.github.io/sugarLabsWebsiteRedesign/" />
+        <link rel="alternate" type="application/rss+xml" title="http://planet.sugarlabs.org/" />
+        <script type="text/javascript" defer>
+            $(window).load(function() {
+                $(".loader").fadeOut("slow");
+            })
+        </script>
+    </head>
+    <body {{ page.bodyExt }}>
 
-	   <script type="text/javascript" src="/js/jquery-2.2.3.min.js"></script>
-	   <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
-
- 		 <link id="defaultIcon" rel="shortcut icon" href="https://www.sugarlabs.org/assets/favicon_06.png" />
-    <title>{{ page.title }}</title>
-
-    <meta name="robots" content="index,follow,NOODP" />
-    <meta name="description" Content="At Sugar Labs, we make a collection of tools that learners use to explore, discover, create, and reflect. We are non-profit and led by volunteers. We distribute these tools freely and encourage our users to appropriate them, taking ownership and responsibility for their learning." />
-    <meta name="keywords" Content="Sugar Labs, Sugar, Sugarlabs, Education, Opensource, OpenSource, Sugar activities, activities, Sugar OS, Sugarizer, Sugar on Stick, SOAS" />
-
-    <!-- Facebook card -->
-    <meta property="fb:admins" content="552694361,100003527081308,100003017988002,100007693992282" />
-    <meta property="fb:page_id" content="187845102582" />
-
-    <!-- Twitter card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@sugar_labs" />
-    <meta name="twitter:creator" content="@sugar_labs" />
-    <meta name="twitter:title" content="The Sugar Labs" /> 
-    <meta name="twitter:description" content="Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities" />
-    <meta name="twitter:image" content="https://sugarlabs.org/assets/home-screenshot.png" />  
-
-    <!-- Open graph -->
-    <meta property="og:site_name" content="Sugar Labs" />
-    <meta property="og:type" content="Organization" />
-    <meta property="og:title" content="Sugar Labs" />
-    <meta property="og:url" content="https://www.sugarlabs.org" />
-    <meta property="og:description" content="Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities." />
-    <meta property="og:image" content="https://sugarlabs.org/assets/home-screenshot.png" />
-
-    <!-- Google Knowledge Graph card -->
-    <script type='application/ld+json'> 
-        {
-          "@context": "http://www.schema.org",
-          "@type": "Organization",
-          "name": "Sugar Labs",
-          "url": "https://sugarlabs.org/",
-          "logo": "https://sugarlabs.org/assets/logo.png",
-          "description": "Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities."
-        }
-    </script>
-
-    <link rel="canonical" href="https://www.sugarlabs.org/" />
-    <link rel="alternate" type="application/rss+xml" title="http://planet.sugarlabs.org/" />
-  </head>
-  <body {{ page.bodyExt }}>
     {{ content }}
-    <script src="/js/main.js"></script>
-  </body>
+
+    </body>
 </html>

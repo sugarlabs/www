@@ -1,0 +1,226 @@
+---
+layout: default
+title: Sugar for Raspbian - Sugar Labs
+permalink: /sugar-for-raspbian/index.html
+---
+
+<!-- Title section -->
+<section id="call-to-action" class="cta">
+    <div class="container customPadding1">
+        <div class="row">
+            <div class="col-md-6" >
+                <h2 class="leftAlign"><b>SUGAR FOR RASPBIAN</b></h2>
+                </br>
+                <p class="customParagraphStyle3">Welcome to the Sugar for Raspbian site. Here you will find all you need to get started with Sugar for Raspbian.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Navigation buttons -->
+<section id="exTab3" >
+    <div class="container customPadding1">
+        <ul  class="nav nav-pills" >
+            <li>
+            <a  href="#1h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Introduction</span></a>
+            </li>
+            <li><a href="#2h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Sugar on Raspbian</span></a>
+            </li>
+            <li><a href="#3h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Pre-built Images</span></a>
+            </li>
+            <li><a href="#4h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Without Sugar Desktop</span></a>
+            </li>
+            <li><a href="#5h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Headless Raspberry Pi</span></a>
+            </li>
+            <li><a href="#6h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Turtle Art/Blocks</span></a>
+            </li>
+            <li><a href="#7h" class="btn btn-custom bt hrefCustomColor2"><span class="customSpanColor">Sugarizer</span></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- "Sugar for Raspbian" section -->
+<section id="testimonial" class="test">
+    <div class="container customPadding1"> 
+        <div class="row">   
+            <div class="col-md-8" >
+                <span class="anchor1" id="1h"></span>
+                <h3>Introduction</h3>
+                <hr>
+                <p class="customParagraphStyle2">Raspbian is a derivative of <a href="https://wiki.sugarlabs.org/go/Debian" style="text-decoration:underline;">Debian</a> for the Raspberry Pi.</p>
+                <p class="customParagraphStyle2">In relation to Sugar, Raspbian is a downstream distribution project that can be used to run Sugar.</p>
+                <span class="anchor1" id="2h"></span>
+                <h3>Using Sugar 0.110 on Raspbian</h3>
+                <hr>
+                 <p class="customParagraphStyle2">To use Sugar in Raspbian is almost the same as using it in Debian:</p>
+                <ul class="listDiscStyle customMargin2">
+                    <li>install Raspbian Jessie in the usual way,</li>
+                </ul> 
+                <ul class="listDiscStyle customMargin2">
+                    <li>change <i>/etc/apt/sources.list</i> to use the Stretch testing release,</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">sudo sed -i 's/jessie/stretch/g' /etc/apt/sources.list
+                        </thead>
+                    </table>
+                </div> 
+                <ul class="listDiscStyle customMargin2" >
+                    <li>update the package lists,</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">sudo apt update
+                        </thead>
+                    </table>
+                </div>
+                <ul class="listDiscStyle customMargin2" >
+                    <li>upgrade all packages,</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">sudo apt dist-upgrade,
+                        </thead>
+                    </table>
+                </div>
+                <ul class="listDiscStyle customMargin2">
+                    <li>install Sugar,</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">sudo apt install sucrose
+                        </thead>
+                    </table>
+                </div>
+                <ul class="listDiscStyle customMargin2">
+                    <li>log out,</li>
+                    <li>log in with the Sugar desktop selected.</li>
+                </ul> 
+                <span class="anchor1" id="3h"></span>
+                <h3>Pre-built Images</h3>
+                <hr>
+                <p class="customParagraphStyle2">There are no pre-built images for Raspbian with Sugar.</p>
+                <p class="customParagraphStyle2">Report issues to <a href="https://github.com/sugarlabs/rpi23-gen-image" style="color: black;"><span style="text-decoration: underline;">https://github.com/sugarlabs/rpi23-gen-image</span></a></p>
+                <span class="anchor1" id="4h"></span>
+                <h3>Using Sugar Activities without Sugar Desktop</h3>
+                <hr>
+                <p class="customParagraphStyle2">Debian packaging of Sugar Activities adds them to the Education menu, so they can be used from desktops other than Sugar.</p>
+                <span class="anchor1" id="5h"></span>
+                <h3>Using Sugar on a headless Raspberry Pi</h3>
+                <hr>
+                <p class="customParagraphStyle2">You have a Raspberry Pi but you've run out of keyboards, mice, and HDMI displays. Use the 'net.</p>
+                <ul class="listDiscStyle  customMargin2">
+                    <li>On the Raspberry Pi:</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">
+                                    sudo apt install xrdp<br/>
+                                    adduser guest<br/>
+                                    echo sugar >> /home/guest/.xsession  
+                        </thead>
+                    </table>
+                </div>
+                <ul class="listDiscStyle customMargin2" >
+                    <li>On your other computer:</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">
+                                    rdesktop -g 1200x900 -u guest -p guest IP  
+                        </thead>
+                    </table>
+                </div>
+                <p class="customParagraphStyle2">See <a href="https://www.element14.com/community/docs/DOC-78170/l/connecting-to-a-remote-desktop-on-the-raspberry-pi" style="color: black;"><span style="text-decoration: underline;">Connecting to a remote desktop on the Raspberry Pi.</span></a></p>
+                <span class="anchor1" id="6h"></span>
+                <h3>Turtle Art/Blocks</h3>
+                <hr>
+                <ul class="listDiscStyle" style="margin-left:40px;margin-bottom:20px;">
+                    <li>You can download <a href="https://wiki.sugarlabs.org/go/Activities/Turtle_Art" style="color: black;"><span style="text-decoration: underline;">Activities/Turtle Art</span></a> and use it on the normal desktop. You can either download it through the package manager (and get version 98):</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">
+                                    sudo apt-get install sugar-turtleart-activity    
+                        </thead>
+                    </table>
+                </div>
+                <p class="customParagraphStyle2">Turtle art will be added to the Education section of the apps menu.</p>
+                <ul class="listDiscStyle" style="margin-left:40px;margin-bottom:20px;">
+                    <li>Or you could get the latest version using git:</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">
+                                    git clone https://github.com/sugarlabs/activity-turtleart-gtk2.git turtleart<br/>
+                                    cd turtleart 
+                        </thead>
+                    </table>
+                </div>
+                <ul class="listDiscStyle" style="margin-left:40px;margin-bottom:20px;">
+                    <li>And use the following to start Turtle Art:</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">
+                                    python turtleblocks.py
+                        </thead>
+                    </table>
+                </div>
+                <p class="customParagraphStyle2"><b>NOTE:</b> you may encounter an error related to the summary field in the activity.info. If so, open the activity/activity.info file and move the summary field from the bottom of the file, to being the line below the title field</p>
+                <span class="anchor1" id="7h"></span>
+                <h3>Sugarizer</h3>
+                <hr>
+                <p class="customParagraphStyle2"><a href="http://sugarizer.org/" style="color: black;"><span style="text-decoration: underline;">Sugarizer</span></a> is a HTML5 version of Sugar. It has a basic journal and full web activity support.</p>
+                <ul class="listDiscStyle" style="margin-left:40px;margin-bottom:20px;">
+                    <li>You can configure Sugarizer to auto-start by setting your <i>~/.xinitrc</i> to:</li>
+                </ul> 
+                <div id="custom_table">
+                    <table style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="color:#ffffff">
+                                    epiphany server.sugarizer.org
+                        </thead>
+                    </table>
+                </div>
+                <p class="customParagraphStyle2">(<b>Note:</b> there are a few issues with the browser icons... but sugarizer works well)</p>
+                <p class="customParagraphStyle2">Alternatively, you can download the <a href="http://sugarizer.org/org.olpc-france.sugarizer.zip" style="color: black;"><span style="text-decoration: underline;">Sugarizer client zip</span></a> and have it locally on your pi.</p>
+            </div>
+        </div>
+    </div>      
+</section>
+
+<!-- "Return to main page" button section -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >
+                <a href="{{ site.baseurl }}/" ><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Return to main page</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
