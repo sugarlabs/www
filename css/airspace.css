@@ -189,17 +189,29 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #7B7B7B;
   padding-top: 20px;
 }
-#intro .block iframe {
-    width: 100%; /*the image width*/
-        height: 350px;
-        margin-top: 33px; /*the image height*/
+/* 
+  Distance, so that the video is flush with
+  the end of the left font at the top on desktop
+  devices
+*/
+@media only screen and (min-width: 992px) {
+  #intro .block iframe {
+    margin-top: 68px; 
+  }
 }
-#intro .block video {
-    width: 100%; /*the image width*/
-        height: 350px;
-        margin-top: 33px; /*the image height*/
+/* 
+  Center the video and have always a full width on mobile
+  devices  
+*/
+@media only screen and (max-width: 991px) {
+  #intro .block iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-height: 406px;
+  }
 }
-
 #intro .section-title {
   margin-bottom: 0px;
 }
