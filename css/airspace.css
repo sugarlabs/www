@@ -189,11 +189,20 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #7B7B7B;
   padding-top: 20px;
 }
+/* 
+  Distance, so that the video is flush with
+  the end of the left font at the top on desktop
+  devices
+*/
 @media only screen and (min-width: 992px) {
   #intro .block iframe {
-    margin-top: 68px;
+    margin-top: 68px; 
   }
 }
+/* 
+  Center the video and have always a full width on mobile
+  devices  
+*/
 @media only screen and (max-width: 991px) {
   #intro .block iframe {
     display: block;
