@@ -2413,10 +2413,10 @@ input.gsc-input,
 }
 }
 .hrefCustomColor{
-  color: #fa99e3;
+  color: #fa99e3 !important;
 }
 .hrefCustomColor:hover{
-  color: #d465d6;
+  color: #d465d6 !important;
 }
 .hrefCustomColor2{
   color: #1d192c;
@@ -2585,7 +2585,7 @@ margin:0 0 0 0 !important;
   font-size:15px;
 }
 .footerListStyle:hover{
-  color: #d465d6;
+  color: #d465d6 !important;
 }
 .footerHeaderStyle{
   margin-bottom:14px;
