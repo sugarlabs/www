@@ -2,6 +2,8 @@
 .ssk-instagram{ background: linear-gradient(#4c4bdb, transparent), 
               linear-gradient( 
               60deg,  #ffff00 , #ff00d3,   #0e39dc);
-              border-radius: 5px;}.instagram_colour:hover{background-color:#703688}
-   .ssk-github { background: #000 !important ;
-                 border-radius: 5px;} 
+              border-radius: 5px;}
+.ssk-instagram.ssk-icon:hover {
+              color: #d9a1f1}
+.ssk-github { background: #000 !important ;
+              border-radius: 5px;} 
