@@ -220,7 +220,7 @@ if (typeof jQuery.waypoints == 'undefined') {
             $this.parents('.panel').find('.panel-body').slideUp();
             $this.addClass('panel-collapsed');
             $this.removeClass('ion-minus-round').addClass('ion-plus-round');
-        } 
+        }
         else {
             $this.parents('.panel').find('.panel-body').slideDown();
             $this.removeClass('panel-collapsed');
@@ -234,7 +234,7 @@ if (typeof jQuery.waypoints == 'undefined') {
             $this.parents('.panel').find('.panel-body').slideUp();
             $this.addClass('panel-collapsed');
             $this.removeClass('ion-minus-round').addClass('ion-plus-round');
-        } 
+        }
         else {
             $this.parents('.panel').find('.panel-body').slideDown();
             $this.removeClass('panel-collapsed');
@@ -260,7 +260,7 @@ if (typeof jQuery.waypoints == 'undefined') {
     $(document).on("scroll", function () {
         if ($(document).scrollTop() > 10) {
             $("header").removeClass("large").addClass("small");
-        } 
+        }
         else {
             $("header").removeClass("small").addClass("large");
         }
@@ -276,14 +276,14 @@ if (typeof jQuery.waypoints == 'undefined') {
         var slides = document.getElementsByClassName("mySlides");
         var dots = document.getElementsByClassName("dot1");
         for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+            slides[i].style.display = "none";
         }
         slideIndex++;
-        if (slideIndex> slides.length) {slideIndex = 1}    
+        if (slideIndex> slides.length) {slideIndex = 1}
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active1", "");
         }
-        slides[slideIndex-1].style.display = "block";  
+        slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active1";
         setTimeout(function(){showSlides();}, 5000);
     }
