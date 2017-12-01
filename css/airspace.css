@@ -2475,11 +2475,26 @@ input.gsc-input,
 
   }
 @media only screen and (max-width: 991px) {
-.boxDownload2{
-  height: auto;
-}
-
+  .boxDownload2{
+    height: auto;
   }
+  .align-center-md {
+    display: flex !important;
+    justify-content: center;
+  }
+  .align-center-col-md {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-center-md {
+    text-align: center !important;
+  }
+  .footer-email-input-md {
+    width: 35% !important;
+    margin-right: 0px !important;
+  }
+}
 
 .leftAlign{
   text-align: left;
