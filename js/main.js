@@ -79,6 +79,12 @@ $(document).ready(function(){
       trigger: 'focus'
     })
     // Slideshows code
+
+    $("#glimpse-slider").owlCarousel({
+        paginationSpeed : 500,
+        singleItem:true,
+        autoPlay: 3000,
+    });
     $("#testimonial-slider1").owlCarousel({
         paginationSpeed : 500,
         singleItem:true,
