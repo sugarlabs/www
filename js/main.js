@@ -25,13 +25,13 @@ $(document).ready(function(){
     $( ".widget h4" ).click(
         function() {
             $(this).parent().toggleClass('active');
-    }); 
+    });
     // Disabling code
     // Opera 8.0+
     var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
     // Firefox 1.0+
     var isFirefox = typeof InstallTrigger !== 'undefined';
-    // Safari 3.0+ "[object HTMLElementConstructor]" 
+    // Safari 3.0+ "[object HTMLElementConstructor]"
     var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
     // Internet Explorer 6-11
     var isIE = /*@cc_on!@*/false || !!document.documentMode;
@@ -73,44 +73,50 @@ $(document).ready(function(){
     var $this = $(".panel-heading span.icon_minim");
     $this.addClass('panel-collapsed');
     $this.removeClass('ion-minus-round').addClass('ion-plus-round');
-    $('[data-toggle="tooltip"]').tooltip(); 
+    $('[data-toggle="tooltip"]').tooltip();
     $('[data-toggle="popover"]').popover();
     $('.popover-dismiss').popover({
       trigger: 'focus'
-    }) 
+    })
     // Slideshows code
+
+    $("#glimpse-slider").owlCarousel({
+        paginationSpeed : 500,
+        singleItem:true,
+        autoPlay: 3000,
+    });
     $("#testimonial-slider1").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
     });
     $("#testimonial-slider2").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
-    }); 
+    });
     $("#testimonial-slider3").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
     });
     $("#testimonial-slider4").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
     });
     $("#testimonial-slider5").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
     });
     $("#testimonial-slider6").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
     });
     $("#testimonial-slider7").owlCarousel({
-        paginationSpeed : 500,      
+        paginationSpeed : 500,
         singleItem:true,
         autoPlay: 3000,
     });
@@ -119,7 +125,7 @@ $(document).ready(function(){
     	items : 5,
     	itemsDesktop : [1199,5],
     	itemsDesktopSmall : [979,5],
-    });	
+    });
     var fullHeight = function() {
     	$('.js-fullheight').css('height', $(window).height());
     	$(window).resize(function(){
@@ -134,5 +140,3 @@ $(document).ready(function(){
         $('#myBtn2').css('display', 'none');
     }
 });
-
-

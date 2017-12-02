@@ -385,7 +385,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #353241;
   font-weight: 600;
 }
-#testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
+.owl-carousel .owl-pagination div {
   border: 1px solid #1D1D1D;
   border-radius: 500px;
   display: inline-block;
@@ -393,7 +393,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: 15px;
   width: 10px;
 }
-#testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
+.owl-carousel .owl-pagination div.active {
   background: #5C5C5C;
   font-size: 32px;
   display: inline-block;
@@ -2475,9 +2475,7 @@ input.gsc-input,
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .boxDownload2{
-  height: 855px;
-}
-
+    height: 855px;
   }
 @media only screen and (max-width: 991px) {
   .boxDownload2{
