@@ -170,9 +170,11 @@ header .navbar-default .navbar-nav li a {
   padding: 10px 26px;
   font-size: 15px;
 }
+header.small .navbar-default .navbar-nav li a {
+  padding-top: 15px;
+}
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
-
 }
 
 /*--
@@ -1388,10 +1390,6 @@ px      68    160    252    344    436    528    620    712    */
 
 }
 
-
-  header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-  }
 header .navbar-default .navbar-nav li a {
   color: #ffffff;
 }
@@ -2674,9 +2672,10 @@ margin:0 0 0 0 !important;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 .customHeaderStyle3{
-right:10px;
-position:fixed;
-font-size:30px;
+  right: 25px;
+  top: 25px;
+  position: fixed;
+  font-size: 30px;
 }
 .customSpanStyle{
   color:#ffffff;
