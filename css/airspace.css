@@ -1102,6 +1102,11 @@ footer .footer-manu ul li a:hover {
     }
 }
 
+.dropdown-menu {
+    overflow: auto;
+    max-height: 100vh;
+}
+
 .test{
   padding-top:20px !important;
   padding-bottom:20px !important;
