@@ -49,15 +49,15 @@
         <!--[if lt IE 9]>
             <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <![endif]-->
-        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script async src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
         <script type="text/javascript">
             if (typeof jQuery == 'undefined') {
-                document.write(unescape("%3Cscript src='/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+                document.write(unescape("%3Cscript async src='/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script>
-            if(typeof($.fn.modal) === 'undefined') {document.write('<script src="{{ site.baseurl }}/js/bootstrap.js"><\/script>')}
+            if(typeof($.fn.modal) === 'undefined') {document.write('<script async src="{{ site.baseurl }}/js/bootstrap.js"><\/script>')}
         </script>
         <script  type="text/javascript" src="{{ site.baseurl }}/js/minified/main.js" defer></script>
         <link rel="canonical" href="https://sugarlabs.org/" />
