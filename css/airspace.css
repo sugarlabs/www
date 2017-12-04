@@ -133,7 +133,7 @@ font header .navbar-default .navbar-nav li a:hover {
   Slider Start
 --*/
 #slider {
-  background: url("../assets/new_bg6.jpg") no-repeat;
+  background: url("../assets/bg6.jpg") no-repeat;
   background-size: cover;
   background-attachment: initial;
   background-position: 10% 0%;
