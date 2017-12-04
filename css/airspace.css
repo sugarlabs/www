@@ -2480,6 +2480,7 @@ input.gsc-input,
   .boxDownload2{
     height: 855px;
   }
+}
 @media only screen and (max-width: 991px) {
   .boxDownload2{
     height: auto;
