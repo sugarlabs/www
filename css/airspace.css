@@ -2420,6 +2420,9 @@ input.gsc-input,
 .hrefCustomColor{
   color: #0099FF;
 }
+.hrefCustomColor:hover {
+  color: #d465d6;
+}
 .hrefCustomColor2{
   color: #1d192c;
 }
