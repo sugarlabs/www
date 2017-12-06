@@ -22,6 +22,19 @@ header.small img{ width: 150px; height: 50px; }
 #navh3{
   display: none;
 }
+
+
+.gsc-input{
+  border:none;
+  border-bottom: 2px solid #7C7A86;}
+      
+.gsc-search-button{ 
+  position: relative;
+    right: 35px;}
+  
+.SearchBarForSugar{
+  width:300px;}
+  
 #navh2{
   transition: all 0.3s;
    -ms-transition: all 0.3s;
