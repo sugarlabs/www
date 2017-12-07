@@ -2307,18 +2307,19 @@ h1:before {
     position: relative;
 }
 
-#secondHeader a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-    content: '\25BC';
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-family: 'Varela Round';
-    font-size: 0.6em;
+@media only screen and (max-width: 1260px) and (min-width: 768px) {
+  #secondHeader a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+      content: '\25BC';
+      display: block;
+      position: absolute;
+      right: 20px;
+      font-family: 'Varela Round';
+      font-size: 0.6em;
+  }
+  #secondHeader a[aria-expanded="true"]::before {
+      content: '\25B2';
+  }
 }
-#secondHeader a[aria-expanded="true"]::before {
-    content: '\25B2';
-}
-
 
 #secondHeader ul ul a {
     font-size: 0.9em !important;
