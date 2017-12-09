@@ -16,6 +16,8 @@
     transition: width 0.4s ease-in-out;
 }
 #SearchBar {border: none;font-size: 18px;width: 73%;
+      -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
     background-color: #E6E6FA;} #SearchBar1 {border: none;font-size: 18px;width: 90%;background-color: #E6E6FA;}
 #searchForm1{margin-left:5px;display:block;padding:5px;border-radius:2px;border-bottom: 2px solid #7C7A86;background-color: #E6E6FA;}
 #searchLink{padding:0px!important;}#searchLink:hover{cursor:pointer;}
