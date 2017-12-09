@@ -5,6 +5,22 @@
        console.log(re);
       document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
       }
+  function expander(){
+	document.getElementById("searchForm").style.width="73%";setTimeout(function(){ 
+	  document.getElementById("SearchBar").style.width="94%"; 
+	document.getElementById("closebtn").style.visibility="visible";
+	document.getElementById("closebutton").style.height="20px";
+	document.getElementById("closebutton").style.width="20px";
+	}, 500);
+}
+	   function condenser(){
+	document.getElementById("searchForm").style.width="200px";
+		   setTimeout(function(){ 
+	  document.getElementById("SearchBar").style.width="70%";document.getElementById("closebtn").style.visibility="hidden";
+		   
+	document.getElementById("closebutton").style.height="0px";
+	document.getElementById("closebutton").style.width="0px";}, 500);
+}
     </script>
 <header class="large" id="firstHeader" >
     <div class="container">
@@ -29,11 +45,14 @@
                             </div>
                         </div>
                         <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
+				 <div id="searchForm">
+                                        <input type="text" id="SearchBar" onchange="searchLoad()" onfocus="expander()">
+                                 <a id="searchLink"><span class="ion-android-search customFontSize3" ></a>
+					 <a onclick="condenser()" id="closebtn" style="visibility:hidden;height:0px;width:0px;position:relative;left:5px;top:2px;">
+					 <svg id="closebutton"height="20px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="20px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+					 </a>
+					 </div>
                             <ul class="nav navbar-nav navbar-right abc">
-                                <li>    <div id="searchForm">
-                                        <input type="text" id="SearchBar" onchange="searchLoad()">
-                                 <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div>
-                                </li>
                                 <li><a href="{{ site.baseurl }}/about-us">About</a></li>
                                 <li><a href="http://server.sugarizer.org">Try Now</a></li>
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Sugar<span class="caret"></span></a>
@@ -103,8 +122,8 @@
                     <div class="sidebar-header">
                         <h3>Sugar Labs</h3>
                     </div>
-                 <div> <div id="searchForm" style="width:230px;" >
-                                    <input type="text" id="SearchBar" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
+                 <div> <div id="searchForm1" style="width:230px;" >
+                                    <input type="text" id="SearchBar1" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
                                  <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div></div>
                     <ul class="list-unstyled components">
                         <li><a href="{{ site.baseurl }}/about-us"><span class="customSpanColor2">About</span></a></li>
