@@ -5,7 +5,7 @@
 #searchForm {
   margin-right:5px;
   position:absolute;
-  left:350px;
+  left:330px;
   bottom:1px;
   z-index:2;
   width: 200px;
@@ -14,7 +14,7 @@
   border-radius: 4px;
   font-size: 16px;
   background-color: #FCFCFC;
-  background-position: 10px 10px; 
+  background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 7px 10px 7px 10px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -27,7 +27,7 @@
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   background-color: #FCFCFC;
-} 
+}
 
 #SearchBar1 {
   border: none;
