@@ -1,4 +1,43 @@
 <!-- Header for screens with width > 1260px and width <= 767px -->
+<script>
+	function searchLoad(){
+		var re = document.getElementById("SearchBar").value;
+		document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
+	};
+	document.addEventListener('keyup', function(ev) {
+		if( ev.keyCode == 13 ) {
+			var re = document.getElementById("SearchBar").value;
+			document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
+			document.getElementById("searchLink").click();}
+	});
+	function expander(){
+		if(window.innerWidth<=767){
+			document.getElementById("searchForm").style.width="90%";
+			document.getElementById("SearchBar").style.width="85%";
+		}else{
+			document.getElementById("searchForm").style.width="53%";
+			document.getElementById("SearchBar").style.width="90%";
+			document.getElementById("menuBar").style.visibility="hidden";
+		}
+		setTimeout(function(){ 
+			document.getElementById("closebtn").style.visibility="visible";
+			document.getElementById("closebutton").style.height="14px";
+			document.getElementById("closebutton").style.width="14px";}, 400);
+	};
+	function condenser(){
+		if(window.innerWidth<=767){
+			document.getElementById("searchForm").style.width="300px";
+			document.getElementById("SearchBar").style.width="85%";}
+		else{
+			document.getElementById("menuBar").style.visibility="visible";
+			document.getElementById("searchForm").style.width="200px";}
+			document.getElementById("SearchBar").style.width="70%";
+		setTimeout(function(){ 
+		document.getElementById("closebutton").style.height="0px";
+		document.getElementById("closebutton").style.width="0px";
+		document.getElementById("closebtn").style.visibility="hidden";}, 400);
+	};
+ </script>
 <header class="large" id="firstHeader" >
     <div class="container">
         <div class="row">
@@ -21,9 +60,18 @@
                                 </a>
                             </div>
                         </div>
+			    
                         <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
-                            <ul class="nav navbar-nav navbar-right abc">
-                                <li><a href="{{ site.baseurl }}/search"><span class="ion-android-search customFontSize3" ></a></li>
+				<div id="searchForm">
+                                        <input type="text" id="SearchBar" onchange="searchLoad()" onfocus="expander()">
+					<a onclick="condenser()" id="closebtn" style="visibility:hidden;height:0px;padding-right:10px;width:0px;position:relative;top:2px;">
+					<svg id="closebutton"height="0px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+					</a>
+                                 	<a id="searchLink"><span class="ion-android-search customFontSize3" ></a>
+					 
+				</div> 
+                            <ul class="nav navbar-nav navbar-right abc" id="menuBar">
+				  
                                 <li><a href="{{ site.baseurl }}/about-us">About</a></li>
                                 <li><a href="http://server.sugarizer.org">Try Now</a></li>
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Sugar<span class="caret"></span></a>
@@ -93,8 +141,11 @@
                     <div class="sidebar-header">
                         <h3>Sugar Labs</h3>
                     </div>
+                 <div> 
+		   <div id="searchForm1" style="width:230px;" >
+                        <input type="text" id="SearchBar1" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
+                        <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div></div>
                     <ul class="list-unstyled components">
-                        <li><a href="{{ site.baseurl }}/search"><span class="ion-android-search customFontSize3 customSpanColor2"></a></li>
                         <li><a href="{{ site.baseurl }}/about-us"><span class="customSpanColor2">About</span></a></li>
                         <li><a href="http://server.sugarizer.org"><span class="customSpanColor2">Try Now</span></a></li>
                         <li ><a href="#getSugarSubmenu" data-toggle="collapse" aria-expanded="false"><span class="customSpanColor2">Get Sugar</span></a>

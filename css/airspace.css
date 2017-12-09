@@ -2,7 +2,53 @@
 /*--
   Common Css
 --*/
+#searchForm {
+  margin-right:5px;
+  position:absolute;
+  left:350px;
+  bottom:1px;
+  z-index:2;
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #FCFCFC;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 7px 10px 7px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+#SearchBar {
+  border: none;
+  font-size: 18px;
+  width: 75%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-color: #FCFCFC;
+} 
 
+#SearchBar1 {
+  border: none;
+  font-size: 18px;
+  width: 90%;
+  background-color: #E6E6FA;
+}
+#searchForm1{
+  margin-left:5px;
+  display:block;
+  padding:5px;
+  border-radius:2px;
+  border-bottom: 2px solid #7C7A86;
+  background-color: #E6E6FA;
+}
+#searchLink{
+  padding-left:0px!important;
+}
+#searchLink:hover{
+  cursor:pointer;
+}
 
 header.large{ height: 100px;
  }
