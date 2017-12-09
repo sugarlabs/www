@@ -1,16 +1,11 @@
 <!-- Header for screens with width > 1260px and width <= 767px -->
-    <script>
-      (function() {
-        var cx = '012847487067797101134:o8sgyrgst24';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
+ <script>
+      function searchLoad(){
+       var re = document.getElementById("SearchBar").value;
+       console.log(re);
+      document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
+      }
     </script>
-
 <header class="large" id="firstHeader" >
     <div class="container">
         <div class="row">
@@ -35,8 +30,10 @@
                         </div>
                         <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
                             <ul class="nav navbar-nav navbar-right abc">
-                                <li><div class="SearchBarForSugar"><gcse:searchbox-only resultsUrl="https://sugarlabs.org/search/">
-                                    </gcse:searchbox-only></div></li>
+                                <li>    <div id="searchForm">
+                                        <input type="text" id="SearchBar" onchange="searchLoad()">
+                                 <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div>
+                                </li>
                                 <li><a href="{{ site.baseurl }}/about-us">About</a></li>
                                 <li><a href="http://server.sugarizer.org">Try Now</a></li>
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Sugar<span class="caret"></span></a>
@@ -106,8 +103,10 @@
                     <div class="sidebar-header">
                         <h3>Sugar Labs</h3>
                     </div>
+                 <div> <div id="searchForm" style="width:230px;" >
+                                    <input type="text" id="SearchBar" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
+                                 <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div></div>
                     <ul class="list-unstyled components">
-                        <li><a href="{{ site.baseurl }}/search"><span class="ion-android-search customFontSize3 customSpanColor2"></a></li>
                         <li><a href="{{ site.baseurl }}/about-us"><span class="customSpanColor2">About</span></a></li>
                         <li><a href="http://server.sugarizer.org"><span class="customSpanColor2">Try Now</span></a></li>
                         <li ><a href="#getSugarSubmenu" data-toggle="collapse" aria-expanded="false"><span class="customSpanColor2">Get Sugar</span></a>
