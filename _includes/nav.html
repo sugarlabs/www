@@ -3,7 +3,7 @@
 	function searchLoad(){
 		var re = document.getElementById("SearchBar").value;
 		document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
-	}
+	};
 	document.addEventListener('keyup', function(ev) {
 		if( ev.keyCode == 13 ) {
 			var re = document.getElementById("SearchBar").value;
@@ -23,7 +23,7 @@
 			document.getElementById("closebtn").style.visibility="visible";
 			document.getElementById("closebutton").style.height="14px";
 			document.getElementById("closebutton").style.width="14px";}, 400);
-	}
+	};
 	function condenser(){
 		if(window.innerWidth<=767){
 			document.getElementById("searchForm").style.width="300px";
@@ -36,7 +36,7 @@
 		document.getElementById("closebutton").style.height="0px";
 		document.getElementById("closebutton").style.width="0px";
 		document.getElementById("closebtn").style.visibility="hidden";}, 400);
-	}
+	};
  </script>
 <header class="large" id="firstHeader" >
     <div class="container">
