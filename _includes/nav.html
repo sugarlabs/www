@@ -5,9 +5,11 @@
        console.log(re);
       document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
       }
-  function expander(){
-	document.getElementById("searchForm").style.width="73%";
-	  document.getElementById("SearchBar").style.width="94%"; 
+  function expander(){  
+	  if(window.innerWidth<=767){
+	document.getElementById("searchForm").style.width="90%";
+	  document.getElementById("SearchBar").style.width="85%";}else{document.getElementById("searchForm").style.width="73%";
+								      document.getElementById("SearchBar").style.width="94%";}
 	  setTimeout(function(){ 
 	  
 	document.getElementById("closebtn").style.visibility="visible";
@@ -16,7 +18,8 @@
 	}, 400);
 }
 	   function condenser(){
-	document.getElementById("searchForm").style.width="200px";
+	{if(window.innerWidth<=767){
+	document.getElementById("searchForm").style.width="300px";}else{document.getElementById("searchForm").style.width="200px";}
 		   
 	  document.getElementById("SearchBar").style.width="70%";
 		   setTimeout(function(){ document.getElementById("closebtn").style.visibility="hidden";
