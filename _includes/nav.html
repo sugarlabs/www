@@ -6,8 +6,10 @@
       document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
       }
   function expander(){
-	document.getElementById("searchForm").style.width="73%";setTimeout(function(){ 
+	document.getElementById("searchForm").style.width="73%";
 	  document.getElementById("SearchBar").style.width="94%"; 
+	  setTimeout(function(){ 
+	  
 	document.getElementById("closebtn").style.visibility="visible";
 	document.getElementById("closebutton").style.height="20px";
 	document.getElementById("closebutton").style.width="20px";
@@ -15,8 +17,9 @@
 }
 	   function condenser(){
 	document.getElementById("searchForm").style.width="200px";
-		   setTimeout(function(){ 
-	  document.getElementById("SearchBar").style.width="70%";document.getElementById("closebtn").style.visibility="hidden";
+		   
+	  document.getElementById("SearchBar").style.width="70%";
+		   setTimeout(function(){ document.getElementById("closebtn").style.visibility="hidden";
 		   
 	document.getElementById("closebutton").style.height="0px";
 	document.getElementById("closebutton").style.width="0px";}, 400);
