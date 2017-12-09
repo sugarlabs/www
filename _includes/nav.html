@@ -5,11 +5,12 @@
        console.log(re);
       document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
       }
-  function expander(){  
+  function expander(){
 	  if(window.innerWidth<=767){
 	document.getElementById("searchForm").style.width="90%";
 	  document.getElementById("SearchBar").style.width="85%";}else{document.getElementById("searchForm").style.width="73%";
 								      document.getElementById("SearchBar").style.width="94%";}
+	   
 	  setTimeout(function(){ 
 	  
 	document.getElementById("closebtn").style.visibility="visible";
@@ -17,13 +18,14 @@
 	document.getElementById("closebutton").style.width="20px";
 	}, 400);
 }
-	   function condenser(){
-	{if(window.innerWidth<=767){
+	   function condenser(){if(window.innerWidth<=767){
 	document.getElementById("searchForm").style.width="300px";}else{document.getElementById("searchForm").style.width="200px";}
 		   
 	  document.getElementById("SearchBar").style.width="70%";
-		   setTimeout(function(){ document.getElementById("closebtn").style.visibility="hidden";
-		   }, 400);
+				setTimeout(function(){ 
+	  
+	document.getElementById("closebtn").style.visibility="hidden";
+	}, 400);
 }
     </script>
 <header class="large" id="firstHeader" >
@@ -49,6 +51,7 @@
                             </div>
                         </div>
                         <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
+				<div>
 				 <div id="searchForm">
                                         <input type="text" id="SearchBar" onchange="searchLoad()" onfocus="expander()">
 					 <a onclick="condenser()" id="closebtn" style="visibility:hidden;height:0px;width:0px;position:relative;top:2px;">
@@ -106,6 +109,7 @@
                                     </ul>
                                 </li>
                             </ul>
+			</div>
                         </div>
                     </div>
                 </nav>
