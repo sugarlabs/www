@@ -35,31 +35,27 @@ if(window.innerWidth > 1260){
 			document.getElementById("searchLink").click();}
 	});
 	function expander(){
-		if(window.innerWidth<=767){
-			document.getElementById("searchForm").style.width="90%";
-			document.getElementById("SearchBar").style.width="88%";
-		}else{
+		if(! window.innerWidth<=767){
 			document.getElementById("searchForm").style.width="53%";
 			document.getElementById("SearchBar").style.width="90%";
 			document.getElementById("menuBar").style.visibility="hidden";
-		}
-		setTimeout(function(){ 
-			document.getElementById("closebtn").style.visibility="visible";
-			document.getElementById("closebutton").style.height="14px";
-			document.getElementById("closebutton").style.width="14px";}, 400);
+		
+			setTimeout(function(){ 
+				document.getElementById("closebtn").style.visibility="visible";
+				document.getElementById("closebutton").style.height="14px";
+				document.getElementById("closebutton").style.width="14px";}, 400);
+			}
 	};
 	function condenser(){
-		if(window.innerWidth<=767){
-			document.getElementById("searchForm").style.width="300px";
-			document.getElementById("SearchBar").style.width="85%";}
-		else{
+		if(! window.innerWidth<=767){
 			document.getElementById("menuBar").style.visibility="visible";
 			document.getElementById("searchForm").style.width="200px";
-			document.getElementById("SearchBar").style.width="75%";}
-		setTimeout(function(){ 
-		document.getElementById("closebutton").style.height="0px";
-		document.getElementById("closebutton").style.width="0px";
-		document.getElementById("closebtn").style.visibility="hidden";}, 300);
+			document.getElementById("SearchBar").style.width="75%";
+			setTimeout(function(){ 
+				document.getElementById("closebutton").style.height="0px";
+				document.getElementById("closebutton").style.width="0px";
+				document.getElementById("closebtn").style.visibility="hidden";}, 300);
+		}
 	};
  </script>
 <header class="large" id="firstHeader" >
