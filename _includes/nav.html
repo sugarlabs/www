@@ -35,7 +35,7 @@ if(window.innerWidth > 1260){
 			document.getElementById("searchLink").click();}
 	});
 	function expander(){
-		if(! window.innerWidth<=767){
+		if( window.innerWidth > 767){
 			document.getElementById("searchForm").style.width="53%";
 			document.getElementById("SearchBar").style.width="90%";
 			document.getElementById("menuBar").style.visibility="hidden";
@@ -47,7 +47,7 @@ if(window.innerWidth > 1260){
 			}
 	};
 	function condenser(){
-		if(! window.innerWidth<=767){
+		if( window.innerWidth > 767){
 			document.getElementById("menuBar").style.visibility="visible";
 			document.getElementById("searchForm").style.width="200px";
 			document.getElementById("SearchBar").style.width="75%";
