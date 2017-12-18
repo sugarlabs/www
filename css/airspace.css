@@ -5,7 +5,7 @@
 #searchForm {
   margin-right:5px;
   position:absolute;
-  left:310px;
+  left:350px;
   bottom:1px;
   z-index:2;
   width: 200px;
@@ -2439,6 +2439,15 @@ input.gsc-input,
   margin-bottom:50px;padding-left:50px;padding-right:50px;
 }
 @media only screen and (max-width: 767px) {
+  #searchForm {
+    margin: 20px;
+    position: relative;
+    left: 0px;
+    width: 280px;
+}
+  #SearchBar {
+    width: 85%;
+}
   .searchBoxStyle{
   margin-bottom:20px;padding-left:5px;padding-right:5px;
 }
