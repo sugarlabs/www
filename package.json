@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sugarlabs/www-sugarlabs"
+    "url": "https://github.com/sugarlabs/www-sugarlabs"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sugarlabs/www-sugarlabsissues"
+    "url": "https://github.com/sugarlabs/www-sugarlabs/issues"
   },
   "homepage": "https://github.com/sugarlabs/www-sugarlabs#readme"
 }
