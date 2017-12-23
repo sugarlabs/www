@@ -1,0 +1,28 @@
+{
+  "name": "www-sugarlabs",
+  "version": "1.0.0",
+  "description": "## Introduction This repository contains the code for the redesigned version of \"www.sugarlabs.org\". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes made during the **GSOC** period can be viewed at [https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63). The repository of the original website is located at [https://github.com/sugarlabs/www-sugarlabs](https://github.com/sugarlabs/www-sugarlabs). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). A live preview of the website is hosted using **Github pages** and can be viewed at [https://geekrypter.github.io/sugarLabsWebsiteRedesign/](https://geekrypter.github.io/sugarLabsWebsiteRedesign/). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib-cssmin": "^2.2.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugarlabs/www-sugarlabs"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sugarlabs/www-sugarlabsissues"
+  },
+  "homepage": "https://github.com/sugarlabs/www-sugarlabs#readme"
+}

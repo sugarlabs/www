@@ -43,7 +43,7 @@ If some changes are not visible (after saving a page while editing), please rest
 ## Important points to be noted
 
 1. Whenever the code is changed, please ensure that the relevant code changes are reflected in **main.js** file (For example, if a slideshow is disabled, make sure the id of the slideshow element/section is also disabled in the **main.js** file if it exists).
-2. Whenever a new commit is made and the changes are made to any one of airspace.css, main.js, or plugins.js files, try to use a minification service and add the minified version of new code in respective **minified** folder. (css and js folders have a **minified** folder)
+2. HTML files read from minified CSS and JS files. While making changes to unminified files, you should use `grunt` to watch changes to the unminified files, and grunt will automatically minify them as needed. Remember to `npm install` before install necessary dependencies before running `grunt`. 
 3. Few dependencies/libraries do not work well with other dependencies/libraries, so make sure to test before updating the dependencies/libraries.
 4. Whenever the website hosting is shifted to another url/domain, please ensure to change the internal url references and also the **sitemap.txt** file.
 5. Do check **Answers to few questions** section to get answers to few of the questions you might have or for steps to be followed.
