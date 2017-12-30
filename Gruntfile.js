@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         cssmin: {
           target: {
             files: {
-                'css/minified/airspace.css': ['css/airspace.css']
+                'css/airspace.minified.css': ['css/airspace.css']
             }
           }
         },

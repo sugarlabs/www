@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules/
+js/minified/
+css/airspace.minified.css
