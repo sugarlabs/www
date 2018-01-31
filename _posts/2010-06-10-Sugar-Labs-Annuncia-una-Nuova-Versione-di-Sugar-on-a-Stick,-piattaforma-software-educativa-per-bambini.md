@@ -11,7 +11,7 @@ bambini nel mondo, ha rilasciato Mirabelle, la terza versione di Sugar on a
 Stick, una piattaforma collaborativa di apprendimento che può essere su un
 normale disco rimovibile USB e utilizzata su un PC, netbook o Mac senza alcuna
 modifica al disco rigido del sistema ospite. e'liberamente disponibile per il
-download dall'indirizzo <http://wiki.sugarlabs.org/go/Sugar_on_a_Stick>. Sugar
+download dall'indirizzo <https://wiki.sugarlabs.org/go/Sugar_on_a_Stick>. Sugar
 funziona in modo nativo sulle principali distribuzioni GNU/Linux e attraaverso
 la virtualizzazione su Microsoft Windows e Apple OS X.
 

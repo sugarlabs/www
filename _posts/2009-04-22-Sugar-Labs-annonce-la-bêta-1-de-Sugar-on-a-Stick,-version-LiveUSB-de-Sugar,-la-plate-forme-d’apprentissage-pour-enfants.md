@@ -18,7 +18,7 @@ aux Macintosh récents en passant par les nouveaux netbooks.
 Les enseignants et parents qui veulent essayer Sugar avec des enfants peuvent
 télécharger le fichier bêta-1 de Sugar on a Stick sur le site web de Sugar
 Labs et le charger sur une clef USB en suivant les instructions sur [wiki.suga
-rlabs.org/go/Sugar_on_a_Stick](http://wiki.sugarlabs.org/go/Sugar_on_a_Stick).
+rlabs.org/go/Sugar_on_a_Stick](https://wiki.sugarlabs.org/go/Sugar_on_a_Stick).
 
 Walter Bender, le directeur exécutif de Sugar Labs, a dit “Sugar est
 parfaitement adapté aux élèves avec son interface simple et vivante, pensée

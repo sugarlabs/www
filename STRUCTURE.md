@@ -70,7 +70,7 @@ home
    * "What I would like from marketing is some mechanism for highlighting the powerful ideas in Sugar that seem to be lacking in most other systems so that even if a school decides to go with a different product/project, they put pressure on that project to provide tools, not apps, collaboration, transparency, self reflection and group critique, and responsibility on the shoulders of students and teachers to shape their own world." - Walter Bender
 * "A successful technology creates problems that only it can solve." - Alan Kay
 * Story telling: one great case study (from OLPC France?)
-* Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), size of active user base from <http://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf>, http://wiki.laptop.org/go/ALEARN_Network, etc.
+* Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), size of active user base from <https://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf>, http://wiki.laptop.org/go/ALEARN_Network, etc.
 * Calls To Action
    * try
    * download + email mini course ([#38](https://github.com/sugarlabs/www-sugarlabs/issues/38))

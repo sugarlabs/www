@@ -13,7 +13,7 @@ d’apprentissage collaboratif, utilisable depuis un PC, un netbook ou un Mac,
 sans aucune manipulation sur le système d’exploitation d’origine installé sur
 son disque, en utilisant une simple clé USB préchargée. Sugar on a Stick est
 téléchargeable à l’adresse suivante:
-<http://wiki.sugarlabs.org/go/Sugar_on_a_Stick>. Le programme Sugar
+<https://wiki.sugarlabs.org/go/Sugar_on_a_Stick>. Le programme Sugar
 fonctionnement nativement avec la majorité des distributions GNU/Linux et peut
 être également utilisé depuis une machine virtuelle sur environnement
 Microsoft Windows ou Apple OS X.

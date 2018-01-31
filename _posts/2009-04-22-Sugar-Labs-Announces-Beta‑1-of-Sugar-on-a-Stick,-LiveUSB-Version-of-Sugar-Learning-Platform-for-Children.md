@@ -18,7 +18,7 @@ Macs to the latest netbooks.
 Teachers and parents interested in trying Sugar with children can download the
 Sugar on a Stick beta‑1 file from the Sugar Labs website and load it onto a
 USB stick by following the instructions at [wiki.sugarlabs.org/go/Sugar_on_a_S
-tick](http://wiki.sugarlabs.org/go/Sugar_on_a_Stick).
+tick](https://wiki.sugarlabs.org/go/Sugar_on_a_Stick).
 
 Walter Bender, Executive Director of Sugar Labs, said “Sugar is perfectly
 suited for children in the classroom with its simple, colorful interface,
