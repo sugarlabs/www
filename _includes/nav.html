@@ -39,12 +39,12 @@
     }
 	function searchLoad(){
 		var re = document.getElementById("SearchBar").value;
-		document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
+		document.getElementById("searchLink").href = "{{ site.baseurl }}/search/?q=" + re;
 	};
 	document.addEventListener('keyup', function(ev) {
 		if( ev.keyCode == 13 ) {
 			var re = document.getElementById("SearchBar").value;
-			document.getElementById("searchLink").href = window.location.href + "/search/?q=" + re;
+			document.getElementById("searchLink").href = "{{ site.baseurl }}/search/?q=" + re;
 			document.getElementById("searchLink").click();}
 	});
 	function expander(){
