@@ -11,12 +11,20 @@
             if(expanded){
                 condenser();}
         });
+        $(document).on("scroll", function () {
+            if ($(document).scrollTop() > 10) {
+                $("#searchForm").removeClass("searchForm-large").addClass("searchForm-small");
+            }
+            else {
+                $("#searchForm").removeClass("searchForm-small").addClass("searchForm-large");
+            }
+        });
         $("#searchForm").click( function(event){
             if(expanded){
             event.stopPropagation();}
         });
         var searchbar = $("#searchForm").offset();
-        var menubar = $("#menuBar").offset();var distance1 = menubar.left -(searchbar.left + 200);   
+        var menubar = $("#menuBar").offset();var distance1 = menubar.left -(searchbar.left + 200);
         if((searchbar.left +200)>menubar.left){
             var distance= distance1 + 13 + searchbar.left;
             $("#searchForm").css("left", distance.toString() + "px");
@@ -52,8 +60,8 @@
             document.getElementById("searchForm").style.width="53%";
             document.getElementById("SearchBar").style.width="90%";
             document.getElementById("menuBar").style.visibility="hidden";
-            
-        setTimeout(function(){ 
+
+        setTimeout(function(){
             document.getElementById("closebtn").style.visibility="visible";
             document.getElementById("closebutton").style.height="14px";
             document.getElementById("closebutton").style.width="14px";
@@ -65,13 +73,13 @@
             document.getElementById("menuBar").style.visibility="visible";
             document.getElementById("searchForm").style.width="200px";
             document.getElementById("SearchBar").style.width="75%";
-            setTimeout(function(){ 
+            setTimeout(function(){
                 document.getElementById("closebutton").style.height="0px";
                 document.getElementById("closebutton").style.width="0px";
                 document.getElementById("closebtn").style.visibility="hidden";
                 expanded = false;}, 300);
         }
-		
+
 	};
  </script>
 <header class="large" id="firstHeader" >
@@ -98,7 +106,7 @@
                         </div>
 
                         <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
-				<div id="searchForm">
+				<div id="searchForm" class="searchForm-large">
                                         <input type="text" id="SearchBar" onchange="searchLoad()">
 					<a onclick="condenser()" id="closebtn" style="visibility:hidden;height:0px;padding-right:5px;width:0px;position:relative;">
 					<svg id="closebutton"height="0px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
