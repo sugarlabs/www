@@ -1454,6 +1454,12 @@ px      68    160    252    */
   padding-top:0px !important;
   padding-bottom:130px !important;
 }
+.img_slider {
+  padding-bottom: 40px!important;
+}
+.sugar_in_browser_try_now {
+  padding-bottom: 70px!important;
+}
 #exTab3{
   margin: 0 0 0 0 !important;
   padding: 0 0 0 0 !important;
