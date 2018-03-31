@@ -5,7 +5,7 @@
 #searchForm {
   margin-right:5px;
   position:absolute;
-  left:350px;
+  left: 315.656px;
   bottom:1px;
   z-index:2;
   width: 200px;
@@ -446,12 +446,12 @@ about-us Project Design
 }
 
 @media (min-width:992px) {
-.project_innerdiv{
-    width: 50%;
+  .project_innerdiv{
+      width: 50%;
+  }
+
+
 }
-
-
-
 
 /*--
   Feature Start
