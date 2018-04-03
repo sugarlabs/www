@@ -252,6 +252,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+.img_slider {
+  padding-bottom: 40px!important;
+}
+.sugar_in_browser_try_now {
+  padding-bottom: 70px!important;
+}
 /*--
   service Start
 --*/
@@ -1167,6 +1173,9 @@ footer .footer-manu ul li a:hover {
   padding-top:0px !important;
   padding-bottom:110px !important;
 }
+.img_slider {
+  padding-bottom: 40px!important;
+}
 .anchor1{
   display: block;
   height: 100px; /*same height as header*/
@@ -1214,6 +1223,9 @@ px      68    160    252    344    436    528    620    712    */
 .intro_img{
   padding-top:0px !important;
   padding-bottom:130px !important;
+}
+.img_slider {
+  padding-bottom: 40px!important;
 }
 #exTab3{
   visibility: hidden;
