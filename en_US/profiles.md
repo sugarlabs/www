@@ -38,6 +38,10 @@ date: 2017-03-25
     * [LinkedIn](https://www.linkedin.com/in/scantero)
     * [Github](https://github.com/scanterog)
 * Ibiam Chihurumnaya
+    * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
+    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com)
+    * [Github](https://github.com/chimosky)
+    * **Freenode IRC nickname**: Ibiam
 * [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6) 
     * [GitHub](https://github.com/davelab6)
     * [Email](mailto:dave@lab6.com)
