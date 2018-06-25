@@ -37,7 +37,7 @@ date: 2017-03-25
     * IRC: scg
     * [LinkedIn](https://www.linkedin.com/in/scantero)
     * [Github](https://github.com/scanterog)
-* Ibiam Chihurumnaya
+* [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"}
     * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
     * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com)
     * [Github](https://github.com/chimosky)
