@@ -1,8 +1,10 @@
 ---
-layout: profile
+layout: default
 title: Sugar Labs Contributors
-date: 2017-03-25
+date: 2018-06-25
 ---
+
+
 ### A
 
 * [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank"}
@@ -42,7 +44,7 @@ date: 2017-03-25
     * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com)
     * [Github](https://github.com/chimosky)
     * **Freenode IRC nickname**: Ibiam
-* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6) 
+* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
     * [GitHub](https://github.com/davelab6)
     * [Email](mailto:dave@lab6.com)
     * IRC: davelab6
@@ -77,7 +79,7 @@ date: 2017-03-25
     * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank"}
     * **E-mail**: samsongoddy AT gmail DOT com
     * **Freenode IRC nickname**: samsongoddy
-    * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria. 
+    * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria.
 
 * Ayush Goyal
 * [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
@@ -150,7 +152,7 @@ date: 2017-03-25
 
 ### O
 
-* [Vik Olliver](https://wiki.sugarlabs.org/go/User:Vik){:target="_blank"} 
+* [Vik Olliver](https://wiki.sugarlabs.org/go/User:Vik){:target="_blank"}
     * **About**: G'day. You've found Vik Olliver's user page. Vik is a longhair systems analyst who works for Catalyst IT Ltd. from his home and workshops in Waitakere, New Zealand. Vik's main ability is to find bugs, and to create useful add-ons... My two main abilities are finding bugs and creating useful add-ons and interfacing the OLPC to bits of hardware that the developing world may find useful. No, my three main ... er, I'll come back and do it again, shall I?
     When not working or playing with an XO, or called out by the fire brigade, Vik is probably fiddling with a RepRap 3D Printer - a machine that uses plastic to print 3D objects, including a set of its own parts if you want. At the moment it seems to be printing XO viewfinders, driven by an XO of course.
 
@@ -195,7 +197,7 @@ date: 2017-03-25
 
 * [Rajan Vaish](https://wiki.sugarlabs.org/go/User:Vaish.rajan){:target="_blank"}  
     * **E-mail**: vaish.rajan AT gmail DOT com  
-    * **About**: Worked on a Geography teaching tool especially teaching maps of North and South America under its first release during Summer 2008. 
+    * **About**: Worked on a Geography teaching tool especially teaching maps of North and South America under its first release during Summer 2008.
 
 ### W
 * [Kalpa Welivitigoda](https://wiki.sugarlabs.org/go/User:Callkalpa){:target="_blank"}
@@ -229,4 +231,3 @@ date: 2017-03-25
 * <https://wiki.sugarlabs.org/go/User:Vipulroxx>
 * <https://wiki.sugarlabs.org/go/User:Ydymsky>
 * <https://wiki.sugarlabs.org/go/User:Zephyr>
-
