@@ -19,5 +19,6 @@ https://www.sugarlabs.org/sugar-for-raspbian
 https://www.sugarlabs.org/search
 https://www.sugarlabs.org/music-blocks
 https://www.sugarlabs.org/turtle-blocks-js
+https://www.sugarlabs.org/profiles
 {% for post in site.posts %}https://www.sugarlabs.org{{ post.url }}
 {% endfor %}

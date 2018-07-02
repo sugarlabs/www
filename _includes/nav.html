@@ -16,7 +16,7 @@
             event.stopPropagation();}
         });
         var searchbar = $("#searchForm").offset();
-        var menubar = $("#menuBar").offset();var distance1 = menubar.left -(searchbar.left + 200);   
+        var menubar = $("#menuBar").offset();var distance1 = menubar.left -(searchbar.left + 200);
         if((searchbar.left +200)>menubar.left){
             var distance= distance1 + 13 + searchbar.left;
             $("#searchForm").css("left", distance.toString() + "px");
@@ -52,8 +52,8 @@
             document.getElementById("searchForm").style.width="53%";
             document.getElementById("SearchBar").style.width="90%";
             document.getElementById("menuBar").style.visibility="hidden";
-            
-        setTimeout(function(){ 
+
+        setTimeout(function(){
             document.getElementById("closebtn").style.visibility="visible";
             document.getElementById("closebutton").style.height="14px";
             document.getElementById("closebutton").style.width="14px";
@@ -65,13 +65,13 @@
             document.getElementById("menuBar").style.visibility="visible";
             document.getElementById("searchForm").style.width="200px";
             document.getElementById("SearchBar").style.width="75%";
-            setTimeout(function(){ 
+            setTimeout(function(){
                 document.getElementById("closebutton").style.height="0px";
                 document.getElementById("closebutton").style.width="0px";
                 document.getElementById("closebtn").style.visibility="hidden";
                 expanded = false;}, 300);
         }
-		
+
 	};
  </script>
 <header class="large" id="firstHeader" >
@@ -149,6 +149,7 @@
                                         <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md" >Contribute to Software</a></li>
                                         <li><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved" >Contribute to Central Organisation</a></li>
                                         <li><a href="https://wiki.sugarlabs.org/go/Category:Project" >Related Projects</a></li>
+                                        <li><a href="{{ site.baseurl }}/profiles">Contributors</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
