@@ -2214,7 +2214,7 @@ h1:before {
   font-size: 23px;
 }
   }
-  @media only screen and (max-width: 1235px) {
+@media only screen and (max-width: 1260px) {
 #mobile-ssk{
   display: none !important;
 }
