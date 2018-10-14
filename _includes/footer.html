@@ -30,7 +30,7 @@
 
 <!-- Footer -->
 <footer  style="background-color:#282828;padding-top:5px;">
-    <h4 style="text-align:right;margin-right:20px;"><a href="#" onclick="topFunction()" class="hrefCustomColor">Back to top&nbsp<i class="icon ion-arrow-up-c"></i></a></h4>
+    <h4 style="text-align:right;margin-right:20px;"><a href="#top" class="hrefCustomColor">Back to top&nbsp<i class="icon ion-arrow-up-c"></i></a></h4>
     <div class="container">
         <div class="row">
             <div class="col-md-12" >
@@ -199,10 +199,10 @@ if (typeof jQuery.waypoints == 'undefined') {
 
 <!-- Inline Javascript scripts -->
 <script  type="text/javascript">
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+	$(document).on('click', "a[href='#top']", function (e) {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+        return false;
+    })
     $(document).ready(function () {
         $("#sidebar").niceScroll({
         cursorcolor: '#53619d',
