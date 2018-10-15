@@ -2447,7 +2447,7 @@ input.gsc-input,
   #searchForm {
     margin: 20px;
     position: relative;
-    left: 0px;
+    left: 0px !important;
     width: 280px;
 }
   #SearchBar {
