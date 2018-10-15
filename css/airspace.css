@@ -1139,13 +1139,6 @@ footer .footer-manu ul li a:hover {
   font-size: 15px;
   cursor: pointer;
 }
-@media (min-width: 767px)
-{
-    ul.nav li.dropdown:hover > ul.dropdown-menu
-    {
-       display: block;
-    }
-}
 
 .dropdown-menu {
     overflow: auto;
