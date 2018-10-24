@@ -2702,3 +2702,6 @@ font-size:30px;
 #mc_embed_signup #mce-error-response {display:none;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+.row * .row:not(:last-child) {
+  margin-bottom: 70px; 
+}
