@@ -6,7 +6,7 @@
 .owl-carousel .owl-item{float:left;}
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{cursor:pointer;}
-.owl-controls{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+.owl-controls{text-align:center;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
 .grabbing{cursor:url(grabbing.png) 8 8, move;}
 .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
