@@ -43,10 +43,9 @@ If some changes are not visible (after saving a page while editing), please rest
 ## Important points to be noted
 
 1. Whenever the code is changed, please ensure that the relevant code changes are reflected in **main.js** file (For example, if a slideshow is disabled, make sure the id of the slideshow element/section is also disabled in the **main.js** file if it exists).
-2. (deleted)
-3. Few dependencies/libraries do not work well with other dependencies/libraries, so make sure to test before updating the dependencies/libraries.
-4. Whenever the website hosting is shifted to another url/domain, please ensure to change the internal url references and also the **sitemap.txt** file.
-5. Do check **Answers to few questions** section to get answers to few of the questions you might have or for steps to be followed.
-6. Be careful when changing the cache control code present in the **.htaccess** file.
-7. Whenever the dependency/library versions are changed, please update the local files of those dependencies as these local files are referenced when the cdn does not work.
-8. The current website uses customized versions of few social media icons (service provided by [Social Share Kit](http://socialsharekit.com)). So we use the local files of the service and do our customizations in the css file of the service (**/assets/dist/css/social-share-kit.css** file in our case). Please be careful when updating the files of this service. (Also refer to **How to change social media icon colors?** subsection in **Answers to few questions** section)
+2. Few dependencies/libraries do not work well with other dependencies/libraries, so make sure to test before updating the dependencies/libraries.
+3. Whenever the website hosting is shifted to another url/domain, please ensure to change the internal url references and also the **sitemap.txt** file.
+4. Do check **Answers to few questions** section to get answers to few of the questions you might have or for steps to be followed.
+5. Be careful when changing the cache control code present in the **.htaccess** file.
+6. Whenever the dependency/library versions are changed, please update the local files of those dependencies as these local files are referenced when the cdn does not work.
+7. The current website uses customized versions of few social media icons (service provided by [Social Share Kit](http://socialsharekit.com)). So we use the local files of the service and do our customizations in the css file of the service (**/assets/dist/css/social-share-kit.css** file in our case). Please be careful when updating the files of this service. (Also refer to **How to change social media icon colors?** subsection in **Answers to few questions** section)
