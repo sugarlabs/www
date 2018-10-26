@@ -1,21 +1,58 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>Last Updated: {{ page.date | date: "%b %-d %Y" }}</p>
-<div id="accordion">
-{{ content }}
+
+<div id="profiles">
+    <h1>Profiles</h1>
+    <h5>Click to expand!</h5>
+    {{ content }}
+    
+    <!-- Modal -->
+    <div class="modal fade" id="profileModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content, display wrong message until click-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Oops!</h4>
+            </div>
+            <div class="modal-body">
+              Something went wrong. Please refresh!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+    </div>
 </div>
 
-<p><a href='/'>Return to main page</a></p>
 <script>
-$(function() {
-    $( "#accordion" ).children("ul").wrap("<div></div>");
+/*global $*/
+$(document).ready(function(){
 
-    $( "#accordion" ).accordion({
-      collapsible: true, 
-      heightStyle: "content",
-      active: false
+    $("#profiles > ul > li").click(function(){
+        let personName = $(this).text()
+            .replace($(this).find("ul").text(), "")
+            .replace(/\n/g, ""); 
+        if($(this).find("a:first-child").text() == personName){
+          $("#profileModal .modal-title").html("<a href='" + 
+            $(this).find("a").attr("href") +
+            "' target='_blank'>" + personName +
+            "</a>");
+        } else {
+          $("#profileModal .modal-title").html(personName);
+        }
+        if($(this).text().replace(personName, "").replace(/\n/g, "") == ""){
+            $("#profileModal .modal-body").html("Apparently this person wants to keep an air of mystery about them!");
+        } else { 
+            
+            $("#profileModal .modal-body").html("<ul>" + $(this).html().replace(personName, "") + "</ul>");
+        }
+        
+        $("#profileModal").modal({backdrop: false});
     });
-  });
+});
 </script>

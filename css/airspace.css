@@ -2702,3 +2702,74 @@ font-size:30px;
 #mc_embed_signup #mce-error-response {display:none;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+/* Profiles Page */
+
+#profiles {
+  margin: 100px 5%;
+}
+@media only screen and (min-width: 1261px) {
+  #profiles {
+    margin: 20px 5%;
+  }
+}
+#profiles > ul {
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#profiles > ul > li {
+  width: 100%;
+  max-height: 300px;
+  background-color:  white;
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px; 
+}
+@media only screen and (min-width: 768px) {
+  #profiles > ul > li {
+    width: 30%;
+  }
+  #profileModal .modal-content{
+    width: 50%;
+    height: 50%;
+    top: 20%;
+    left: 25%;
+  }
+}
+#profiles > ul > li {
+  text-align: center; 
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+}
+#profiles > ul > li:hover {
+  background-color: #ddd;
+}
+#profiles > ul > li > ul :not(strong) {
+  text-align: left; 
+  font-weight: normal;
+  max-height: 100px;
+  overflow-y: hidden;
+}
+#profiles p {
+  line-height: 1.42857143;
+}
+#profiles > ul > li > ul > li:first-child {
+  margin-top: 20px;
+}
+#profileModal {
+  background-color: rgba(51,51,51,0.3);
+}
+#profileModal .modal-body ul li {
+    margin: 20px 0;
+}
+#profileModal .modal-body {
+  height: calc( 100% - 100px);
+  top: 50px;
+}
+#profileModal .modal-header a, #profileModal .modal-header a:focus, #profileModal .modal-header a:active {
+  color: white;
+  text-decoration: underline !important;
+}
