@@ -202,7 +202,7 @@ If some changes are not visible (after saving a page while editing), please rest
 ## Important Points to be Noted
 
 1. Whenever the code is changed, please ensure that the relevant code changes are reflected in **main.js** file (For example, if a slideshow is disabled, make sure the id of the slideshow element/section is also disabled in the **main.js** file if it exists).
-2. Whenever a new commit is made and the changes are made to any one of airspace.css, main.js, or plugins.js files, try to use a minification service and add the minified version of new code in respective **minified** folder. (css and js folders have a **minified** folder)
+2. Whenever a new commit is made and the changes are made to any one of main.js, or plugins.js files, try to use a minification service and add the minified version of new code in respective **minified** folder. (js folder has a **minified** folder)
 3. Few dependencies/libraries do not work well with other dependencies/libraries, so make sure to test before updating the dependencies/libraries.
 4. Whenever the website hosting is shifted to another url/domain, please ensure to change the internal url references and also the **sitemap.txt** file.
 5. Do check **Answers to few questions** section to get answers to few of the questions you might have or for steps to be followed.
