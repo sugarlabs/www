@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: profile
 title: Sugar Labs Contributors
 date: 2018-06-25
 ---
