@@ -20,5 +20,6 @@ https://www.sugarlabs.org/search
 https://www.sugarlabs.org/music-blocks
 https://www.sugarlabs.org/turtle-blocks-js
 https://www.sugarlabs.org/profiles
+https://www.sugarlabs.org/contributors
 {% for post in site.posts %}https://www.sugarlabs.org{{ post.url }}
 {% endfor %}
