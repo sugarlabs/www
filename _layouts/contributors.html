@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<link id="defaultIcon1" rel="shortcut icon" href="https://www.sugarlabs.org/assets/favicon_06.png" />
+        <title>{{ page.title }}</title>
+        <link href="{{ site.baseurl }}/css/googleFonts.css" rel="stylesheet" type="text/css" >
+        <meta name="robots" content="index,follow,NOODP" />
+        <meta name="description" Content="At Sugar Labs, we make FOSS tools that learners use to explore, discover, create, and reflect. We encourage our users to take responsibility for their learning." />
+        <meta name="keywords" Content="Sugar Labs, Sugar, Sugarlabs, Education, Opensource, OpenSource, Sugar activities, activities, Sugar OS, Sugarizer, Sugar on Stick, SOAS, FOSS, Free software, software libre, Free/Libre Software, Constructionism, GSOC, GCI, Outreachy, Sugar Software, Learning" />
+        <!-- Facebook card -->
+        <meta property="fb:admins" content="552694361,100003527081308,100003017988002,100007693992282" />
+        <meta property="fb:page_id" content="187845102582" />
+        <!-- Twitter card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sugar_labs" />
+        <meta name="twitter:creator" content="@sugar_labs" />
+        <meta name="twitter:title" content="The Sugar Labs" /> 
+        <meta name="twitter:description" content="Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities" />
+        <meta name="twitter:image" content="https://sugarlabs.org/assets/home-screenshot.png" />  
+        <!-- Open graph -->
+        <meta property="og:site_name" content="Sugar Labs" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sugar Labs" />
+        <meta property="og:url" content="https://sugarlabs.org/" />
+        <meta property="og:description" content="Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities." />
+        <meta property="og:image" content="https://sugarlabs.org/assets/home-screenshot.png" />
+        <!-- Google Knowledge Graph card -->
+        <script type='application/ld+json'> 
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Organization",
+              "name": "Sugar Labs",
+              "url": "https://sugarlabs.org/",
+              "logo": "https://sugarlabs.org/assets/logo.png",
+              "description": "Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities."
+            } 
+        </script>
+        <!-- CSS files-->
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/airspace.minified.css" />
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/dist/css/social-share-kit.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/dist/css/social-share-kit.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/ionicons.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/owl.carousel.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css"></noscript>
+        
+        <!-- Javascript files-->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script>
+            if(typeof($.fn.modal) === 'undefined') {document.write('<script src="{{ site.baseurl }}/js/bootstrap.js"><\/script>')}
+        </script>
+        <script  type="text/javascript" src="{{ site.baseurl }}/js/minified/main.js" defer></script>
+        <link rel="canonical" href="https://sugarlabs.org/" />
+        <link rel="alternate" type="application/rss+xml" title="http://planet.sugarlabs.org/" />
+        <script type="text/javascript" defer>
+            $(window).load(function() {
+                $(".loader").fadeOut("slow");
+            })
+        </script>
+        <style>
+        @media (min-width:991px) {
+            .bpn {
+                position: relative;
+                top: 10px;
+            }
+        }
+        #mdesc {
+            font-size: 2em;
+            padding: 2% 10%;
+        }
+        body {
+            background-color: #f8f8ff;
+            font-family: 'Varela Round', sans-serif;
+        }
+        h1 {
+            font-weight: 500;
+        }
+        .titleuline {
+            padding-bottom: 0.4%;
+            border-bottom: 1px solid #dedee7;
+        }
+        .intro {
+            padding-top: 1%;
+            font-size: 1em;
+        }
+        .bigrole {
+            margin-top: 0;
+            color: #6a6c70;
+        }
+        .bigname {
+            margin-bottom: 0;
+            font-size: 1.2em;
+        }
+        .bigpimage {
+            height: 120px;
+            width: 120px;
+            background-color: #fff;
+            /*border-radius: 100%;*/
+            box-shadow: 1px 2px 2px rgba(23,39,64,.03), 2px 2px 12px rgba(23,39,64,.09);
+        }
+
+        .bigpimage:hover {
+            box-shadow: 3px 4px 4px rgba(23,39,64,.03), 4px 4px 14px rgba(23,39,64,.09);
+            transition: all .3s ease;
+        }
+        a {
+            cursor: pointer;
+        }
+        .bpr {
+            margin-top: 4px;
+            color: #6a6c70;
+        }
+        .gphoto {
+            height: 100px;
+            width: 100px;
+        }
+        .top-buffer {
+            margin-top:20px; 
+        }
+        .lastupdated {
+            color: #6a6c70;
+        }
+        .mlistp {
+            padding: 10px;
+        }
+        .mlistp p {
+            background-color: rgba(255, 255, 255, 0.466);
+            box-shadow: 1px 2px 2px rgba(23,39,64,.03), 2px 2px 12px rgba(23,39,64,.09);
+            border: 1px solid #dedee7;
+            border-radius: 4px; 
+            padding: 10px;
+        }
+        .mlistp p:hover {
+            box-shadow: 3px 4px 4px rgba(23,39,64,.03), 4px 4px 14px rgba(23,39,64,.09);
+            transition: all .3s ease;
+        }
+        .mininav {
+            display: inline-block;
+            float: none;
+            text-align: center;
+        }
+        .clickable {
+            cursor: pointer;
+        }
+        </style>
+        <!-- Contributors Page Script -->
+        <script src="{{ site.baseurl }}/js/contributors.js"></script>
+        <!-- Showdown script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.7/showdown.min.js"></script>
+    </head>
+    <body {{ page.bodyExt }}>
+
+        {% include nav.html %}
+
+        {{ content }}
+        
+        {% include footer.html %}
+
+    </body>
+</html>
+
