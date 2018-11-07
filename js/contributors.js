@@ -82,6 +82,6 @@ function loadmemberlist() {
             }
         profileid++;
 });
-document.getElementById("members").innerHTML = mhtml;
+document.getElementById("profiles").innerHTML = mhtml;
 initdescs();
 }
