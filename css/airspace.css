@@ -91,7 +91,8 @@ header li{
 
 header.large li{ margin-top: 35px; }
 header.large li.dropdown li{margin-top: 0px;}
-header.small{ height:40px; }
+header.
+{ height:40px; }
 
 header.small #navh{ width: 150px; height: 5px;  }
 body {
@@ -155,7 +156,9 @@ header .navbar {
   border: 0px;
 }
 #firstHeader.small .navbar-default{
-  box-shadow: 0px 1px 20px 0px;
+    box-shadow: 0px 1px 20px 0px rgba(209,209,209,1);
+  -moz-box-shadow: 0px 1px 20px 0px rgba(209,209,209,1);
+  -webkit-box-shadow: 0px 1px 20px 0px rgba(209,209,209,1);
 }
 header .navbar-brand {
   padding-top: 0px;
