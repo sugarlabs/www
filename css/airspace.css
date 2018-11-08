@@ -1487,7 +1487,7 @@ px      68    160    252    */
 
   }
   header.small{
-    height: 500px;
+    height: px;
   }
   header.small #navh{ width: 120px; height: 7px; margin-top: 14px; }
 .divider{
