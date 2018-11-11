@@ -162,6 +162,15 @@ header .navbar-default {
   background: white;
   border: 0px;
 }
+#set {
+    position: fixed;
+    overflow: auto;
+    transition: all 0.15s linear;
+}
+
+#set.active {
+     box-shadow: 0 0 10px rgba(0,0,0,0.4);   
+}
 header .navbar-default .navbar-nav {
   padding-top: 0px;
 }
