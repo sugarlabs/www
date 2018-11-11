@@ -164,7 +164,6 @@ header .navbar-default {
 }
 #set {
     position: fixed;
-    overflow: auto;
     transition: all 0.15s linear;
 }
 
