@@ -168,7 +168,9 @@ header .navbar-default {
 }
 
 #set.active {
-     box-shadow: 0 0 10px rgba(0,0,0,0.4);   
+     -moz-box-shadow: 0 1px 2px #ebebeb;
+	   -webkit-box-shadow: 0 1px 2px #ebebeb;
+     box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);   
 }
 header .navbar-default .navbar-nav {
   padding-top: 0px;
