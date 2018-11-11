@@ -74,15 +74,16 @@
 
 	};
 	$(window).scroll(function() {     
-           var scroll = $(window).scrollTop();
-           if (scroll > 0) {
-               $("#set").addClass("active");
-           }
-           else {
-               $("#set").removeClass("active");
-           }
-	});
- </script>
+             var scroll = $(window).scrollTop();
+             if (scroll > 0) {
+                 $("#header").addClass("active");
+             }
+            else {
+                 $("#header").removeClass("active");
+            }
+        });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <header class="large" id="firstHeader" >
     <div class="container">
         <div class="row">
