@@ -2677,6 +2677,8 @@ margin:0 0 0 0 !important;
   border-radius: 0;
   margin-bottom: 40px;
   box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+  -moz-box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+  -webkit-box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
 }
 .customHeaderStyle3{
 right:10px;
