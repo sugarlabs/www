@@ -322,6 +322,8 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 30px;
 }
 .btn{border:0px solid transparent !important; /* this was 1px earlier */}
+#mc-embedded-subscribe{ width: 58% !important;padding: 6px;}
+
 /*--
   Feature Start
 --*/
