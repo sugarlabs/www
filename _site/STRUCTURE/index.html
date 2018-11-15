@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link id="defaultIcon1" rel="shortcut icon" href="https://www.sugarlabs.org/assets/favicon_06.png" />
+        <title>Information Architecture</title>
+        <link href="/css/googleFonts.css" rel="stylesheet" type="text/css" >
+        <meta name="robots" content="index,follow,NOODP" />
+        <meta name="description" Content="At Sugar Labs, we make FOSS tools that learners use to explore, discover, create, and reflect. We encourage our users to take responsibility for their learning." />
+        <meta name="keywords" Content="Sugar Labs, Sugar, Sugarlabs, Education, Opensource, OpenSource, Sugar activities, activities, Sugar OS, Sugarizer, Sugar on Stick, SOAS, FOSS, Free software, software libre, Free/Libre Software, Constructionism, GSOC, GCI, Outreachy, Sugar Software, Learning" />
+        <!-- Facebook card -->
+        <meta property="fb:admins" content="552694361,100003527081308,100003017988002,100007693992282" />
+        <meta property="fb:page_id" content="187845102582" />
+        <!-- Twitter card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sugar_labs" />
+        <meta name="twitter:creator" content="@sugar_labs" />
+        <meta name="twitter:title" content="The Sugar Labs" /> 
+        <meta name="twitter:description" content="Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities" />
+        <meta name="twitter:image" content="https://sugarlabs.org/assets/home-screenshot.png" />  
+        <!-- Open graph -->
+        <meta property="og:site_name" content="Sugar Labs" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sugar Labs" />
+        <meta property="og:url" content="https://sugarlabs.org/" />
+        <meta property="og:description" content="Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities." />
+        <meta property="og:image" content="https://sugarlabs.org/assets/home-screenshot.png" />
+        <!-- Google Knowledge Graph card -->
+        <script type='application/ld+json'> 
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Organization",
+              "name": "Sugar Labs",
+              "url": "https://sugarlabs.org/",
+              "logo": "https://sugarlabs.org/assets/logo.png",
+              "description": "Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities."
+            } 
+        </script>
+        <!-- CSS files-->
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="/css/airspace.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/dist/css/social-share-kit.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="/assets/dist/css/social-share-kit.css"></noscript>
+        <link rel="stylesheet" type="text/css" href="/css/ionicons.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="/css/ionicons.min.css"></noscript>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="/css/syntax.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="/css/syntax.css"></noscript>
+        <!-- Javascript files-->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
+        
+        <script>
+            if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/bootstrap.js"><\/script>')}
+        </script>
+        <script  type="text/javascript" src="/js/main.js" defer></script>
+        <link rel="canonical" href="https://sugarlabs.org/" />
+        <link rel="alternate" type="application/rss+xml" title="http://planet.sugarlabs.org/" />
+        <script type="text/javascript" defer>
+            $(window).load(function() {
+                $(".loader").fadeOut("slow");
+            })
+        </script>
+    </head>
+    <body >
+
+    <!-- Header for screens with width > 1260px and width <= 767px -->
+<script>
+    if(window.innerWidth > 1260){
+    var expanded = false;
+    $(document).ready(function(){
+        $("#SearchBar").focus(function(event){
+            event.stopPropagation();
+            expander();
+        });
+        $(document).click( function(){
+            if(expanded){
+                condenser();}
+        });
+        $("#searchForm").click( function(event){
+            if(expanded){
+            event.stopPropagation();}
+        });
+        var searchbar = $("#searchForm").offset();
+        var menubar = $("#menuBar").offset();var distance1 = menubar.left -(searchbar.left + 200);
+        if((searchbar.left +200)>menubar.left){
+            var distance= distance1 + 13 + searchbar.left;
+            $("#searchForm").css("left", distance.toString() + "px");
+        }else if(distance1>39){
+            var distance = searchbar.left + distance1 - 39;
+            $("#searchForm").css("left", distance.toString() + "px");}
+        $(window).resize(function(){
+            var searchbar = $("#searchForm").offset();
+            var menubar = $("#menuBar").offset();
+            var distance1 = menubar.left -(searchbar.left + 200) ;
+            if((searchbar.left +200)>menubar.left){
+                var distance= distance1 + 13 + searchbar.left;
+                $("#searchForm").css("left", distance.toString() + "px");
+            }else if(distance1>39){
+                var distance =searchbar.left +  distance1 - 39;
+                $("#searchForm").css("left", distance.toString() + "px");}
+            }
+        );
+    });
+    }
+	function searchLoad(){
+		var re = document.getElementById("SearchBar").value;
+		document.getElementById("searchLink").href = "/search/?q=" + re;
+	};
+	document.addEventListener('keyup', function(ev) {
+		if( ev.keyCode == 13 ) {
+			var re = document.getElementById("SearchBar").value;
+			document.getElementById("searchLink").href = "/search/?q=" + re;
+			document.getElementById("searchLink").click();}
+	});
+	function expander(){
+        if(window.innerWidth > 767){
+            document.getElementById("searchForm").style.width="53%";
+            document.getElementById("SearchBar").style.width="90%";
+            document.getElementById("menuBar").style.visibility="hidden";
+
+        setTimeout(function(){
+            document.getElementById("closebtn").style.visibility="visible";
+            document.getElementById("closebutton").style.height="14px";
+            document.getElementById("closebutton").style.width="14px";
+            expanded = true;}, 400);
+        }
+	};
+	function condenser(){
+        if(window.innerWidth > 767){
+            document.getElementById("menuBar").style.visibility="visible";
+            document.getElementById("searchForm").style.width="200px";
+            document.getElementById("SearchBar").style.width="75%";
+            setTimeout(function(){
+                document.getElementById("closebutton").style.height="0px";
+                document.getElementById("closebutton").style.width="0px";
+                document.getElementById("closebtn").style.visibility="hidden";
+                expanded = false;}, 300);
+        }
+
+	};
+ </script>
+<header class="large" id="firstHeader" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar fixed-top navbar-light">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div id="navh" class="logo1">
+                                <a href="/" class="fixed-top"><svg enable-background="new 0 0 540 180" viewBox="0 0 540 180" xmlns="http://www.w3.org/2000/svg"><path d="m63.05 117.52c-11.05 0-21.12-5.5-21.12-11.539 0-3.157 2.303-5.63 5.244-5.63 2.02 0 3.719 1.183 5.515 2.435 2.592 1.809 5.529 3.855 10.651 3.855 5.139 0 8.21-2.647 8.21-5.209 0-3.416-5.271-5.607-10.852-7.927-7.799-3.243-16.639-6.918-16.639-15.886 0-10.573 9.933-16.279 19.28-16.279 7.89 0 18.895 4.132 18.895 10.86 0 2.526-1.763 5.244-5.632 5.244-2.068 0-3.558-1.125-4.997-2.212-1.872-1.414-3.994-3.02-8.266-3.02-1.209 0-7.242.227-7.242 4.726 0 2.729 4.879 4.613 10.04 6.608 7.772 3 17.446 6.739 17.446 16.333.002 12.12-10.646 17.636-20.538 17.636" fill="#033cd2"/><path d="m63.34 63.1c7.07 0 17.13 3.775 17.13 9.1 0 1.839-1.259 3.484-3.873 3.484-3.677 0-5.13-5.227-13.261-5.227-4.84 0-9 2.129-9 6.485 0 9 27.491 8.03 27.491 22.941 0 10.746-9.196 15.877-18.779 15.877-10.842 0-19.359-5.422-19.359-9.779 0-2.321 1.645-3.87 3.484-3.87 3.775 0 6.873 6.291 16.17 6.291 6.195 0 9.97-3.484 9.97-6.97 0-10.07-27.491-9.486-27.491-23.812-.001-9.485 8.905-14.519 17.52-14.519m0-3.52c-10.2 0-21.04 6.323-21.04 18.04 0 10.142 9.828 14.228 17.724 17.511 4.578 1.903 9.767 4.061 9.767 6.302 0 1.41-2.297 3.45-6.45 3.45-4.569 0-7.15-1.801-9.646-3.541-1.939-1.353-3.944-2.75-6.52-2.75-3.928 0-7 3.246-7 7.39 0 7.085 10.691 13.299 22.879 13.299 10.74 0 22.299-6.069 22.299-19.396 0-10.802-10.733-14.947-18.57-17.974-3.337-1.289-8.921-3.445-8.921-4.968 0-2.822 4.567-2.965 5.482-2.965 3.682 0 5.393 1.292 7.205 2.66 1.593 1.203 3.398 2.566 6.06 2.566 4.284 0 7.393-2.946 7.393-7 0-8.126-12.213-12.62-20.654-12.62z" fill="#78e600"/><path d="m117.65 117.52c-10.726 0-22.19-5.854-22.19-22.281v-27.59c0-3.773 2.418-6.309 6.02-6.309s6.02 2.536 6.02 6.309v27.299c0 7.979 3.224 11.693 10.146 11.693 6.922 0 10.146-3.715 10.146-11.693v-27.3c0-3.773 2.418-6.309 6.02-6.309 3.6 0 6.02 2.536 6.02 6.309v27.59c0 16.428-11.46 22.282-22.18 22.282" fill="#033cd2"/><path d="m133.81 63.1c2.613 0 4.259 1.743 4.259 4.549v27.589c0 15.1-10.07 20.522-20.425 20.522-10.357 0-20.425-5.422-20.425-20.522v-27.589c0-2.807 1.646-4.549 4.26-4.549 2.613 0 4.259 1.743 4.259 4.549v27.299c0 8.809 3.872 13.454 11.907 13.454s11.906-4.646 11.906-13.454v-27.299c0-2.806 1.645-4.549 4.259-4.549m0-3.52c-4.581 0-7.78 3.318-7.78 8.07v27.299c0 8.754-4.239 9.935-8.386 9.935s-8.387-1.181-8.387-9.935v-27.299c0-4.751-3.199-8.07-7.779-8.07-4.581 0-7.78 3.318-7.78 8.07v27.589c0 17.727 12.37 24.04 23.945 24.04s23.945-6.315 23.945-24.04v-27.589c.001-4.751-3.197-8.07-7.778-8.07z" fill="#78e600"/><path d="m175.53 137.85c-8.493 0-21.509-4.994-21.509-11.149 0-2.758 1.671-5.729 5.342-5.729 2.02 0 3.766 1.074 5.785 2.317 2.804 1.728 5.981 3.683 11.06 3.683 10.827 0 12.215-9.426 12.273-13.816-3.037 2.818-7.04 4.37-11.498 4.37-16.03 0-24.414-14.13-24.414-28.09s8.386-28.09 24.414-28.09c4.424 0 8.692 1.905 11.688 4.32.654-2.638 2.95-4.32 6.122-4.32 2.778 0 5.731 2.077 5.731 5.923v44.24c0 16-9.811 26.346-24.993 26.346m1.452-65.63c-9.132 0-12.372 9.271-12.372 17.212s3.24 17.211 12.372 17.211c9.13 0 12.371-9.271 12.371-17.211s-3.241-17.212-12.371-17.212" fill="#033cd2"/><path d="m194.79 63.1c1.645 0 3.969 1.162 3.969 4.163v44.24c0 15.294-9.293 24.587-23.23 24.587-8.809 0-19.747-5.03-19.747-9.389 0-1.742.872-3.969 3.582-3.969 3.872 0 7.648 6 16.843 6 10.843 0 14.04-8.519 14.04-15.875v-4.453h-.194c-2.614 4.453-7.261 7.358-13.07 7.358-14.52 0-22.651-12.682-22.651-26.331s8.131-26.33 22.651-26.33c5.517 0 10.841 3.388 13.07 6.486h.194v-2.324c-.001-2.999 2.225-4.161 4.548-4.161m-17.811 45.3c10.454 0 14.13-10.26 14.13-18.972 0-8.712-3.679-18.973-14.13-18.973-10.455 0-14.13 10.261-14.13 18.973.001 8.713 3.678 18.972 14.13 18.972m17.811-48.822c-3.035 0-5.485 1.289-6.859 3.399-3.083-1.981-6.961-3.399-10.952-3.399-17.18 0-26.17 15.02-26.17 29.85s8.99 29.85 26.17 29.85c3.423 0 6.604-.83 9.352-2.385-.846 4.075-3.355 8.315-10.127 8.315-4.579 0-7.53-1.818-10.134-3.422-2.154-1.326-4.188-2.579-6.708-2.579-4.115 0-7.102 3.149-7.102 7.488 0 7.488 13.898 12.908 23.267 12.908 7.882 0 14.584-2.642 19.383-7.64 4.821-5.02 7.37-12.1 7.37-20.467v-44.23c-.001-4.99-3.859-7.683-7.49-7.683zm-17.811 45.3c-10.1 0-10.613-12.872-10.613-15.453s.512-15.453 10.613-15.453c10.1 0 10.612 12.873 10.612 15.453s-.511 15.453-10.612 15.453" fill="#78e600"/><path d="m256.26 117.52c-2.625 0-5.279-1.729-5.68-5.04-3.492 3.314-7.752 5.04-12.52 5.04-16.03 0-24.411-14.13-24.411-28.09 0-13.958 8.385-28.09 24.411-28.09 4.755 0 8.745 1.484 12.563 4.743.52-3.119 3.091-4.743 5.636-4.743 2.776 0 5.727 2.076 5.727 5.923v44.33c.001 3.846-2.95 5.923-5.726 5.923m-18.199-45.3c-9.132 0-12.373 9.273-12.373 17.212 0 7.94 3.241 17.212 12.373 17.212 9.133 0 12.373-9.272 12.373-17.212 0-7.939-3.24-17.212-12.373-17.212" fill="#033cd2"/><path d="m256.26 63.1c1.645 0 3.967 1.162 3.967 4.163v44.33c0 3-2.322 4.164-3.967 4.164-1.743 0-3.97-1.162-3.97-4.164v-3.581h-.193c-3.678 5.228-8.518 7.745-14.04 7.745-14.521 0-22.651-12.682-22.651-26.331s8.13-26.33 22.651-26.33c5.905 0 10.07 2.516 14.04 6.873h.193v-2.71c0-3 2.227-4.163 3.97-4.163m-18.199 45.3c10.454 0 14.13-10.26 14.13-18.972 0-8.712-3.679-18.973-14.13-18.973-10.455 0-14.13 10.261-14.13 18.973 0 8.713 3.678 18.972 14.13 18.972m18.199-48.822c-2.479 0-5.063 1.254-6.454 3.637-3.564-2.488-7.348-3.637-11.745-3.637-17.18 0-26.17 15.02-26.17 29.85s8.99 29.85 26.17 29.85c4.331 0 8.272-1.291 11.662-3.784 1.37 2.479 4.01 3.784 6.538 3.784 3.63 0 7.487-2.692 7.487-7.684v-44.33c-.001-4.99-3.858-7.683-7.488-7.683zm-18.199 45.3c-10.1 0-10.613-12.872-10.613-15.453s.512-15.453 10.613-15.453c10.1 0 10.613 12.873 10.613 15.453s-.512 15.453-10.613 15.453" fill="#78e600"/><path d="m282.98 117.52c-3.601 0-6.02-2.536-6.02-6.311v-43.561c0-3.774 2.419-6.309 6.02-6.309 3.289 0 5.593 2.118 5.965 5.361 2.537-2.849 6.103-5.361 10.1-5.361 3.768 0 6.503 2.572 6.503 6.115 0 2.326-1.173 5.322-6.76 6.375-2.961.515-9.793 2.788-9.793 12.89v24.49c0 3.774-2.419 6.311-6.02 6.311" fill="#033cd2"/><path d="m299.05 63.1c3 0 4.744 1.936 4.744 4.355 0 2.42-1.744 3.97-5.326 4.647-5.03.871-11.228 4.646-11.228 14.617v24.491c0 2.808-1.646 4.551-4.259 4.551-2.615 0-4.26-1.743-4.26-4.551v-43.561c0-2.807 1.645-4.549 4.26-4.549 2.613 0 4.259 1.743 4.259 4.549v4.356h.194c1.936-3.968 6.679-8.905 11.616-8.905m0-3.52c-3.515 0-6.709 1.664-9.283 3.875-1.286-2.396-3.728-3.875-6.785-3.875-4.581 0-7.779 3.318-7.779 8.07v43.561c0 4.752 3.198 8.07 7.779 8.07 4.58 0 7.778-3.318 7.778-8.07v-24.491c0-8.449 5.206-10.611 8.309-11.148.018-.003.035-.006.054-.01 7.128-1.348 8.191-5.657 8.191-8.105 0-4.564-3.475-7.876-8.264-7.876z" fill="#78e600"/><g fill="#969696"><path d="m324.99 111.21c0 2.808-1.646 4.551-4.259 4.551-2.614 0-4.26-1.743-4.26-4.551v-66.21c0-2.808 1.646-4.55 4.26-4.55 2.613 0 4.259 1.743 4.259 4.55z"/><path d="m386.07 111.59c0 3-2.324 4.164-3.969 4.164-1.742 0-3.969-1.162-3.969-4.164v-3.581h-.193c-3.68 5.228-8.52 7.745-14.04 7.745-14.52 0-22.65-12.682-22.65-26.331s8.131-26.33 22.65-26.33c5.906 0 10.07 2.516 14.04 6.873h.193v-2.71c0-3 2.227-4.163 3.969-4.163 1.645 0 3.969 1.162 3.969 4.163zm-22.17-3.195c10.455 0 14.13-10.26 14.13-18.972 0-8.712-3.678-18.973-14.13-18.973-10.453 0-14.13 10.261-14.13 18.973 0 8.713 3.679 18.972 14.13 18.972"/><path d="m404.95 44.997c0-2.808 1.646-4.55 4.26-4.55s4.26 1.743 4.26 4.55v25.07h.192c2.227-3.194 6.97-6.969 13.745-6.969 13.941 0 21.975 12.681 21.975 26.33s-8.03 26.331-21.975 26.331c-6.775 0-11.324-2.421-13.745-7.07h-.192v2.518c0 2.808-1.646 4.551-4.26 4.551s-4.26-1.743-4.26-4.551zm21.781 63.4c10.453 0 14.13-10.26 14.13-18.972 0-8.712-3.678-18.973-14.13-18.973-10.455 0-14.13 10.261-14.13 18.973 0 8.713 3.68 18.972 14.13 18.972"/><path d="m482 63.1c7.07 0 17.13 3.775 17.13 9.1 0 1.839-1.26 3.484-3.873 3.484-3.678 0-5.13-5.227-13.262-5.227-4.84 0-9 2.129-9 6.485 0 9 27.491 8.03 27.491 22.941 0 10.746-9.196 15.877-18.778 15.877-10.843 0-19.361-5.422-19.361-9.779 0-2.321 1.646-3.87 3.484-3.87 3.775 0 6.873 6.291 16.17 6.291 6.195 0 9.971-3.484 9.971-6.97 0-10.07-27.491-9.486-27.491-23.812-.001-9.485 8.904-14.519 17.52-14.519"/></g></svg>
+</a>
+                            </div>
+                            <div id="navh2" >
+                                <a class="navbar-brand" href="/">
+                                    <img src="/assets/logoOpt.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
+				<div id="searchForm">
+                                        <input type="text" id="SearchBar" onchange="searchLoad()">
+					<a onclick="condenser()" id="closebtn" style="visibility:hidden;height:0px;padding-right:5px;width:0px;position:relative;">
+					<svg id="closebutton"height="0px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+					</a>
+                                 	<a id="searchLink"><span class="ion-android-search customFontSize3" ></a>
+
+				</div>
+                            <ul class="nav navbar-nav navbar-right abc" id="menuBar">
+
+                                <li><a href="/about-us">About</a></li>
+                                <li><a href="http://server.sugarizer.org">Try Now</a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Sugar<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li ><a href="https://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Installation">SOAS</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header"></li>
+                                        <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/fedora.md" >On Fedora</a></li>
+                                        <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/debian.md" >On Debian</a></li>
+                                        <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/ubuntu.md" >On Ubuntu</a></li>
+                                        <li ><a href="https://wiki.sugarlabs.org/go/Downloads#Do_you_use_GNU.2FLinux.3F" >On Other Distros</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header"></li>
+                                        <li><a href="http://server.sugarizer.org/" >Sugarizer Online</a></li>
+                                        <li><a href="http://sugarizer.org/" >On App</a></li>
+                                        <li><a href="https://github.com/llaske/sugarizer#server" >Set up server</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header"></li>
+                                        <li><a href="http://wiki.laptop.org/go/Release_notes" >On XO</a></li>
+                                        <li><a href="/sugar-for-raspberry-pi" >On Raspberry Pi</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://github.com/sugarlabs/training-activity" >Activity - Learn Sugar</a></li>
+                                        <li><a href="https://wiki.sugarlabs.org/go/Documentation_Team/User_Manual#The_Sugar_user_manual" >Sugar Handbook</a></li>
+                                        <li><a href="http://activities.sugarlabs.org" >Activities Library</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://help.sugarlabs.org/">Use</a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join Us<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://wiki.sugarlabs.org/go/Mailing_Lists" >Community Mailing Lists</a></li>
+                                        <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md/" >Developer's Guide</a></li>
+                                        <li><a href="https://wiki.sugarlabs.org/go/Local_Labs" >Start a local lab</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header"></li>
+                                        <li><a href="http://translate.sugarlabs.org" >Contribute to Translation</a></li>
+                                        <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md" >Contribute to Software</a></li>
+                                        <li><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved" >Contribute to Central Organisation</a></li>
+                                        <li><a href="https://wiki.sugarlabs.org/go/Category:Project" >Related Projects</a></li>
+                                        <li><a href="/profiles">Contributors</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://planet.sugarlabs.org" >Blog Archive</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Header for screens with width >= 768px and width <= 1260px -->
+<div class="container" id="secondHeader" >
+    <div class="row">
+        <div class="col-md-12">
+            <div class="wrapper">
+                <nav id="sidebar">
+                    <div id="dismiss">
+                        <i class="ion-arrow-left-a"></i>
+                    </div>
+                    <div class="sidebar-header">
+                        <h3>Sugar Labs</h3>
+                    </div>
+                 <div>
+		   <div id="searchForm1" style="width:230px;" >
+                        <input type="text" id="SearchBar1" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
+                        <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div></div>
+                    <ul class="list-unstyled components">
+                        <li><a href="/about-us"><span>About</span></a></li>
+                        <li><a href="http://server.sugarizer.org"><span>Try Now</span></a></li>
+                        <li ><a href="#getSugarSubmenu" data-toggle="collapse" aria-expanded="false"><span>Get Sugar</span></a>
+                            <ul class="collapse list-unstyled" id="getSugarSubmenu">
+                                <li ><a href="https://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Installation" class="hrefCustomColor">SOAS</a></li>
+                                <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/fedora.md" class="hrefCustomColor">On Fedora</a></li>
+                                <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/debian.md" class="hrefCustomColor">On Debian</a></li>
+                                <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/ubuntu.md" class="hrefCustomColor">On Ubuntu</a></li>
+                                <li ><a href="https://wiki.sugarlabs.org/go/Downloads#Do_you_use_GNU.2FLinux.3F" class="hrefCustomColor">On Other Distros</a></li>
+                                <li><a href="http://server.sugarizer.org/" class="hrefCustomColor">Sugarizer Online</a></li>
+                                <li><a href="http://sugarizer.org/" class="hrefCustomColor">On App</a></li>
+                                <li><a href="https://github.com/llaske/sugarizer#server" class="hrefCustomColor">Set up server</a></li>
+                                <li><a href="http://wiki.laptop.org/go/Release_notes" class="hrefCustomColor">On XO</a></li>
+                                <li><a href="#" class="hrefCustomColor">On Raspberry Pi</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#downloadSubmenu" data-toggle="collapse" aria-expanded="false"><span>Download</span></a>
+                            <ul class="collapse list-unstyled" id="downloadSubmenu">
+                                <li><a href="https://github.com/sugarlabs/training-activity" class="hrefCustomColor">Activity - Learn Sugar</a></li>
+                                <li><a href="https://wiki.sugarlabs.org/go/Documentation_Team/User_Manual#The_Sugar_user_manual" class="hrefCustomColor">Sugar Handbook</a></li>
+                                <li><a href="http://activities.sugarlabs.org" class="hrefCustomColor">Activities Library</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://help.sugarlabs.org/"><span >Use</span></a></li>
+                        <li ><a href="#joinUsSubmenu" data-toggle="collapse" aria-expanded="false"><span>Join Us</span></a>
+                            <ul class="collapse list-unstyled" id="joinUsSubmenu">
+                                <li><a href="https://wiki.sugarlabs.org/go/Mailing_Lists" class="hrefCustomColor">Community Mailing Lists</a></li>
+                                <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md/" class="hrefCustomColor">Developer's Guide</a></li>
+                                <li><a href="https://wiki.sugarlabs.org/go/Local_Labs" class="hrefCustomColor">Start a local lab</a></li>
+                                <li><a href="http://translate.sugarlabs.org" class="hrefCustomColor">Contribute to Translation</a></li>
+                                <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md" class="hrefCustomColor">Contribute to Software</a></li>
+                                <li><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved" class="hrefCustomColor">Contribute to Central Organisation</a></li>
+                                <li><a href="https://wiki.sugarlabs.org/go/Category:Project" class="hrefCustomColor">Related Projects</a></li>
+                            </ul>
+                        </li>
+                        <li ><a href="#blogSubmenu" data-toggle="collapse" aria-expanded="false"><span>Blog</span></a>
+                            <ul class="collapse list-unstyled" id="blogSubmenu">
+                                <li><a href="http://planet.sugarlabs.org">Blog Archive</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="content">
+                    <nav class="navbar navbar-default navbar-fixed-top customHeaderStyle2">
+                        <div class="container-fluid" >
+                            <div class="navbar-header customMarPadCombo5">
+                                <div class="logo2" style="width:270px;height:30px;left:10px;">
+                                    <span id="navh1" ><a href="/"><svg enable-background="new 0 0 540 180" viewBox="0 0 540 180" xmlns="http://www.w3.org/2000/svg"><path d="m63.05 117.52c-11.05 0-21.12-5.5-21.12-11.539 0-3.157 2.303-5.63 5.244-5.63 2.02 0 3.719 1.183 5.515 2.435 2.592 1.809 5.529 3.855 10.651 3.855 5.139 0 8.21-2.647 8.21-5.209 0-3.416-5.271-5.607-10.852-7.927-7.799-3.243-16.639-6.918-16.639-15.886 0-10.573 9.933-16.279 19.28-16.279 7.89 0 18.895 4.132 18.895 10.86 0 2.526-1.763 5.244-5.632 5.244-2.068 0-3.558-1.125-4.997-2.212-1.872-1.414-3.994-3.02-8.266-3.02-1.209 0-7.242.227-7.242 4.726 0 2.729 4.879 4.613 10.04 6.608 7.772 3 17.446 6.739 17.446 16.333.002 12.12-10.646 17.636-20.538 17.636" fill="#033cd2"/><path d="m63.34 63.1c7.07 0 17.13 3.775 17.13 9.1 0 1.839-1.259 3.484-3.873 3.484-3.677 0-5.13-5.227-13.261-5.227-4.84 0-9 2.129-9 6.485 0 9 27.491 8.03 27.491 22.941 0 10.746-9.196 15.877-18.779 15.877-10.842 0-19.359-5.422-19.359-9.779 0-2.321 1.645-3.87 3.484-3.87 3.775 0 6.873 6.291 16.17 6.291 6.195 0 9.97-3.484 9.97-6.97 0-10.07-27.491-9.486-27.491-23.812-.001-9.485 8.905-14.519 17.52-14.519m0-3.52c-10.2 0-21.04 6.323-21.04 18.04 0 10.142 9.828 14.228 17.724 17.511 4.578 1.903 9.767 4.061 9.767 6.302 0 1.41-2.297 3.45-6.45 3.45-4.569 0-7.15-1.801-9.646-3.541-1.939-1.353-3.944-2.75-6.52-2.75-3.928 0-7 3.246-7 7.39 0 7.085 10.691 13.299 22.879 13.299 10.74 0 22.299-6.069 22.299-19.396 0-10.802-10.733-14.947-18.57-17.974-3.337-1.289-8.921-3.445-8.921-4.968 0-2.822 4.567-2.965 5.482-2.965 3.682 0 5.393 1.292 7.205 2.66 1.593 1.203 3.398 2.566 6.06 2.566 4.284 0 7.393-2.946 7.393-7 0-8.126-12.213-12.62-20.654-12.62z" fill="#78e600"/><path d="m117.65 117.52c-10.726 0-22.19-5.854-22.19-22.281v-27.59c0-3.773 2.418-6.309 6.02-6.309s6.02 2.536 6.02 6.309v27.299c0 7.979 3.224 11.693 10.146 11.693 6.922 0 10.146-3.715 10.146-11.693v-27.3c0-3.773 2.418-6.309 6.02-6.309 3.6 0 6.02 2.536 6.02 6.309v27.59c0 16.428-11.46 22.282-22.18 22.282" fill="#033cd2"/><path d="m133.81 63.1c2.613 0 4.259 1.743 4.259 4.549v27.589c0 15.1-10.07 20.522-20.425 20.522-10.357 0-20.425-5.422-20.425-20.522v-27.589c0-2.807 1.646-4.549 4.26-4.549 2.613 0 4.259 1.743 4.259 4.549v27.299c0 8.809 3.872 13.454 11.907 13.454s11.906-4.646 11.906-13.454v-27.299c0-2.806 1.645-4.549 4.259-4.549m0-3.52c-4.581 0-7.78 3.318-7.78 8.07v27.299c0 8.754-4.239 9.935-8.386 9.935s-8.387-1.181-8.387-9.935v-27.299c0-4.751-3.199-8.07-7.779-8.07-4.581 0-7.78 3.318-7.78 8.07v27.589c0 17.727 12.37 24.04 23.945 24.04s23.945-6.315 23.945-24.04v-27.589c.001-4.751-3.197-8.07-7.778-8.07z" fill="#78e600"/><path d="m175.53 137.85c-8.493 0-21.509-4.994-21.509-11.149 0-2.758 1.671-5.729 5.342-5.729 2.02 0 3.766 1.074 5.785 2.317 2.804 1.728 5.981 3.683 11.06 3.683 10.827 0 12.215-9.426 12.273-13.816-3.037 2.818-7.04 4.37-11.498 4.37-16.03 0-24.414-14.13-24.414-28.09s8.386-28.09 24.414-28.09c4.424 0 8.692 1.905 11.688 4.32.654-2.638 2.95-4.32 6.122-4.32 2.778 0 5.731 2.077 5.731 5.923v44.24c0 16-9.811 26.346-24.993 26.346m1.452-65.63c-9.132 0-12.372 9.271-12.372 17.212s3.24 17.211 12.372 17.211c9.13 0 12.371-9.271 12.371-17.211s-3.241-17.212-12.371-17.212" fill="#033cd2"/><path d="m194.79 63.1c1.645 0 3.969 1.162 3.969 4.163v44.24c0 15.294-9.293 24.587-23.23 24.587-8.809 0-19.747-5.03-19.747-9.389 0-1.742.872-3.969 3.582-3.969 3.872 0 7.648 6 16.843 6 10.843 0 14.04-8.519 14.04-15.875v-4.453h-.194c-2.614 4.453-7.261 7.358-13.07 7.358-14.52 0-22.651-12.682-22.651-26.331s8.131-26.33 22.651-26.33c5.517 0 10.841 3.388 13.07 6.486h.194v-2.324c-.001-2.999 2.225-4.161 4.548-4.161m-17.811 45.3c10.454 0 14.13-10.26 14.13-18.972 0-8.712-3.679-18.973-14.13-18.973-10.455 0-14.13 10.261-14.13 18.973.001 8.713 3.678 18.972 14.13 18.972m17.811-48.822c-3.035 0-5.485 1.289-6.859 3.399-3.083-1.981-6.961-3.399-10.952-3.399-17.18 0-26.17 15.02-26.17 29.85s8.99 29.85 26.17 29.85c3.423 0 6.604-.83 9.352-2.385-.846 4.075-3.355 8.315-10.127 8.315-4.579 0-7.53-1.818-10.134-3.422-2.154-1.326-4.188-2.579-6.708-2.579-4.115 0-7.102 3.149-7.102 7.488 0 7.488 13.898 12.908 23.267 12.908 7.882 0 14.584-2.642 19.383-7.64 4.821-5.02 7.37-12.1 7.37-20.467v-44.23c-.001-4.99-3.859-7.683-7.49-7.683zm-17.811 45.3c-10.1 0-10.613-12.872-10.613-15.453s.512-15.453 10.613-15.453c10.1 0 10.612 12.873 10.612 15.453s-.511 15.453-10.612 15.453" fill="#78e600"/><path d="m256.26 117.52c-2.625 0-5.279-1.729-5.68-5.04-3.492 3.314-7.752 5.04-12.52 5.04-16.03 0-24.411-14.13-24.411-28.09 0-13.958 8.385-28.09 24.411-28.09 4.755 0 8.745 1.484 12.563 4.743.52-3.119 3.091-4.743 5.636-4.743 2.776 0 5.727 2.076 5.727 5.923v44.33c.001 3.846-2.95 5.923-5.726 5.923m-18.199-45.3c-9.132 0-12.373 9.273-12.373 17.212 0 7.94 3.241 17.212 12.373 17.212 9.133 0 12.373-9.272 12.373-17.212 0-7.939-3.24-17.212-12.373-17.212" fill="#033cd2"/><path d="m256.26 63.1c1.645 0 3.967 1.162 3.967 4.163v44.33c0 3-2.322 4.164-3.967 4.164-1.743 0-3.97-1.162-3.97-4.164v-3.581h-.193c-3.678 5.228-8.518 7.745-14.04 7.745-14.521 0-22.651-12.682-22.651-26.331s8.13-26.33 22.651-26.33c5.905 0 10.07 2.516 14.04 6.873h.193v-2.71c0-3 2.227-4.163 3.97-4.163m-18.199 45.3c10.454 0 14.13-10.26 14.13-18.972 0-8.712-3.679-18.973-14.13-18.973-10.455 0-14.13 10.261-14.13 18.973 0 8.713 3.678 18.972 14.13 18.972m18.199-48.822c-2.479 0-5.063 1.254-6.454 3.637-3.564-2.488-7.348-3.637-11.745-3.637-17.18 0-26.17 15.02-26.17 29.85s8.99 29.85 26.17 29.85c4.331 0 8.272-1.291 11.662-3.784 1.37 2.479 4.01 3.784 6.538 3.784 3.63 0 7.487-2.692 7.487-7.684v-44.33c-.001-4.99-3.858-7.683-7.488-7.683zm-18.199 45.3c-10.1 0-10.613-12.872-10.613-15.453s.512-15.453 10.613-15.453c10.1 0 10.613 12.873 10.613 15.453s-.512 15.453-10.613 15.453" fill="#78e600"/><path d="m282.98 117.52c-3.601 0-6.02-2.536-6.02-6.311v-43.561c0-3.774 2.419-6.309 6.02-6.309 3.289 0 5.593 2.118 5.965 5.361 2.537-2.849 6.103-5.361 10.1-5.361 3.768 0 6.503 2.572 6.503 6.115 0 2.326-1.173 5.322-6.76 6.375-2.961.515-9.793 2.788-9.793 12.89v24.49c0 3.774-2.419 6.311-6.02 6.311" fill="#033cd2"/><path d="m299.05 63.1c3 0 4.744 1.936 4.744 4.355 0 2.42-1.744 3.97-5.326 4.647-5.03.871-11.228 4.646-11.228 14.617v24.491c0 2.808-1.646 4.551-4.259 4.551-2.615 0-4.26-1.743-4.26-4.551v-43.561c0-2.807 1.645-4.549 4.26-4.549 2.613 0 4.259 1.743 4.259 4.549v4.356h.194c1.936-3.968 6.679-8.905 11.616-8.905m0-3.52c-3.515 0-6.709 1.664-9.283 3.875-1.286-2.396-3.728-3.875-6.785-3.875-4.581 0-7.779 3.318-7.779 8.07v43.561c0 4.752 3.198 8.07 7.779 8.07 4.58 0 7.778-3.318 7.778-8.07v-24.491c0-8.449 5.206-10.611 8.309-11.148.018-.003.035-.006.054-.01 7.128-1.348 8.191-5.657 8.191-8.105 0-4.564-3.475-7.876-8.264-7.876z" fill="#78e600"/><g fill="#969696"><path d="m324.99 111.21c0 2.808-1.646 4.551-4.259 4.551-2.614 0-4.26-1.743-4.26-4.551v-66.21c0-2.808 1.646-4.55 4.26-4.55 2.613 0 4.259 1.743 4.259 4.55z"/><path d="m386.07 111.59c0 3-2.324 4.164-3.969 4.164-1.742 0-3.969-1.162-3.969-4.164v-3.581h-.193c-3.68 5.228-8.52 7.745-14.04 7.745-14.52 0-22.65-12.682-22.65-26.331s8.131-26.33 22.65-26.33c5.906 0 10.07 2.516 14.04 6.873h.193v-2.71c0-3 2.227-4.163 3.969-4.163 1.645 0 3.969 1.162 3.969 4.163zm-22.17-3.195c10.455 0 14.13-10.26 14.13-18.972 0-8.712-3.678-18.973-14.13-18.973-10.453 0-14.13 10.261-14.13 18.973 0 8.713 3.679 18.972 14.13 18.972"/><path d="m404.95 44.997c0-2.808 1.646-4.55 4.26-4.55s4.26 1.743 4.26 4.55v25.07h.192c2.227-3.194 6.97-6.969 13.745-6.969 13.941 0 21.975 12.681 21.975 26.33s-8.03 26.331-21.975 26.331c-6.775 0-11.324-2.421-13.745-7.07h-.192v2.518c0 2.808-1.646 4.551-4.26 4.551s-4.26-1.743-4.26-4.551zm21.781 63.4c10.453 0 14.13-10.26 14.13-18.972 0-8.712-3.678-18.973-14.13-18.973-10.455 0-14.13 10.261-14.13 18.973 0 8.713 3.68 18.972 14.13 18.972"/><path d="m482 63.1c7.07 0 17.13 3.775 17.13 9.1 0 1.839-1.26 3.484-3.873 3.484-3.678 0-5.13-5.227-13.262-5.227-4.84 0-9 2.129-9 6.485 0 9 27.491 8.03 27.491 22.941 0 10.746-9.196 15.877-18.778 15.877-10.843 0-19.361-5.422-19.361-9.779 0-2.321 1.646-3.87 3.484-3.87 3.775 0 6.873 6.291 16.17 6.291 6.195 0 9.971-3.484 9.971-6.97 0-10.07-27.491-9.486-27.491-23.812-.001-9.485 8.904-14.519 17.52-14.519"/></g></svg>
+</a></span>
+                                    <span id="navh3" ><a class="navbar-brand" href="/">
+                                    <img src="/assets/logoOpt.png" alt="Logo" width="270px" height="65px">
+                                    </a>
+                                </div></span>
+                                <span id="sidebarCollapse" class="customHeaderStyle3"><i class="ion-navicon-round"></i></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="overlay">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1>Information Architecture</h1>
+<p>May 15 2016</p>
+
+<p>This document proposes a structure of the Sugar Labs homepage, <a href="http://www.sugarlabs.org">sugarlabs.org</a></p>
+
+<h2 id="conversion-funnel">Conversion funnel</h2>
+
+<p>A <a href="https://www.google.com/search?q=conversion+funnel&amp;tbm=isch">conversion funnel</a> plans the site visitor stage goals.</p>
+
+<ol>
+  <li>Strangers: Discovery, Awareness, Attract, Brand
+    <ul>
+      <li>Facebook, YouTube, Snapchat, Instagram, Twitter, Press</li>
+      <li>Measure impressions/reach</li>
+    </ul>
+  </li>
+  <li>Visitors: Landing Page, Realization of Need, Interest/Desire, Engage leads, Familiarity
+    <ul>
+      <li>Assert the unmet needs the “one key fan” users face, and how the products/services address their needs</li>
+      <li>Survey their needs/expectations</li>
+      <li>Calls To Action</li>
+      <li>Measure active daily users</li>
+    </ul>
+  </li>
+  <li>Leads: Consideration, Try Outs, Action Flows
+    <ul>
+      <li>Sugarizer inherently allow immediate try out</li>
+      <li>download and boot SOAS</li>
+      <li>email newsletter sign up</li>
+      <li>email mini-course with X things to do with SOAS (<a href="https://github.com/sugarlabs/www-sugarlabs/issues/38">#38</a>)</li>
+      <li>tell your friends to try it out too</li>
+    </ul>
+  </li>
+  <li>Users: Conversion/Sales
+    <ul>
+      <li>Individuals
+        <ul>
+          <li>Create account our central Sugarizer server and (1) bookmark or (2) install as an app</li>
+          <li>Sugar Desktop or Sugarizer Server installed and used daily
+            <ul>
+              <li>either buying hardware with it pre-installed, or</li>
+              <li>self-install on a laptop, desktop or personal server (eg raspberry pi)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Groups (“local labs”?)
+        <ul>
+          <li>Club: a set of individuals who meet informallly daily/weekly/monthly</li>
+          <li>Class: a set of individuals who meet formally - at school, or church, or anywhere with a building and a budget</li>
+          <li>School: set of classes</li>
+          <li>District: set of schools</li>
+          <li>County: set of districts</li>
+          <li>Country: set of counties</li>
+          <li>Region: set of countries</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Participants: Retention/Loyalty
+    <ul>
+      <li>Schedule for 12+ months of usage (curricular scale)
+        <ul>
+          <li>Lesson plans (eg, <a href="https://wiki.sugarlabs.org/go/Talk:EduJAM/2011">how to get a microscope working with an XO</a>, <a href="https://wiki.sugarlabs.org/go/Math4Team/Resources/Curriculum_Chart">4th grade curriculum lessons</a>)</li>
+        </ul>
+      </li>
+      <li>Actively participate in the community
+        <ul>
+          <li>post on mailing list</li>
+          <li>post translation improvements</li>
+          <li>post usability testing reports</li>
+          <li>post bugs</li>
+          <li>post pull requests</li>
+        </ul>
+      </li>
+      <li>Become a Member
+        <ul>
+          <li>Commit access on Github, community standards</li>
+          <li>Advocate on behalf of sugar labs
+            <ul>
+              <li>post on social media</li>
+              <li>post conference submissions to do public speaking</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="primarysecondary-elements">Primary/Secondary Elements</h2>
+
+<p>A coherent structure of pages. 
+Eventually this will be expressed in an <a href="https://www.google.com/search?q=information+architecture+web+design&amp;tbm=isch">“information architecture” site map diagram</a>.</p>
+
+<p>The elements on the 1st level of the list form the ‘primary navigation’ that typically appears on a toolbar at the top of the page. 
+The elements on the 2nd/3rd levels of the list are the ‘secondary navigation’ and may appear in a drop down menu on the primary toolbar, or as links inside the landing page each primary element, etc.</p>
+
+<p>home</p>
+<ul>
+  <li>What do middle school kids need? How Sugar addresses those needs.
+    <ul>
+      <li>“What I would like from marketing is some mechanism for highlighting the powerful ideas in Sugar that seem to be lacking in most other systems so that even if a school decides to go with a different product/project, they put pressure on that project to provide tools, not apps, collaboration, transparency, self reflection and group critique, and responsibility on the shoulders of students and teachers to shape their own world.” - Walter Bender</li>
+    </ul>
+  </li>
+  <li>“A successful technology creates problems that only it can solve.” - Alan Kay</li>
+  <li>Story telling: one great case study (from OLPC France?)</li>
+  <li>Testimonials/Reviews. Quote from <a href="http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html">LinuxInsider</a>, size of active user base from <a href="https://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf">https://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf</a>, http://wiki.laptop.org/go/ALEARN_Network, etc.</li>
+  <li>Calls To Action
+    <ul>
+      <li>try</li>
+      <li>download + email mini course (<a href="https://github.com/sugarlabs/www-sugarlabs/issues/38">#38</a>)</li>
+      <li>buy</li>
+      <li>join</li>
+    </ul>
+  </li>
+</ul>
+
+<p>about</p>
+<ul>
+  <li>“Learning To Change The World” full text liberated</li>
+  <li>case studies
+    <ul>
+      <li>a table listing each user community (“deployment” or “local lab”?) and a person in each community who Sugar Labs can talk with? (Starting with http://wiki.laptop.org/go/Manufacturing_data)</li>
+      <li>show off where our users are (<a href="http://stats.sugarlabs.org/activities.sugarlabs.org/awstats.pl?framename=mainright&amp;output=alldomains">map</a>)</li>
+      <li>statistics (<a href="https://scratch.mit.edu/statistics">scratch example</a>)</li>
+      <li>conference presentations
+        <ul>
+          <li>https://www.youtube.com/watch?v=h1RBAq6GN7o</li>
+        </ul>
+      </li>
+      <li><a href="http://www.olpcsf.org/CommunitySummit2013/posters">sf summit posters</a></li>
+    </ul>
+  </li>
+  <li>detailed information about the Sugar Labs organization
+    <ul>
+      <li>Explanation of Conservancy</li>
+      <li>SLOB Minutes</li>
+      <li>Current SLOB members</li>
+      <li>SLOB historical membership data</li>
+      <li>Finance data</li>
+      <li>Current Members data</li>
+      <li>historical membership data</li>
+    </ul>
+  </li>
+</ul>
+
+<p>try now</p>
+<ul>
+  <li>http://server.sugarizer.org with guiders</li>
+</ul>
+
+<p>download</p>
+<ul>
+  <li>SOAS</li>
+  <li>Chromebooks</li>
+  <li>Instructions + videos showing how to install on major distro packaging systems
+    <ul>
+      <li>www.ubuntu.com www.linuxmint.com www.debian.org www.raspbian.org</li>
+      <li>www.fedora-project.org www.centos.com</li>
+      <li>www.archlinux.org</li>
+      <li>www.pclinuxos.com</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/walterbender/training">https://github.com/walterbender/training</a></li>
+  <li>Sugar Handbook (User Manual, tutorial videos)</li>
+  <li>Activities Library (http://activities.sugarlabs.org)
+    <ul>
+      <li>Curated list of activities to try (cf. https://www.sam.today/blog/sugar-onboard-user-testing.html)</li>
+    </ul>
+  </li>
+  <li>eBook Library (including interactive OERs, curricula)</li>
+</ul>
+
+<p>use</p>
+<ul>
+  <li><a href="https://help.sugarlabs.org">https://help.sugarlabs.org</a></li>
+</ul>
+
+<p>buy</p>
+<ul>
+  <li>offer sugar sticks (from http://www.recycleusb.com or even branded usb keys)</li>
+  <li>offer sugarizer servers (raspberry pi)</li>
+  <li>offer laptops pre-installed</li>
+  <li>offer pi3 desktops pre-installed</li>
+  <li>(range of offers from individuals to nationwide deployments)</li>
+</ul>
+
+<p>join/support/participate</p>
+<ul>
+  <li>how to join the community conversation (single discuss mailing list via mailman3 web forum)</li>
+  <li>how to develop sugar software (<a href="https://github.com/sugarlabs/www-sugarlabs/issues/20">www-sugarlabs#20</a>)
+    <ul>
+      <li>javascript</li>
+      <li>python</li>
+    </ul>
+  </li>
+  <li>how to start a local lab
+    <ul>
+      <li>funding (Google RISE)</li>
+      <li>training materials (eg <a href="https://olpcnyc.wordpress.com/training-materials">https://olpcnyc.wordpress.com/training-materials</a>, <a href="https://wiki.sugarlabs.org/go/Tutorials/Tutorials.iso">https://wiki.sugarlabs.org/go/Tutorials/Tutorials.iso</a>)</li>
+      <li><a href="http://mariahnoelle.com/wp-content/uploads/2014/04/sugarlabsgcioutreach.png">mariah’s guide</a></li>
+    </ul>
+  </li>
+  <li>how to contribute to translation
+    <ul>
+      <li>raise funds to pay (Nigeria case study?)</li>
+    </ul>
+  </li>
+  <li>how to contribute to usability</li>
+  <li>how to contribute to software (Activity, Sugar Desktop/izer)
+    <ul>
+      <li>report issues</li>
+      <li>how to win a GSOC 2017 slot</li>
+      <li>how to win a GCI 2017 slot</li>
+      <li>outreachy?</li>
+    </ul>
+  </li>
+  <li>how to contribute to the central organization
+    <ul>
+      <li>how to contribute to websites</li>
+      <li>unfilled office positions</li>
+      <li>how to become a member</li>
+      <li>how to join the SLOB</li>
+    </ul>
+  </li>
+  <li>related projects
+    <ul>
+      <li>http://school-network.org</li>
+      <li>http://unleashkids.org</li>
+      <li>http://www.one-education.org</li>
+      <li>http://mifos.org</li>
+      <li>http://www.kano.me</li>
+      <li>http://beagleboard.org</li>
+      <li>http://getchip.com/pages/pocketchip</li>
+      <li>http://www.recycleusb.com</li>
+      <li>http://www.qimo4kids.com</li>
+      <li>https://kidswrite.org/our-story</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tertiary-elements">Tertiary Elements</h2>
+
+<p>These elements appear on all pages (typically in a footer area)</p>
+
+<ul>
+  <li>sitemap links</li>
+  <li>email newsletter</li>
+  <li>email mini course sign up</li>
+  <li>social sharing buttons, to contribute to usage</li>
+  <li>donate, to contribute to funds</li>
+  <li>‘edit this page’ link</li>
+  <li>survey (ux questionaire, tell us what you think, tell us if you are a user)</li>
+  <li>10th year anniversity banner</li>
+</ul>
+
+<h1 id="peer-analysis">Peer Analysis</h1>
+
+<p>Here’s a list of organizations that might be considered peers with Sugar Labs. 
+Comparing their websites with ours may give us ideas for how we can improve.</p>
+
+<ul>
+  <li>https://learningequality.org</li>
+  <li>http://haxe.org</li>
+</ul>
+
+
+<p><a href="/press">Return to press information</a></p>
+<p><a href='/'>Return to main page</a></p>
+
+
+<!-- Chat button for screens with width <= 991px -->
+<button id="myBtn2" title="IRC chat" data-toggle="modal" data-target="#fsModal"><span class="ion-ios-chatbubble" style="font-size:22px;"></span></button>
+
+<!-- Chat window for screens with width <= 991px -->
+<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 id="myModalLabel" class="modal-title center-text">
+                Chat on our IRC channel!
+                <a href="#" tabindex="0" data-toggle="popover" title="What is IRC?" data-content="<a href '/about-irc'>Click here to find out more!</a>" data-html="true" data-placement="bottom" data-trigger="focus"><span class="ion-ios-information customSpanStyle" ></span></a>
+                </h1>
+            </div>
+            <div class="modal-body">
+                <iframe id="myiframe1" src="" style="border:0; width:100%; height:100%;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button id="chatClose" class="btn btn-secondary"
+                data-dismiss="modal" style="background-color:#655E7A;color:#ffffff;float:left">
+                <i class="ion-close-round"></i>
+                </button>
+                <button id="chatMinimize" class="btn btn-secondary"
+                data-dismiss="modal" style="background-color:#655E7A;color:#ffffff">
+                <i class="ion-minus-round"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer  style="background-color:#282828;padding-top:5px;">
+    <h4 style="text-align:right;margin-right:20px;"><a href="#top" class="hrefCustomColor">Back to top&nbsp<i class="icon ion-arrow-up-c"></i></a></h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >
+                <div class="row">
+                    <div class="col-md-2 widget">
+                        <h4 class="footerHeaderStyle align-center-md"><b>Sugar Labs</b></h4>
+                        <article class="widget_content">
+                            <ul class="leftAlign align-center-col-md">
+                                <li class="footerListStyle"><a href="/about-us">About Us</a></li>
+                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved">Get Involved</a></li>
+                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Donate">Support Sugar</a></li>
+                                <li class="footerListStyle"><a href="/contact-us">Contact Us</a></li>
+                                <li class="footerListStyle"><a href="/students">For Students</a></li>
+                                <li class="footerListStyle"><a href="/school-administrators">For School Administrators</a></li>
+                                <li class="footerListStyle"><a href="/parents">For Parents</a></li>
+                                <li class="footerListStyle"><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md">For Developers</a></li>
+                                <li class="footerListStyle"><a href="/sugar-stories">Sugar Stories</a></li>
+                                <li class="footerListStyle"><a href="/music-blocks">Music Blocks</a></li>
+                                <li class="footerListStyle"><a href="/turtle-blocks-js">Turtle Blocks JS</a></li>
+                                <li class="footerListStyle"><a href="/profiles">Contributors</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-md-2 widget">
+                        <h4 class="footerHeaderStyle align-center-md"><b>Development</b></h4>
+                        <article class="widget_content">
+                            <ul class="leftAlign align-center-col-md">
+                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/">Sugar Labs Wiki</a></li>
+                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Mailing_Lists">Join mailing list</a></li>
+                                <li class="footerListStyle"><a href="https://help.sugarlabs.org/en/">Documentation</a></li>
+                                <li class="footerListStyle"><a href="http://chat.sugarlabs.org:9090/">IRC Channels</a></li>
+                                <li class="footerListStyle"><a href="https://socialhelp.sugarlabs.org">Bug Tracker</a></li>
+                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Development_Team/Source_Code">Development code</a></li>
+                                <li class="footerListStyle"><a href="http://translate.sugarlabs.org">Translation Platform</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-md-2 widget">
+                        <h4 class="footerHeaderStyle align-center-md"><b>Resources</b></h4>
+                        <article class="widget_content">
+                            <ul class="leftAlign align-center-col-md">
+                                <li class="footerListStyle"><a href="/more" >Culture and pedagogy</a></li>
+                                <li class="footerListStyle"><a href="http://schoolserver.org/" >School Server Resources</a></li>
+                                <li class="footerListStyle"><a href="http://planet.sugarlabs.org" >Planet Sugar Labs</a></li>
+                                <li class="footerListStyle"><a href="/about-libre-software-culture" >Libre Software Culture</a></li>
+                                <li class="footerListStyle"><a href="/about-irc" >About IRC</a></li>
+                                <li class="footerListStyle"><a href="/sugar-lesson-plans" >Sugar Lesson Plans</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12" >
+                                <div class="row justify-content-center">
+                                    <div class="col-md-5 to-animate col-md-push-3" style="margin-top:10px;">
+                                        <div class="row align-center-md">
+                                            <div id="own-ssk" class="ssk-group">
+                                                <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ssk ssk-icon ssk-facebook ssk-lg"></a>
+                                                <a href="https://github.com/sugarlabs" class="ssk ssk-icon ssk-github ssk-lg"></a>
+                                                <a href="https://twitter.com/sugar_labs" class="ssk ssk-icon ssk-twitter ssk-lg"></a>
+                                                <a href="https://www.instagram.com/sugarlabsforall/" class="ssk ssk-icon ssk-instagram ssk-lg"></a>
+                                                <a href="https://www.youtube.com/channel/UCfsR9AEb7HuPRAc14jfiI6g/featured" class="ssk ssk-icon ssk-youtube ssk-lg"></a>
+                                            </div>
+                                            </br>
+                                        </div>
+                                    </div>
+                                </div>
+                                </br>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-9 col-md-push-3" style="margin-left: auto; margin-right: auto">
+                                        <div id="mc_embed_signup">
+                                            <form action="//sugarlabs.us16.list-manage.com/subscribe/post?u=23c6df6118693ee743df3e0a4&amp;id=11cb7e5c96" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                <div id="mc_embed_signup_scroll">
+                                                    <label class='align-center-md' for="mce-EMAIL"><h6><span class="customSpanColor"><b>Subscribe to our newsletter</b></span></h6></label>
+                                                    <div class='align-center-md'>
+                                                        <input type="email" value="" name="EMAIL" class="email footer-email-input-md" id="mce-EMAIL" placeholder="email address" required>
+                                                    </div>
+                                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_23c6df6118693ee743df3e0a4_11cb7e5c96" tabindex="-1" value=""></div>
+                                                    <div class="clear">
+                                                        <div class='align-center-md'>
+                                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                </br>
+                                <div class="row">
+                                    <div id="contributeHeader" class="col-md-12">
+                                        <h4 class='align-center-md'><a href="https://github.com/sugarlabs/www-sugarlabs"><b><span class="ion-social-github" style="font-size:17px;color: #0099FF; margin-right: 12px;"></span><span style="font-size:17px;color: #0099FF;">Contribute to website</span></b></a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </br>
+                <div class="row" >
+                    <div class="col-md-12" style="margin-top:12px;">
+                        <p style="text-align:left;font-size:13px;" class='text-center-md'>
+                        Copyright &copy; Sugar Labs&reg; available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License(CC-BY-SA)</a>.</br>
+                        Website base template: Designed and developed by Themefisher
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Chat window for screens with width > 991px-->
+<div id="ftctn" class="container" style="padding-left:0px;">
+    <div class="row">
+        <div class="col-md-12" style="position:absolute;bottom:0;right:0;">
+            <div class="chat-window pull-right" id="chat_window_1" >
+                <div class="panel panel-default" >
+                    <a href="#"><div id="panel1" class="panel-heading top-bar" style="padding-left:0px;margin-left:0px;">
+                        <div class="col-md-10" style="padding-left:60px;margin-left:0px;padding-bottom:0px;">
+                            <h3 class="panel-title" style="font-size:16px;color:#000000;">Chat on our IRC channel!&nbsp;<a href="#" data-toggle="tooltip" title="What is IRC?" data-placement="top"><span id="aboutIRC" class="ion-ios-information" style="color:#655E7A;font-size:18px;"></span></a></h3>
+                        </div>
+                        <div class="col-md-2" style="text-align: right; padding-right:0px;">
+                            <a href="#"><span id="minim_chat_window" class="ion-minus-round icon_minim" style="color:#655E7A;font-size:16px;"></span></a>
+                            <a href="#"><span class="ion-close-round icon_close" data-id="chat_window_1" style="color:#655E7A;font-size:16px;"></span></a>
+                        </div>
+                        </div>
+                    </a>
+                    <div class="panel-body msg_container_base" style="display:none;">
+                        <iframe id="myiframe2" src="" style="border:0; width:100%; height:400px;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FLoating social media icons -->
+<div id="mobile-ssk" class="ssk-sticky ssk-left ssk-center ssk-group">
+    <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ssk ssk-facebook ssk-lg"></a>
+    <a href="https://github.com/sugarlabs" class="ssk ssk-github ssk-lg"></a>
+    <a href="https://twitter.com/sugar_labs" class="ssk ssk-twitter ssk-lg"></a>
+    <a href="https://www.instagram.com/sugarlabsforall/" class="ssk ssk-instagram instagram_colour ssk-lg">
+    </a>
+    <a href="https://www.youtube.com/channel/UCfsR9AEb7HuPRAc14jfiI6g/featured" class="ssk ssk-youtube youtube_colour ssk-lg">
+    </a>
+</div>
+
+<!-- Javascript files -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery.nicescroll == 'undefined') {
+    document.write('<script src="/js/jquery-nicescroll.js"><\/script>');
+}
+</script>
+<script  type="text/javascript" src="/js/modernizr.min.js"></script>
+<script  type="text/javascript" src="/js/plugins.js"></script>
+<script  type="text/javascript" src="/js/owl.carousel.min.js"></script>
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery.waypoints == 'undefined') {
+    document.write('<script src="/js/waypoints.js"><\/script>');
+}
+</script>
+
+<!-- Inline Javascript scripts -->
+<script  type="text/javascript">
+	$(document).on('click', "a[href='#top']", function (e) {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+        return false;
+    })
+    $(document).ready(function () {
+        $("#sidebar").niceScroll({
+        cursorcolor: '#53619d',
+        cursorwidth: 4,
+        cursorborder: 'none'
+        });
+        $('#dismiss, .overlay').on('click', function () {
+            $('#sidebar').removeClass('active');
+            $('.overlay').fadeOut();
+        });
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').addClass('active');
+            $('.overlay').fadeIn();
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+    $(document).on('click', '.panel-heading span.icon_minim', function (e) {
+        var $this = $(this);
+        if (!$this.hasClass('panel-collapsed')) {
+            $this.parents('.panel').find('.panel-body').slideUp();
+            $this.addClass('panel-collapsed');
+            $this.removeClass('ion-minus-round').addClass('ion-plus-round');
+        }
+        else {
+            $this.parents('.panel').find('.panel-body').slideDown();
+            $this.removeClass('panel-collapsed');
+            $this.removeClass('ion-plus-round').addClass('ion-minus-round');
+        }
+        return false;
+    });
+    $(document).on('click', '#panel1', function (e) {
+        var $this = $(".panel-heading span.icon_minim");
+        if (!$this.hasClass('panel-collapsed')) {
+            $this.parents('.panel').find('.panel-body').slideUp();
+            $this.addClass('panel-collapsed');
+            $this.removeClass('ion-minus-round').addClass('ion-plus-round');
+        }
+        else {
+            $this.parents('.panel').find('.panel-body').slideDown();
+            $this.removeClass('panel-collapsed');
+            $this.removeClass('ion-plus-round').addClass('ion-minus-round');
+        }
+    return false;
+    });
+    $(document).on('click', '.icon_close', function (e) {
+        $('#ftctn').css('display', 'none');
+        window.name="websiteChatClosed";
+        document.getElementById("myiframe2").src = '';
+        return false;
+    });
+    $(document).on('click', '#chatClose', function (e) {
+        document.getElementById("myiframe1").src = '';
+        $('#myBtn2').css('display', 'none');
+        window.name="websiteChatClosed";
+        return false;
+    });
+    $(document).on('click', '#chatMinimize', function (e) {
+        return false;
+    });
+    $(document).on("scroll", function () {
+        if ($(document).scrollTop() > 10) {
+            $("header").removeClass("large").addClass("small");
+        }
+        else {
+            $("header").removeClass("small").addClass("large");
+        }
+    });
+    $(document).on('click', '#aboutIRC', function (e) {
+        window.location.href = '/about-irc';
+        return false;
+    });
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot1");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active1", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active1";
+        setTimeout(function(){showSlides();}, 5000);
+    }
+</script>
+
+<!-- Google analytics code -->
+<script  type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-102776855-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+
+    </body>
+</html>

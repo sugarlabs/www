@@ -11,7 +11,7 @@ title: Sugar Labs
         <div id="animationPart2" class="inner two"></div>
         <div id="animationPart3" class="inner three"></div>
     </div>
-</div>
+</div> 
 
 <!-- Introduction page -->
 <section id="slider">
@@ -67,23 +67,46 @@ title: Sugar Labs
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-8 col-offset-2">
-                <div id="glimpse-slider" class="owl-carousel">
-                    <div>
-                        <img id="imgrflt" src="{{ site.baseurl }}/assets/screenshot1.png" alt="Sugar homepage screenshot" width="100%">
-                        <h3 class="text-center">This is sugar!</h3>
-                        <p>Every user is greeted with this homepage view when they open Sugar. The color of the icon in the middle can be changed.</p>
+                <div id="glimpse-slider" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonial-slider1" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonial-slider1" data-slide-to="1"></li>
+                        <li data-target="#testimonial-slider1" data-slide-to="2"></li>
+                        
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img id="imgrflt" src="{{ site.baseurl }}/assets/screenshot1.png" alt="Sugar homepage screenshot" width="100%">
+                            <h3 class="text-center carousel-caption">This is sugar!</h3>
+                            <p class="carousel-caption">Every user is greeted with this homepage view when they open Sugar. The color of the icon in the middle can be changed.</p>
+                        </div>
                     </div>
-                    <div>
-                          <img id="imgrflt" src="{{ site.baseurl }}/assets/neighbourhood-screenshot.svg" alt="Sugar Neighborhood view screenshot" width="100%">
-                          <p><br>In the Sugar Neighborhood view, learners see their
-                          friends clustered around their current Activities; from this view, they can
-                          join each other’s Activities.  Sugar collaboration works "peer to
-                          peer," in a classroom or under a tree; Sugar does not require the
-                          Internet.</p>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img id="imgrflt" src="{{ site.baseurl }}/assets/neighbourhood-screenshot.svg" alt="Sugar Neighborhood view screenshot" width="100%">
+                            <p class="carousel-caption"><br>In the Sugar Neighborhood view, learners see their
+                            friends clustered around their current Activities; from this view, they can
+                            join each other’s Activities.  Sugar collaboration works "peer to
+                            peer," in a classroom or under a tree; Sugar does not require the
+                            Internet.</p>
+                        </div>
                     </div>
-                    <div>
-                          <img id="imgrflt" src="{{ site.baseurl }}/assets/screenshot2.png" alt="Maze activity screenshot" width="100%" >
-                          <p><br>This is one of the many other fun activities present in Sugar. Check out all the other activities.</p>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img id="imgrflt" src="{{ site.baseurl }}/assets/screenshot2.png" alt="Maze activity screenshot" width="100%" >
+                            <p class="carousel-caption"><br>This is one of the many other fun activities present in Sugar. Check out all the other activities.</p>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#testimonial-slider1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+                                                
+                        <a class="carousel-control-next" href="#testimonial-slider1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+                                    
                     </div>
                 </div>
             </div>
@@ -222,9 +245,17 @@ title: Sugar Labs
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="testimonial-carousel">
-                    <div id="testimonial-slider1" class="owl-carousel">
-                        <div>
-                            <div class="row" >
+                    <div id="testimonial-slider2" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonial-slider2" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonial-slider2" data-slide-to="1"></li>
+                            <li data-target="#testimonial-slider2" data-slide-to="2"></li>
+                            <li data-target="#testimonial-slider3" data-slide-to="3"></li>
+                        </ol>  
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
                                 <div class="col-sm-6 col-md-4">
                                     <div class="service-item">
                                         <img class="span1" src='data:image/svg+xml;base64,PHN2ZyBzdHJva2Utd2lkdGg9JzMuNScgZmlsbD0nI2ZmZicgc3Ryb2tlPScjMDAwJyBoZWlnaHQ9JzU1JyB2aWV3Qm94PScwIDAgNDUgNDUnIHdpZHRoPSc1NScgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnPjxkZWZzLz48ZyBmb250LXNpemU9JzE2JyBmaWxsPSdub25lJyBmb250LWZhbWlseT0nVGltZXMgTmV3IFJvbWFuJyB0cmFuc2Zvcm09J21hdHJpeCgxIDAgMC0xIDAgNDEuMjUpJz48ZyBzdHJva2U9J25vbmUnPjxwYXRoIGQ9J20uMDAxLjAwMWg0MS4yNXY0MS4yNWgtNDEuMjV6Jy8+PGVsbGlwc2Ugcng9JzE1LjEyJyByeT0nMTUuMTInIGZpbGw9JyNmZmYnIHRyYW5zZm9ybT0nbWF0cml4KC43NTA4OC0uNjYwNDQuNjYwNDQuNzUwODggMjAuNjcgMjAuNTM1KScvPjwvZz48ZWxsaXBzZSBzdHJva2Utd2lkdGg9JzUuNDgyJyByeD0nMTcuODgyJyByeT0nMTcuODgyJyBzdHJva2UtbWl0ZXJsaW1pdD0nNzkuODQnIHRyYW5zZm9ybT0nbWF0cml4KC45MzM4NS0uMzU3NjYuMzU3NjYuOTMzODUgMjAuNjcgMjAuNTM1KScvPjx0ZXh0IGZvbnQtc2l6ZT0nMjYuODAxJyB4PScwJyB5PScwJyBmb250LXdlaWdodD0nYm9sZCcgZmlsbD0nIzAwMCcgc3Ryb2tlPSdub25lJyBmb250LWZhbWlseT0nQXJpYWwnIHRyYW5zZm9ybT0nbWF0cml4KDEgMCAwLTEgMTMuNDE0IDExLjA3KSc+OTwvdGV4dD48ZWxsaXBzZSBzdHJva2Utd2lkdGg9JzEuNjk0JyByeD0nMTEuNTU1JyByeT0nMTEuNTU1JyBzdHJva2UtbWl0ZXJsaW1pdD0nNzkuODQnIHRyYW5zZm9ybT0nbWF0cml4KC45MzM4OC0uMzU3NTkuMzU3NTkuOTMzODggMjAuNjcgMjAuNTM1KScvPjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nbm9uZSc+PHBhdGggZD0nbTE4LjAyIDM2LjA2bC41NzEtMy42MTNoMy41NDlsLjUwNyAzLjc0eicvPjxwYXRoIGQ9J20xOC4wMiA0LjgzNGwuNTcxIDMuNjEyaDMuNTQ5bC41MDctMy43Mzl6Jy8+PHBhdGggZD0nbTM1Ljk0MyAxOC4xNGwtMy42MTIuNTd2My41NWwzLjczOS41MDd6Jy8+PHBhdGggZD0nbTUuNDg0IDE4LjE0bDMuNjEzLjU3djMuNTVsLTMuNzM5LjUwN3onLz48cGF0aCBkPSdtOC4yMTMgMjkuMzczbDIuOTU3LTIuMTUxIDIuNTEgMi41MS0yLjI4NiAzeicvPjxwYXRoIGQ9J20zMy43MjEgMjkuMzczbC0yLjk1Ny0yLjE1MS0yLjUxIDIuNTEgMi4yODUgM3onLz48cGF0aCBkPSdtMzMuNzIxIDExLjMwOWwtMi45NTcgMi4xNTEtMi41MS0yLjUxIDIuMjg1LTN6Jy8+PHBhdGggZD0nbTcuNDQyIDExLjMwOWwyLjk1NyAyLjE1MSAyLjUxLTIuNTEtMi4yODUtM3onLz48L2c+PC9nPjwvc3ZnPg==' alt="Numbers activity svg">
@@ -248,7 +279,7 @@ title: Sugar Labs
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div class="carousel-item active">
                             <div class="row ">
                                 <div class="col-sm-6 col-md-4">
                                     <div class="service-item">
@@ -273,7 +304,7 @@ title: Sugar Labs
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div class="carousel-item active">
                             <div class="row ">
                                 <div class="col-sm-6 col-md-4">
                                     <div class="service-item">
@@ -298,7 +329,7 @@ title: Sugar Labs
                                 </div>
                             </div>
                         </div>
-                    <div>
+                    <div class="carousel-item active">
                         <div class="row ">
                             <div class="col-sm-6 col-md-4">
                                 <div class="service-item">
@@ -322,7 +353,13 @@ title: Sugar Labs
                                 </div>
                             </div>
                         </div>
+
+                        <a class="carousel-control-prev" href="#testimonial-slider2" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+
+                        <a class="carousel-control-next" href="#testimonial-slider2" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+
                     </div>
+                </div>   
                 </div>
             </div>
         </div>
@@ -439,25 +476,38 @@ title: Sugar Labs
                     </div>
                     <div class="col-5 col-push-1 customPadding4" >
                         <div class="testimonial-carousel customPadding4 borderNone">
-                            <div id="testimonial-slider2" class="owl-carousel customPadding4">
-                                <div>
+                            <div id="testimonial-slider3" class="carousel slide" data-ride="carousel customPadding4">
+                                <ol class="carousel-indicators">
+                                <li data-target="#testimonial-slider3" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonial-slider3" data-slide-to="1"></li>
+                                <li data-target="#testimonial-slider3" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
                                     <p class="leftAlign">"I don't think I've ever seen a piece of commercial software where the next version is simpler rather than more complex."</p>
                                     <div class="user">
                                         <p><span>Walter Bender</span> Founder-Sugar Labs</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="carousel-item">
                                     <p class="leftAlign">"A successful technology creates problems that only it can solve."</p>
                                     <div class="user">
                                         <p><span>Alan Kay</span></p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="carousel-item">
                                     <p class="leftAlign">"Fedora-Based Sugar on a Stick Is One Sweet Desktop."</p>
                                     <div class="user">
                                         <p><span>LinuxInsider</span></p>
                                     </div>
                                 </div>
+
+                                <a class="carousel-control-prev" href="#testimonia-slider3" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+
+                                <a class="carousel-control-next" href="#testimonial-slider3" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+
+                            </div>
+                                
                             </div>
                         </div>
                     </div>
