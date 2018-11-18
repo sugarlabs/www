@@ -1,0 +1,178 @@
+---
+---
+// Colors to use with ion icons
+// Somewhat based off Social Share Kit - https://github.com/darklow/social-share-kit/blob/master/dist/css/social-share-kit.css
+
+// By default the hover color is darkened. You can set the percent below
+$darken-percent: 10%;
+
+// Facebook colors
+$facebook-color: #3b5998;
+$facebook-color-hover: darken($facebook-color, $darken-percent);
+$facebook-background: #3b5998;
+$facebook-background-hover: darken($facebook-background, $darken-percent);
+
+// Github colors
+$github-color: #767676;
+$github-color-hover: darken($github-color, $darken-percent);
+$github-background: black;
+$github-background-hover: darken($github-background, $darken-percent);
+
+// Twitter colors
+$twitter-color: #38A1F3;
+$twitter-color-hover: darken($twitter-color, $darken-percent);
+$twitter-background: #38A1F3;
+$twitter-background-hover: darken($twitter-background, $darken-percent);
+
+// Instagram colors
+// Instagram uses the background on both for both sticky and non sticky icons
+$instagram-color: white;
+$instagram-color-hover: #d9a1f1;
+$instagram-background: linear-gradient(#4c4bdb, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
+$instagram-background-hover: linear-gradient(darken(#4c4bdb, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
+
+// Youtube colors
+$youtube-color: red;
+$youtube-color-hover: darken($youtube-color, $darken-percent);
+$youtube-background: red;
+$youtube-background-hover: darken($youtube-background, $darken-percent);
+
+
+.ion-sticky {
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 0;
+  position: fixed;
+  z-index: 2147483647;
+}
+
+.ion-sticky-icon {
+  float: left;
+  display: block;
+  clear: both;
+  transition: padding 0.1s ease-out;
+  -webkit-transition: padding 0.1s ease-out;
+  -moz-transition: padding 0.1s ease-out;
+  -ms-transition: padding 0.1s ease-out;
+  -o-transition: padding 0.1s ease-out;
+  margin: 0;
+  padding: 9px;
+  color: white;
+
+  &:hover {
+    padding-left: 15px;
+    color: white;
+  }
+
+  &.ion-social- {
+
+    &facebook {
+      background: $facebook-background;
+      text-indent: 8.5px;
+      margin-right: -8.5px;
+      border-radius: 0.25em 0.25em 0 0;
+
+      &:hover {
+        background: $facebook-background-hover;
+      }
+    }
+
+    &github {
+      background: $github-background;
+      text-indent: 1.5px;
+      margin-right: -1.5px;
+
+      &:hover {
+        background: $github-background;
+      }
+    }
+      
+    &twitter {
+      background: $twitter-background;
+      text-indent: 1px;
+      margin-right: -1px;
+
+      &:hover {
+        background: $twitter-background-hover;
+      }
+    }
+      
+    &instagram {
+      background: $instagram-background;
+      text-indent: 3.5px;
+      margin-right: -3.5px;
+
+      &:hover {
+        background: $instagram-background-hover;
+      }
+    }
+      
+    &youtube {
+      background: $youtube-background;
+      border-radius: 0 0 0.25em 0.25em;
+
+      &:hover {
+        background: $youtube-background-hover;
+      }
+    }
+  }
+}
+
+.ion-icon {
+  padding: 1px 4px;
+  display: inline-block;
+
+  &.ion-social- {
+
+    &facebook {
+      color: $facebook-color;
+
+      &:hover {
+        color: $facebook-color-hover;
+      }
+    }
+
+    &github {
+      color: $github-color;
+
+      &:hover {
+        color: $github-color-hover;
+      }
+    }
+      
+    &twitter {
+      color: $twitter-color;
+
+      &:hover {
+        color: $twitter-color-hover;
+      }
+    }
+             
+    &instagram {
+      // Instagram uses background color
+      color: $instagram-color;
+      background: $instagram-background;
+
+      &:hover {
+        color: $instagram-color-hover;
+      }
+    }
+      
+    &youtube {
+      color: $youtube-color;
+
+      &:hover {
+        color: $youtube-color-hover;
+      }
+    }
+  }
+}
+
+.ssk-group {
+  line-height: 1px;
+  font-size: 28px;
+}

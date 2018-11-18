@@ -207,7 +207,7 @@ If some changes are not visible (after saving a page while editing), please rest
 4. Do check **Answers to few questions** section to get answers to few of the questions you might have or for steps to be followed.
 5. Be careful when changing the cache control code present in the **.htaccess** file.
 6. Whenever the dependency/library versions are changed, please update the local files of those dependencies as these local files are referenced when the cdn does not work.
-7. The current website uses customized versions of few social media icons (service provided by [Social Share Kit](http://socialsharekit.com)). So we use the local files of the service and do our customizations in the css file of the service (**/assets/dist/css/social-share-kit.css** file in our case). Please be careful when updating the files of this service. (Also refer to **How to change social media icon colors?** subsection in **Answers to few questions** section)
+7. The current website uses customized versions of few social media icons (service provided by [Ion Icons](https://ionicons.com)). We do our customizations in a scss file (**/css/ion_icon_customization.scss** file in our case). Please be careful when updating this file. (Also refer to **How to change social media icon colors?** subsection in **Answers to few questions** section)
 
 ## Answers to Few Questions
 
@@ -287,10 +287,10 @@ If some changes are not visible (after saving a page while editing), please rest
 2. Change/Edit the code there.
 
 ### How to change social media icon colors?
-1. Go to **footer.html** file.
-2. Go to social media icons and check the classes of the relevant icon.
-3. Go to **/assets/dist/css/social-share-kit.css** file.
-4. Go to the relevant classes and change the **background-color**/**color** attributes of the icon associated classes.
+1. Go to **/css/ion_icon_customization.scss** file.
+2. Find the color section you wish the change (it is commented)
+3. Change the variable here only.
+4. Do not change the code below the variables unless you wish to add or remove a color instead of changing a color.
 
 ## Credits
 
