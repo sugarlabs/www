@@ -1052,17 +1052,6 @@ footer .footer-manu ul li a:hover {
 .panel{
     margin-bottom: 0px;
 }
-.chat-window{
-    bottom:0;
-    right: 20px;
-    position:fixed;
-    float:right;
-    width: 400px;
-    margin-left:0px;
-}
-.chat-window > div > .panel{
-    border-radius: 5px 5px 0 0;
-}
 .panel-default > .panel-heading {
   background-color: #ffffff;
   border-color: #ffffff;

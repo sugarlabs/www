@@ -50,8 +50,6 @@ $(document).ready(function(){
         $('#animationPart1').addClass('start');
         $('#animationPart2').addClass('start');
         $('#animationPart3').addClass('start');
-        document.getElementById("myiframe1").src = 'https://kiwiirc.com/client/irc.kiwiirc.com/?&theme=cli#sugar';
-        document.getElementById("myiframe2").src = 'https://kiwiirc.com/client/irc.kiwiirc.com/?&theme=cli#sugar';
         if(isIE){
             $('#navh2').css('display', 'block');
             $('#navh3').css('display', 'block');
@@ -69,15 +67,6 @@ $(document).ready(function(){
         $('#navh3').css('display', 'block');
         $('#navh1').css('display', 'none');
     }
-    // Chat window related code
-    var $this = $(".panel-heading span.icon_minim");
-    $this.addClass('panel-collapsed');
-    $this.removeClass('ion-minus-round').addClass('ion-plus-round');
-    $('[data-toggle="tooltip"]').tooltip();
-    $('[data-toggle="popover"]').popover();
-    $('.popover-dismiss').popover({
-      trigger: 'focus'
-    })
     // Slideshows code
 
     $("#glimpse-slider").owlCarousel({
@@ -132,11 +121,4 @@ $(document).ready(function(){
     		$('.js-fullheight').css('height', $(window).height());
     	});
     };
-    // Code to detect if chat window has been closed and making sure it doent open up in other pages
-    if(window.name=="websiteChatClosed"){
-        document.getElementById("myiframe1").src = '';
-        document.getElementById("myiframe2").src = '';
-        $('#ftctn').css('display', 'none');
-        $('#myBtn2').css('display', 'none');
-    }
 });

@@ -6,7 +6,6 @@ This repository contains the code for the redesigned version of "www.sugarlabs.o
 ### Major Services
 We have integrated 4 major features with the help of third party services:
 1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track user on the website and get a more detailed analysis on the users usage.
-2. IRC chat - We have used the [Kiwi IRC](https://kiwiirc.com) service to enable users to chat on our IRC channels in the website itself.
 3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users to subscribe to our newsletters through their emails.
 4. Customized search functionality - We have used [Google custom search engine](https://www.google.co.in/cse) to provide a customized search for users.
 
@@ -98,7 +97,7 @@ The dynamic logo is enabled for:
 However due to several issues, I disabled the dynamic logo and rendered static logo for all the other browsers.
 
 ### Disabling
-For other browsers apart from those mentioned below, the IRC chat, loader, dynamic logo are disabled.
+For other browsers apart from those mentioned below, the loader, dynamic logo are disabled.
 1. Safari
 2. Chrome
 3. Opera
@@ -123,19 +122,6 @@ To reduce animations, we disabled the loader for all the other browsers.
 
 ### Font:
 The font being used is the Google font, Varela round. When we call the font sheet directly, it is not properly rendered on certain browsers, so we hosted the required font sheets in the **fonts** folder itself. For more details, please refer to the  **How to add/change new font?** subsection in the **Answers to few questions** section.
-
-### Chat window:
-We have used the [Kiwi IRC](https://kiwiirc.com) service to enable users to chat on **Sugar Labs** IRC channels in the website itself.
-The chat window is enabled for:
-1. Safari
-2. Chrome
-3. Opera
-4. Firefox
-5. Edge
-6. Internet Explorer
-7. Small devices browsers like on Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile
-#### Note
-The service renders many requests, so to reduce the burden, we disabled the loader for all the other browsers.
 
 ### Design Layout of Website/Project
 
@@ -169,16 +155,6 @@ The relevant pages can be checked to adopt a similar design.
 ### How to remove loader?
 1. Go to **index.html** file.
 2. Go to the **Loader section** (check comments) and remove the whole section.
-
-### How to remove chat window?
-1. Go to **footer.html** file.
-2. Go to the **Chat window for screens with width <= 991px** section (check comments) and remove the whole section.
-3. Go to the **Chat window for screens with width > 991px** section (check comments) and remove the whole section.
-
-### How to change IRC service?
-1. Go to **main.js** file.
-2. Go to **Disabling code** section (check comments). 
-2. The request url of the new IRC service can be written as the source to the **iframes** in place of the existing [Kiwi IRC](https://kiwiirc.com) service call.
 
 ### How to disable search functionality?
 1. Go to **search.html** file.

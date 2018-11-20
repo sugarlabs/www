@@ -1,33 +1,3 @@
-<!-- Chat button for screens with width <= 991px -->
-<button id="myBtn2" title="IRC chat" data-toggle="modal" data-target="#fsModal"><span class="ion-ios-chatbubble" style="font-size:22px;"></span></button>
-
-<!-- Chat window for screens with width <= 991px -->
-<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 id="myModalLabel" class="modal-title center-text">
-                Chat on our IRC channel!
-                <a href="#" tabindex="0" data-toggle="popover" title="What is IRC?" data-content="<a href '{{ site.baseurl }}/about-irc'>Click here to find out more!</a>" data-html="true" data-placement="bottom" data-trigger="focus"><span class="ion-ios-information customSpanStyle" ></span></a>
-                </h1>
-            </div>
-            <div class="modal-body">
-                <iframe id="myiframe1" src="" style="border:0; width:100%; height:100%;"></iframe>
-            </div>
-            <div class="modal-footer">
-                <button id="chatClose" class="btn btn-secondary"
-                data-dismiss="modal" style="background-color:#655E7A;color:#ffffff;float:left">
-                <i class="ion-close-round"></i>
-                </button>
-                <button id="chatMinimize" class="btn btn-secondary"
-                data-dismiss="modal" style="background-color:#655E7A;color:#ffffff">
-                <i class="ion-minus-round"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Footer -->
 <footer  style="background-color:#282828;padding-top:5px;">
     <h4 style="text-align:right;margin-right:20px;"><a href="#top" class="hrefCustomColor">Back to top&nbsp<i class="icon ion-arrow-up-c"></i></a></h4>
@@ -144,31 +114,6 @@
     </div>
 </footer>
 
-<!-- Chat window for screens with width > 991px-->
-<div id="ftctn" class="container" style="padding-left:0px;">
-    <div class="row">
-        <div class="col-md-12" style="position:absolute;bottom:0;right:0;">
-            <div class="chat-window pull-right" id="chat_window_1" >
-                <div class="panel panel-default" >
-                    <a href="#"><div id="panel1" class="panel-heading top-bar" style="padding-left:0px;margin-left:0px;">
-                        <div class="col-md-10" style="padding-left:60px;margin-left:0px;padding-bottom:0px;">
-                            <h3 class="panel-title" style="font-size:16px;color:#000000;">Chat on our IRC channel!&nbsp;<a href="#" data-toggle="tooltip" title="What is IRC?" data-placement="top"><span id="aboutIRC" class="ion-ios-information" style="color:#655E7A;font-size:18px;"></span></a></h3>
-                        </div>
-                        <div class="col-md-2" style="text-align: right; padding-right:0px;">
-                            <a href="#"><span id="minim_chat_window" class="ion-minus-round icon_minim" style="color:#655E7A;font-size:16px;"></span></a>
-                            <a href="#"><span class="ion-close-round icon_close" data-id="chat_window_1" style="color:#655E7A;font-size:16px;"></span></a>
-                        </div>
-                        </div>
-                    </a>
-                    <div class="panel-body msg_container_base" style="display:none;">
-                        <iframe id="myiframe2" src="" style="border:0; width:100%; height:400px;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- FLoating social media icons -->
 <div id="mobile-ssk" class="ion-sticky ssk-group">
     <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ion-sticky-icon ion-social-facebook"></a>
@@ -246,21 +191,6 @@ if (typeof jQuery.waypoints == 'undefined') {
         }
     return false;
     });
-    $(document).on('click', '.icon_close', function (e) {
-        $('#ftctn').css('display', 'none');
-        window.name="websiteChatClosed";
-        document.getElementById("myiframe2").src = '';
-        return false;
-    });
-    $(document).on('click', '#chatClose', function (e) {
-        document.getElementById("myiframe1").src = '';
-        $('#myBtn2').css('display', 'none');
-        window.name="websiteChatClosed";
-        return false;
-    });
-    $(document).on('click', '#chatMinimize', function (e) {
-        return false;
-    });
     $(document).on("scroll", function () {
         if ($(document).scrollTop() > 10) {
             $("header").removeClass("large").addClass("small");
@@ -268,10 +198,6 @@ if (typeof jQuery.waypoints == 'undefined') {
         else {
             $("header").removeClass("small").addClass("large");
         }
-    });
-    $(document).on('click', '#aboutIRC', function (e) {
-        window.location.href = '{{ site.baseurl }}/about-irc';
-        return false;
     });
     var slideIndex = 0;
     showSlides();
