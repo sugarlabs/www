@@ -2,7 +2,7 @@ title: Sugar Labs
 markdown: kramdown
 url: "https://www.sugarlabs.org"
 permalink: pretty
-description: "Sugar Labs is creator of the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities"
+description: "Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities"
 keywords: "sugar, sugar labs, learning, olpc, constructionism, education, community"
 sass:
   sass_dir: css
