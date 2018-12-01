@@ -382,7 +382,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #5C5C5C;
   padding-top: 110px;
 }
-# .block h2 {
+.block h2 {
   line-height: 27px;
   color: #5C5C5C;
   padding-top: 110px;
