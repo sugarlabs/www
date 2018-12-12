@@ -179,7 +179,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 
 }
-
+.center {
+  text-align: center !important;
+}
 /*--
   Slider Start
 --*/
