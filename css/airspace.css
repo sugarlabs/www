@@ -377,28 +377,11 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 120px;
   height: 120px;
 }
-#h2ele {
-  line-height: 27px;
-  color: #5C5C5C;
-  padding-top: 110px;
-}
-#testimonial .block h2 {
-  line-height: 27px;
-  color: #5C5C5C;
-  padding-top: 110px;
-}
-#testimonial .block p {
-  padding-top: 50px;
-  color: #7B7B7B;
-}
 #testimonial .counter-box li {
   width: 50%;
   float: left;
   text-align: center;
   margin: 17px 0 30px;
-}
-#testimonial .counter-box li i {
-  font-size: 35px;
 }
 #testimonial .counter-box li h4 {
   font-size: 30px;
@@ -422,10 +405,6 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 28px;
   font-weight: 300;
   padding-bottom: 20px;
-}
-#testimonial .testimonial-carousel .user img {
-  padding-bottom: 0px;
-  border-radius: 500px;
 }
 #testimonial .testimonial-carousel .user p {
   padding-bottom: 0;
