@@ -18,7 +18,6 @@ date: 2018-06-25
     * **Github**: [Pro-Panda](https://www.github.com/Pro-Panda)
     * **LinkedIn**: [Pro-Panda](https://www.linkedin.com/in/Pro-Panda/)
     * **Personal homepage**: [http://pro-panda.tech]()
-    * **Freenode IRC nickname**: Pro-Panda/Pro-Panda[m]
     * **Activity maintainer**: Flappy, CowBulls
     * **About**: Rahul Bothra is a Computer Science Junior at BITS Pilani (2016-2020). He has been contributing to Sugar on the Python end. He is also a [GSoC 2018](https://summerofcode.withgoogle.com/projects/#4876035942776832) student for Sugar Labs working on the project "Implement Cross Version Python support for Sugar"
       He likes to learn new algorithms and play chess. He is also a SIG - Development Coordinator at BITS ACM Chapter, where he mentors students and organises technical events and workshops.
@@ -27,7 +26,6 @@ date: 2018-06-25
 * [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
     * [GitHub](https://github.com/walterbender) (many Activities here)
     * **E-mail**: walter AT sugarlabs DOT org  
-    * **Freenode IRC nickname**: walterbender    
     * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs is a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
 
       Bender received his undergraduate degree from Harvard University in 1977 and a masters degree from MIT in 1980, where he built the Electronic Publishing research group. He was a founding member of the MIT Media Lab, where he was a Senior Scientist and holder of the Alexander W Dreyfoos Chair.
@@ -45,18 +43,15 @@ date: 2018-06-25
 * [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg)
     * Computer engineer and GNU/Linux enthusiast.
     * [E-mail](mailto:scanterog@gmail.com)
-    * IRC: scg
     * [LinkedIn](https://www.linkedin.com/in/scantero)
     * [Github](https://github.com/scanterog)
 * [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"} 
     * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
     * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com)
     * [Github](https://github.com/chimosky)
-    * **Freenode IRC nickname**: Ibiam
 * [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
     * [GitHub](https://github.com/davelab6)
     * [Email](mailto:dave@lab6.com)
-    * IRC: davelab6
 
 ### D
 
@@ -69,7 +64,6 @@ date: 2018-06-25
 * Justin W. Flory
 * [Bert Freudenberg](https://wiki.sugarlabs.org/go/User:Bert){:target="_blank"}  
     * **E-mail**: bert AT freudenbergs DOT de  
-    * **Freenode IRC nickname**: bertf (#sugar, #olpc-de)
     * **About**: Bert Freudenberg is a freelancing Software Engineer based in Magdeburg, Germany. From 2006-2008 he was contracted to port the Squeak Etoys learning environment to Sugar. Bert still voluntarily maintains the Sugar version of Etoys.
 * [Tony Forster](https://wiki.sugarlabs.org/go/User:Tonyforster){:target="_blank"}  
     * **E-mail**: forster AT ozonline DOT com DOT au  
@@ -87,7 +81,6 @@ date: 2018-06-25
     * [Github](https://github.com/samswag){:target="_blank"}
     * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank"}
     * **E-mail**: samsongoddy AT gmail DOT com
-    * **Freenode IRC nickname**: samsongoddy
     * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria.
 
 * Ayush Goyal
@@ -97,8 +90,7 @@ date: 2018-06-25
 ### H
 
 * [Eli Heuer](https://wiki.sugarlabs.org/go/User:Elih){:target="_blank"}  
-    * **E-mail**: eliheuer AT gmail DOT com  
-    * **Freenode IRC nickname**: Elih on #sugar channel  
+    * **E-mail**: eliheuer AT gmail DOT com
     * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank"}
     * **About**: Type designer and GSoC 2016 mentor
 
@@ -110,7 +102,6 @@ date: 2018-06-25
 
 * [Bernie Innocenti](https://wiki.sugarlabs.org/go/User:Bernie){:target="_blank"}  
     * **E-mail**: bernie AT codewiz DOT org   
-    * **Freenode IRC nickname**: _bernie
     * **Personal homepage**: http://codewiz.org/
     * **About**: I'm a volunteer working for the Sugar Labs foundation. Before that, I was a full-time volunteer developer at OLPC. My job was hacking on X11, the base Fedora OS, the Linux kernel, some i18n and input work. I have also worked on-site at OLPC deployments in Nepal, Paraguay, Uruguay and Mozambique.
 
@@ -118,7 +109,6 @@ date: 2018-06-25
 
 * [Alex Jones](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank"}  
     * **E-mail**: acj3840 AT rit DOT edu   
-    * **Freenode IRC nickname**: Boe08
     * **About**: Worked on the Teacher's Tools activity
 
 ### K
@@ -133,7 +123,6 @@ date: 2018-06-25
 * Sanchit Kapoor
 * [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank"}  
     * [E-mail](mailto:avni@kidsoncomputers.org)
-    * IRC: avni
     * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank"}  
     * [Twitter](http:/twitter.com/avni321){:target="_blank"}
     * About: President of [Kids on Computers](http://kidsoncomputers.org/blog){:target="_blank"}  
@@ -143,7 +132,6 @@ date: 2018-06-25
 * Gabriel Lee
 * [Aleksey Lim](https://wiki.sugarlabs.org/go/User:Alsroot){:target="_blank"}
     * **E-mail**: alsroot AT member DOT fsf DOT org
-    * **Freenode IRC nickname**: alsroot
     * **About**: School Network project. Maintains Sugar Labs services: jita, meeting, chat, activities, jabber
 
 ### M
@@ -186,7 +174,6 @@ date: 2018-06-25
 
 * [Agustinn Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
     * **E-mail**: aguz AT sugarlabs DOT org
-    * **Freenode IRC nickname**: aguz  
     * **About**: Activity developer.
 * Daksh Shah
 * Mandeep Singh

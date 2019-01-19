@@ -128,7 +128,6 @@ The font being used is the Google font, Varela round. When we call the font shee
 The following pages share a similar design:
 **index.html
 about-us.html
-about-irc.html
 about-libre-software-culture.html
 booting-soas.html
 contact-us.html
