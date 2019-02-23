@@ -98,7 +98,7 @@
                         </div>
 
                         <div class="collapse navbar-collapse zeroMarPadBtm" id="bs-example-navbar-collapse-1" >
-				<div id="searchForm">
+				<div id="searchForm"  class="navbar-form">
                                         <input type="text" id="SearchBar" onchange="searchLoad()">
 					<a onclick="condenser()" id="closebtn" style="visibility:hidden;height:0px;padding-right:5px;width:0px;position:relative;">
 					<svg id="closebutton"height="0px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
@@ -178,9 +178,11 @@
                         <h3>Sugar Labs</h3>
                     </div>
                  <div>
-		   <div id="searchForm1" style="width:230px;" >
-                        <input type="text" id="SearchBar1" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
-                        <a id="searchLink"><span class="ion-android-search customFontSize3" ></a></div></div>
+		        <div id="searchForm1" class="navbar-form" style="width:230px;" >
+                             <input type="text" id="SearchBar1" onchange="searchLoad()" style="width:190px;color:#7C7A86;">
+                             <a id="searchLink"><span class="ion-android-search customFontSize3" ></a>
+                 </div>
+                </div>
                     <ul class="list-unstyled components">
                         <li><a href="{{ site.baseurl }}/about-us"><span class="customSpanColor2">About</span></a></li>
                         <li><a href="http://server.sugarizer.org"><span class="customSpanColor2">Try Now</span></a></li>
