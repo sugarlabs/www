@@ -79,11 +79,26 @@ $(document).ready(function(){
         singleItem:true,
         autoPlay: 3000,
     });
-    $("#testimonial-slider2").owlCarousel({
-        paginationSpeed : 500,
-        singleItem:true,
-        autoPlay: 3000,
+
+    $(window).scroll(function() {
+        var offset = $("#testimonial-slider2").offset().top;
+        var outerHeight = $("#testimonial-slider").outerHeight();
+
+        var windowHeight = $(window).height();
+        var windowS = $(this).scrollTop();
+
+        if (windowS > (offset + outerHeight - windowHeight)) {
+            $("#testimonial-slider2").owlCarousel({
+                paginationSpeed : 500,
+                singleItem:true,
+                autoPlay: 3000,
+            });
+
+            console.log("Hola");
+        }
+
     });
+
     $("#testimonial-slider3").owlCarousel({
         paginationSpeed : 500,
         singleItem:true,
