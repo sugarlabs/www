@@ -94,7 +94,6 @@ $(document).ready(function(){
                 autoPlay: 3000,
             });
 
-            console.log("Hola");
         }
 
     });
