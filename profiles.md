@@ -13,15 +13,11 @@ date: 2018-06-25
 
 ### B
 
-* Rahul Bothra
-    * **E-mail**: f2016015 AT pilani DOT bits-pilani DOT ac DOT in
-    * **Github**: [Pro-Panda](https://www.github.com/Pro-Panda)
-    * **LinkedIn**: [Pro-Panda](https://www.linkedin.com/in/Pro-Panda/)
-    * **Personal homepage**: [http://pro-panda.tech]()
-    * **Freenode IRC nickname**: Pro-Panda/Pro-Panda[m]
-    * **Activity maintainer**: Flappy, CowBulls
-    * **About**: Rahul Bothra is a Computer Science Junior at BITS Pilani (2016-2020). He has been contributing to Sugar on the Python end. He is also a [GSoC 2018](https://summerofcode.withgoogle.com/projects/#4876035942776832) student for Sugar Labs working on the project "Implement Cross Version Python support for Sugar"
-      He likes to learn new algorithms and play chess. He is also a SIG - Development Coordinator at BITS ACM Chapter, where he mentors students and organises technical events and workshops.
+* **Rahul Bothra**
+    * **E-mail**: rrbothra@gmail.com
+    * **Personal homepage**: [https://pro-panda.github.io](https://pro-panda.github.io)
+    * **About**: Rahul Bothra is a Computer Science Senior at BITS Pilani. He is a volunteer for Sugar Labs. He is also a Google Summer of Code 2019 Mentor for Sugar Labs. He is one of the mentors representing Sugar Labs to the Google Summer of Code 2019 Summit in Munich.
+
 * Roshan Bagla
 * Manveer Singh Basra
 * [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
