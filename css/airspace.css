@@ -2229,6 +2229,7 @@ h1:before {
 
 .tag-regular {
   background-color: #fff;
+  padding-top: 2.7px;
   border: 1px solid #ddd;
   color: #000000;
   font-size:30px;
