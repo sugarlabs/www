@@ -11,7 +11,9 @@ We have integrated 4 major features with the help of third party services:
 
 ### Feedback/Suggestions and Issues
 Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through:
+
 1)Issues section of this repository
+
 2)[https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63)
 
 ## Credits
