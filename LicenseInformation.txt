@@ -56,7 +56,7 @@ Modified icons to fit ionicon’s grid from original.
 /* jquery.nicescroll 3.6.8 InuYaksa*2015 MIT http://nicescroll.areaaperta.com */
 
 (9)--------
-Copyright © Sugar Labs® available under the Creative Commons Attribution-ShareAlike 4.0 International License(CC-BY-SA).
+Copyright © 2017 Sugar Labs® available under the Creative Commons Attribution-ShareAlike 4.0 International License(CC-BY-SA).
 
 (10)--------
 Website base template:Designed and developed by Themefisher
