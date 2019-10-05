@@ -20,9 +20,6 @@
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
-
-
-
 #SearchBar {
   border: none;
   font-size: 18px;
@@ -31,8 +28,6 @@
   transition: width 0.4s ease-in-out;
   background-color: #FCFCFC;
 }
-
-
 @media only screen and (min-width: 1255px) and (max-width: 1319px) {
   #searchForm{
     display: flex;
@@ -52,9 +47,6 @@
     margin-right: 70px;
   }
 }
-
-
-
 #SearchBar1 {
   border: none;
   font-size: 18px;
