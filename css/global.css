@@ -1,0 +1,36 @@
+
+#btt{
+	z-index:999; 
+	display:inline-block;
+	position:fixed; 
+	visibility:hidden; 
+	bottom:17px; 
+	right:20px; 
+	width:8px; 
+	padding: 20px;perspective: 
+	height:10px; 
+	background-color:black;
+	line-height:10px; 
+	font-size:16px; 
+	text-align:center; 
+	opacity:.3;
+	border-radius: 100%;
+}
+
+#btt i{
+	display:block; 
+	color: cornflowerblue;
+	position: relative;
+
+	width:100%;
+	right: 3px; 
+	height:100%; 
+	line-height:inherit;
+}
+#btt.visible{
+	visibility:visible; 
+	opacity:.8;
+}
+#btt:hover{
+	opacity:1;
+}
