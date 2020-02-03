@@ -1,3 +1,29 @@
+# www.sugarlabs.org
+
+Sugar Labs web site.
+
+## Aims
+
+* to announce our vision and mission,
+* to invite potential users of Sugar Labs software,
+* to advertise our free software and licensing approach,
+* to provide links to software downloads, and;
+* to invite potential developers to the source code we hold in trust.
+
+## Contributing
+
+Content on the site; that is information about Sugar, Sugarizer or Music Blocks, is _way more important_ than the style or appearance.
+
+Please concentrate on updating the content of the site, and not the style or appearance.
+
+For your pull requests or issues to be taken seriously, you must be a user or developer of one of our software products; Sugar, Sugarizer, or Music Blocks.
+
+## History
+
+The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than relevance or accuracy of content.  Since then, we have decided to concentrate on keeping the content updated.
+
+----
+
 # GSOC 2017 redesigned "www.sugarlabs.org"
 
 These notes were part of a project that has since been merged.
