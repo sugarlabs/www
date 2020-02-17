@@ -12,7 +12,7 @@ Sugar Labs web site.
 
 ## Contributing
 
-Content on the site; that is information about Sugar, Sugarizer or Music Blocks, is _way more important_ than the style or appearance.
+Content on the site : that is information about Sugar, Sugarizer or Music Blocks, is _way more important_ than the style or appearance.
 
 Please concentrate on updating the content of the site, and not the style or appearance.
 
@@ -34,8 +34,8 @@ This repository contains the code for the redesigned version of "www.sugarlabs.o
 ### Major Services
 We have integrated 4 major features with the help of third party services:
 1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track user on the website and get a more detailed analysis on the users usage.
-3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users to subscribe to our newsletters through their emails.
-4. Customized search functionality - We have used [Google custom search engine](https://www.google.co.in/cse) to provide a customized search for users.
+2. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users to subscribe to our newsletters through their emails.
+3. Customized search functionality - We have used [Google custom search engine](https://www.google.co.in/cse) to provide a customized search for users.
 
 ### Feedback/Suggestions and Issues
 Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through: Issues section of this repository
