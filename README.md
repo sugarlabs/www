@@ -12,7 +12,7 @@ Sugar Labs web site.
 
 ## Contributing
 
-Content on the site; that is information about Sugar, Sugarizer or Music Blocks, is _way more important_ than the style or appearance.
+Content on the site : that is information about Sugar, Sugarizer or Music Blocks, is _way more important_ than the style or appearance.
 
 Please concentrate on updating the content of the site, and not the style or appearance.
 
