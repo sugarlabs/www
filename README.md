@@ -12,7 +12,7 @@ Sugar Labs web site.
 
 ## Contributing
 
-Content on the site; that is information about Sugar, Sugarizer or Music Blocks, is _way more important_ than the style or appearance.
+Content on the site; that is information about Sugar, Sugarizer, or Music Blocks, is _way more important_ than the style or appearance.
 
 Please concentrate on updating the content of the site, and not the style or appearance.
 
@@ -20,7 +20,7 @@ For your pull requests or issues to be taken seriously, you must be a user or de
 
 ## History
 
-The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than relevance or accuracy of content.  Since then, we have decided to concentrate on keeping the content updated.
+The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than the relevance or accuracy of the content.  Since then, we have decided to concentrate on keeping the content updated.
 
 ----
 
@@ -33,12 +33,12 @@ This repository contains the code for the redesigned version of "www.sugarlabs.o
 
 ### Major Services
 We have integrated 4 major features with the help of third party services:
-1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track user on the website and get a more detailed analysis on the users usage.
-3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users to subscribe to our newsletters through their emails.
+1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track users on the website and get a more detailed analysis of the user's usage.
+3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users subscribe to our newsletters through their emails.
 4. Customized search functionality - We have used [Google custom search engine](https://www.google.co.in/cse) to provide a customized search for users.
 
 ### Feedback/Suggestions and Issues
-Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through: Issues section of this repository
+Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
 
 ## Credits
 
@@ -46,7 +46,7 @@ Feedback/Suggestions are always welcome and do mention any issues found. They ca
 The license information of all the dependencies/libraries used in the code can be found in the **LicenseInformation.txt** file in the root folder.
 
 ### Usage of code snippets:
-For few parts of the code, I have used code snippets available online. The list of all the code snippets which I referred to are:
+For a few parts of the code, I have used code snippets available online. The list of all the code snippets which I referred to are:
 1. https://codepen.io/martinvd/pen/xbQJom
 2. https://bootstrapious.com/p/bootstrap-sidebar
 3. https://bootsnipp.com/snippets/1mo8Z
@@ -89,10 +89,10 @@ If some changes are not visible (after saving a page while editing), please rest
 1. Whenever the code is changed, please ensure that the relevant code changes are reflected in **main.js** file (For example, if a slideshow is disabled, make sure the id of the slideshow element/section is also disabled in the **main.js** file if it exists).
 2. Few dependencies/libraries do not work well with other dependencies/libraries, so make sure to test before updating the dependencies/libraries.
 3. Whenever the website hosting is shifted to another url/domain, please ensure to change the internal url references and also the **sitemap.txt** file.
-4. Do check **Answers to few questions** section to get answers to few of the questions you might have or for steps to be followed.
+4. Do check **Answers to a few questions** section to get answers to a few of the questions you might have or for steps to be followed.
 5. Be careful when changing the cache control code present in the **.htaccess** file.
 6. Whenever the dependency/library versions are changed, please update the local files of those dependencies as these local files are referenced when the cdn does not work.
-7. The current website uses customized versions of few social media icons (service provided by [Ion Icons](https://ionicons.com)). We do our customizations in a scss file (**/css/ion_icon_customization.scss** file in our case). Please be careful when updating this file. (Also refer to **How to change social media icon colors?** subsection in **Answers to few questions** section)
+7. The current website uses customized versions of a few social media icons (service provided by [Ion Icons](https://ionicons.com)). We do our customizations in a scss file (**/css/ion_icon_customization.scss** file in our case). Please be careful when updating this file. (Also refer to **How to change social media icon colors?** the subsection in **Answers to few questions** section)
 
 ## Some Developer Notes
 All internal URLs are referenced through absolute paths and not relative paths. This website primaritally uses HTML, (S)CSS, Javascript, JQuery, and Bootstrap.
@@ -147,7 +147,7 @@ The loader screen is enabled for:
 To reduce animations, we disabled the loader for all the other browsers.
 
 ### Font:
-The font being used is the Google font, Varela round. When we call the font sheet directly, it is not properly rendered on certain browsers, so we hosted the required font sheets in the **fonts** folder itself. For more details, please refer to the  **How to add/change new font?** subsection in the **Answers to few questions** section.
+The font being used is the Google font, Varela round. When we call the font sheet directly, it is not properly rendered on certain browsers, so we hosted the required font sheets in the **fonts** folder itself. For more details, please refer to  **How to add/change the new font?** the subsection in the **Answers to a few questions** section.
 
 ### Design Layout of Website/Project
 
@@ -228,7 +228,7 @@ The relevant pages can be checked to adopt a similar design.
 
 ### How to change logo?
 1. Go to **nav.html** file.
-2. Please be aware that we have 2 types of headers/navigation bars and for each header we have 2 logos associated(static and dynamic)(refer to **Logo** subsection in **About the website / project** section). Code is written to accommodate both the logos and the necessary disabling is done in **main.js** file.
+2. Please be aware that we have 2 types of headers/navigation bars and for each header, we have 2 logos associated(static and dynamic)(refer to **Logo** subsection in **About the website/project** section). Code is written to accommodate both the logos and the necessary disabling is done in the **main.js** file.
 #### Changing dynamic logo
 1. To change the dynamic logo, replace the new svg in space of the existing svg logo path in **nav.html** file.
 2. Do this for the 2 header sections in **nav.html** file.
