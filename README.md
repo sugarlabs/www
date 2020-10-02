@@ -1,6 +1,6 @@
 # www.sugarlabs.org
 
-Sugar Labs web site.
+Sugar Labs website . 
 
 ## Aims
 
