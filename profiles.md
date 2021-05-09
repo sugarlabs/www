@@ -13,10 +13,8 @@ date: 2018-06-25
 
 ### B
 
-* **Rahul Bothra**
-    * **E-mail**: rrbothra@gmail.com
-    * **Personal homepage**: [https://pro-panda.github.io](https://pro-panda.github.io)
-    * **About**: Rahul Bothra is a Computer Science Senior at BITS Pilani. He is a volunteer for Sugar Labs. He is also a Google Summer of Code 2019 Mentor for Sugar Labs. He is one of the mentors representing Sugar Labs to the Google Summer of Code 2019 Summit in Munich.
+* [Rahul Bothra](https://github.com/rahul-bothra){:target="_blank"}
+    * **About**: Rahul is passionate about enabling access to quality education for everyone. Rahul wrote patches to, and maintained the Sugar architecture (OS, toolkits, and applications), mentored new contributors, and was on the Sugar Labs Oversight Board.
 
 * Roshan Bagla
 * Manveer Singh Basra
