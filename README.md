@@ -1,6 +1,10 @@
-# www.sugarlabs.org
 
-Sugar Labs web site.
+<div align="center">
+    
+# [Sugarlabs](www.sugarlabs.org)
+# Sugar Labs web site
+    
+</div>
 
 ## Aims
 
@@ -47,15 +51,15 @@ The license information of all the dependencies/libraries used in the code can b
 
 ### Usage of code snippets:
 For a few parts of the code, I have used code snippets available online. The list of all the code snippets which I referred to are:
-1. https://codepen.io/martinvd/pen/xbQJom
-2. https://bootstrapious.com/p/bootstrap-sidebar
-3. https://bootsnipp.com/snippets/1mo8Z
-4. https://www.w3schools.com/howto/howto_js_slideshow.asp
-5. http://www.hongkiat.com/blog/css-reflection/
-6. https://codepen.io/zachsaffrin/pen/zrxsc
-7. https://codepen.io/yewnork/pen/Kpaqeq
-8. http://fiddle.jshell.net/jrjacobs24/u76Ltw92/8/light/
-9. https://pixelflips.com/blog/anchor-links-with-a-fixed-header
+1. [CodePen-Martinvd](https://codepen.io/martinvd/pen/xbQJom)
+2. [Bootstrapious](https://bootstrapious.com/p/bootstrap-sidebar)
+3. [Bootsnipp](https://bootsnipp.com/snippets/1mo8Z)
+4. [W3schools](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+5. [Hongkiat](http://www.hongkiat.com/blog/css-reflection/)
+6. [Codepen-Zachsaffrin](https://codepen.io/zachsaffrin/pen/zrxsc)
+7. [CodePen-Yewnork](https://codepen.io/yewnork/pen/Kpaqeq)
+8. [Fiddle](http://fiddle.jshell.net/jrjacobs24/u76Ltw92/8/light/)
+9. [Pixelflips](https://pixelflips.com/blog/anchor-links-with-a-fixed-header)
 
 ### Base template:
 Base template has been designed and developed by Themefisher. For a preview, check out this link - [https://luminousrubyist.github.io/airspace-jekyll/](https://luminousrubyist.github.io/airspace-jekyll/)
@@ -64,13 +68,26 @@ Base template has been designed and developed by Themefisher. For a preview, che
 The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
 
 ## Feedback/Suggestions and Issues
+
 Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through:
-1)Issues section of this repository
-2)[https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63)
+
+1. Issues section of this repository
+2. [https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63)
 
 ## How to run the code
 ### Getting the code
-Clone the repository
+
+1. Fork this Repository.
+
+2. Clone your forked copy of the project.
+```
+git clone https://github.com/<your_user_name>/www-sugarlabs.git
+```
+3. Navigate to the project directory 📁.
+```
+cd www-sugarlabs
+```
+
 ### Installation
 Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
 
