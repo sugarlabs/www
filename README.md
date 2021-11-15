@@ -69,8 +69,6 @@ The code has been restructured, unnecessary code has been removed, comments were
 
 ## Feedback/Suggestions and Issues
 
-Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through:
-
 1. Issues section of this repository
 2. [https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63)
 
