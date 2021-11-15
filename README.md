@@ -67,11 +67,6 @@ Base template has been designed and developed by Themefisher. For a preview, che
 ### Code and Contribution
 The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
 
-## Feedback/Suggestions and Issues
-
-1. Issues section of this repository
-2. [https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63)
-
 ## How to run the code
 ### Getting the code
 
