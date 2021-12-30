@@ -4,22 +4,26 @@ title: Sugar Labs Contributors
 date: 2018-06-25
 ---
 
+<link rel="stylesheet" href="/css/contributors.css" />
+
+
+
 
 ### A
 
-* [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank"}
-    * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank"}
+* [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank" .link .name}
+    * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank" .link}
     * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is http://cscott.net
 
 ### B
 
-* [Rahul Bothra](https://github.com/rahul-bothra){:target="_blank"}
+* [Rahul Bothra](https://github.com/rahul-bothra){:target="_blank" .link .name}
     * **About**: Rahul is passionate about enabling access to quality education for everyone. Rahul wrote patches to, and maintained the Sugar architecture (OS, toolkits, and applications), mentored new contributors, and was on the Sugar Labs Oversight Board.
 
 * Roshan Bagla
 * Manveer Singh Basra
-* [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
-    * [GitHub](https://github.com/walterbender) (many Activities here)
+* [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank" .link .name}
+    * [GitHub ](https://github.com/walterbender){:target="_blank" .link} (many Activities here)
     * **E-mail**: walter AT sugarlabs DOT org  
     * **Freenode IRC nickname**: walterbender    
     * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs is a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
@@ -27,45 +31,45 @@ date: 2018-06-25
       Bender received his undergraduate degree from Harvard University in 1977 and a masters degree from MIT in 1980, where he built the Electronic Publishing research group. He was a founding member of the MIT Media Lab, where he was a Senior Scientist and holder of the Alexander W Dreyfoos Chair.
 
       Bender serves or has served on numerous boards and committees, including IBM's mobile computing advisory board and the GNOME technical advisory board. He is on the advisory board of the Squeak Foundation, the Center for Educational Technology (CET) in Israel, and Libre Corps, a new program at RIT that builds long-term, on-going relationships between university students and humanitarian organizations. He has held visiting faculty appointments at international universities, including the University of Tampere, and continues to serve on university research advisory boards and on occasion teaches at Hult and MIT Sloan business schools. Bender's book, Leaning to Change the World, on technology. learning, and social entrepreneurship was published in 2012.
-* [Bryan Berry](https://wiki.sugarlabs.org/go/User:BryanWB){:target="_blank"}
+* [Bryan Berry](https://wiki.sugarlabs.org/go/User:BryanWB){:target="_blank" .link .name}
     * **About**: I worked for OLE Nepal as CTO but I can't code to save my life. I also co-edited OLPC News together with Christoph Derndorfer.
-* [Wade Brainerd](https://wiki.sugarlabs.org/go/User:Wade){:target="_blank"}
+* [Wade Brainerd](https://wiki.sugarlabs.org/go/User:Wade){:target="_blank" .link .name}
     * **About**: I am involved with Sugar Labs as a volunteer, developing activities and helping to coordinate the Activity Team.
 
 ### C
 
-* [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey)
+* [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey){:target="_blank" .link .name}
     * **About**: RIT student that worked on the Math Hurdler XO game.
-* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg)
+* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank" .link .name}
     * Computer engineer and GNU/Linux enthusiast.
-    * [E-mail](mailto:scanterog@gmail.com)
+    * [E-mail](mailto:scanterog@gmail.com){:target="_blank" .link}
     * IRC: scg
-    * [LinkedIn](https://www.linkedin.com/in/scantero)
-    * [Github](https://github.com/scanterog)
-* [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"} 
+    * [LinkedIn](https://www.linkedin.com/in/scantero){:target="_blank" .link}
+    * [Github](https://github.com/scanterog){:target="_blank" .link}
+* [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank" .link .name} 
     * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
-    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com)
-    * [Github](https://github.com/chimosky)
+    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com){:target="_blank" .link}
+    * [Github](https://github.com/chimosky){:target="_blank" .link}
     * **Freenode IRC nickname**: Ibiam
-* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
-    * [GitHub](https://github.com/davelab6)
-    * [Email](mailto:dave@lab6.com)
+* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6){:target="_blank" .link .name}
+    * [GitHub](https://github.com/davelab6){:target="_blank" .link}
+    * [Email](mailto:dave@lab6.com){:target="_blank" .link}
     * IRC: davelab6
 
 ### D
 
-* [Aneesh Dogra](https://wiki.sugarlabs.org/go/User:Aneesh_Dogra){:target="_blank"}  
+* [Aneesh Dogra](https://wiki.sugarlabs.org/go/User:Aneesh_Dogra){:target="_blank" .link .name}
     * **E-mail**: &lt;first name&gt; at sugarlabs dot org
     * **About**: Has maintained level tool, IRC
 
 ### F
 
 * Justin W. Flory
-* [Bert Freudenberg](https://wiki.sugarlabs.org/go/User:Bert){:target="_blank"}  
+* [Bert Freudenberg](https://wiki.sugarlabs.org/go/User:Bert){:target="_blank" .link .name}
     * **E-mail**: bert AT freudenbergs DOT de  
     * **Freenode IRC nickname**: bertf (#sugar, #olpc-de)
     * **About**: Bert Freudenberg is a freelancing Software Engineer based in Magdeburg, Germany. From 2006-2008 he was contracted to port the Squeak Etoys learning environment to Sugar. Bert still voluntarily maintains the Sugar version of Etoys.
-* [Tony Forster](https://wiki.sugarlabs.org/go/User:Tonyforster){:target="_blank"}  
+* [Tony Forster](https://wiki.sugarlabs.org/go/User:Tonyforster){:target="_blank" .link .name}
     * **E-mail**: forster AT ozonline DOT com DOT au  
     * **About**: Interests: Activities which maximise the opportunity for self-directed learning: low floor, wide walls and high ceiling with particular emphasis on the walls and ceiling. My Sugar favourites: Turtleart, Scratch, Etoys. Game Maker still my Windows favourite.
 
@@ -75,34 +79,34 @@ date: 2018-06-25
 ### G
 
 * José Miguel García
-* [Samson Goddy](https://wiki.sugarlabs.org/go/User:Samson_Goddy)
-    * [Twitter](http://twitter.com/samson_goddy){:target="_blank"}
-    * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank"}
-    * [Github](https://github.com/samswag){:target="_blank"}
-    * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank"}
+* [Samson Goddy](https://wiki.sugarlabs.org/go/User:Samson_Goddy){:target="_blank" .link .name}
+    * [Twitter](http://twitter.com/samson_goddy){:target="_blank" .link}
+    * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank" .link}
+    * [Github](https://github.com/samswag){:target="_blank" .link}
+    * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank" .link}
     * **E-mail**: samsongoddy AT gmail DOT com
     * **Freenode IRC nickname**: samsongoddy
     * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria.
 
 * Ayush Goyal
-* [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
-    * [GitHub](https://github.com/godiard) (many Activities here)
+* [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard){:target="_blank" .link}
+    * [GitHub](https://github.com/godiard){:target="_blank" .link} (many Activities here)
 
 ### H
 
-* [Eli Heuer](https://wiki.sugarlabs.org/go/User:Elih){:target="_blank"}  
+* [Eli Heuer](https://wiki.sugarlabs.org/go/User:Elih){:target="_blank" .link}  
     * **E-mail**: eliheuer AT gmail DOT com  
     * **Freenode IRC nickname**: Elih on #sugar channel  
-    * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank"}
+    * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank" .link}
     * **About**: Type designer and GSoC 2016 mentor
 
 * Miguel Angel Asencio Hurtado
 
 ### I
 
-* [Ignacio](https://wiki.sugarlabs.org/go/User:Ignacio){:target="_blank"}  
+* [Ignacio](https://wiki.sugarlabs.org/go/User:Ignacio){:target="_blank" .link}  
 
-* [Bernie Innocenti](https://wiki.sugarlabs.org/go/User:Bernie){:target="_blank"}  
+* [Bernie Innocenti](https://wiki.sugarlabs.org/go/User:Bernie){:target="_blank" .link}  
     * **E-mail**: bernie AT codewiz DOT org   
     * **Freenode IRC nickname**: _bernie
     * **Personal homepage**: http://codewiz.org/
@@ -110,7 +114,7 @@ date: 2018-06-25
 
 ### J
 
-* [Alex Jones](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank"}  
+* [Alex Jones](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank" .link}  
     * **E-mail**: acj3840 AT rit DOT edu   
     * **Freenode IRC nickname**: Boe08
     * **About**: Worked on the Teacher's Tools activity
@@ -118,24 +122,24 @@ date: 2018-06-25
 ### K
 
 * Ben Kantor
-* [Aaron Kaplan](https://wiki.sugarlabs.org/go/User:Aaron){:target="_blank"}
+* [Aaron Kaplan](https://wiki.sugarlabs.org/go/User:Aaron){:target="_blank" .link}
     * aaron@lo-res.org
     * **E-mail**: aaron AT lo-res DOT org
     * **About**: Blogger
 * Puneet Kaur
 * Abhishek Kaushik
 * Sanchit Kapoor
-* [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank"}  
-    * [E-mail](mailto:avni@kidsoncomputers.org)
+* [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank" .link}  
+    * [E-mail](mailto:avni@kidsoncomputers.org){:target="_blank" .link}
     * IRC: avni
-    * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank"}  
-    * [Twitter](http:/twitter.com/avni321){:target="_blank"}
-    * About: President of [Kids on Computers](http://kidsoncomputers.org/blog){:target="_blank"}  
+    * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank" .link}  
+    * [Twitter](http:/twitter.com/avni321){:target="_blank" .link}
+    * About: President of [Kids on Computers](http://kidsoncomputers.org/blog){:target="_blank" .link}  
 
 ### L
 
 * Gabriel Lee
-* [Aleksey Lim](https://wiki.sugarlabs.org/go/User:Alsroot){:target="_blank"}
+* [Aleksey Lim](https://wiki.sugarlabs.org/go/User:Alsroot){:target="_blank" .link}
     * **E-mail**: alsroot AT member DOT fsf DOT org
     * **Freenode IRC nickname**: alsroot
     * **About**: School Network project. Maintains Sugar Labs services: jita, meeting, chat, activities, jabber
@@ -144,7 +148,7 @@ date: 2018-06-25
 
 * Sushil Mandi
 * Nilmadhab Mondal
-* [Caroline Meeks](https://wiki.sugarlabs.org/go/User:CarolineM){:target="_blank"}
+* [Caroline Meeks](https://wiki.sugarlabs.org/go/User:CarolineM){:target="_blank" .link}
     * **About**: Lead for Gardener Pilot Academy (GPA) Pilot and Sugar on a Stick project.
 
 ### N
@@ -155,7 +159,7 @@ date: 2018-06-25
 
 ### O
 
-* [Vik Olliver](https://wiki.sugarlabs.org/go/User:Vik){:target="_blank"}
+* [Vik Olliver](https://wiki.sugarlabs.org/go/User:Vik){:target="_blank" .link}
     * **About**: G'day. You've found Vik Olliver's user page. Vik is a longhair systems analyst who works for Catalyst IT Ltd. from his home and workshops in Waitakere, New Zealand. Vik's main ability is to find bugs, and to create useful add-ons... My two main abilities are finding bugs and creating useful add-ons and interfacing the OLPC to bits of hardware that the developing world may find useful. No, my three main ... er, I'll come back and do it again, shall I?
     When not working or playing with an XO, or called out by the fire brigade, Vik is probably fiddling with a RepRap 3D Printer - a machine that uses plastic to print 3D objects, including a set of its own parts if you want. At the moment it seems to be printing XO viewfinders, driven by an XO of course.
 
@@ -165,7 +169,7 @@ date: 2018-06-25
 * Aditya Patawari
 * Shawn Pereira
 * Manash Pratim Das
-* [Yamandu Ploskonka y Rivas](https://wiki.sugarlabs.org/go/User:Yamaplos){:target="_blank"}  
+* [Yamandu Ploskonka y Rivas](https://wiki.sugarlabs.org/go/User:Yamaplos){:target="_blank" .link}  
     * **E-mail**: yamaplos AT bolinux DOT org
     * **About**: Past admin of OLPC Sur.
 * Premraj Pushpakaran
@@ -178,7 +182,7 @@ date: 2018-06-25
 
 ### S
 
-* [Agustinn Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank"}  
+* [Agustinn Zubiaga Sanchez](https://wiki.sugarlabs.org/go/User:Aguz){:target="_blank" .link}  
     * **E-mail**: aguz AT sugarlabs DOT org
     * **Freenode IRC nickname**: aguz  
     * **About**: Activity developer.
@@ -198,12 +202,12 @@ date: 2018-06-25
 
 ### V
 
-* [Rajan Vaish](https://wiki.sugarlabs.org/go/User:Vaish.rajan){:target="_blank"}  
+* [Rajan Vaish](https://wiki.sugarlabs.org/go/User:Vaish.rajan){:target="_blank" .link}  
     * **E-mail**: vaish.rajan AT gmail DOT com  
     * **About**: Worked on a Geography teaching tool especially teaching maps of North and South America under its first release during Summer 2008.
 
 ### W
-* [Kalpa Welivitigoda](https://wiki.sugarlabs.org/go/User:Callkalpa){:target="_blank"}
+* [Kalpa Welivitigoda](https://wiki.sugarlabs.org/go/User:Callkalpa){:target="_blank" .link}
     * **About**: Hi I am Kalpa Welivitigoda from Sri Lanka. My work with sugar has been involved with packaging sugar activities for Fedora.
 
 

@@ -1,0 +1,57 @@
+body{
+    line-height: 2.2rem;
+}
+h3{
+    /* Alphabets */
+    text-align: left;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+h3+ul{
+    /* Complete box with details of contributor */
+    background-color: #474354;
+    color:  white;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding: 1rem;
+}
+h3+ul > li{
+    /* Elements inside the box of details of contributor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    /* min-height: 5rem; */
+    /* border: white 1px solid; */
+    text-align: center;
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2.5rem;
+}
+h3+ul > li > ul {
+    /* Second Element with list */
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+h3+ul > li > ul > li > strong{
+    margin-right: 0.5rem;
+}
+
+
+
+.link, 
+.link:visited, .link:active{
+    display: inline !important;
+    text-decoration: underline;
+    color: white;
+    cursor:pointer;
+}
+.link:hover{
+    color: black;
+    text-decoration: underline white;
+}
