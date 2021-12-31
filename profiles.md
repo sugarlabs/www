@@ -15,10 +15,10 @@ date: 2018-06-25
 <!-- List of contributors -->
 <div markdown="1" class="container">
 
-<div markdown="1" class="accordian" onclick="accordian('a1')">
+<div markdown="1" class="accordian" onclick="accordian('a1', 'i1')">
 
 ### A
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i1"></i>
 
 </div>
 
@@ -44,10 +44,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a2')">
+<div markdown="1" class="accordian" onclick="accordian('a2','i2')">
 
 ### B
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id='i2'></i>
 
 </div>
 
@@ -96,10 +96,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a3')">
+<div markdown="1" class="accordian" onclick="accordian('a3','i3')">
 
 ### C
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i3"></i>
 
 </div>
 
@@ -138,10 +138,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a4')">
+<div markdown="1" class="accordian" onclick="accordian('a4','i4')">
 
 ### D
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i4"></i>
 
 </div>
 
@@ -154,10 +154,10 @@ date: 2018-06-25
 </div>
 
 
-<div markdown="1" class="accordian" onclick="accordian('a5')">
+<div markdown="1" class="accordian" onclick="accordian('a5','i5')">
 
 ### F
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i5"></i>
 
 </div>
 
@@ -188,10 +188,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a6')">
+<div markdown="1" class="accordian" onclick="accordian('a6','i6')">
 
 ### G
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id='i6'></i>
 
 </div>
 
@@ -224,10 +224,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a7')">
+<div markdown="1" class="accordian" onclick="accordian('a7','i7')">
 
 ### H
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i7"></i>
 
 </div>
 
@@ -246,10 +246,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a8')">
+<div markdown="1" class="accordian" onclick="accordian('a8','i8')">
 
 ### I
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i8"></i>
 
 </div>
 
@@ -269,10 +269,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a9')">
+<div markdown="1" class="accordian" onclick="accordian('a9','i9')">
 
 ### J
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i9"></i>
 
 </div>
 
@@ -285,10 +285,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a10')">
+<div markdown="1" class="accordian" onclick="accordian('a10','i10')">
 
 ### K
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i10"></i>
 
 </div>
 
@@ -331,10 +331,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a11')">
+<div markdown="1" class="accordian" onclick="accordian('a11','i11')">
 
 ### L
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i11"></i>
 
 </div>
 
@@ -352,10 +352,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a12')">
+<div markdown="1" class="accordian" onclick="accordian('a12','i12')">
 
 ### M
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i12"></i>
 
 </div>
 
@@ -376,10 +376,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a13')">
+<div markdown="1" class="accordian" onclick="accordian('a13','i13')">
 
 ### N
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i13"></i>
 
 </div>
 
@@ -399,10 +399,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a14')">
+<div markdown="1" class="accordian" onclick="accordian('a14','i14')">
 
 ### O
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i14"></i>
 
 </div>
 
@@ -414,10 +414,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a15')">
+<div markdown="1" class="accordian" onclick="accordian('a15','i15')">
 
 ### P
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i15"></i>
 
 </div>
 
@@ -454,10 +454,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a16')">
+<div markdown="1" class="accordian" onclick="accordian('a16','i16')">
 
 ### R
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i16"></i>
 
 </div>
 
@@ -477,10 +477,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a17')">
+<div markdown="1" class="accordian" onclick="accordian('a17','i17')">
 
 ### S
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i17"></i>
 
 </div>
 
@@ -513,10 +513,10 @@ date: 2018-06-25
 </div>
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a18')">
+<div markdown="1" class="accordian" onclick="accordian('a18','i18')">
 
 ### T
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i18"></i>
 
 </div>
 
@@ -526,10 +526,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a19')">
+<div markdown="1" class="accordian" onclick="accordian('a19','i19')">
 
 ### U
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i19"></i>
 
 </div>
 
@@ -539,10 +539,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a20')">
+<div markdown="1" class="accordian" onclick="accordian('a20','i20')">
 
 ### V
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i20"></i>
 
 </div>
 
@@ -554,10 +554,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a21')">
+<div markdown="1" class="accordian" onclick="accordian('a21','i21')">
 
 ### W
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i21"></i>
 
 </div>
 
@@ -567,10 +567,10 @@ date: 2018-06-25
     * **About**: Hi I am Kalpa Welivitigoda from Sri Lanka. My work with sugar has been involved with packaging sugar activities for Fedora.
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a22')">
+<div markdown="1" class="accordian" onclick="accordian('a22','i22')">
 
 ### Y
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i22"></i>
 
 </div>
 
@@ -580,10 +580,10 @@ date: 2018-06-25
 
 </div>
 
-<div markdown="1" class="accordian" onclick="accordian('a23')">
+<div markdown="1" class="accordian" onclick="accordian('a23','i23')">
 
 ### Unknown
-<i class="fa fa-chevron-down"></i>
+<i class="fa fa-chevron-down" id="i23"></i>
 
 </div>
 
@@ -616,13 +616,17 @@ date: 2018-06-25
 
 
 <script>
-    function accordian(id){
+    function accordian(id, id1){
 
         if(document.getElementById(id).style.display == "block"){
             document.getElementById(id).style.display = "none";
+            document.getElementById(id1).classList.remove("fa-chevron-up")
+            document.getElementById(id1).classList.add("fa-chevron-down")
         }
         else{
             document.getElementById(id).style.display = "block";
+            document.getElementById(id1).classList.add("fa-chevron-up")
+            document.getElementById(id1).classList.remove("fa-chevron-down")
         }
     }
 </script>
