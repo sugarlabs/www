@@ -1,57 +1,47 @@
-body{
-    line-height: 2.2rem;
+.container{
+    /* margin-top: 2rem; */
+    /* margin: 2rem 10rem; */
+    width: 80%
 }
+
 h3{
-    /* Alphabets */
-    text-align: left;
-    margin-left: 25rem;
-    margin-right: 25rem;
     font-size: 3.5rem;
-    font-weight: 600;
-}
-h3+ul{
-    /* Complete box with details of contributor */
-    background-color: #474354;
-    color:  white;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    padding: 1rem;
-}
-h3+ul > li{
-    /* Elements inside the box of details of contributor */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 2rem;
-    padding: 2rem;
-    /* min-height: 5rem; */
-    /* border: white 1px solid; */
-    text-align: center;
-    font-size: 2.5rem;
-}
-p{
-    font-size: 2.5rem;
-}
-h3+ul > li > ul {
-    /* Second Element with list */
-    text-align: left;
-    margin-top: 1rem;
-    font-size: 1.8rem;
-}
-h3+ul > li > ul > li > strong{
-    margin-right: 0.5rem;
-}
-
-
-
-.link, 
-.link:visited, .link:active{
-    display: inline !important;
-    text-decoration: underline;
+    font-weight: 700;
     color: white;
-    cursor:pointer;
+}
+.contributor{
+    font-size: 1.8rem;
+    padding: 0.2rem 0rem;
+    margin: 1rem 0px;
+}
+.name{
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+.about{
+    text-align: justify;
+}
+.link, .link:active, .link:visited{
+    color: black;
+    cursor: pointer;
 }
 .link:hover{
-    color: black;
-    text-decoration: underline white;
+    color: rgb(134, 134, 255);
+}
+.accordian{
+    background-color: #474354;
+    padding: 0.2rem 2rem;
+    margin: 1.5rem -2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10, #a11, #a12, #a13, #a14, #a15, #a16, #a17, #a18, #a19, #a20, #a21, #a22, #a23{
+    display: none;
+}
+i{
+    font-size: 2.5rem !important;
+    margin-top: 1rem;
+    color: white;
 }
