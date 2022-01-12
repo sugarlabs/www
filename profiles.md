@@ -78,7 +78,7 @@ date: 2018-06-25
 * [Samson Goddy](https://wiki.sugarlabs.org/go/User:Samson_Goddy){:target="_blank"}
     * [Twitter](http://twitter.com/samson_goddy){:target="_blank" .link}
     * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank" .link}
-    * [Github](htt.contributorsps://github.com/samswag){:target="_blank" .link}
+    * [Github](https://github.com/samswag){:target="_blank" .link}
     * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank" .link}
     * **E-mail**: samsongoddy AT gmail DOT com
     * **Freenode IRC nickname**: samsongoddy
