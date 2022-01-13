@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: profiles
 title: Sugar Labs Contributors
 date: 2018-06-25
 ---
@@ -8,8 +8,8 @@ date: 2018-06-25
 ### A
 
 * [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank"}
-    * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank"}
-    * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is http://cscott.net
+    * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank" .link}
+    * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is [http://cscott.net](http://cscott.net){:target="_blank" .link}
 
 ### B
 
@@ -19,7 +19,7 @@ date: 2018-06-25
 * Roshan Bagla
 * Manveer Singh Basra
 * [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
-    * [GitHub](https://github.com/walterbender) (many Activities here)
+    * [GitHub](https://github.com/walterbender){:target="_blank" .link} (many Activities here)
     * **E-mail**: walter AT sugarlabs DOT org  
     * **Freenode IRC nickname**: walterbender    
     * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs is a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
@@ -34,22 +34,22 @@ date: 2018-06-25
 
 ### C
 
-* [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey)
+* [Craig Cabrey](https://wiki.sugarlabs.org/go/User:Craigcabrey){:target="_blank"}
     * **About**: RIT student that worked on the Math Hurdler XO game.
-* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg)
+* [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}
     * Computer engineer and GNU/Linux enthusiast.
-    * [E-mail](mailto:scanterog@gmail.com)
+    * [E-mail](mailto:scanterog@gmail.com){:.link}
     * IRC: scg
-    * [LinkedIn](https://www.linkedin.com/in/scantero)
-    * [Github](https://github.com/scanterog)
-* [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"} 
+    * [LinkedIn](https://www.linkedin.com/in/scantero){:target="_blank" .link}
+    * [Github](https://github.com/scanterog){:target="_blank" .link}
+* [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"}
     * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
-    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com)
-    * [Github](https://github.com/chimosky)
+    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com){:.link}
+    * [Github](https://github.com/chimosky){:target="_blank" .link}
     * **Freenode IRC nickname**: Ibiam
-* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6)
-    * [GitHub](https://github.com/davelab6)
-    * [Email](mailto:dave@lab6.com)
+* [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6){:target="_blank"}
+    * [GitHub](https://github.com/davelab6){:target="_blank" .link}
+    * [Email](mailto:dave@lab6.com){:.link}
     * IRC: davelab6
 
 ### D
@@ -75,25 +75,25 @@ date: 2018-06-25
 ### G
 
 * José Miguel García
-* [Samson Goddy](https://wiki.sugarlabs.org/go/User:Samson_Goddy)
-    * [Twitter](http://twitter.com/samson_goddy){:target="_blank"}
-    * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank"}
-    * [Github](https://github.com/samswag){:target="_blank"}
-    * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank"}
+* [Samson Goddy](https://wiki.sugarlabs.org/go/User:Samson_Goddy){:target="_blank"}
+    * [Twitter](http://twitter.com/samson_goddy){:target="_blank" .link}
+    * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank" .link}
+    * [Github](https://github.com/samswag){:target="_blank" .link}
+    * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank" .link}
     * **E-mail**: samsongoddy AT gmail DOT com
     * **Freenode IRC nickname**: samsongoddy
     * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria.
 
 * Ayush Goyal
-* [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard)
-    * [GitHub](https://github.com/godiard) (many Activities here)
+* [Gonzalo Odiard](https://wiki.sugarlabs.org/go/User:Godiard){:target="_blank" .link}
+    * [GitHub](https://github.com/godiard){:target="_blank" .link} (many Activities here)
 
 ### H
 
 * [Eli Heuer](https://wiki.sugarlabs.org/go/User:Elih){:target="_blank"}  
     * **E-mail**: eliheuer AT gmail DOT com  
     * **Freenode IRC nickname**: Elih on #sugar channel  
-    * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank"}
+    * **Twittter**: [http://twitter.com/eliheuer](http:/twitter.com/eliheuer){:target="_blank" .link}
     * **About**: Type designer and GSoC 2016 mentor
 
 * Miguel Angel Asencio Hurtado
@@ -126,11 +126,11 @@ date: 2018-06-25
 * Abhishek Kaushik
 * Sanchit Kapoor
 * [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank"}  
-    * [E-mail](mailto:avni@kidsoncomputers.org)
+    * [E-mail](mailto:avni@kidsoncomputers.org){:.link}
     * IRC: avni
-    * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank"}  
-    * [Twitter](http:/twitter.com/avni321){:target="_blank"}
-    * About: President of [Kids on Computers](http://kidsoncomputers.org/blog){:target="_blank"}  
+    * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank" .link}
+    * [Twitter](http:/twitter.com/avni321){:target="_blank" .link}
+    * About: President of [Kids on Computers](http://kidsoncomputers.org/blog){:target="_blank" .link}
 
 ### L
 
