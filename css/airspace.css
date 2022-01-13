@@ -932,7 +932,7 @@ footer .footer-manu ul li a:hover {
  padding-bottom:5px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
      .widget_content{
         display:none;
     }
