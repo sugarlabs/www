@@ -38,18 +38,18 @@ date: 2018-06-25
     * **About**: RIT student that worked on the Math Hurdler XO game.
 * [Samuel Cantero](https://wiki.sugarlabs.org/go/User:Scg){:target="_blank"}
     * Computer engineer and GNU/Linux enthusiast.
-    * [E-mail](mailto:scanterog@gmail.com){.link}
+    * [E-mail](mailto:scanterog@gmail.com){:.link}
     * IRC: scg
     * [LinkedIn](https://www.linkedin.com/in/scantero){:target="_blank" .link}
     * [Github](https://github.com/scanterog){:target="_blank" .link}
 * [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"}
     * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
-    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com){.link}
+    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com){:.link}
     * [Github](https://github.com/chimosky){:target="_blank" .link}
     * **Freenode IRC nickname**: Ibiam
 * [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6){:target="_blank"}
     * [GitHub](https://github.com/davelab6){:target="_blank" .link}
-    * [Email](mailto:dave@lab6.com){.link}
+    * [Email](mailto:dave@lab6.com){:.link}
     * IRC: davelab6
 
 ### D
@@ -126,7 +126,7 @@ date: 2018-06-25
 * Abhishek Kaushik
 * Sanchit Kapoor
 * [Avni Khatri](https://wiki.sugarlabs.org/go/User:Avni){:target="_blank"}  
-    * [E-mail](mailto:avni@kidsoncomputers.org){.link}
+    * [E-mail](mailto:avni@kidsoncomputers.org){:.link}
     * IRC: avni
     * [LinkedIn](https://www.linkedin.com/in/avnikhatri){:target="_blank" .link}
     * [Twitter](http:/twitter.com/avni321){:target="_blank" .link}
