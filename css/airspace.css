@@ -6,7 +6,6 @@
   margin-right:5px;
   position:absolute;
   left:350px;
-  bottom:1px;
   z-index:2;
   width: 200px;
   box-sizing: border-box;
@@ -56,6 +55,15 @@ header.large #navh{ width: 300px; height: 40px;
  }
 header.large img{ width: 300px; height: 100px;  }
 header.small img{ width: 150px; height: 50px; }
+header.small .navbar-header{
+  display: flex !important;
+  flex-direction:row-reverse !important;
+}
+
+header.small button{
+  margin-left: 70px !important;
+}
+
 #navh{
   display: none;
 }
@@ -90,7 +98,6 @@ header li{
       -o-transition: all 0.3s; /* Opera */
 }
 
-header.large li{ margin-top: 35px; }
 header.large li.dropdown li{margin-top: 0px;}
 header.small{ height:40px; }
 
@@ -1406,7 +1413,7 @@ header.large li{ margin-top: 0px; }
         display:block !important;
     }
     .navbar-header {
-        float:none;
+        float: right !important;
     }
 
 
