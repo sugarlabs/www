@@ -2338,6 +2338,7 @@ h1:before {
 }
 
 #secondHeader #sidebar ul li a {
+    color: #fff;
     padding: 10px;
     font-size: 1.1em;
     display: block;
@@ -2349,7 +2350,7 @@ h1:before {
 
 #secondHeader #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #332F41;
+    background: #e7e7e7;
 }
 
 
@@ -2409,7 +2410,7 @@ h1:before {
 #secondHeader{
   display: none;
 }
-@media only screen and (min-width: 768px) and (max-width: 1260px) {
+@media only screen and (max-width: 1215px) {
   #firstHeader{
     display: none;
   }
