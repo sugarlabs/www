@@ -1,50 +1,38 @@
-*{
-    line-height: 3rem;
-}
-.padding{
-    padding: 2rem 5rem;
-    margin-left: 2rem;
-}
 .contributors{
     font-size: 2.5rem;
 }
 .contributors>ul{
+    padding-left: 2rem;
     word-wrap: break-word;
-    padding: 0rem 5rem;
 }
 .link, .link:active, .link:visited, .contributors>ul{
     color: black;
     text-decoration: black underline !important;
 }
 .contributors>ul>li{
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 .contributors>ul>li>a, .contributors>ul>li>p, .contributors>ul>li>p>a {
     text-decoration: none !important;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
-    padding: 0.5rem 0.5rem;
     color: black;
 }
 .contributors>ul, .contributors>ul:active, .contributors>ul:visited, .contributors>ul:hover{
     text-decoration: none !important;
 }
-h3{
-    font-size: 4rem;
-    font-weight: 800;
+.contributors>h3{
+    font-size: 3rem;
+    font-weight: 600;
     padding-left: 2rem;
 }
-strong{
-    padding-right: 1rem;
-}
-ul{
+.contributors>ul{
     list-style:disc !important;
 }
-ul>li>ul{
-    margin-left:1rem ;
+.contributors>ul>li>ul{
     list-style: none !important;
 }
-ul>li>ul>li{
-
+.contributors>ul>li>ul>li{
     font-size: 1.5rem;
 }
