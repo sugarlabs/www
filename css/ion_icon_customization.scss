@@ -7,19 +7,20 @@
 $darken-percent: 10%;
 
 // Facebook colors
-$facebook-color: #3b5998;
+$facebook-color: white;
 $facebook-color-hover: darken($facebook-color, $darken-percent);
-$facebook-background: #3b5998;
+$facebook-background: #1877f2;
 $facebook-background-hover: darken($facebook-background, $darken-percent);
 
 // Github colors
-$github-color: #767676;
+// $github-color: #767676;
+$github-color: white;
 $github-color-hover: darken($github-color, $darken-percent);
 $github-background: black;
 $github-background-hover: darken($github-background, $darken-percent);
 
 // Twitter colors
-$twitter-color: #38A1F3;
+$twitter-color: white;
 $twitter-color-hover: darken($twitter-color, $darken-percent);
 $twitter-background: #38A1F3;
 $twitter-background-hover: darken($twitter-background, $darken-percent);
@@ -32,7 +33,7 @@ $instagram-background: linear-gradient(#4c4bdb, transparent), linear-gradient(60
 $instagram-background-hover: linear-gradient(darken(#4c4bdb, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
 
 // Youtube colors
-$youtube-color: red;
+$youtube-color: white;
 $youtube-color-hover: darken($youtube-color, $darken-percent);
 $youtube-background: red;
 $youtube-background-hover: darken($youtube-background, $darken-percent);
@@ -46,9 +47,9 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   left: 0;
-  box-shadow:0 0 2px 2px rgba(0,0,0,0.2);
-  border-top-right-radius: 0.25em;
-  border-bottom-right-radius: 0.25em;
+  // box-shadow:0 0 2px 2px rgba(0,0,0,0.2);
+  // border-top-right-radius: 0.25em;
+  // border-bottom-right-radius: 0.25em;
   position: fixed;
   z-index: 2147483647;
 }
@@ -127,12 +128,17 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
 
 .ion-icon {
   padding: 1px 4px;
+  margin: 0.5rem;
   display: inline-block;
+  border-radius: 50%;
 
   &.ion-social- {
 
     &facebook {
       color: $facebook-color;
+      border: 1px solid $facebook-background;
+      padding: 0.19rem 0.75rem;
+      background-color: $facebook-background;
 
       &:hover {
         color: $facebook-color-hover;
@@ -141,6 +147,7 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
 
     &github {
       color: $github-color;
+      font-size: 2.25rem;
 
       &:hover {
         color: $github-color-hover;
@@ -149,6 +156,9 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
       
     &twitter {
       color: $twitter-color;
+      border: 1px solid $twitter-background;
+      padding: 0.2rem 0.3rem;
+      background-color: $twitter-background;
 
       &:hover {
         color: $twitter-color-hover;
@@ -159,6 +169,7 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
       // Instagram uses background color
       color: $instagram-color;
       background: $instagram-background;
+      padding: 0.3rem 0.5rem;
 
       &:hover {
         color: $instagram-color-hover;
@@ -167,6 +178,9 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
       
     &youtube {
       color: $youtube-color;
+      background-color: $youtube-background;
+      padding: 0.2rem 0.4rem;
+      padding-bottom: 0.3rem;
 
       &:hover {
         color: $youtube-color-hover;
