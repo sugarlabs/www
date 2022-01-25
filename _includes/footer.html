@@ -103,12 +103,6 @@
 </div>
 
 <!-- Javascript files -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery.nicescroll == 'undefined') {
-    document.write('<script src="{{ site.baseurl }}/js/jquery-nicescroll.js"><\/script>');
-}
-</script>
 <script  type="text/javascript" src="{{ site.baseurl }}/js/modernizr.min.js"></script>
 <script  type="text/javascript" src="{{ site.baseurl }}/js/plugins.js"></script>
 <script  type="text/javascript" src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
@@ -126,11 +120,6 @@ if (typeof jQuery.waypoints == 'undefined') {
         return false;
     })
     $(document).ready(function () {
-        $("#sidebar").niceScroll({
-        cursorcolor: '#53619d',
-        cursorwidth: 4,
-        cursorborder: 'none'
-        });
         $('#dismiss, .overlay').on('click', function () {
             $('#sidebar').removeClass('active');
             $('.overlay').fadeOut();
