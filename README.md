@@ -1,7 +1,7 @@
 
 <div align="center">
     
-# [Sugarlabs](www.sugarlabs.org)
+# [Sugarlabs](https://www.sugarlabs.org/)
 # Sugar Labs web site
     
 </div>
