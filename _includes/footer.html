@@ -166,24 +166,6 @@ if (typeof jQuery.waypoints == 'undefined') {
             $("header").removeClass("small").addClass("large");
         }
     });
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot1");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex> slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active1", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active1";
-        setTimeout(function(){showSlides();}, 5000);
-    }
 </script>
 
 <!-- Google analytics code -->
