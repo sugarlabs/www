@@ -43,8 +43,8 @@ date: 2018-06-25
     * [LinkedIn](https://www.linkedin.com/in/scantero){:target="_blank" .link}
     * [Github](https://github.com/scanterog){:target="_blank" .link}
 * [Ibiam Chihurumnaya](https://wiki.sugarlabs.org/go/User:Chimosky){:target="_blank"}
-    * **About**: Ibiam Chihurumnaya is a developer from Nigeria, he maintains the Words activity.
-    * [E-mail](mailto:ibiamchihurumnaya AT gmail DOT com){:.link}
+    * **About**: Software Engineer and Open Source enthusiast.
+    * [E-mail](mailto:ibiam AT sugarlabs DOT org){:.link}
     * [Github](https://github.com/chimosky){:target="_blank" .link}
     * **Freenode IRC nickname**: Ibiam
 * [Dave Crossland](https://wiki.sugarlabs.org/go/User:Davelab6){:target="_blank"}
