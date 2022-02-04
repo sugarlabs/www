@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
- 		<link id="defaultIcon1" rel="shortcut icon" href="https://www.sugarlabs.org/assets/favicon_06.png" />
+ 		<link id="defaultIcon1" rel="shortcut icon" href="{{ site.baseurl }}assets/favicon_06.png" />
         <title>{{ page.title }}</title>
         <link href="{{ site.baseurl }}/css/googleFonts.css" rel="stylesheet" type="text/css" >
         <meta name="robots" content="index,follow,NOODP" />
@@ -19,14 +19,14 @@
         <meta name="twitter:creator" content="@sugar_labs" />
         <meta name="twitter:title" content="The Sugar Labs" /> 
         <meta name="twitter:description" content="Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities" />
-        <meta name="twitter:image" content="https://sugarlabs.org/assets/home-screenshot.png" />  
+        <meta name="twitter:image" content="{{ site.baseurl }}/home-screenshot.png" />  
         <!-- Open graph -->
         <meta property="og:site_name" content="Sugar Labs" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sugar Labs" />
         <meta property="og:url" content="https://sugarlabs.org/" />
         <meta property="og:description" content="Sugar Labs contributes to and helps maintain the award-winning Sugar Learning Platform, which promotes collaborative learning through Sugar Activities." />
-        <meta property="og:image" content="https://sugarlabs.org/assets/home-screenshot.png" />
+        <meta property="og:image" content="{{ site.baseurl }}/assets/home-screenshot.png" />
         <!-- Google Knowledge Graph card -->
         <script type='application/ld+json'> 
             {
@@ -48,13 +48,11 @@
         <!--[if lt IE 9]>
             <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <![endif]-->
-        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
         <script type="text/javascript">
             if (typeof jQuery == 'undefined') {
                 document.write(unescape("%3Cscript src='/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script>
             if(typeof($.fn.modal) === 'undefined') {document.write('<script src="{{ site.baseurl }}/js/bootstrap.js"><\/script>')}
         </script>
