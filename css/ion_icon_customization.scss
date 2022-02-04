@@ -29,8 +29,8 @@ $twitter-background-hover: darken($twitter-background, $darken-percent);
 // Instagram uses the background on both for both sticky and non sticky icons
 $instagram-color: white;
 $instagram-color-hover: #d9a1f1;
-$instagram-background: linear-gradient(#4c4bdb, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
-$instagram-background-hover: linear-gradient(darken(#4c4bdb, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
+$instagram-background: linear-gradient(#4c4bdb85, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
+$instagram-background-hover: linear-gradient(darken(#4c4bdb85, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
 
 // Youtube colors
 $youtube-color: white;
@@ -72,12 +72,12 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
     color: white;
   }
 
-  &.ion-social- {
+  &.ion-logo- {
 
     &facebook {
       background: $facebook-background;
-      text-indent: 8.5px;
-      margin-right: -8.5px;
+      text-indent: 3px;
+      margin-right: -1.5px;
       border-radius: 0 0.25em 0 0;
 
       &:hover {
@@ -107,8 +107,9 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
       
     &instagram {
       background: $instagram-background;
-      text-indent: 3.5px;
+      text-indent: 2px;
       margin-right: -3.5px;
+      font-size: 2rem;
 
       &:hover {
         background: $instagram-background-hover;
@@ -131,13 +132,14 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
   margin: 0.5rem;
   display: inline-block;
   border-radius: 50%;
+  font-size: 2rem;
 
-  &.ion-social- {
+  &.ion-logo- {
 
     &facebook {
       color: $facebook-color;
       border: 1px solid $facebook-background;
-      padding: 0.19rem 0.75rem;
+      padding: 0.3rem 0.55rem;
       background-color: $facebook-background;
 
       &:hover {
@@ -147,7 +149,7 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
 
     &github {
       color: $github-color;
-      font-size: 2.25rem;
+      font-size: 2.7rem;
 
       &:hover {
         color: $github-color-hover;
@@ -157,7 +159,7 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
     &twitter {
       color: $twitter-color;
       border: 1px solid $twitter-background;
-      padding: 0.2rem 0.3rem;
+      padding: 0.3rem 0.4rem;
       background-color: $twitter-background;
 
       &:hover {
@@ -169,7 +171,7 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
       // Instagram uses background color
       color: $instagram-color;
       background: $instagram-background;
-      padding: 0.3rem 0.5rem;
+      padding: 0.4rem 0.5rem;
 
       &:hover {
         color: $instagram-color-hover;
@@ -179,8 +181,7 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
     &youtube {
       color: $youtube-color;
       background-color: $youtube-background;
-      padding: 0.2rem 0.4rem;
-      padding-bottom: 0.3rem;
+      padding: 0.4rem;
 
       &:hover {
         color: $youtube-color-hover;
