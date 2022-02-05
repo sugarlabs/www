@@ -107,14 +107,14 @@
 <script  type="text/javascript" src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script type="text/javascript">
-    if (typeof jQuery.waypoints == 'undefined') {
-        document.write('<script src="{{ site.baseurl }}/js/waypoints.js"><\/script>');
-    }
+if (typeof jQuery.waypoints == 'undefined') {
+    document.write('<script src="{{ site.baseurl }}/js/waypoints.js"><\/script>');
+}
 </script>
 
 <!-- Inline Javascript scripts -->
 <script  type="text/javascript">
-        $(document).on('click', "a[href='#top']", function (e) {
+	$(document).on('click', "a[href='#top']", function (e) {
         $('html, body').animate({ scrollTop: 0 }, 'slow');
         return false;
     })
@@ -142,7 +142,7 @@
             $this.removeClass('panel-collapsed');
             $this.removeClass('ion-plus-round').addClass('ion-minus-round');
         }
-    return false;
+        return false;
     });
     $(document).on('click', '#panel1', function (e) {
         var $this = $(".panel-heading span.icon_minim");
@@ -156,7 +156,7 @@
             $this.removeClass('panel-collapsed');
             $this.removeClass('ion-plus-round').addClass('ion-minus-round');
         }
-        return false;
+    return false;
     });
     $(document).on("scroll", function () {
         if ($(document).scrollTop() > 10) {
