@@ -952,9 +952,6 @@ footer .footer-manu ul li a:hover {
     .active.widget h4:after {
         background:#ccc;
     }
-    .ssk-group{
-      position: absolute;
-    }
 }
 #own-ssk{
   margin-left: 5px;
