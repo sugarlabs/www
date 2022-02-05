@@ -36,7 +36,7 @@
                                 <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/">Sugar Labs Wiki</a></li>
                                 <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Mailing_Lists">Join mailing list</a></li>
                                 <li class="footerListStyle"><a href="https://help.sugarlabs.org/en/">Documentation</a></li>
-                                <li class="footerListStyle"><a href="http://chat.sugarlabs.org:9090/">IRC Channels</a></li>
+                                <li class="footerListStyle"><a href="https://matrix.to/#/#sugar:matrix.org">IRC Channels</a></li>
                                 <li class="footerListStyle"><a href="https://socialhelp.sugarlabs.org">Bug Tracker</a></li>
                                 <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Development_Team/Source_Code">Development code</a></li>
                                 <li class="footerListStyle"><a href="http://translate.sugarlabs.org">Translation Platform</a></li>
@@ -63,16 +63,16 @@
                                 <div class="justify-content-center">
                                     <div class="row d-flex justify-content-center">
                                         <div id="own-ssk" class="ssk-group d-flex">
-                                            <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ion-icon ion-social-facebook"></a>
-                                            <a href="https://github.com/sugarlabs" class="ion-icon ion-social-github"></a>
-                                            <a href="https://twitter.com/sugar_labs" class="ion-icon ion-social-twitter"></a>
-                                            <a href="https://www.instagram.com/sugarlabsforall/" class="ion-icon ion-social-instagram"></a>
-                                            <a href="https://www.youtube.com/channel/UCfsR9AEb7HuPRAc14jfiI6g/featured" class="ion-icon ion-social-youtube"></a>
+                                            <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ion-icon ion-logo-facebook"></a>
+                                            <a href="https://github.com/sugarlabs" class="ion-icon ion-logo-github"></a>
+                                            <a href="https://twitter.com/sugar_labs" class="ion-icon ion-logo-twitter"></a>
+                                            <a href="https://www.instagram.com/sugarlabsforall/" class="ion-icon ion-logo-instagram" ></a>
+                                            <a href="https://www.youtube.com/channel/UCfsR9AEb7HuPRAc14jfiI6g/featured" class="ion-icon ion-logo-youtube"></a>
                                         </div>
                                     </div>
                                     <br>
                                     <div id="contributeHeader" class="col-md-12">
-                                        <h4 class='align-center-md'><a href="https://github.com/sugarlabs/www-sugarlabs"><b><span class="ion-social-github" style="font-size:17px;color: #0099FF; margin-right: 12px;"></span><span style="font-size:17px;color: #0099FF;">Contribute to website</span></b></a></h4>
+                                        <h4 class='align-center-md'><a href="https://github.com/sugarlabs/www-sugarlabs"><b><span class="ion-logo-github" style="font-size:17px;color: #0099FF; margin-right: 12px;"></span><span style="font-size:17px;color: #0099FF;">Contribute to website</span></b></a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -95,24 +95,16 @@
 
 <!-- FLoating social media icons -->
 <div id="mobile-ssk" class="ion-sticky ssk-group">
-    <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ion-sticky-icon ion-social-facebook"></a>
-    <a href="https://github.com/sugarlabs" class="ion-sticky-icon ion-social-github"></a>
-    <a href="https://twitter.com/sugar_labs" class="ion-sticky-icon ion-social-twitter"></a>
-    <a href="https://www.instagram.com/sugarlabsforall/" class="ion-sticky-icon ion-social-instagram"></a>
-    <a href="https://www.youtube.com/channel/UCfsR9AEb7HuPRAc14jfiI6g/featured" class="ion-sticky-icon ion-social-youtube"></a>
+    <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ion-sticky-icon ion-logo-facebook"></a>
+    <a href="https://github.com/sugarlabs" class="ion-sticky-icon ion-logo-github"></a>
+    <a href="https://twitter.com/sugar_labs" class="ion-sticky-icon ion-logo-twitter"></a>
+    <a href="https://www.instagram.com/sugarlabsforall/" class="ion-sticky-icon ion-logo-instagram"></a>
+    <a href="https://www.youtube.com/channel/UCfsR9AEb7HuPRAc14jfiI6g/featured" class="ion-sticky-icon ion-logo-youtube"></a>
 </div>
 
 <!-- Javascript files -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery.nicescroll == 'undefined') {
-    document.write('<script src="{{ site.baseurl }}/js/jquery-nicescroll.js"><\/script>');
-}
-</script>
-<script  type="text/javascript" src="{{ site.baseurl }}/js/modernizr.min.js"></script>
 <script  type="text/javascript" src="{{ site.baseurl }}/js/plugins.js"></script>
 <script  type="text/javascript" src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
-<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script type="text/javascript">
     if (typeof jQuery.waypoints == 'undefined') {
         document.write('<script src="{{ site.baseurl }}/js/waypoints.js"><\/script>');
@@ -126,11 +118,6 @@ if (typeof jQuery.nicescroll == 'undefined') {
         return false;
     })
     $(document).ready(function () {
-        $("#sidebar").niceScroll({
-            cursorcolor: '#53619d',
-            cursorwidth: 4,
-            cursorborder: 'none'
-        });
         $('#dismiss, .overlay').on('click', function () {
             $('#sidebar').removeClass('active');
             $('.overlay').fadeOut();
@@ -178,24 +165,6 @@ if (typeof jQuery.nicescroll == 'undefined') {
             $("header").removeClass("small").addClass("large");
         }
     });
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot1");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active1", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active1";
-        setTimeout(function () { showSlides(); }, 5000);
-    }
 </script>
 
 <!-- Google analytics code -->

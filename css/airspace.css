@@ -1909,7 +1909,6 @@ hr {
 }
 
 
-.mySlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
@@ -2275,6 +2274,21 @@ h1:before {
   right: -1000px;
 }
 
+#secondHeader #sidebar::-webkit-scrollbar-track
+{
+    border-radius: 12px;
+}
+
+#secondHeader #sidebar::-webkit-scrollbar
+{
+    width: 4px;
+}
+
+#secondHeader #sidebar::-webkit-scrollbar-thumb
+{
+    border-radius: 12px;
+    background-color: #53619d;
+}
 
 #secondHeader #sidebar {
     width: 250px;
@@ -2286,7 +2300,7 @@ h1:before {
     background: #655E7A;
     color: #fff;
     transition: all 0.3s;
-    overflow-y: scroll;
+    overflow-y: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
