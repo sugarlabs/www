@@ -13,7 +13,6 @@ $facebook-background: #1877f2;
 $facebook-background-hover: darken($facebook-background, $darken-percent);
 
 // Github colors
-// $github-color: #767676;
 $github-color: white;
 $github-color-hover: darken($github-color, $darken-percent);
 $github-background: black;
@@ -47,9 +46,6 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   left: 0;
-  // box-shadow:0 0 2px 2px rgba(0,0,0,0.2);
-  // border-top-right-radius: 0.25em;
-  // border-bottom-right-radius: 0.25em;
   position: fixed;
   z-index: 2147483647;
 }
