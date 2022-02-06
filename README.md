@@ -3,16 +3,18 @@
     
 # [Sugar Labs](https://www.sugarlabs.org/)
 # Sugar Labs web site
-    
+
+This repository provides information about the Sugar Labs organization official websites. 
+
 </div>
 
 ## Aims
 
-* to announce our vision and mission,
-* to invite potential users of Sugar Labs software,
-* to advertise our free software and licensing approach,
-* to provide links to software downloads, and;
-* to invite potential developers to the source code we hold in trust.
+* To announce our vision and mission,
+* To invite potential users of Sugar Labs software,
+* To advertise our free software and licensing approach,
+* To provide links to software downloads, and;
+* To invite potential developers to the source code we hold in trust.
 
 ## Contributing
 
