@@ -2,9 +2,9 @@
 <div align="center">
     
 # [Sugar Labs](https://www.sugarlabs.org/)
-# Sugar Labs web site
+# Sugar Labs Website
 
-This repository provides information about the Sugar Labs organization official websites. 
+This repository provides information about the Sugar Labs organization official website. 
 
 </div>
 
