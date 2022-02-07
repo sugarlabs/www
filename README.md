@@ -1,4 +1,3 @@
-
 <div align="center">
     
 # [Sugar Labs](https://www.sugarlabs.org/)
@@ -16,15 +15,70 @@ This repository provides information about the Sugar Labs organization official 
 * To provide links to software downloads, and;
 * To invite potential developers to the source code we hold in trust.
 
-## Contributing
+## Introduction
 
-Content on the site; that is information about Sugar, Sugarizer, or Music Blocks, is _way more important_ than the style or appearance.
+[Sugar Labs](https://www.sugarlabs.org/) Sugar Labs is a community-run software project whose mission is to produce, distribute, and support the use of Sugar, an open source desktop environment and learning platform.. The Main software is the [Sugar](https://github.com/sugarlabs/sugar), Sugar is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, Sugar Activities are used every school day by children in more than forty countries.
 
-Please concentrate on updating the content of the site, and not the style or appearance.
+## Technology Stack
 
-For your pull requests or issues to be taken seriously, you must be a user or developer of one of our software products; Sugar, Sugarizer, or Music Blocks.
+We use a variety of technologies to build the web interface and support the community. They include:
 
-## History
+- [Jekyll]()
+- [Ruby]()
+- [RubyGem]()
+
+## Installation
+
+1. Fork the [www-sugarlabs repository](https://github.com/sugarlabs/www-sugarlabs.git).
+2. Clone the repository:
+  ```sh
+  git clone git@github.com:<USERNAME>/www-sugarlabs.git && cd www-sugarlabs
+  ```
+  Replace the `<USERNAME>` with your GitHub username. If you've already forked the repo, you'll want to ensure your fork is configured and that it's up to date. This will save you the headache of potential merge conflicts. To configure your fork:
+  ```sh
+  git remote add upstream https://github.com/sugarlabs/www-sugarlabs
+  ```
+  To sync your fork with the latest changes:
+  ```sh
+  git checkout main
+  git fetch upstream
+  git merge upstream/main
+  ```
+3. Move to www-sugarlabs directory:
+  ```sh
+  cd www-sugarlabs
+  ``` 
+4. Install the project:
+  ```sh
+  jekyll
+  Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
+
+   bundle install;
+  ```
+5. Start the project:
+  ```sh
+ Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
+
+    bundle exec jekyll serve --incremental;
+  ```
+6. Then open 
+```sh
+localhost Server
+[http://localhost:4000](http://localhost:4000);
+```
+
+
+## How to Get Involved and Contribute?
+
+Sugar Labs welcomes contributions to the Sugar Labs official website and all other Projects. If you have an idea for a new feature or a bug fix, please submit an issue or pull request.
+
+The open source community is the heart of Sugar Labs and helps us build tools of the Sugar Labs organization. Some of the our important projects in which you can start contributing are :
+
+[Music Block](https://github.com/sugarlabs/musicblocks)
+[Sugar](https://github.com/sugarlabs/sugar)
+[Sugarizer](https://github.com/sugarlabs/sugarizer)
+
+ ## History
 
 The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than the relevance or accuracy of the content.  Since then, we have decided to concentrate on keeping the content updated.
 
@@ -69,29 +123,10 @@ Base template has been designed and developed by Themefisher. For a preview, che
 ### Code and Contribution
 The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
 
-## How to run the code
-### Getting the code
 
-1. Fork this Repository.
 
-2. Clone your forked copy of the project.
-```
-git clone https://github.com/<your_user_name>/www-sugarlabs.git
-```
-3. Navigate to the project directory 📁.
-```
-cd www-sugarlabs
-```
 
-### Installation
-Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
-
-    bundle install;
-### Running
-Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
-
-    bundle exec jekyll serve --incremental;
-
+    
 Then open [http://localhost:4000](http://localhost:4000)
 ### Note
 If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
