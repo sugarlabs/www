@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="https://github.com/sugarlabs/www-sugarlabs/blob/master/assets/logo.png" alt="moja global logo" height ="auto" width="700" />
+<img src="https://github.com/sugarlabs/www-sugarlabs/blob/master/assets/logo.png" alt="sugar labs logo" height ="auto" width="700" />
 <br />
 
     
 # [Sugar Labs](https://www.sugarlabs.org/)
 # Sugar Labs Website
-
-This repository provides information about the Sugar Labs organization official website. 
 
 </div>
 
@@ -19,9 +17,13 @@ This repository provides information about the Sugar Labs organization official 
 * To provide links to software downloads, and;
 * To invite potential developers to the source code we hold in trust.
 
-## Introduction
+## Contributing
 
-[Sugar Labs](https://www.sugarlabs.org/) is a community-run software project whose mission is to produce, distribute, and support the use of Sugar, an open source desktop environment and learning platform.. The Main software is the [Sugar](https://github.com/sugarlabs/sugar), Sugar is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, Sugar Activities are used every school day by children in more than forty countries.
+Content on the site; that is information about Sugar, Sugarizer, or Music Blocks, is _way more important_ than the style or appearance.
+
+Please concentrate on updating the content of the site, and not the style or appearance.
+
+For your pull requests or issues to be taken seriously, you must be a user or developer of one of our software products; Sugar, Sugarizer, or Music Blocks.
 
 ## Technology Stack
 
@@ -42,12 +44,7 @@ We use a variety of technologies to build the web interface and support the comm
   ```sh
   git remote add upstream https://github.com/sugarlabs/www-sugarlabs
   ```
-  To sync your fork with the latest changes:
-  ```sh
-  git checkout main
-  git fetch upstream
-  git merge upstream/main
-  ```
+ 
 3. Move to www-sugarlabs directory:
   ```sh
   cd www-sugarlabs
