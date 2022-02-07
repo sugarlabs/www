@@ -1,4 +1,8 @@
 <div align="center">
+
+<img src="https://github.com/sugarlabs/www-sugarlabs/blob/master/assets/logo.png" alt="moja global logo" height ="auto" width="700" />
+<br />
+
     
 # [Sugar Labs](https://www.sugarlabs.org/)
 # Sugar Labs Website
@@ -17,7 +21,7 @@ This repository provides information about the Sugar Labs organization official 
 
 ## Introduction
 
-[Sugar Labs](https://www.sugarlabs.org/) Sugar Labs is a community-run software project whose mission is to produce, distribute, and support the use of Sugar, an open source desktop environment and learning platform.. The Main software is the [Sugar](https://github.com/sugarlabs/sugar), Sugar is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, Sugar Activities are used every school day by children in more than forty countries.
+[Sugar Labs](https://www.sugarlabs.org/) is a community-run software project whose mission is to produce, distribute, and support the use of Sugar, an open source desktop environment and learning platform.. The Main software is the [Sugar](https://github.com/sugarlabs/sugar), Sugar is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, Sugar Activities are used every school day by children in more than forty countries.
 
 ## Technology Stack
 
@@ -74,9 +78,9 @@ Sugar Labs welcomes contributions to the Sugar Labs official website and all oth
 
 The open source community is the heart of Sugar Labs and helps us build tools of the Sugar Labs organization. Some of the our important projects in which you can start contributing are :
 
-[Music Block](https://github.com/sugarlabs/musicblocks)
-[Sugar](https://github.com/sugarlabs/sugar)
-[Sugarizer](https://github.com/sugarlabs/sugarizer)
+- [Music Block](https://github.com/sugarlabs/musicblocks)
+- [Sugar](https://github.com/sugarlabs/sugar)
+- [Sugarizer](https://github.com/sugarlabs/sugarizer)
 
  ## History
 
@@ -122,14 +126,6 @@ Base template has been designed and developed by Themefisher. For a preview, che
 
 ### Code and Contribution
 The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
-
-
-
-
-    
-Then open [http://localhost:4000](http://localhost:4000)
-### Note
-If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
 
 ## Important points to be noted
 
