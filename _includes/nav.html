@@ -19,17 +19,20 @@
         var menubar = $("#menuBar").offset();var distance1 = menubar.left -(searchbar.left + 200);
         if((searchbar.left +200)>menubar.left){
             var distance= distance1 + 13 + searchbar.left;
-            $("#searchForm").css("left", distance.toString() + "px");
+            // $("#searchForm").css("left", distance.toString() + "px");
+            $("#searchForm").css("left", "304.75" + "px");
         }else if(distance1>39){
             var distance = searchbar.left + distance1 - 39;
-            $("#searchForm").css("left", distance.toString() + "px");}
+            // $("#searchForm").css("left", distance.toString() + "px");}
+            $("#searchForm").css("left", "304.75" + "px");}
         $(window).resize(function(){
             var searchbar = $("#searchForm").offset();
             var menubar = $("#menuBar").offset();
             var distance1 = menubar.left -(searchbar.left + 200) ;
             if((searchbar.left +200)>menubar.left){
                 var distance= distance1 + 13 + searchbar.left;
-                $("#searchForm").css("left", distance.toString() + "px");
+                $("#searchForm").css("left", "304.75" + "px");
+                $("#searchForm").css("width", "180px");
             }else if(distance1>39){
                 var distance =searchbar.left +  distance1 - 39;
                 $("#searchForm").css("left", distance.toString() + "px");}

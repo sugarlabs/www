@@ -5,9 +5,10 @@
 #searchForm {
   margin-right:5px;
   position:absolute;
-  left:350px;
+  left: 304.75px;
+  width: 189px;
   z-index:2;
-  width: 200px;
+  /* width: 200px; */
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -2208,11 +2209,11 @@ h1:before {
   font-size: 23px;
 }
   }
+
 @media only screen and (max-width: 1260px) {
 #mobile-ssk{
   display: none !important;
 }
-
   }
 
 .section-title1 {
@@ -2454,6 +2455,7 @@ input.gsc-input,
 .searchBoxStyle{
   margin-bottom:50px;padding-left:50px;padding-right:50px;
 }
+
 @media only screen and (max-width: 767px) {
   #searchForm {
     margin: 20px;
