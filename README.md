@@ -36,10 +36,9 @@ These notes were part of a project that has since been merged.
 This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www-sugarlabs/issues/63](https://github.com/sugarlabs/www-sugarlabs/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). A live preview of the website is hosted using **Github pages** and can be viewed at [https://geekrypter.github.io/sugarLabsWebsiteRedesign/](https://geekrypter.github.io/sugarLabsWebsiteRedesign/). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
 
 ### Major Services
-We have integrated 4 major features with the help of third party services:
+We have integrated three major features with the help of third party services:
 1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track users on the website and get a more detailed analysis of the user's usage.
 3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users subscribe to our newsletters through their emails.
-4. Customized search functionality - We have used [Google custom search engine](https://www.google.co.in/cse) to provide a customized search for users.
 
 ### Feedback/Suggestions and Issues
 Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
@@ -172,7 +171,6 @@ inquiry.html
 more.html
 music-blocks.html
 press.html
-search.html
 sugar-forraspberry-pi.html
 turtle-blocks-js.html**
 
@@ -191,10 +189,6 @@ The relevant pages can be checked to adopt a similar design.
 ### How to remove loader?
 1. Go to **index.html** file.
 2. Go to the **Loader section** (check comments) and remove the whole section.
-
-### How to disable search functionality?
-1. Go to **search.html** file.
-2. Go to the **Search functionality Javascript code** section (check comments) and remove the whole section.
 
 ### How to alter disabling?
 1. Go to **main.js** file.
@@ -220,13 +214,6 @@ The relevant pages can be checked to adopt a similar design.
 3. Under **Webfont Kit**, enable all font formats and click **Download @font-face kit**.
 4. Add all the font format files to the **fonts** folder.
 5. Go to the **googlefonts.css** file and add those references.
-
-### How to alter Goggle custom search engine customizations?
-1. Go to [Google custom search engine](https://www.google.co.in/cse).
-2. Log in using the "Sugar Labs" account.
-3. You can do any customizations and get the final code.
-4. Go to **search.html** file.
-5. Replace the existing code with the final code under the **Search functionality Javascript code** section (check comments).
 
 ### How to alter Google analytics code?
 1. Go to [Google Analytics](https://analytics.google.com/).
