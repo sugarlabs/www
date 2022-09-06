@@ -171,7 +171,6 @@ contact-us.html
 inquiry.html
 more.html
 music-blocks.html
-press.html
 search.html
 sugar-forraspberry-pi.html
 turtle-blocks-js.html**

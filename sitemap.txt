@@ -2,7 +2,6 @@
 ---
 https://www.sugarlabs.org/
 https://www.sugarlabs.org/more
-https://www.sugarlabs.org/press
 https://www.sugarlabs.org/inquiry
 https://www.sugarlabs.org/contact-us
 https://www.sugarlabs.org/about-us
