@@ -87,7 +87,6 @@ about
       * https://www.youtube.com/watch?v=h1RBAq6GN7o
    * [sf summit posters](http://www.olpcsf.org/CommunitySummit2013/posters)
 * detailed information about the Sugar Labs organization
-   * Explanation of Conservancy
    * SLOB Minutes
    * Current SLOB members
    * SLOB historical membership data
