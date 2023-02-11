@@ -132,7 +132,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  padding: 10px 26px;
+  padding: 10px 8px;
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
