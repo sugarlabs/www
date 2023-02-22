@@ -128,15 +128,23 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
   margin: 0.5rem;
   display: inline-block;
   border-radius: 50%;
-  font-size: 2rem;
+  
 
   &.ion-logo- {
+
+
 
     &facebook {
       color: $facebook-color;
       border: 1px solid $facebook-background;
-      padding: 0.3rem 0.55rem;
+      padding: 0.3rem 1rem;
       background-color: $facebook-background;
+      font-size: 2rem;
+      height: 3rem;
+      width: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         color: $facebook-color-hover;
@@ -145,8 +153,11 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
 
     &github {
       color: $github-color;
-      font-size: 2.7rem;
-
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
       &:hover {
         color: $github-color-hover;
       }
@@ -155,9 +166,14 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
     &twitter {
       color: $twitter-color;
       border: 1px solid $twitter-background;
-      padding: 0.3rem 0.4rem;
       background-color: $twitter-background;
-
+      font-size: 1.5rem;
+      height: 3rem;
+      width: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
       &:hover {
         color: $twitter-color-hover;
       }
@@ -167,8 +183,13 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
       // Instagram uses background color
       color: $instagram-color;
       background: $instagram-background;
-      padding: 0.4rem 0.5rem;
-
+      font-size: 2rem;
+      height: 3rem;
+      width: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
       &:hover {
         color: $instagram-color-hover;
       }
@@ -177,7 +198,12 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
     &youtube {
       color: $youtube-color;
       background-color: $youtube-background;
-      padding: 0.4rem;
+      font-size: 1.5rem;
+      height: 3rem;
+      width: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         color: $youtube-color-hover;
