@@ -24,7 +24,7 @@ A [conversion funnel](https://www.google.com/search?q=conversion+funnel&tbm=isch
     * Sugarizer inherently allow immediate try out
     * download and boot SOAS
     * email newsletter sign up
-    * email mini-course with X things to do with SOAS ([#38](https://github.com/sugarlabs/www-sugarlabs/issues/38))
+    * email mini-course with X things to do with SOAS ([#38](https://github.com/sugarlabs/www/issues/38))
     * tell your friends to try it out too
 
 4. Users: Conversion/Sales
@@ -73,7 +73,7 @@ home
 * Testimonials/Reviews. Quote from [LinuxInsider](http://www.linuxinsider.com/story/Fedora-Based-Sugar-on-a-Stick-Is-One-Sweet-Desktop-83446.html), size of active user base from <https://wiki.sugarlabs.org/images/4/48/Survey_summary.pdf>, http://wiki.laptop.org/go/ALEARN_Network, etc.
 * Calls To Action
    * try
-   * download + email mini course ([#38](https://github.com/sugarlabs/www-sugarlabs/issues/38))
+   * download + email mini course ([#38](https://github.com/sugarlabs/www/issues/38))
    * buy
    * join
 
@@ -123,7 +123,7 @@ buy
 
 join/support/participate
 * how to join the community conversation (single discuss mailing list via mailman3 web forum)
-* how to develop sugar software ([www-sugarlabs#20](https://github.com/sugarlabs/www-sugarlabs/issues/20))
+* how to develop sugar software ([www#20](https://github.com/sugarlabs/www/issues/20))
   * javascript
   * python
 * how to start a local lab
