@@ -114,7 +114,7 @@ Install Jekyll and Bundler (not through sudo apt)
 ```
 gem install jekyll bundler
 ```
-Ref: <https://jekyllrb.com/docs/installation/ubuntu/>
+*Ref: <https://jekyllrb.com/docs/installation/ubuntu/>*
 
 If you already installed Jekyll and Bundler via sudo apt, you may need to do the following:
 ```
@@ -124,7 +124,7 @@ sudo apt autoremove
 gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sass-converter jekyll-coffeescript
 bundle update
 ```
-Ref: <https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n>
+*Ref: <https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n>*
 
 ## Important points to be noted
 
