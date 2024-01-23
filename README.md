@@ -93,6 +93,39 @@ Then open [http://localhost:4000](http://localhost:4000)
 ### Note
 If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
 
+### Troubleshooting for Debian-based systems
+
+You might try the following to prepare your dev environment on a Debian-based system:
+
+Install Ruby and dependencies:
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
+Tell BASH where to look when you run Ruby, while having an installation directory associated with your user account (not root):
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Install Jekyll and Bundler (not through sudo apt)
+```
+gem install jekyll bundler
+```
+*Ref: <https://jekyllrb.com/docs/installation/ubuntu/>*
+
+If you already installed Jekyll and Bundler via sudo apt, you may need to do the following:
+```
+PACKAGES="$(dpkg -l |grep jekyll|cut -d" " -f3|xargs )"
+sudo apt remove --purge $PACKAGES
+sudo apt autoremove
+gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sass-converter jekyll-coffeescript
+bundle update
+```
+*Ref: <https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n>*
+
 ## Important points to be noted
 
 1. Whenever the code is changed, please ensure that the relevant code changes are reflected in **main.js** file (For example, if a slideshow is disabled, make sure the id of the slideshow element/section is also disabled in the **main.js** file if it exists).
