@@ -4,7 +4,7 @@
 --*/
 header.large{ height: 100px;
  }
-header.large #navh{ width: 300px; height: 40px;
+header.large #navh{ width: 300px; height: 40px; transform: translateY(-25px);
  }
 header.large img{ width: 300px; height: 100px;  }
 header.small img{ width: 150px; height: 50px; }
@@ -54,7 +54,7 @@ header li{
 header.large li.dropdown li{margin-top: 0px;}
 header.small{ height:40px; }
 
-header.small #navh{ width: 150px; height: 5px;  }
+header.small #navh{ width: 150px; height: 5px;  transform: translateY(-20px);}
 body {
   font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -110,6 +110,9 @@ a:active {
 header {
   background: #fff;
   padding: 20px 0;
+}
+header.large nav{
+  height: 100px;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -1315,7 +1318,6 @@ px      68    160    252    344    436    528    620    712    */
   header.large #navh{
     width: 210px;
     height: 21px;
-
   }
   header.small{
     height: 23px;
