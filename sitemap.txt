@@ -7,7 +7,6 @@ https://www.sugarlabs.org/inquiry
 https://www.sugarlabs.org/contact-us
 https://www.sugarlabs.org/about-us
 https://www.sugarlabs.org/about-libre-software-culture
-https://www.sugarlabs.org/about-irc
 https://www.sugarlabs.org/booting-soas
 https://www.sugarlabs.org/parents
 https://www.sugarlabs.org/students
