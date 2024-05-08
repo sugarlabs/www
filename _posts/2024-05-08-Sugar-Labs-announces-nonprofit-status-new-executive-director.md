@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Sugar Labs announces nonprofit status, new executive director"
+date: 2024-05-08
 ---
 
 [PDF](/press/Sugar-Labs-nonprofit-announcement.pdf)
 
-**CAMBRIDGE, MA, USA -- May 9, 2024 -- Sugar Labs today announced its
+**CAMBRIDGE, MA, USA -- May 8, 2024 -- Sugar Labs today announced its
   501(c)(3) nonprofit status as well as its pick for executive
   director, long-time contributor Devin Ulibarri.**
 
