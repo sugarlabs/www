@@ -211,3 +211,22 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
     }
   }
 }
+/* Added a new CSS class for the anchor tag */
+.mastodon-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Applied styles to the SVG icon */
+.mastodon-link svg {
+  fill: #3088d4; 
+  width: 48px; 
+  height: 48px; 
+  stroke: #3088d4;
+  stroke-width: 0.00024000000000000003; 
+  vertical-align: middle;
+}
+/* Added a hover effect to darken the Mastodon icon */
+.mastodon-link:hover svg {
+  fill: darken(#3088d4, 10%); 
+}
