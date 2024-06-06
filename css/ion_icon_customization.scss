@@ -37,6 +37,12 @@ $youtube-color-hover: darken($youtube-color, $darken-percent);
 $youtube-background: red;
 $youtube-background-hover: darken($youtube-background, $darken-percent);
 
+// Mastodon colors
+$mastodon-color: white;
+$mastodon-color-hover: darken($mastodon-color, $darken-percent);
+$mastodon-background: #3088d4;
+$mastodon-background-hover: darken($mastodon-background, $darken-percent);
+
 
 .ion-sticky {
   top: 50%;
@@ -118,6 +124,15 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
 
       &:hover {
         background: $youtube-background-hover;
+      }
+    }
+    &mastodon {
+      background: $mastodon-background;
+      text-indent: 1px;
+      margin-right: -1px;
+
+      &:hover {
+        background: $mastodon-background-hover;
       }
     }
   }
@@ -207,6 +222,22 @@ $youtube-background-hover: darken($youtube-background, $darken-percent);
 
       &:hover {
         color: $youtube-color-hover;
+      }
+    }
+    &mastodon {
+      color: $mastodon-color;
+      border: 1px solid $mastodon-background;
+      padding: 0.3rem 1rem;
+      background-color: $mastodon-background;
+      font-size: 2rem;
+      height: 3rem;
+      width: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        color: $mastodon-color-hover;
       }
     }
   }
