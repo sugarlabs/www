@@ -279,7 +279,7 @@ The relevant pages can be checked to adopt a similar design.
 3. Change the variable here only.
 4. Do not change the code below the variables unless you wish to add or remove a color instead of changing a color.
 
-### How to change/add ion-icons?
+### How to add new icons?
 
 1. **Install FontForge:**
    * Download and install FontForge from [FontForge's official website](https://fontforge.org/en-US/).
