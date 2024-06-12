@@ -278,3 +278,33 @@ The relevant pages can be checked to adopt a similar design.
 2. Find the color section you wish the change (it is commented)
 3. Change the variable here only.
 4. Do not change the code below the variables unless you wish to add or remove a color instead of changing a color.
+
+### How to change/add ion-icons?
+
+1. **Install FontForge:**
+   * Download and install FontForge from [FontForge's official website](https://fontforge.org/en-US/).
+
+2. **Create or Prepare Your Icon:**
+   * Create your icon in a vector graphics editor and save it as an SVG file.
+   * Ensure that your icon is properly scaled and fits well within the boundaries of a single glyph.
+
+3. **Open Your .ttf File in FontForge:**
+   * Launch FontForge and open the .ttf file you want to edit by going to `File > Open` and selecting the .ttf file.
+
+4. **Add a New Glyph Slot:**
+   * In the FontForge interface, find an empty slot or select an existing glyph that you want to replace.
+
+5. **Import Your Icon:**
+   * Double-click on the empty slot or the slot you want to replace to open the glyph editor.
+   * Go to `File > Import` and select the SVG file of your icon.
+   * Adjust the size and position of your icon to ensure it fits well within the glyph boundaries.
+
+6. **Set the Glyph Properties:**
+   * After importing the icon, adjust its properties, such as the glyph's width, bearing, and kerning using the tools available in the glyph editor.
+
+7. **Save Your Changes:**
+   * Once you're satisfied with the new icon, go to `File > Generate Fonts` to save the .ttf file.
+   * Choose the appropriate options and generate the font file. This will save your .ttf file with the new icon included.
+
+8. **Test Your Updated Font:**
+   * Install the updated .ttf file on your system and test it in an application that uses fonts to ensure that your new icon appears correctly.
