@@ -1,5 +1,6 @@
 ---
 ---
+
 // Colors to use with ion icons
 // Somewhat based off Social Share Kit - https://github.com/darklow/social-share-kit/blob/master/dist/css/social-share-kit.css
 
@@ -21,15 +22,25 @@ $github-background-hover: darken($github-background, $darken-percent);
 // Twitter colors
 $twitter-color: white;
 $twitter-color-hover: darken($twitter-color, $darken-percent);
-$twitter-background: #38A1F3;
+$twitter-background: #38a1f3;
 $twitter-background-hover: darken($twitter-background, $darken-percent);
 
 // Instagram colors
 // Instagram uses the background on both for both sticky and non sticky icons
 $instagram-color: white;
 $instagram-color-hover: #d9a1f1;
-$instagram-background: linear-gradient(#4c4bdb85, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
-$instagram-background-hover: linear-gradient(darken(#4c4bdb85, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
+$instagram-background: linear-gradient(#4c4bdb85, transparent),
+  linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
+$instagram-background-hover: linear-gradient(
+    darken(#4c4bdb85, $darken-percent),
+    darken(transparent, $darken-percent)
+  ),
+  linear-gradient(
+    60deg,
+    darken(#ffff00, $darken-percent),
+    darken(#ff00d3, $darken-percent),
+    darken(#0e39dc, $darken-percent)
+  );
 
 // Youtube colors
 $youtube-color: white;
@@ -42,7 +53,6 @@ $mastodon-color: white;
 $mastodon-color-hover: darken($mastodon-color, $darken-percent);
 $mastodon-background: #3088d4;
 $mastodon-background-hover: darken($mastodon-background, $darken-percent);
-
 
 .ion-sticky {
   top: 50%;
@@ -75,7 +85,6 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
   }
 
   &.ion-logo- {
-
     &facebook {
       background: $facebook-background;
       text-indent: 3px;
@@ -96,7 +105,7 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
         background: $github-background;
       }
     }
-      
+
     &twitter {
       background: $twitter-background;
       text-indent: 1px;
@@ -106,7 +115,7 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
         background: $twitter-background-hover;
       }
     }
-      
+
     &instagram {
       background: $instagram-background;
       text-indent: 2px;
@@ -117,7 +126,7 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
         background: $instagram-background-hover;
       }
     }
-      
+
     &youtube {
       background: $youtube-background;
       border-radius: 0 0 0.25em 0;
@@ -143,20 +152,16 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
   margin: 0.5rem;
   display: inline-block;
   border-radius: 50%;
-  
 
   &.ion-logo- {
-
-
-
     &facebook {
       color: $facebook-color;
       border: 1px solid $facebook-background;
       padding: 0.3rem 1rem;
       background-color: $facebook-background;
       font-size: 2rem;
-      height: 3rem;
-      width: 3rem;
+      height: 2.5rem;
+      width: 2.5rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -172,50 +177,50 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
       display: flex;
       justify-content: center;
       align-items: center;
-      
+
       &:hover {
         color: $github-color-hover;
       }
     }
-      
+
     &twitter {
       color: $twitter-color;
       border: 1px solid $twitter-background;
       background-color: $twitter-background;
       font-size: 1.5rem;
-      height: 3rem;
-      width: 3rem;
+      height: 2.5rem;
+      width: 2.5rem;
       display: flex;
       align-items: center;
       justify-content: center;
-      
+
       &:hover {
         color: $twitter-color-hover;
       }
     }
-             
+
     &instagram {
       // Instagram uses background color
       color: $instagram-color;
       background: $instagram-background;
       font-size: 2rem;
-      height: 3rem;
-      width: 3rem;
+      height: 2.5rem;
+      width: 2.5rem;
       display: flex;
       align-items: center;
       justify-content: center;
-    
+
       &:hover {
         color: $instagram-color-hover;
       }
     }
-      
+
     &youtube {
       color: $youtube-color;
       background-color: $youtube-background;
       font-size: 1.5rem;
-      height: 3rem;
-      width: 3rem;
+      height: 2.5rem;
+      width: 2.5rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -230,8 +235,8 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
       padding: 0.3rem 1rem;
       background-color: $mastodon-background;
       font-size: 2rem;
-      height: 3rem;
-      width: 3rem;
+      height: 2.5rem;
+      width: 2.5rem;
       display: flex;
       align-items: center;
       justify-content: center;

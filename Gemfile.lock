@@ -33,13 +33,13 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.9.1)
     faraday (2.9.0)
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
-    ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (228)
@@ -226,6 +226,8 @@ GEM
       uri
     nokogiri (1.16.0-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.16.0-x86-mingw32)
+      racc (~> 1.4)
     nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -262,13 +264,13 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.9.1)
-    unf_ext (0.0.9.1-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     uri (0.13.0)
     webrick (1.7.0)
 
 PLATFORMS
   x64-mingw-ucrt
+  x86-mingw32
   x86_64-linux
 
 DEPENDENCIES
