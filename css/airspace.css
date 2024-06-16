@@ -885,12 +885,34 @@ footer .footer-manu ul li a:hover {
  padding-bottom:5px;
 }
 
+.DonateFooter {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.DonateFooter a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
+  .footerHeaderStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
      .widget_content{
-        display:none;
+        display:flex;
+        justify-content: center;
     }
     .active .widget_content{
-      display:inline;
+      display: flex;
+      flex-direction: column;
     }
     .widget h4 {
     }
