@@ -173,7 +173,9 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
 
     &github {
       color: $github-color;
-      font-size: 3rem;
+      font-size: 2.8rem;
+      height: 2.5rem;
+      width: 2.5rem;
       display: flex;
       justify-content: center;
       align-items: center;
