@@ -279,17 +279,18 @@ The relevant pages can be checked to adopt a similar design.
 3. Change the variable here only.
 4. Do not change the code below the variables unless you wish to add or remove a color instead of changing a color.
 
-### How to add new icons?
+### How to add new icons
+In this section, we will guide you through the steps to add new icons. By following these steps, you will be able to customize icons.
 
 1. **Install FontForge:**
    * Download and install FontForge from [FontForge's official website](https://fontforge.org/en-US/).
 
 2. **Create or Prepare Your Icon:**
-   * Create your icon in a vector graphics editor and save it as an SVG file.
-   * Ensure that your icon is properly scaled and fits well within the boundaries of a single glyph.
+   * Create your icon in a vector graphics editor and save it as an SVG file. If you're not sure how to save as an SVG file, you can find a guide [here](https://stackoverflow.com/questions/43804171/how-to-extract-svg-as-file-from-web-page).
+   * Ensure that your icon is properly scaled and fits well within the boundaries of a single glyph. You can learn more about proper scaling [here](https://webdesign.tutsplus.com/svg-viewport-and-viewbox-for-beginners--cms-30844t).
 
 3. **Open Your .ttf File in FontForge:**
-   * Launch FontForge and open the .ttf file you want to edit by going to `File > Open` and selecting the .ttf file.
+   * Open FontForge and navigate to File > Open to select the .ttf file you want to edit (e.g., www/css/fonts/ionicons.ttf).
 
 4. **Add a New Glyph Slot:**
    * In the FontForge interface, find an empty slot or select an existing glyph that you want to replace.
@@ -298,13 +299,21 @@ The relevant pages can be checked to adopt a similar design.
    * Double-click on the empty slot or the slot you want to replace to open the glyph editor.
    * Go to `File > Import` and select the SVG file of your icon.
    * Adjust the size and position of your icon to ensure it fits well within the glyph boundaries.
+   * Remember the Unicode character corresponding to your icon (e.g., `\e93c`). You may need this for referencing the icon in your project.
 
-6. **Set the Glyph Properties:**
-   * After importing the icon, adjust its properties, such as the glyph's width, bearing, and kerning using the tools available in the glyph editor.
-
-7. **Save Your Changes:**
+6. **Save Your Changes:**
    * Once you're satisfied with the new icon, go to `File > Generate Fonts` to save the .ttf file.
    * Choose the appropriate options and generate the font file. This will save your .ttf file with the new icon included.
 
-8. **Test Your Updated Font:**
-   * Install the updated .ttf file on your system and test it in an application that uses fonts to ensure that your new icon appears correctly.
+7. **Test Your Updated Font:**
+   * Replace the existing www/css/ionicons.ttf file with the updated one, keeping the same name.
+   * Open `www/css/ionicons.min.css` and add the following CSS rule:
+
+   ```css
+   .ion-logo-[new-icon-name]:before {
+       content: "\[unicode-code]";
+   }
+   ```
+
+   * Replace `[new-icon-name]` with your new icon name and `[unicode-code]` with its Unicode value.
+   * Save the CSS file. Now you can use `[new-icon-name]` to access your brand new icon.
