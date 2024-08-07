@@ -2,7 +2,7 @@
 <div align="center">
     
 # [Sugar Labs](https://www.sugarlabs.org/)
-# Sugar Labs web site
+# Sugar Labs website
     
 </div>
 
@@ -61,15 +61,24 @@ Analytics](https://analytics.google.com/) service to track users on
 the website and get a more detailed analysis of the user's usage.
 
 ### Feedback/Suggestions and Issues
-Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
+
+Feedback/Suggestions are always welcome, and please mention any issues
+found. They can be provided through the Issues section of this
+repository.
 
 ## Credits
 
 ### License Information
-The license information of all the dependencies/libraries used in the code can be found in the **LicenseInformation.txt** file in the root folder.
+
+The license information of all the dependencies/libraries used in the
+code can be found in the **LicenseInformation.txt** file in the root
+folder.
 
 ### Usage of code snippets:
-For a few parts of the code, I have used code snippets available online. The list of all the code snippets which I referred to are:
+
+For a few parts of the code, I have used code snippets available
+online. The list of all the code snippets which I referred to are:
+
 1. [CodePen-Martinvd](https://codepen.io/martinvd/pen/xbQJom)
 2. [Bootstrapious](https://bootstrapious.com/p/bootstrap-sidebar)
 3. [Bootsnipp](https://bootsnipp.com/snippets/1mo8Z)
@@ -81,12 +90,21 @@ For a few parts of the code, I have used code snippets available online. The lis
 9. [Pixelflips](https://pixelflips.com/blog/anchor-links-with-a-fixed-header)
 
 ### Base template:
-Base template has been designed and developed by Themefisher. For a preview, check out this link - [https://luminousrubyist.github.io/airspace-jekyll/](https://luminousrubyist.github.io/airspace-jekyll/)
+
+Base template has been designed and developed by Themefisher. For a
+preview, check out this link:
+<https://luminousrubyist.github.io/airspace-jekyll/>. The code for the
+theme is here: <https://github.com/themefisher/airspace-jekyll>.
 
 ### Code and Contribution
-The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
+
+The code has been restructured, unnecessary code has been removed,
+comments were added wherever required, proper indentation was
+provided, and simple names were used which makes it a
+contributor-friendly codebase. So, contribute now!
 
 ## How to run the code
+
 ### Getting the code
 
 1. Fork this Repository.
@@ -101,21 +119,31 @@ cd www
 ```
 
 ### Installation
-Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
+
+Install Ruby and the Gem package manager (pre-installed in Mac OS X)
+and install `jekyll` and its related packages available in the Github
+hosted version by running, from this directory:
 
     bundle install;
 ### Running
-Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
+
+Jekyll can run a local web server that rebuilds each time you save a
+page while editing (Execute the below command from root directory):
 
     bundle exec jekyll serve --incremental;
 
 Then open [http://localhost:4000](http://localhost:4000)
+
 ### Note
-If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
+
+If some changes are not visible (after saving a page while editing),
+please restart the Jekyll local web server and reload
+[http://localhost:4000](http://localhost:4000).
 
 ### Troubleshooting for Debian-based systems
 
-You might try the following to prepare your dev environment on a Debian-based system:
+You might try the following to prepare your dev environment on a
+Debian-based system:
 
 Install Ruby and dependencies:
 ```
@@ -157,22 +185,34 @@ bundle update
 7. The current website uses customized versions of a few social media icons (service provided by [Ion Icons](https://ionicons.com)). We do our customizations in a scss file (**/css/ion_icon_customization.scss** file in our case). Please be careful when updating this file. (Also refer to **How to change social media icon colors?** the subsection in **Answers to few questions** section)
 
 ## Some Developer Notes
-All internal URLs are referenced through absolute paths and not relative paths. This website primaritally uses HTML, (S)CSS, Javascript, JQuery, and Bootstrap.
+
+All internal URLs are referenced through absolute paths and not
+relative paths. This website primaritally uses HTML, (S)CSS,
+Javascript, JQuery, and Bootstrap.
 
 ### Navigation bar / Header
+
 We have 3 header designs based on the screen sizes:
 1. header for screen sizes greater than 1260px
 2. header for (screen sizes greater than or equal to 768px and  less than or equal to 1260px)
 3. header for screen sizes less than 768px
 
 ### Logo
+
 We render 2 types of logos displayed in the header:
 1. Dynamic logo
 2. Static logo
+
 #### Dynamic logo
-This is a svg version of **Sugar Labs** logo and we have a code snippet in **main.js** file to alter the svg code and change color of logo randomly everytime.
+
+This is a svg version of **Sugar Labs** logo and we have a code
+snippet in **main.js** file to alter the svg code and change color of
+logo randomly everytime.
+
 #### Static logo
-This is the png version of **Sugar Labs** logo with no color changing functionality.
+
+This is the png version of **Sugar Labs** logo with no color changing
+functionality.
 
 The dynamic logo is enabled for:
 1. Safari
@@ -181,11 +221,17 @@ The dynamic logo is enabled for:
 4. Firefox
 5. Edge
 6. Small devices browsers like on Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile
+
 #### Note
-However due to several issues, I disabled the dynamic logo and rendered static logo for all the other browsers.
+
+However due to several issues, I disabled the dynamic logo and
+rendered static logo for all the other browsers.
 
 ### Disabling
-For other browsers apart from those mentioned below, the loader, dynamic logo are disabled.
+
+For other browsers apart from those mentioned below, the loader,
+dynamic logo are disabled.
+
 1. Safari
 2. Chrome
 3. Opera
@@ -193,10 +239,13 @@ For other browsers apart from those mentioned below, the loader, dynamic logo ar
 5. Edge
 6. Internet Explorer
 7. Small devices browsers like on Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile
+
 #### Note
+
 The dynamic logo is also disabled for Internet Explorer.
 
 ### Loader
+
 The loader screen is enabled for:
 1. Safari
 2. Chrome
@@ -205,15 +254,24 @@ The loader screen is enabled for:
 5. Edge
 6. Internet Explorer
 7. Small devices browsers like on Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile
+
 #### Note
-To reduce animations, we disabled the loader for all the other browsers.
+
+To reduce animations, we disabled the loader for all the other
+browsers.
 
 ### Font:
-The font being used is the Google font, Varela round. When we call the font sheet directly, it is not properly rendered on certain browsers, so we hosted the required font sheets in the **fonts** folder itself. For more details, please refer to  **How to add/change the new font?** the subsection in the **Answers to a few questions** section.
+
+The font being used is the Google font, Varela round. When we call the
+font sheet directly, it is not properly rendered on certain browsers,
+so we hosted the required font sheets in the **fonts** folder
+itself. For more details, please refer to **How to add/change the new
+font?** the subsection in the **Answers to a few questions** section.
 
 ### Design Layout of Website/Project
 
 The following pages share a similar design:
+
 **index.html
 about-us.html
 about-irc.html
@@ -228,6 +286,7 @@ sugar-forraspberry-pi.html
 turtle-blocks-js.html**
 
 The following pages share a similar design:
+
 **parents.html
 school-administrators.html
 students.html
@@ -240,28 +299,34 @@ The relevant pages can be checked to adopt a similar design.
 ## Answers to Few Questions
 
 ### How to remove loader?
+
 1. Go to **index.html** file.
 2. Go to the **Loader section** (check comments) and remove the whole section.
 
 ### How to alter disabling?
+
 1. Go to **main.js** file.
 2. Go to **Disabling code** section (check comments) and change the code accordingly.
 3. Take a look at the attributes of elements being changed in the **airspace.css** file also and carefully change the code.
 
 ### How to change background image in main page?
+
 1. Go to airspace.css file.
 2. Under the **slider** id css, enter the url of new background image in the **background** attribute.
 
 ### How to add new page?
+
 1. Create a new html page in the root directory.
 2. Enter the required intial information for the new page (Take the help of the intial information available in other html pages).
 3. In the **sitemap.txt** file, add the declaration of the new page (take the help of other page declarations).
 
 ### How to change video thumbnail?
+
 1. Go to **index.html** file.
 2. Go to the **About Sugar** section (check comments) adn add the new thumbnail url in the **poster** attribute of the **html video tag**.
 
 ### How to add/change new font?
+
 1. Go to [fontsquirrel](https://www.fontsquirrel.com/).
 2. Search the required font and go the specified page.
 3. Under **Webfont Kit**, enable all font formats and click **Download @font-face kit**.
@@ -269,6 +334,7 @@ The relevant pages can be checked to adopt a similar design.
 5. Go to the **googlefonts.css** file and add those references.
 
 ### How to alter Google analytics code?
+
 1. Go to [Google Analytics](https://analytics.google.com/).
 2. Your account needs admin rights so ask Samson Goddy for admin permissions.
 3. Log in using this account.
@@ -277,23 +343,30 @@ The relevant pages can be checked to adopt a similar design.
 6. Replace the existing code with the final code under the **Google analytics code** section (check comments).
 
 ### How to change logo?
+
 1. Go to **nav.html** file.
 2. Please be aware that we have 2 types of headers/navigation bars and for each header, we have 2 logos associated(static and dynamic)(refer to **Logo** subsection in **About the website/project** section). Code is written to accommodate both the logos and the necessary disabling is done in the **main.js** file.
+
 #### Changing dynamic logo
+
 1. To change the dynamic logo, replace the new svg in space of the existing svg logo path in **nav.html** file.
 2. Do this for the 2 header sections in **nav.html** file.
 3. Go to **main.js** file.
 4. We have code to change colours of dynamic logo under **Colour changing affect of logo** section (check comments).
 5. Change/add code there.
+
 #### Changing static logo
+
 1. To change the static logo, replace the new png in space of the existing png logo path in **nav.html** file.
 2. Do this for the 2 header sections in **nav.html** file.
 
 ### How to change cache control?
+
 1. Go to **.htaccess** file 
 2. Change/Edit the code there.
 
 ### How to change social media icon colors?
+
 1. Go to **/css/ion_icon_customization.scss** file.
 2. Find the color section you wish the change (it is commented)
 3. Change the variable here only.
