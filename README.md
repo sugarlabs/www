@@ -53,9 +53,12 @@ code uses the same Jekyll environment as that of the original
 website's code. Do check out the code!
 
 ### Major Services
-We have integrated three major features with the help of third party services:
-1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track users on the website and get a more detailed analysis of the user's usage.
-3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users subscribe to our newsletters through their emails.
+
+We have integrated one third party service:
+
+1. Website users tracking - We have used the [Google
+Analytics](https://analytics.google.com/) service to track users on
+the website and get a more detailed analysis of the user's usage.
 
 ### Feedback/Suggestions and Issues
 Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
