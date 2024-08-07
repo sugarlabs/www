@@ -8,23 +8,29 @@
 
 ## Aims
 
-* to announce our vision and mission,
+* to make our vision and mission known and visible,
 * to invite potential users of Sugar Labs software,
-* to advertise our free software and licensing approach,
+* to show people what we do and why it's important,
 * to provide links to software downloads, and;
 * to invite potential developers to the source code we hold in trust.
 
 ## Contributing
 
-Content on the site; that is information about Sugar, Sugarizer, or Music Blocks, is _way more important_ than the style or appearance.
-
-Please concentrate on updating the content of the site, and not the style or appearance.
-
-For your pull requests or issues to be taken seriously, you must be a user or developer of one of our software products; Sugar, Sugarizer, or Music Blocks.
+Information about our mission, our community, our educational
+approach, and our software (Sugar, Sugarizer, Music Blocks, etc.) is
+the priority. Note that this means that you do not need to know
+programming to contribute to the improvement of this website, however,
+we do recommend that you use our software so that your contributions
+are informed and substantive.
 
 ## History
 
-The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than the relevance or accuracy of the content.  Since then, we have decided to concentrate on keeping the content updated.
+The site was redesigned during Google Summer of Code in 2017, and then
+informally reviewed by untainted readers in Google Code-in 2017.  Many
+issues were created then, but most did not have consensus. Most of
+the issues addressed style and appearance rather than the relevance or
+accuracy of the content. Since then, we have decided to concentrate
+on keeping the content updated.
 
 ----
 
@@ -33,6 +39,7 @@ The site was redesigned during Google Summer of Code in 2017, and then informall
 These notes were part of a project that has since been merged.
 
 ## Introduction
+
 This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). A live preview of the website is hosted using **Github pages** and can be viewed at [https://geekrypter.github.io/sugarLabsWebsiteRedesign/](https://geekrypter.github.io/sugarLabsWebsiteRedesign/). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
 
 ### Major Services
