@@ -40,7 +40,17 @@ These notes were part of a project that has since been merged.
 
 ## Introduction
 
-This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). A live preview of the website is hosted using **Github pages** and can be viewed at [https://geekrypter.github.io/sugarLabsWebsiteRedesign/](https://geekrypter.github.io/sugarLabsWebsiteRedesign/). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
+This repository contains the code for the redesigned version of
+"www.sugarlabs.org". This repository code base was used for the
+development of the GSOC 2017 project **Giving Sugar Labs Website a New
+Look** under the organization **Sugar Labs**. The changes, made by
+Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel,
+and Walter Bender during the 2017 **GSOC** period, can be viewed at
+[https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The
+work during **GSOC** was done in the repository
+[https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). The
+code uses the same Jekyll environment as that of the original
+website's code. Do check out the code!
 
 ### Major Services
 We have integrated three major features with the help of third party services:
