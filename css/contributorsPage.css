@@ -1,0 +1,35 @@
+.contributors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contributor-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+
+.contributor-avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.contributor-box a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contributor-box a:hover {
+    text-decoration: underline;
+}
