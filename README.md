@@ -33,12 +33,11 @@ The site was redesigned during Google Summer of Code in 2017, and then informall
 These notes were part of a project that has since been merged.
 
 ## Introduction
-This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). A live preview of the website is hosted using **Github pages** and can be viewed at [https://geekrypter.github.io/sugarLabsWebsiteRedesign/](https://geekrypter.github.io/sugarLabsWebsiteRedesign/). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
+This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
 
 ### Major Services
-We have integrated three major features with the help of third party services:
+We have integrated one major feature with the help of a third-party service:
 1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track users on the website and get a more detailed analysis of the user's usage.
-3. Newsletter subscription through email - We have used the [Mailchimp](https://mailchimp.com) service to let users subscribe to our newsletters through their emails.
 
 ### Feedback/Suggestions and Issues
 Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
@@ -278,3 +277,42 @@ The relevant pages can be checked to adopt a similar design.
 2. Find the color section you wish the change (it is commented)
 3. Change the variable here only.
 4. Do not change the code below the variables unless you wish to add or remove a color instead of changing a color.
+
+### How to add new icons
+In this section, we will guide you through the steps to add new icons. By following these steps, you will be able to customize icons.
+
+1. **Install FontForge:**
+   * Download and install FontForge from [FontForge's official website](https://fontforge.org/en-US/).
+
+2. **Create or Prepare Your Icon:**
+   * Create your icon in a vector graphics editor and save it as an SVG file. If you're not sure how to save as an SVG file, you can find a guide [here](https://stackoverflow.com/questions/43804171/how-to-extract-svg-as-file-from-web-page).
+   * Ensure that your icon is properly scaled and fits well within the boundaries of a single glyph. You can learn more about proper scaling [here](https://webdesign.tutsplus.com/svg-viewport-and-viewbox-for-beginners--cms-30844t).
+
+3. **Open Your .ttf File in FontForge:**
+   * Open FontForge and navigate to File > Open to select the .ttf file you want to edit (e.g., www/css/fonts/ionicons.ttf).
+
+4. **Add a New Glyph Slot:**
+   * In the FontForge interface, find an empty slot or select an existing glyph that you want to replace.
+
+5. **Import Your Icon:**
+   * Double-click on the empty slot or the slot you want to replace to open the glyph editor.
+   * Go to `File > Import` and select the SVG file of your icon.
+   * Adjust the size and position of your icon to ensure it fits well within the glyph boundaries.
+   * Remember the Unicode character corresponding to your icon (e.g., `\e93c`). You may need this for referencing the icon in your project.
+
+6. **Save Your Changes:**
+   * Once you're satisfied with the new icon, go to `File > Generate Fonts` to save the .ttf file.
+   * Choose the appropriate options and generate the font file. This will save your .ttf file with the new icon included.
+
+7. **Test Your Updated Font:**
+   * Replace the existing www/css/ionicons.ttf file with the updated one, keeping the same name.
+   * Open `www/css/ionicons.min.css` and add the following CSS rule:
+
+   ```css
+   .ion-logo-[new-icon-name]:before {
+       content: "\[unicode-code]";
+   }
+   ```
+
+   * Replace `[new-icon-name]` with your new icon name and `[unicode-code]` with its Unicode value.
+   * Save the CSS file. Now you can use `[new-icon-name]` to access your brand new icon.
