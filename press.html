@@ -6,8 +6,26 @@ permalink: /press/index.html
 
 <!-- Title section -->
 <div class="section-title1" >
-    <span class="tag tag-regular">PRESS INFORMATION</span>
+    <span class="tag tag-regular">NEWS AND PRESS</span>
 </div>
+
+<section id="call-to-action">
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12" >
+	    <h2 >NEWSLETTER</h2>
+	    <p>Subscribe to our newsletter to get the most up-to-date Sugar Labs news in your inbox.</p>
+	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
+	      <p>Sign up for our mailing list to receive regular news and updates from Sugar Labs.</p>
+	      <label for="email">Email</label>
+	      <input type="email" name="email" placeholder="you@example.com" />
+	      <input type="hidden" value="1" name="embed" />
+	      <input type="submit" value="Subscribe" />
+	    </form><br>
+          </div>
+        </div>
+    </div>
+</section>		 
 
 <!-- "Press information" section -->
 <section id="intro">
@@ -17,13 +35,13 @@ permalink: /press/index.html
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-md-push-2">
                         <div class="border-box customBox">
-                            <h2 class="text-center">Press resources</h2>
+                          <h2 class="text-center">PRESS RELEASE ARCHIVE</h2>
                             <hr>
                             <ol>
                                 {% for post in site.posts %}<li class="listFont">
                                 <a href="{{ post.url }}">{{ post.title }}</a>
                                 <i>{{ post.date | date: "%b %-d %Y" }}</i>
-                                </li>{% endfor %}
+                                </li>{% endfor %}<!--Is there a way to limit this to just ten or so???-->
                             </ol>
                         </div>
                     </div>
@@ -37,12 +55,9 @@ permalink: /press/index.html
 <section id="call-to-action">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12" >
-                <h2>MANY MORE TO CHECK OUT!</h2>
-                <a href="https://wiki.sugarlabs.org/go/Marketing_Team/Screen_Shots"><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >High-resolution/vector screenshots</button></a>
-                <a href="https://wiki.sugarlabs.org/go/Marketing_Team/Logo"><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Logo materials</button></a>
-                <a href="{{ site.baseurl }}/" ><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Return to main page</button></a>
-            </div>
+          <div class="col-md-12" >
+            <a href="{{ site.baseurl }}/" ><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Return to main page</button></a>
+          </div>
         </div>
     </div>
 </section>

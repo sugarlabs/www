@@ -16,8 +16,20 @@
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="collapse navbar-collapse zeroMarPadBtm">
-                        <ul class="mr-5 navbar-nav" id="menuBar">
-                            <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about-us">About</a></li>
+                      <ul class="mr-5 navbar-nav" id="menuBar"><!--
+			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about-us">About</a></li>-->
+			<li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
+			  <ul class="dropdown-menu">	    
+			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
+			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
+                          <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
+                          <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
+                        </ul>
+			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a></li>
+			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
+			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
+			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li>	  
+			  <!--
                             <li class="nav-item"><a class="nav-link" href="http://server.sugarizer.org">Try Now</a></li>
                             
                             <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Sugar<span class="caret"></span></a>
@@ -38,8 +50,8 @@
                                     <div class="dropdown-divider"></div>
                                     <li class="dropdown-header"></li>
                                     <li><a class="dropdown-item" href="http://wiki.laptop.org/go/Release_notes" >On XO</a></li>
-                                    <li><a class="dropdown-item" href="{{ site.baseurl }}/sugar-for-raspberry-pi" >On Raspberry Pi</a></li>
-                                </ul>
+                                    <li><a class="dropdown-item" href="{{ site.baseurl }}/sugar-for-raspberry-pi" >On Raspberry Pi</a></li>-->
+                                </ul><!--
                             </li>
                             <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -47,13 +59,13 @@
                                     <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Documentation_Team/User_Manual#The_Sugar_user_manual" >Sugar Handbook</a></li>
                                     <li><a class="dropdown-item" href="http://activities.sugarlabs.org" >Activities Library</a></li>
                                 </ul>
-                            </li>
+                            </li>--><!--
                             <li class="nav-item"><a class="nav-link" href="https://help.sugarlabs.org/">Use</a></li>
                             <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join Us<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Mailing_Lists" >Community Mailing Lists</a></li>
-                                    <li><a class="dropdown-item" href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md/" >Developer's Guide</a></li>
-                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Local_Labs" >Start a local lab</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md/" >Developer's Guide</a></li>--><!-- Bring local labs back once we have them again
+                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Local_Labs" >Start a local lab</a></li>--><!--
                                     <div class="dropdown-divider"></div>
                                     <li class="dropdown-header"></li>
                                     <li><a class="dropdown-item" href="http://translate.sugarlabs.org" >Contribute to Translation</a></li>
@@ -62,12 +74,12 @@
                                     <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Category:Project" >Related Projects</a></li>
                                     <li><a class="dropdown-item" href="{{ site.baseurl }}/profiles">Contributors</a></li>
                                 </ul>
-                            </li>
+                            </li>--><!--
                             <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="http://planet.sugarlabs.org" >Blog Archive</a></li>
+ This is basically broken                                    <li><a class="dropdown-item" href="http://planet.sugarlabs.org" >Blog Archive</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                 </div>
@@ -88,8 +100,20 @@
                         <h3>Sugar Labs</h3>
                     </div>
                     <ul class="list-unstyled components">
-                        <li><a href="{{ site.baseurl }}/about-us"><span>About</span></a></li>
-                        <li><a href="http://server.sugarizer.org"><span>Try Now</span></a></li>
+		      <li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
+			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
+                          <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
+                          <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
+                        </ul>
+
+		      <li class="nav-item"><a class="nav-link" href="#try">Try now</a></li>
+		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
+		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
+		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li><!--	  
+                        <li><a href="{{ site.baseurl }}/about-us"><span>About</span></a></li>--><!--
+                        <li><a href="http://server.sugarizer.org"><span>Try Now</span></a></li>--><!--
                         <li ><a href="#getSugarSubmenu" data-toggle="collapse" aria-expanded="false"><span>Get Sugar</span></a>
                             <ul class="collapse list-unstyled" id="getSugarSubmenu">
                                 <li ><a href="https://wiki.sugarlabs.org/go/Sugar_on_a_Stick" class="hrefCustomColor">SOAS</a></li>
@@ -104,15 +128,15 @@
                                 <li><a href="http://wiki.laptop.org/go/Release_notes" class="hrefCustomColor">On XO</a></li>
                                 <li><a href="#" class="hrefCustomColor">On Raspberry Pi</a></li>
                             </ul>
-                        </li>
+                        </li>--><!--
                         <li><a href="#downloadSubmenu" data-toggle="collapse" aria-expanded="false"><span>Download</span></a>
                             <ul class="collapse list-unstyled" id="downloadSubmenu">
                                 <li><a href="https://github.com/sugarlabs/training-activity" class="hrefCustomColor">Activity - Learn Sugar</a></li>
                                 <li><a href="https://wiki.sugarlabs.org/go/Documentation_Team/User_Manual#The_Sugar_user_manual" class="hrefCustomColor">Sugar Handbook</a></li>
                                 <li><a href="http://activities.sugarlabs.org" class="hrefCustomColor">Activities Library</a></li>
                             </ul>
-                        </li>
-                        <li><a href="https://help.sugarlabs.org/"><span >Use</span></a></li>
+                        </li>--><!--
+                        <li><a href="https://help.sugarlabs.org/"><span >Use</span></a></li>--><!--
                         <li ><a href="#joinUsSubmenu" data-toggle="collapse" aria-expanded="false"><span>Join Us</span></a>
                             <ul class="collapse list-unstyled" id="joinUsSubmenu">
                                 <li><a href="https://wiki.sugarlabs.org/go/Mailing_Lists" class="hrefCustomColor">Community Mailing Lists</a></li>
@@ -123,12 +147,12 @@
                                 <li><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved" class="hrefCustomColor">Contribute to Central Organisation</a></li>
                                 <li><a href="https://wiki.sugarlabs.org/go/Category:Project" class="hrefCustomColor">Related Projects</a></li>
                             </ul>
-                        </li>
+                        </li>--><!--
                         <li ><a href="#blogSubmenu" data-toggle="collapse" aria-expanded="false"><span>Blog</span></a>
                             <ul class="collapse list-unstyled" id="blogSubmenu">
                                 <li><a href="http://planet.sugarlabs.org">Blog Archive</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </nav>
                 <div id="content">

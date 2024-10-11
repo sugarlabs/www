@@ -9,8 +9,8 @@
                         <h6 class="footerHeaderStyle align-center-md text-center-md">
                             Sugar Labs® is a registered USA 501(c)(3) tax-exempt, not-for-profit organization, supported by our generous contributors and sponsors. 
                             <p class="DonateFooter">
-                                <a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Donate">Donate</a> or 
-                                <a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved">Volunteer today</a>!
+                                <a href="{{ site.baseurl }}/donate">Donate</a> or <!-- Send to reasons to donate page -->
+                                <a href="{{ site.baseurl }}/volunteering">Volunteer today</a>! <!-- Send to reasons to volunteer page -->
                             </p>
                         </h6>
                     </div>
@@ -19,21 +19,34 @@
                         <article class="widget_content">
                             <ul class="leftAlign align-center-col-md">
                                 <li class="footerListStyle"><a href="{{ site.baseurl }}/about-us">About Us</a></li>
-                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved">Get Involved</a></li>
-				<li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Events#Upcoming_Events">Upcoming Events</a></li>
-                                <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Donate">Support Sugar</a></li>
+                                <li class="footerListStyle"><a href="{{ site.baseurl }}/volunteering">Get Involved</a></li><!--
+				<li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Events#Upcoming_Events">Upcoming Events</a></li>--><!-- Is there a way to make a new page for this, possibly connected to some sort of feed? -->
+                                <li class="footerListStyle"><a href="{{ site.baseurl }}/donate">Donate to Sugar Labs</a></li><!-- Perhaps this is too redundant -->
+				<li class="footerListStyle"><a href="{{ site.baseurl }}/leadership">Leadership and Governance</a></li>
                                 <li class="footerListStyle"><a href="{{ site.baseurl }}/contact-us">Contact Us</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/students">For Students</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/school-administrators">For School Administrators</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/parents">For Parents</a></li>
-                                <li class="footerListStyle"><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md">For Developers</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/sugar-stories">Sugar Stories</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/music-blocks">Music Blocks</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/turtle-blocks-js">Turtle Blocks JS</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/profiles">Contributors</a></li>
+                                
                             </ul>
                         </article>
                     </div>
+		    <div class="col-md-3 widget">
+                      <h4 class="footerHeaderStyle align-center-md"><b>Resources</b></h4>
+                      <article class="widget_content">
+                        <ul class="leftAlign align-center-col-md">
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/more" >Culture and pedagogy</a></li><!--
+			  <li class="footerListStyle"><a href="http://schoolserver.org/" >School Server Resources</a></li>
+                          <li class="footerListStyle"><a href="http://planet.sugarlabs.org" >Planet Sugar Labs</a></li>--><!-- This is basically deprecated. --><!--
+			  <li class="footerListStyle"><a href="{{ site.baseurl }}/about-libre-software-culture" >Libre Software Culture</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/sugar-lesson-plans" >Sugar Lesson Plans</a></li>--><!-- These need to be updated -->
+			  <li class="footerListStyle"><a href="{{ site.baseurl }}/students">For Students</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/school-administrators">For School Administrators</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/parents">For Parents</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/develop">For Developers</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/sugar-stories">Sugar Stories</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/music-blocks">Music Blocks</a></li>
+                          <li class="footerListStyle"><a href="{{ site.baseurl }}/turtle-blocks-js">Turtle Blocks JS</a></li>
+                        </ul>
+                      </article>
+                    </div><!-- We may want to move this to another page-->
                     <div class="col-md-3 widget">
                         <h4 class="footerHeaderStyle align-center-md"><b>Development</b></h4>
                         <article class="widget_content">
@@ -44,27 +57,17 @@
                                 <li class="footerListStyle"><a href="https://matrix.to/#/#sugar:matrix.org">Chat with us on Matrix</a></li>
                                 <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Development_Team/Source_Code">Development code</a></li>
                                 <li class="footerListStyle"><a href="http://translate.sugarlabs.org">Translation Platform</a></li>
+				<li class="footerListStyle"><a href="{{ site.baseurl }}/profiles">Contributor Profiles</a></li>
                             </ul>
                         </article>
                     </div>
-                    <div class="col-md-3 widget">
-                        <h4 class="footerHeaderStyle align-center-md"><b>Resources</b></h4>
-                        <article class="widget_content">
-                            <ul class="leftAlign align-center-col-md">
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/more" >Culture and pedagogy</a></li>
-                                <li class="footerListStyle"><a href="http://schoolserver.org/" >School Server Resources</a></li>
-                                <li class="footerListStyle"><a href="http://planet.sugarlabs.org" >Planet Sugar Labs</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/about-libre-software-culture" >Libre Software Culture</a></li>
-                                <li class="footerListStyle"><a href="{{ site.baseurl }}/sugar-lesson-plans" >Sugar Lesson Plans</a></li>
-                            </ul>
-                        </article>
-                    </div>
+
                     <div class="col-md-6">
                         <div class="row justify-content-center">
                             <div class="row d-flex justify-content-center">
                                 <div class="grid-two-columns">
                                     <div id="own-ssk" class="d-flex">
-                                        <a href="https://www.facebook.com/SugarLabs-187845102582/timeline/" class="ion-icon ion-logo-facebook"></a>
+                                        <a href="https://www.facebook.com/SugarLabsforall/timeline/" class="ion-icon ion-logo-facebook"></a>
                                         <a href="https://github.com/sugarlabs" class="ion-icon ion-logo-github"></a>
                                         <a href="https://twitter.com/sugar_labs" class="ion-icon ion-logo-twitter"></a>
                                         <a rel="me" href="https://mastodon.social/@sugar_labs" class="ion-icon ion-logo-mastodon"></a>
@@ -79,7 +82,7 @@
                             </div>
                             <br>
                             <div id="contributeHeader" class="col-md-12">
-                                <h4 class="text-center"><a href="https://github.com/sugarlabs/www"><b><span class="ion-logo-github" style="font-size:17px;color: #0099FF; margin-right: 12px;"></span><span style="font-size:17px;color: #0099FF;">Contribute to website</span></b></a></h4>
+                                <h4 class="text-center"><a href="https://github.com/sugarlabs/www"><b><span class="ion-logo-github" style="font-size:17px;color: #0099FF; margin-right: 12px;"></span><span style="font-size:17px;color: #0099FF;">Contribute to this website</span></b></a>.</h4>
                             </div>
                         </div>
                     </div>
@@ -88,8 +91,8 @@
                 <div class="row" >
                     <div class="col-md-12" style="margin-top:12px;">
                         <p style="font-size:13px;" class='text-center-md'>
-                        Copyright &copy; 2024 Sugar Labs&reg; available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License(CC BY-SA)</a>.</br>
-                        Website base template: Designed and developed by Themefisher
+                        Copyright &copy; 2024 Sugar Labs&reg; available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA)</a>.</br>
+                        Website design credit: Base template <a href="https://github.com/themefisher/airspace-jekyll">Airspace</a> by Themefisher was used for this site.
                         </p>
                     </div>
                 </div>
