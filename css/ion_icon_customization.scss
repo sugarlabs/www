@@ -43,6 +43,17 @@ $mastodon-color-hover: darken($mastodon-color, $darken-percent);
 $mastodon-background: #3088d4;
 $mastodon-background-hover: darken($mastodon-background, $darken-percent);
 
+// LinkedIn colors
+$linkedin-color: white;
+$linkedin-color-hover: darken($linkedin-color, $darken-percent);
+$linkedin-background: #0077b5;
+$linkedin-background-hover: darken($linkedin-background, $darken-percent);
+
+// Medium colors
+$medium-color: white;
+$medium-color-hover: darken($medium-color, $darken-percent);
+$medium-background: black;
+$medium-background-hover: darken($medium-background, $darken-percent);
 
 .ion-sticky {
   top: 50%;
@@ -75,7 +86,6 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
   }
 
   &.ion-logo- {
-
     &facebook {
       background: $facebook-background;
       text-indent: 3px;
@@ -126,6 +136,7 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
         background: $youtube-background-hover;
       }
     }
+
     &mastodon {
       background: $mastodon-background;
       text-indent: 1px;
@@ -133,6 +144,26 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
 
       &:hover {
         background: $mastodon-background-hover;
+      }
+    }
+
+    &linkedin {
+      background: $linkedin-background;
+      text-indent: 1px;
+      margin-right: -1px;
+
+      &:hover {
+        background: $linkedin-background-hover;
+      }
+    }
+
+    &medium {
+      background: $medium-background;
+      text-indent: 1.5px;
+      margin-right: -1.5px;
+
+      &:hover {
+        background: $medium-background-hover;
       }
     }
   }
@@ -143,12 +174,8 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
   margin: 0.5rem;
   display: inline-block;
   border-radius: 50%;
-  
 
   &.ion-logo- {
-
-
-
     &facebook {
       color: $facebook-color;
       border: 1px solid $facebook-background;
@@ -224,6 +251,7 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
         color: $youtube-color-hover;
       }
     }
+
     &mastodon {
       color: $mastodon-color;
       border: 1px solid $mastodon-background;
@@ -238,6 +266,36 @@ $mastodon-background-hover: darken($mastodon-background, $darken-percent);
 
       &:hover {
         color: $mastodon-color-hover;
+      }
+    }
+
+    &linkedin {
+      color: $linkedin-color;
+      border: 1px solid $linkedin-background;
+      background-color: $linkedin-background;
+      font-size: 2rem;
+      height: 3rem;
+      width: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        color: $linkedin-color-hover;
+      }
+    }
+
+    &medium {
+      color: $medium-color;
+      font-size: 3rem;
+      height: 3rem;     
+      width: 3rem;      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        color: $medium-color-hover;
       }
     }
   }
