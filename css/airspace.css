@@ -931,6 +931,12 @@ footer .footer-manu ul li a:hover {
 #own-ssk{
   margin-left: 5px;
 }
+@media (min-width: 576px) {
+  .grid-two-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  }
+}
 .listFont{
   font-size: 16px;
 }
