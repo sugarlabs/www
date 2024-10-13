@@ -122,3 +122,21 @@ $(document).ready(function(){
     	});
     };
 });
+
+//limit items to 10 in press page
+const listItems = document.querySelectorAll("#myList li");
+listItems.forEach((item, index) => {
+  if (index >= 10) {
+    item.classList.add("d-none");
+  }
+});
+//show more button functionality in press page
+const items = document.querySelectorAll(".list-item");
+document.getElementById("showMoreBtn").addEventListener("click", function () {
+  items.forEach((item, index) => {
+    if (index >= 10) {
+      item.classList.remove("d-none"); // Show hidden items
+    }
+  });
+  this.style.display = "none"; // Hide the button after showing items
+});

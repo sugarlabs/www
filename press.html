@@ -34,8 +34,8 @@ permalink: /press/index.html
     </div>
     <div class="container mt-5 my-2">
         <div class="border-bottom pb-3 mb-3">
-            <ol>
-                {% for post in site.posts %} <li>
+            <ol id="myList">
+                {% for post in site.posts %} <li class="list-item">
                  <div class="text-muted mb-1 h6">{{ post.date | date: "%b %-d %Y" }}</div>
                  <div class="h5" >
                     <a href="{{ post.url }}">{{ post.title }}</a>
@@ -43,6 +43,9 @@ permalink: /press/index.html
                  <hr>
                 </li>{% endfor %}
             </ol>
+            <div class="text-center">
+                <button id="showMoreBtn" class="btn btn-primary mt-3">Show More</button>
+            </div>
         </div>
     </div>
 </section>
