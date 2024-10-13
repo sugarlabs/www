@@ -29,27 +29,24 @@ permalink: /press/index.html
 
 <!-- "Press information" section -->
 <section id="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" >
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-md-push-2">
-                        <div class="border-box customBox">
-                          <h2 class="text-center">PRESS RELEASE ARCHIVE</h2>
-                            <hr>
-                            <ol>
-                                {% for post in site.posts %}<li class="listFont">
-                                <a href="{{ post.url }}">{{ post.title }}</a>
-                                <i>{{ post.date | date: "%b %-d %Y" }}</i>
-                                </li>{% endfor %}<!--Is there a way to limit this to just ten or so???-->
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="justify-content-center">
+        <h2 class="text-center">PRESS RELEASE</h2>
+    </div>
+    <div class="container mt-5 my-2">
+        <div class="border-bottom pb-3 mb-3">
+            <ol>
+                {% for post in site.posts %} <li>
+                 <div class="text-muted mb-1 h6">{{ post.date | date: "%b %-d %Y" }}</div>
+                 <div class="h5" >
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                 </div>
+                 <hr>
+                </li>{% endfor %}
+            </ol>
         </div>
     </div>
 </section>
+
 
 <!-- Useful materials and "Back to main page" section -->
 <section id="call-to-action">
