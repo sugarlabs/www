@@ -123,20 +123,33 @@ $(document).ready(function(){
     };
 });
 
-//limit items to 10 in press page
+//limit to 10 entries in press page
 const listItems = document.querySelectorAll("#myList li");
 listItems.forEach((item, index) => {
   if (index >= 10) {
     item.classList.add("d-none");
   }
 });
-//show more button functionality in press page
+
+// show more and show less button in press page
 const items = document.querySelectorAll(".list-item");
-document.getElementById("showMoreBtn").addEventListener("click", function () {
+const showMoreBtn = document.getElementById("showMoreBtn");
+const showLessBtn = document.getElementById("showLessBtn");
+
+showMoreBtn.addEventListener("click", function () {
   items.forEach((item, index) => {
-    if (index >= 10) {
-      item.classList.remove("d-none"); // Show hidden items
-    }
+    item.classList.remove("d-none"); // Show hidden items
   });
-  this.style.display = "none"; // Hide the button after showing items
+  showMoreBtn.classList.add("d-none"); // Hide Show More button
+  showLessBtn.classList.remove("d-none"); // Show Show Less button
 });
+
+showLessBtn.addEventListener("click", function () {
+    items.forEach((item, index) => {
+      if (index >= 10) {
+        item.classList.add("d-none"); // Hide items again
+      }
+    });
+    showLessBtn.classList.add("d-none"); // Hide Show Less button
+    showMoreBtn.classList.remove("d-none"); // Show Show More button
+  });
