@@ -34,19 +34,54 @@ permalink: /press/index.html
     </div>
     <div class="container mt-5 my-2">
         <div class="border-bottom pb-3 mb-3">
-            <ol id="myList">
-                {% for post in site.posts %} <li class="list-item">
-                 <div class="text-muted mb-1 h6">{{ post.date | date: "%b %-d %Y" }}</div>
-                 <div class="h5" >
+            <ol id="postList">
+                {% for post in site.posts limit:10 %}
+                <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
-                 </div>
-                 <hr>
-                </li>{% endfor %}
+                    <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                    <hr>
+                </li>
+                {% endfor %}
             </ol>
-            <div class="text-center">
-                <button id="showMoreBtn" class="btn btn-primary mt-3">Show More</button>
-                <button id="showLessBtn" class="btn btn-secondary mt-3 d-none">Show Less</button>
-            </div>
+            <button style="
+                display: block;
+                margin: 0 auto;
+                cursor: pointer;
+                " id="toggleButton" onclick="togglePost()">Show More
+            </button>
+            <script>
+                const postListEl = document.getElementById("postList");
+                const toggleBtn = document.getElementById("toggleButton");
+                let isShowingAll = false;
+            
+                function togglePost() {
+                    if (!isShowingAll) {
+                        postListEl.innerHTML = `
+                            {% for post in site.posts %}
+                            <li class="listFont">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                                <hr>
+                            </li>
+                            {% endfor %}
+                        `;
+                        toggleBtn.textContent = "Show Less";
+                        isShowingAll = true;
+                    } else {
+                        postListEl.innerHTML = `
+                            {% for post in site.posts limit:10 %}
+                            <li class="listFont">
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                                <hr>
+                            </li>
+                            {% endfor %}
+                        `;
+                        toggleBtn.textContent = "Show More";
+                        isShowingAll = false;
+                    }
+                }
+            </script>
         </div>
     </div>
 </section>

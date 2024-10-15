@@ -122,34 +122,3 @@ $(document).ready(function(){
     	});
     };
 });
-
-//limit to 10 entries in press page
-const listItems = document.querySelectorAll("#myList li");
-listItems.forEach((item, index) => {
-  if (index >= 10) {
-    item.classList.add("d-none");
-  }
-});
-
-// show more and show less button in press page
-const items = document.querySelectorAll(".list-item");
-const showMoreBtn = document.getElementById("showMoreBtn");
-const showLessBtn = document.getElementById("showLessBtn");
-
-showMoreBtn.addEventListener("click", function () {
-  items.forEach((item, index) => {
-    item.classList.remove("d-none"); // Show hidden items
-  });
-  showMoreBtn.classList.add("d-none"); // Hide Show More button
-  showLessBtn.classList.remove("d-none"); // Show Show Less button
-});
-
-showLessBtn.addEventListener("click", function () {
-    items.forEach((item, index) => {
-      if (index >= 10) {
-        item.classList.add("d-none"); // Hide items again
-      }
-    });
-    showLessBtn.classList.add("d-none"); // Hide Show Less button
-    showMoreBtn.classList.remove("d-none"); // Show Show More button
-  });
