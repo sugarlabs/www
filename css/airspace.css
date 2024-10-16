@@ -353,11 +353,28 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 50px;
   color: #7B7B7B;
 }
+#testimonial .block h4 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;  /* Better line-height for spacing */
+}
+#testimonial .block span {
+  color: #555;
+  font-size: 18px; /* Adjusted for consistency */
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 10px;  /* Adds consistent spacing between elements */
+}
+#testimonial .counter-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #testimonial .counter-box li {
-  width: 50%;
-  float: left;
-  text-align: center;
-  margin: 17px 0 30px;
+  width: 45%;  /* Adjusted for better fit */
+  margin: 20px 0;
+  list-style-type: none;
 }
 #testimonial .counter-box li i {
   font-size: 35px;
