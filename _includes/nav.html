@@ -1,180 +1,87 @@
 <!-- Header for screens with width > 1260px and width <= 767px -->
 <header class="large" id="firstHeader" >
-    <div class="row">
-        <div class="container">
-            <nav class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between pb-0 pt-0">
-                <div class="navbar-header">
-                    <div id="navh" class="logo1">
-                        <a href="{{ site.baseurl }}/">{% include logo.svg %}</a>
-                    </div>
-                    <div id="navh2" >
-                        <a class="navbar-brand" href="{{ site.baseurl }}/">
-                            <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Logo">
-                        </a>
-                    </div>
-                </div>
-		
-                <div class="d-flex justify-content-center">
-                    <div class="collapse navbar-collapse zeroMarPadBtm">
-                      <ul class="mr-5 navbar-nav" id="menuBar"><!--
-			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about-us">About</a></li>-->
-			<li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
-			  <ul class="dropdown-menu">	    
-			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
-			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
-                          <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
-                          <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
-                        </ul>
-			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a></li>
-			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
-			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a></li>
-			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
-			<li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li>	  
-			  <!--
-                            <li class="nav-item"><a class="nav-link" href="http://server.sugarizer.org">Try Now</a></li>
-                            
-                            <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Sugar<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li ><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Sugar_on_a_Stick">SOAS</a></li>
-                                    <li ><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Trisquel_On_A_Sugar_Toast">TOAST</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li class="dropdown-header"></li>
-                                    <li ><a class="dropdown-item" href="https://github.com/sugarlabs/sugar/blob/master/docs/fedora.md" >On Fedora</a></li>
-                                    <li ><a class="dropdown-item" href="https://github.com/sugarlabs/sugar/blob/master/docs/debian.md" >On Debian</a></li>
-                                    <li ><a class="dropdown-item" href="https://github.com/sugarlabs/sugar/blob/master/docs/ubuntu.md" >On Ubuntu</a></li>
-                                    <li ><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Downloads#Do_you_use_GNU.2FLinux.3F" >On Other Distros</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li class="dropdown-header"></li>
-                                    <li><a class="dropdown-item" href="http://server.sugarizer.org/" >Sugarizer Online</a></li>
-                                    <li><a class="dropdown-item" href="http://sugarizer.org/" >On App</a></li>
-                                    <li><a class="dropdown-item" href="https://github.com/llaske/sugarizer#server" >Set up server</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <li class="dropdown-header"></li>
-                                    <li><a class="dropdown-item" href="http://wiki.laptop.org/go/Release_notes" >On XO</a></li>
-                                    <li><a class="dropdown-item" href="{{ site.baseurl }}/sugar-for-raspberry-pi" >On Raspberry Pi</a></li>-->
-                                </ul><!--
-                            </li>
-                            <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="https://github.com/sugarlabs/training-activity" >Activity - Learn Sugar</a></li>
-                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Documentation_Team/User_Manual#The_Sugar_user_manual" >Sugar Handbook</a></li>
-                                    <li><a class="dropdown-item" href="http://activities.sugarlabs.org" >Activities Library</a></li>
-                                </ul>
-                            </li>--><!--
-                            <li class="nav-item"><a class="nav-link" href="https://help.sugarlabs.org/">Use</a></li>
-                            <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join Us<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Mailing_Lists" >Community Mailing Lists</a></li>
-                                    <li><a class="dropdown-item" href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md/" >Developer's Guide</a></li>--><!-- Bring local labs back once we have them again
-                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Local_Labs" >Start a local lab</a></li>--><!--
-                                    <div class="dropdown-divider"></div>
-                                    <li class="dropdown-header"></li>
-                                    <li><a class="dropdown-item" href="http://translate.sugarlabs.org" >Contribute to Translation</a></li>
-                                    <li><a class="dropdown-item" href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md" >Contribute to Software</a></li>
-                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved" >Contribute to Central Organisation</a></li>
-                                    <li><a class="dropdown-item" href="https://wiki.sugarlabs.org/go/Category:Project" >Related Projects</a></li>
-                                    <li><a class="dropdown-item" href="{{ site.baseurl }}/profiles">Contributors</a></li>
-                                </ul>
-                            </li>--><!--
-                            <li class="nav-item dropdown align-self-center"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
- This is basically broken                                    <li><a class="dropdown-item" href="http://planet.sugarlabs.org" >Blog Archive</a></li>
-                                </ul>
-                            </li>-->
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+  <div class="row">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between pb-0 pt-0">
+        <div class="navbar-header">
+          <div id="navh" class="logo1">
+            <a href="{{ site.baseurl }}/">{% include logo.svg %}</a>
+          </div>
+          <div id="navh2" >
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+              <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Logo">
+            </a>
+          </div>
+        </div>	
+        <div class="d-flex justify-content-center">
+          <div class="collapse navbar-collapse zeroMarPadBtm">
+            <ul class="mr-5 navbar-nav" id="menuBar">
+	      <li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
+		<ul class="dropdown-menu">	    
+		  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
+		  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
+                  <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
+                  <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
+                </ul>
+	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a></li>
+	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
+	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a></li>
+	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
+	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li>	  
+            </ul>
+	  </div>
+	</div>
+      </nav>
     </div>
+  </div>
 </header>
+
 <!-- Header for screens with width <= 1215px -->
 <div class="container" id="secondHeader" >
-    <div class="row">
-        <div class="col-md-12">
-            <div class="wrapper">
-                <nav id="sidebar">
-                    <div id="dismiss">
-                        <i class="ion-arrow-left-a"></i>
-                    </div>
-                    <div class="sidebar-header">
-                        <h3>Sugar Labs</h3>
-                    </div>
-                    <ul class="list-unstyled components">
-		      <li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
-			<ul class="dropdown-menu">
-			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
-			  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
-                          <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
-                          <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
-                        </ul>
-
-		      <li class="nav-item"><a class="nav-link" href="#try">Try now</a></li>
-		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
-		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a></li>
-		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
-		      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li><!--	  
-                        <li><a href="{{ site.baseurl }}/about-us"><span>About</span></a></li>--><!--
-                        <li><a href="http://server.sugarizer.org"><span>Try Now</span></a></li>--><!--
-                        <li ><a href="#getSugarSubmenu" data-toggle="collapse" aria-expanded="false"><span>Get Sugar</span></a>
-                            <ul class="collapse list-unstyled" id="getSugarSubmenu">
-                                <li ><a href="https://wiki.sugarlabs.org/go/Sugar_on_a_Stick" class="hrefCustomColor">SOAS</a></li>
-                                <li ><a href="https://wiki.sugarlabs.org/go/Trisquel_On_A_Sugar_Toast" class="hrefCustomColor">TOAST</a></li>
-                                <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/fedora.md" class="hrefCustomColor">On Fedora</a></li>
-                                <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/debian.md" class="hrefCustomColor">On Debian</a></li>
-                                <li ><a href="https://github.com/sugarlabs/sugar/blob/master/docs/ubuntu.md" class="hrefCustomColor">On Ubuntu</a></li>
-                                <li ><a href="https://wiki.sugarlabs.org/go/Downloads#Do_you_use_GNU.2FLinux.3F" class="hrefCustomColor">On Other Distros</a></li>
-                                <li><a href="http://server.sugarizer.org/" class="hrefCustomColor">Sugarizer Online</a></li>
-                                <li><a href="http://sugarizer.org/" class="hrefCustomColor">On App</a></li>
-                                <li><a href="https://github.com/llaske/sugarizer#server" class="hrefCustomColor">Set up server</a></li>
-                                <li><a href="http://wiki.laptop.org/go/Release_notes" class="hrefCustomColor">On XO</a></li>
-                                <li><a href="#" class="hrefCustomColor">On Raspberry Pi</a></li>
-                            </ul>
-                        </li>--><!--
-                        <li><a href="#downloadSubmenu" data-toggle="collapse" aria-expanded="false"><span>Download</span></a>
-                            <ul class="collapse list-unstyled" id="downloadSubmenu">
-                                <li><a href="https://github.com/sugarlabs/training-activity" class="hrefCustomColor">Activity - Learn Sugar</a></li>
-                                <li><a href="https://wiki.sugarlabs.org/go/Documentation_Team/User_Manual#The_Sugar_user_manual" class="hrefCustomColor">Sugar Handbook</a></li>
-                                <li><a href="http://activities.sugarlabs.org" class="hrefCustomColor">Activities Library</a></li>
-                            </ul>
-                        </li>--><!--
-                        <li><a href="https://help.sugarlabs.org/"><span >Use</span></a></li>--><!--
-                        <li ><a href="#joinUsSubmenu" data-toggle="collapse" aria-expanded="false"><span>Join Us</span></a>
-                            <ul class="collapse list-unstyled" id="joinUsSubmenu">
-                                <li><a href="https://wiki.sugarlabs.org/go/Mailing_Lists" class="hrefCustomColor">Community Mailing Lists</a></li>
-                                <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md/" class="hrefCustomColor">Developer's Guide</a></li>
-                                <li><a href="https://wiki.sugarlabs.org/go/Local_Labs" class="hrefCustomColor">Start a local lab</a></li>
-                                <li><a href="http://translate.sugarlabs.org" class="hrefCustomColor">Contribute to Translation</a></li>
-                                <li><a href="https://github.com/sugarlabs/sugar-docs/blob/master/README.md" class="hrefCustomColor">Contribute to Software</a></li>
-                                <li><a href="https://wiki.sugarlabs.org/go/Sugar_Labs/Getting_Involved" class="hrefCustomColor">Contribute to Central Organisation</a></li>
-                                <li><a href="https://wiki.sugarlabs.org/go/Category:Project" class="hrefCustomColor">Related Projects</a></li>
-                            </ul>
-                        </li>--><!--
-                        <li ><a href="#blogSubmenu" data-toggle="collapse" aria-expanded="false"><span>Blog</span></a>
-                            <ul class="collapse list-unstyled" id="blogSubmenu">
-                                <li><a href="http://planet.sugarlabs.org">Blog Archive</a></li>
-                            </ul>
-                        </li>-->
-                    </ul>
-                </nav>
-                <div id="content">
-                    <nav class="navbar navbar-default fixed-top customHeaderStyle2">
-                        <div class="container-fluid" >
-                            <div class="navbar-header customMarPadCombo5">
-                                <div class="logo2" style="width:270px;height:30px;left:10px;">
-                                    <span id="navh1" ><a href="{{ site.baseurl }}/">{% include logo.svg %}</a></span>
-                                    <span id="navh3" ><a class="navbar-brand" href="{{ site.baseurl }}/">
-                                    <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Logo" width="270px" height="65px">
-                                    </a>
-                                </div></span>
-                                <span id="sidebarCollapse" class="customHeaderStyle3"><i class="ion-navicon-round"></i></span>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="wrapper">
+        <nav id="sidebar">
+          <div id="dismiss">
+            <i class="ion-arrow-left-a"></i>
+          </div>
+          <div class="sidebar-header">
+            <h3>Sugar Labs</h3>
+          </div>
+          <ul class="list-unstyled components">
+	    <li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
+		<li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
+                <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
+                <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
+              </ul>
+	    <li class="nav-item"><a class="nav-link" href="#try">Try now</a></li>
+	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
+	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a></li>
+	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
+	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li>
+          </ul>
+        </nav>
+        <div id="content">
+          <nav class="navbar navbar-default fixed-top customHeaderStyle2">
+            <div class="container-fluid" >
+              <div class="navbar-header customMarPadCombo5">
+                <div class="logo2" style="width:270px;height:30px;left:10px;">
+                  <span id="navh1" ><a href="{{ site.baseurl }}/">{% include logo.svg %}</a></span>
+                  <span id="navh3" ><a class="navbar-brand" href="{{ site.baseurl }}/">
+                      <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Logo" width="270px" height="65px">
+                    </a>
+		  </span>
+		</div>
+                <span id="sidebarCollapse" class="customHeaderStyle3"><i class="ion-navicon-round"></i></span>
+              </div>
             </div>
-            <div class="overlay">
-            </div>
+          </nav>
         </div>
+      </div>
+      <div class="overlay">
+      </div>
     </div>
+  </div>
 </div>
