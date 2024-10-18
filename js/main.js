@@ -8,7 +8,7 @@ $(document).ready(function(){
                   ['006E00', 'FFD732'], ['6E008C', 'FFD732']];
     var color = Math.floor((Math.random() * 12));
     var logoID = color + 1;
-    if (color < 10) {
+    if (logoID < 10) {
         logoID = "0" + logoID;
     }
     document.querySelector('#defaultIcon1').href = 'https://www.sugarlabs.org/assets/favicon_' + logoID + '.png';
