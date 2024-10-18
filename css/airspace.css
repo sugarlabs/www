@@ -353,6 +353,9 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 50px;
   color: #7B7B7B;
 }
+#testimonial a {
+  margin-left: 10px;
+}
 #testimonial .block h4 {
     font-size: 28px;
     font-weight: bold;
