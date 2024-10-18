@@ -71,40 +71,50 @@ title: Sugar Labs
             </div>
         </div>
     </div>
-    <div class="container customMargin7">
-      <div class="section-title">
-        <h2 class="text-center customMargin1">What about Sugar Labs interests you?</h2>
-      </div>
-    </div>
 </section>
+
+<hr>
 
 <!-- "A glimpse of Sugar" slideshow -->
 <section class="intro_img customImageStyle img_slider" >
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8 col-md-offset-2">
-        <div id="glimpse-slider" class="owl-carousel">
-          <div>
-            <img id="imgrflt" src="{{ site.baseurl }}/assets/DSC06422.jpg" alt="Parent with smiling child, in front of a computer. The Music Blocks logo is visible as a sticker on the computer." width="100%">
-            <p><br>For parents, we have various
-              educational tools and games for young
-              learners. These tools are made for kids to
-              learn in a fun way.</p>
-          </div>
-          <div>
-            <img id="imgrflt" src="{{ site.baseurl }}/assets/neighbourhood-screenshot.svg" alt="Sugar Neighborhood view screenshot" width="100%">
-            <p><br>In the Sugar Neighborhood view, learners see their
-              friends clustered around their current Activities; from this view, they can
-              join each other’s Activities.  Sugar collaboration works "peer to
-              peer," in a classroom or under a tree; Sugar does not require the
-              Internet.</p>
-          </div>
-          <div>
-            <img id="imgrflt" src="{{ site.baseurl }}/assets/screenshot2.png" alt="Maze activity screenshot" width="100%" >
-            <p><br>This is one of the many other fun activities present in Sugar. 
-              Check out all the other activities.</p>
-          </div>
+	<div class="container customMargin7">
+	  <div class="section-title">
+            <h2 class="text-center customMargin1">Challenging and fun: It's hard fun!</h2>
+	  </div>
+	</div>
+        <div>
+          <img id="imgrflt" src="{{ site.baseurl }}/assets/DSC06422.jpg" alt="Parent with smiling child, in front of a computer. The Music Blocks logo is visible as a sticker on the computer." width="100%">
+          <p><br>Learning isn't easy, but it should be fun. The Sugar Labs communinity works hard to make tools that are both challenging and fun. Hard fun is the <b>sweet spot!</b></p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter CTA section -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" >
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-md-push-3" >
+            <h2 >EXCITED?</h2>
+            <p>The simplest way to get involved is to join our newsletter.</p>
+	    <br>
+	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
+	      <p>Sign up for our mailing list to receive regular
+		news and updates from Sugar Labs.</p>
+	      <label for="email">Email</label>
+	      <input type="email" name="email" placeholder="you@example.com" />
+	      <input type="hidden" value="1" name="embed" />
+	      <input type="submit" value="Subscribe" />
+	    </form>
+	    <br>
+	  </div>
+	</div>
       </div>
     </div>
   </div>
@@ -173,16 +183,18 @@ title: Sugar Labs
 </section>
 
 <!-- Testimonials -->
-<section id="testimonial" class="customPadding5">
-  <div class="container">
+<section id="call-to-action">
+  <div class="container customMargin3">
     <div class="row">
       <div class="col-md-12" >
         <div class="row justify-content-center">
           <div class="col-md-8 col-md-push-2" >
             <div class="section-title text-center">
               <h2>What we hear</h2>
-              <p class="customParagraphStyle">This is what we've heard about Sugar Labs from students, teachers, parents, and growing developers.</p>
-            </div>
+	    </div>
+	    <div>
+              <p>This is what we've heard about Sugar Labs from students, teachers, parents, and growing developers.</p>
+	    </div>
           </div>
         </div>
         <div class="row justify-content-around">
@@ -519,42 +531,14 @@ title: Sugar Labs
 </section>
 
 <!-- Activites website redirect section -->
-<section id="intro" class="customMarPadCombo4">
-  <div class="container">
+<section id="call-to-action">
+  <div class="container customMargin3">
     <div class="row">
       <div class="col-md-12 text-center">
         <h3>Check out the remaining hundreds of activities!</h3>
 	<p>We have hundreds of activities to explore.</p>
-	<p><b>Important: Please know that in order to install and try them, you need to be running the Sugar Desktop Environment. If you don't have that already, please consider <a href="{{ site.baseurl }}/#try">your other options</a> to explore Sugar.</b></p>
-        <a href="https://v4.activities.sugarlabs.org/">
-          <button type="button" class="btn bt-raised btn-custom bt">Sugar Activity Library</button>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Newsletter CTA section -->
-<section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12" >
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-md-push-3" >
-            <h2 >EXCITED?</h2>
-            <p>The simplest way to get involved is to join our newsletter.</p>
-	    <br>
-	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
-	      <p>Sign up for our mailing list to receive regular
-		news and updates from Sugar Labs.</p>
-	      <label for="email">Email</label>
-	      <input type="email" name="email" placeholder="you@example.com" />
-	      <input type="hidden" value="1" name="embed" />
-	      <input type="submit" value="Subscribe" />
-	    </form>
-	    <br>
-	  </div>
-	</div>
+        <a href="https://v4.activities.sugarlabs.org/"><button type="button" class="btn bt-raised btn-custom bt">Go to Sugar Activity Library</button></a><br><br>
+	<p><em>Important: Please know that in order to install and try them, you need to be running the Sugar Desktop Environment. If you don't have that already, please consider your other options</a> to explore Sugar: <a href="{{ site.baseurl }}/#try">Try Sugar!</a></em></p>
       </div>
     </div>
   </div>
