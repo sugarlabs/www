@@ -225,25 +225,89 @@ font header .navbar-default .navbar-nav li a:hover {
 #service {
   text-align: center;
   padding: 90px 0;
+  background-color: #f8f9fa;
+}
+#service .section-title h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+#service .section-title p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0 auto 40px;
+}
+#service .activity-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 #service .service-item {
-  padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-#service .service-item i {
+#service .service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+#service .activity-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+/* #service .service-item i {
   font-size: 60px;
   color: #4A4656;
-}
+} */
 #service .service-item h4 {
-  padding-top: 20px;
-  margin: 0;
-  color: #666;
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px;
 }
 #service .service-item p {
-  color: #888;
-  padding-top: 10px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.8;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+#service .activity-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4A4656;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+#service .activity-button:hover {
+  background-color: #5a566a;
+}
+
+#service .view-all-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #4A4656;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+#service .view-all-button:hover {
+  background-color: #5a566a;
+}
+#service .important-note {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
+#service .important-note a {
+  color: #4A4656;
+  text-decoration: underline;
 }
 /*--
   call-to-action Start
@@ -1565,11 +1629,21 @@ header.large li{ margin-top: 0px; }
   /*--
   service Start
 --*/
-  #service {
-    padding-top: 100px;
+  #service .activity-grid {
+    gap: 20px;
   }
-  #service .thumbnail {
-    padding-bottom: 70px;
+  #service .service-item {
+    padding: 20px 15px;
+  }
+  #service .activity-icon {
+    width: 60px;
+    height: 60px;
+  }
+  #service .service-item h4 {
+    font-size: 1.1rem;
+  }
+  #service .service-item p {
+    font-size: 0.8rem;
   }
   /*--
   call-to-action Start
