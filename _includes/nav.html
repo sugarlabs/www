@@ -1,87 +1,149 @@
 <!-- Header for screens with width > 1260px and width <= 767px -->
-<header class="large" id="firstHeader" >
+<header class="large" id="firstHeader">
   <div class="row">
     <div class="container">
-      <nav class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between pb-0 pt-0">
-        <div class="navbar-header">
-          <div id="navh" class="logo1">
-            <a href="{{ site.baseurl }}/">{% include logo.svg %}</a>
-          </div>
-          <div id="navh2" >
-            <a class="navbar-brand" href="{{ site.baseurl }}/">
-              <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Logo">
-            </a>
-          </div>
-        </div>	
+      <nav class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between     pb-0  pt-0">
+      <div class="navh3">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Sugar Labs logo" height="90" width="270">
+        </a>
+      </div>
         <div class="d-flex justify-content-center">
-          <div class="collapse navbar-collapse zeroMarPadBtm">
-            <ul class="mr-5 navbar-nav" id="menuBar">
-	      <li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
-		<ul class="dropdown-menu">	    
-		  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
-		  <li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
-                  <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
-                  <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
+          <div class="zeroMarPadBtm ">
+            <ul class="mr-5  navbar-nav" id="menuBar">
+              <li class="nav-item dropdown align-self-center">
+                <a
+                  href="{{ site.baseurl }}/#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >About us<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/about-us"
+                      >About us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="{{ site.baseurl }}/about-us/#mission"
+                      >Our mission</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="{{ site.baseurl }}/leadership"
+                      >Leadership and governance</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="{{ site.baseurl }}/contact-us"
+                      >Contact us</a
+                    >
+                  </li>
                 </ul>
-	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a></li>
-	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
-	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a></li>
-	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
-	      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li>	  
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/develop"
+                  >Join development</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/volunteering"
+                  >Volunteer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/press">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a>
+              </li>
             </ul>
-	  </div>
-	</div>
+          </div>
+        </div>
       </nav>
     </div>
   </div>
 </header>
 
 <!-- Header for screens with width <= 1215px -->
-<div class="container" id="secondHeader" >
-  <div class="row">
-    <div class="col-md-12">
-      <div class="wrapper">
-        <nav id="sidebar">
-          <div id="dismiss">
-            <i class="ion-arrow-left-a"></i>
+<div class="container" id="secondHeader">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Sugar Labs logo" height="90" width="270">
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#mainNav"
+      aria-controls="mainNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="{{ site.baseurl }}/#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            About us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ site.baseurl }}/about-us"
+              >About us</a
+            >
+            <a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission"
+              >Our mission</a
+            >
+            <a class="dropdown-item" href="{{ site.baseurl }}/leadership"
+              >Leadership and governance</a
+            >
+            <a class="dropdown-item" href="{{ site.baseurl }}/contact-us"
+              >Contact us</a
+            >
           </div>
-          <div class="sidebar-header">
-            <h3>Sugar Labs</h3>
-          </div>
-          <ul class="list-unstyled components">
-	    <li class="nav-item dropdown align-self-center"><a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
-	      <ul class="dropdown-menu">
-		<li><a class="dropdown-item" href="{{ site.baseurl }}/about-us" >About us</a></li>
-		<li><a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission" >Our mission</a></li>
-                <li><a class="dropdown-item" href="{{ site.baseurl }}/leadership" >Leadership and governance</a></li>
-                <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us" >Contact us</a></li>
-              </ul>
-	    <li class="nav-item"><a class="nav-link" href="#try">Try now</a></li>
-	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a></li>
-	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a></li>
-	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/press">News</a></li>
-	    <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a></li>
-          </ul>
-        </nav>
-        <div id="content">
-          <nav class="navbar navbar-default fixed-top customHeaderStyle2">
-            <div class="container-fluid" >
-              <div class="navbar-header customMarPadCombo5">
-                <div class="logo2" style="width:270px;height:30px;left:10px;">
-                  <span id="navh1" ><a href="{{ site.baseurl }}/">{% include logo.svg %}</a></span>
-                  <span id="navh3" ><a class="navbar-brand" href="{{ site.baseurl }}/">
-                      <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Logo" width="270px" height="65px">
-                    </a>
-		  </span>
-		</div>
-                <span id="sidebarCollapse" class="customHeaderStyle3"><i class="ion-navicon-round"></i></span>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="overlay">
-      </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/develop"
+            >Join development</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/volunteering"
+            >Volunteer</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/press">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
 </div>
