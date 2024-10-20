@@ -1400,10 +1400,10 @@ header.large li{ margin-top: 0px; }
   font-size: 18px;
   font-weight: bold;
 }
-    .navbar-collapse.collapse {
+    .navbar-collapse .collapse {
         display: none !important;
     }
-    .navbar-collapse.collapse.in {
+    .navbar-collapse .collapse .in {
         display: block !important;
     }
     .navbar-header .collapse, .navbar-toggle {
@@ -2372,7 +2372,7 @@ h1:before {
     position: relative;
 }
 
-@media only screen and (max-width: 1260px) and (min-width: 768px) {
+@media only screen and (max-width: 990px) and (min-width: 768px) {
   #secondHeader a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
       content: '\25BC';
       display: block;
