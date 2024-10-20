@@ -245,6 +245,42 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+
+#donation{
+  background-color: #474354;
+  color: white;
+  padding: 60px 0;
+  margin: 2rem 1.5rem;
+  border-radius: 10px;
+}
+#donation h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#donation button {
+  background-color:#fbd04f;
+  margin: 2rem 0px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#donation button:hover {
+  background-color: #ffbf00;
+}
+#donation a {
+  color: #3498db;
+  text-decoration: underline;
+}
+#donation a:hover {
+  color: #0099ff;
+}
+
 /*--
   call-to-action Start
 --*/
