@@ -259,10 +259,6 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 80px;
   margin-bottom: 20px;
 }
-/* #service .service-item i {
-  font-size: 60px;
-  color: #4A4656;
-} */
 #service .service-item h4 {
   font-size: 1.25rem;
   color: #333;
@@ -1629,6 +1625,9 @@ header.large li{ margin-top: 0px; }
   /*--
   service Start
 --*/
+  #service .container{
+    max-width: 100%;
+  }
   #service .activity-grid {
     gap: 20px;
   }
