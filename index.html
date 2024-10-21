@@ -550,11 +550,37 @@ title: Sugar Labs
       <h6>Are you able to make a one-time or recurring (tax-deductible) donation?</h3>
       <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input type="hidden" name="hosted_button_id" value="V9SNCQGVEFM2Q"/>
-        <button type="submit">Donate with PayPal</button>
+        <div className="donate-container" style="margin-bottom: 2rem;">
+          <button>Donate</button>
+          <div className="payment-methods-text">Accepted payment methods:</div>
+          <div className="credit-cards">
+            <Image
+              src="/assets/paypal.svg?height=30&width=48"
+              alt="Visa"
+              id="credit-card-image"
+            />
+            <Image
+              src="/assets/visa.svg?height=30&width=48"
+              alt="visa"
+              id="credit-card-image"
+            />
+            <Image
+              src="/assets/mastercard.svg?height=30&width=48"
+              alt="American Express"
+              id="credit-card-image"
+            />
+            <Image
+              src="/assets/amex.svg?height=30&width=48"
+              alt="Discover"
+              id="credit-card-image"
+            />
+          </div>
+        </div>
+
       </form>
       <p>
         Want to read more about what your donation means? 
-        <a href="{{ site.baseurl }}/donate">Learn more on our donate page</a>.
+        <a href="{{ site.baseurl }}/donate">Learn more on our donate page.</a>
       </p>
     </div>
   </div>
