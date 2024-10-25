@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs and Free Software Foundation Celebrate Software Freedom Day, Announce Joint Efforts to Promote the Sugar Learning Platform for Children Worldwide"
 date: 2009-11-18
+categories: press
 ---
 
 

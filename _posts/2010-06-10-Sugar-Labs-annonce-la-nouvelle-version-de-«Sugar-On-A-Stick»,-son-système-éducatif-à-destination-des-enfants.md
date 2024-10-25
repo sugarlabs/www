@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs annonce la nouvelle version de «Sugar-On-A-Stick», son système éducatif à destination des enfants"
 date: 2010-06-10
+categories: press
 ---
 
 

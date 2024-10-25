@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Learning Platform and GNOME Desktop Now Shipping on the One Laptop per Child XO-1.5; Will Run On New XO-HS"
 date: 2010-01-14
+categories: press
 ---
 
 

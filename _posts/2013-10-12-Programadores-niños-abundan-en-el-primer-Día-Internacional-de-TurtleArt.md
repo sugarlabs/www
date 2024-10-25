@@ -2,6 +2,7 @@
 layout: post
 title: "Programadores niños abundan en el primer Día Internacional de TurtleArt"
 date: 2013-10-12
+categories: press
 ---
 
 

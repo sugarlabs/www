@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs Nonprofit Announces v2 of Sugar on a Stick with Improved E-Book Readers, Recycles Any USB Stick Into Learning Environment for Children; Partners with Nexcopy, Inc."
 date: 2009-12-08
+categories: press
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: "La organización educacional sin fines de lucro Sugar Labs(R) celebra el Día del Aprendizaje Digital con dos ganadores del premio Google Code-In"
 date: 2013-02-05
+categories: press
 ---
 
 

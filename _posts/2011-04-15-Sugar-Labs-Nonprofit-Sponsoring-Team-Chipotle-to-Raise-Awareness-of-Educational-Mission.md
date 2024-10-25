@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs Nonprofit Sponsoring Team Chipotle to Raise Awareness of Educational Mission"
 date: 2011-04-15
+categories: press
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs announces nonprofit status, new executive director"
 date: 2024-05-08
+categories: press
 ---
 
 **CAMBRIDGE, MA, USA -- May 8, 2024 -- Sugar Labs today announced its

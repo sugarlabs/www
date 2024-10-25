@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs Annuncia una Nuova Versione di Sugar on a Stick, piattaforma software educativa per bambini"
 date: 2010-06-10
+categories: press
 ---
 
 

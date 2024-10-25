@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Two Google Code-In Grand Prize Winners"
 date: 2014-01-22
+categories: press
 ---
 [PDF](/press/SugarLabsPR-en.20140122.pdf)
 
