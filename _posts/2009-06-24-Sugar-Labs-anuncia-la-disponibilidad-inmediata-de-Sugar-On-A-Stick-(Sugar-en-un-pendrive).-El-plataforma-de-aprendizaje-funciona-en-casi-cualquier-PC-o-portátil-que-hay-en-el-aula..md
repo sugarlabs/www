@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs anuncia la disponibilidad inmediata de Sugar On A Stick (Sugar en un pendrive). El plataforma de aprendizaje funciona en casi cualquier PC o portátil que hay en el aula."
 date: 2009-06-24
+categories: press
 ---
 
 

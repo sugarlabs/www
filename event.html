@@ -1,0 +1,39 @@
+---
+layout: default
+title: Press Information - Sugar Labs
+permalink: /event/index.html
+---
+
+<!-- Title section -->
+<div class="section-title1" >
+    <span class="tag tag-regular">EVENTS</span>
+</div>
+
+<!-- "Press information" section -->
+<section id="intro">
+    <div class="container mt-5 my-2">
+        <div class="border-bottom pb-3 mb-3">
+            <ol id="postList">
+                {% for post in site.categories.event limit:10 %}
+                <li class="listFont">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                    <hr>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</section>
+
+<!-- Useful materials and "Back to main page" section -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12" >
+            <a href="{{ site.baseurl }}/" ><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Return to main page</button></a>
+          </div>
+        </div>
+    </div>
+</section>
+

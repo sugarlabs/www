@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs Announces Immediate Availability of Sugar on a Stick; Learning Platform Runs on Any PC or Netbook In The Classroom"
 date: 2009-06-24
+categories: press
 ---
 
 

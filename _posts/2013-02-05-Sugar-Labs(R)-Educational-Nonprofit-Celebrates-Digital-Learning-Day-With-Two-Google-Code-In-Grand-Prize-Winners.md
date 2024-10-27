@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Digital Learning Day With Two Google Code-In Grand Prize Winners"
 date: 2013-02-05
+categories: press
 ---
 
 

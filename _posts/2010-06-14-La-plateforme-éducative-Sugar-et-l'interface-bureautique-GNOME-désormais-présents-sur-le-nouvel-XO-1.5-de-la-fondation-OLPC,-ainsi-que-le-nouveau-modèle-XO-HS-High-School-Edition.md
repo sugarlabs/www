@@ -2,6 +2,7 @@
 layout: post
 title: "La plateforme éducative Sugar et l'interface bureautique GNOME désormais présents sur le nouvel XO 1.5 de la fondation OLPC, ainsi que le nouveau modèle XO-HS High School Edition"
 date: 2010-01-14
+categories: press
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs annonce la disponibilité immédiate de « Sugar on a Stick », une plate-forme d’apprentissage qui fonctionne sur n’importe quel PC ou netbook dans la salle de classe"
 date: 2009-06-24
+categories: press
 ---
 
 
