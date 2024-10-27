@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs Announces Beta‑1 of Sugar on a Stick, LiveUSB Version of Sugar Learning Platform for Children"
 date: 2009-04-22
+categories: press
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: "United Nations Relief and Works Agency chooses One Laptop per Child Laptops with Sugar for Major Education Project in Mideast"
 date: 2010-04-29
+categories: press
 ---
 
 

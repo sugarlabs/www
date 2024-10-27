@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Learning Platform e GNOME Desktop sono disponibili per gli XO-1.5 di One Laptop per Child; Compatibili anche per i nuovi XO-HS High School Edition"
 date: 2010-06-14
+categories: press
 ---
 
 

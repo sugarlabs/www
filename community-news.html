@@ -1,0 +1,59 @@
+---
+layout: default
+title: Press Information - Sugar Labs
+permalink: /community-news/index.html
+---
+
+<!-- Title section -->
+<div class="section-title1" >
+    <span class="tag tag-regular">COMMUNITY NEWS</span>
+</div>
+
+<section id="call-to-action">
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12" >
+	    <h2 >NEWSLETTER</h2>
+	    <p>Subscribe to our newsletter to get the most up-to-date Sugar Labs news in your inbox.</p>
+	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
+	      <p>Sign up for our mailing list to receive regular news and updates from Sugar Labs.</p>
+	      <label for="email">Email</label>
+	      <input type="email" name="email" placeholder="you@example.com" />
+	      <input type="hidden" value="1" name="embed" />
+	      <input type="submit" value="Subscribe" />
+	    </form><br>
+          </div>
+        </div>
+    </div>
+</section>		 
+
+<!-- "Press information" section -->
+<section id="intro">
+    <div class="justify-content-center">
+        <h2 class="text-center">COMMUNITY NEWS</h2>
+    </div>
+    <div class="container mt-5 my-2">
+        <div class="border-bottom pb-3 mb-3">
+            <ol id="postList">
+                {% for post in site.categories.community limit:10 %}
+                <li class="listFont">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                    <hr>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</section>
+
+<!-- Useful materials and "Back to main page" section -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12" >
+            <a href="{{ site.baseurl }}/" ><button type="button" class="btn bt-raised btn-custom bt lastButtonMargin" >Return to main page</button></a>
+          </div>
+        </div>
+    </div>
+</section>

@@ -2,6 +2,7 @@
 layout: post
 title: "United Nations Relief and Works Agency Sceglie i Laptop di One Laptop per Child con  Sugar per un Importante Progetto Educativo in Medio Oriente"
 date: 2010-04-29
+categories: press
 ---
 
 

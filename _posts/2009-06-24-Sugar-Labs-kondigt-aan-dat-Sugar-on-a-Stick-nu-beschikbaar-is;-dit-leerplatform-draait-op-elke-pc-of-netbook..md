@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs kondigt aan dat Sugar on a Stick nu beschikbaar is; dit leerplatform draait op elke pc of netbook."
 date: 2009-06-24
+categories: press
 ---
 
 

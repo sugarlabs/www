@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs kündigt neue Version von Sugar an—die Lernplattform für Kinder läuft auf Netbooks und PCs"
 date: 2009-03-16
+categories: press
 ---
 
 

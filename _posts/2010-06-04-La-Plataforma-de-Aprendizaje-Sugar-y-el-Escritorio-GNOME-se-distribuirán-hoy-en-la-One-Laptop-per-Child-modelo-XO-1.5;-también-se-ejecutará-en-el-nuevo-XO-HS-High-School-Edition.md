@@ -2,6 +2,7 @@
 layout: post
 title: "La Plataforma de Aprendizaje Sugar y el Escritorio GNOME se distribuirán hoy en la One Laptop per Child modelo XO-1.5; también se ejecutará en el nuevo XO-HS High School Edition"
 date: 2010-01-04
+categories: press
 ---
 
 

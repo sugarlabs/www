@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs, organisation à but non lucratif, annonce la sortie de la nouvelle version de la plateforme d’apprentissage pour enfants Sugar pour PC et netbooks"
 date: 2009-03-16
+categories: press
 ---
 
 

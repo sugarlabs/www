@@ -2,6 +2,7 @@
 layout: post
 title: "La Asociación sin fines de lucro Sugar Labs Anuncia su Nueva Versión de la Plataforma de Aprendizaje Sugar para Niños que Funciona en Notebooks y PCs"
 date: 2009-03-16
+categories: press
 ---
 
 

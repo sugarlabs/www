@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs(R), organización sin fines de lucro para la Educación celebra dos Ganadores del Gran Premio de Google Code-In"
 date: 2014-01-22
+categories: press
 ---
 
 

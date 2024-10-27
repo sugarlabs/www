@@ -2,6 +2,7 @@
 layout: post
 title: "La organización sin fines de lucro Sugar Labs patrocina el equipo de ciclistas Team Chipotle para dar a conocer su misión educativa."
 date: 2011-04-15
+categories: press
 ---
 
 
