@@ -16,9 +16,9 @@ permalink: /FAQ/index.html
             <ol id="faqList">
                 {% for faq in site.faqs  %}
                 <li class="list-item">
-                    <div class="question h5 fw-bold" onclick="toggleAnswer('answer-{{ forloop.index }}', this)">
+                    <div class="question h5 fw-bold d-flex justify-content-between align-item-centre" onclick="toggleAnswer('answer-{{ forloop.index }}', this)">
                         {{ faq.question }}
-                        <span class="indicator h5">+</span>
+                        <span class="indicator h5 fw-bold">+</span>
                     </div>
                     <div id="answer-{{ forloop.index }}" class="answer d-none">
                         {{ faq.answer }}
