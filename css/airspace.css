@@ -2801,3 +2801,14 @@ table, th, td {
 .count{
 /* Nothing related to styling needed to be described for this  */
 }
+
+/* Question and Indicator for /FAQ page */
+.question {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+.indicator {
+  font-weight: bold; 
+  transition: transform 0.2s; 
+}

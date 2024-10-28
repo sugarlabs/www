@@ -6,3 +6,6 @@ description: "Sugar Labs contributes to and helps maintain the award-winning Sug
 keywords: "sugar, sugar labs, learning, olpc, constructionism, education, community"
 sass:
   sass_dir: css
+collections:
+  faqs:
+    output: true
