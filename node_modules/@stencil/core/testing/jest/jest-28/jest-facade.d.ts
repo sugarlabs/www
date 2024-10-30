@@ -1,0 +1,134 @@
+import type { Config } from '@jest/types';
+import { JestFacade } from '../jest-facade';
+import { createJestPuppeteerEnvironment } from './jest-environment';
+import { createTestRunner } from './jest-runner';
+import { runJest } from './jest-runner';
+import { runJestScreenshot } from './jest-screenshot';
+import { jestSetupTestFramework } from './jest-setup-test-framework';
+/**
+ * `JestFacade` implementation for communicating between this directory's version of Jest and Stencil
+ */
+export declare class Jest28Stencil implements JestFacade {
+    getJestCliRunner(): typeof runJest;
+    getRunJestScreenshot(): typeof runJestScreenshot;
+    getDefaultJestRunner(): string;
+    getCreateJestPuppeteerEnvironment(): typeof createJestPuppeteerEnvironment;
+    getJestPreprocessor(): {
+        process(sourceText: string, sourcePath: string, options: import("@jest/transform").TransformOptions): import("@jest/transform").TransformedSource;
+        getCacheKey(sourceText: string, sourcePath: string, options: import("@jest/transform").TransformOptions): string;
+    };
+    getCreateJestTestRunner(): typeof createTestRunner;
+    getJestSetupTestFramework(): typeof jestSetupTestFramework;
+    getJestPreset(): Partial<{
+        automock: boolean;
+        bail: boolean | number;
+        cache: boolean;
+        cacheDirectory: string;
+        ci: boolean;
+        clearMocks: boolean;
+        changedFilesWithAncestor: boolean;
+        changedSince: string;
+        collectCoverage: boolean;
+        collectCoverageFrom: Array<string>;
+        collectCoverageOnlyFrom: {
+            [key: string]: boolean;
+        };
+        coverageDirectory: string;
+        coveragePathIgnorePatterns: Array<string>;
+        coverageProvider: "babel" | "v8";
+        coverageReporters: Config.CoverageReporters;
+        coverageThreshold: {
+            [path: string]: Config.CoverageThresholdValue;
+            global: Config.CoverageThresholdValue;
+        };
+        dependencyExtractor: string;
+        detectLeaks: boolean;
+        detectOpenHandles: boolean;
+        displayName: string | Config.DisplayName;
+        expand: boolean;
+        extensionsToTreatAsEsm: Array<string>;
+        fakeTimers: Config.GlobalFakeTimersConfig & ((Config.FakeTimersConfig & {
+            now?: Exclude<Config.FakeTimersConfig["now"], Date>;
+        }) | Config.LegacyFakeTimersConfig);
+        filter: string;
+        findRelatedTests: boolean;
+        forceCoverageMatch: Array<string>;
+        forceExit: boolean;
+        json: boolean;
+        globals: Config.ConfigGlobals;
+        globalSetup: string | null | undefined;
+        globalTeardown: string | null | undefined;
+        haste: Config.HasteConfig;
+        id: string;
+        injectGlobals: boolean;
+        reporters: Array<string | Config.ReporterConfig>;
+        logHeapUsage: boolean;
+        lastCommit: boolean;
+        listTests: boolean;
+        maxConcurrency: number;
+        maxWorkers: number | string;
+        moduleDirectories: Array<string>;
+        moduleFileExtensions: Array<string>;
+        moduleNameMapper: {
+            [key: string]: string | Array<string>;
+        };
+        modulePathIgnorePatterns: Array<string>;
+        modulePaths: Array<string>;
+        noStackTrace: boolean;
+        notify: boolean;
+        notifyMode: string;
+        onlyChanged: boolean;
+        onlyFailures: boolean;
+        outputFile: string;
+        passWithNoTests: boolean;
+        preset: string | null | undefined;
+        prettierPath: string | null | undefined;
+        projects: Array<string | Config.InitialProjectOptions>;
+        replname: string | null | undefined;
+        resetMocks: boolean;
+        resetModules: boolean;
+        resolver: string | null | undefined;
+        restoreMocks: boolean;
+        rootDir: string;
+        roots: Array<string>;
+        runner: string;
+        runTestsByPath: boolean;
+        runtime: string;
+        sandboxInjectedGlobals: Array<string>;
+        setupFiles: Array<string>;
+        setupFilesAfterEnv: Array<string>;
+        silent: boolean;
+        skipFilter: boolean;
+        skipNodeResolution: boolean;
+        slowTestThreshold: number;
+        snapshotResolver: string;
+        snapshotSerializers: Array<string>;
+        snapshotFormat: import("@jest/schemas").SnapshotFormat;
+        errorOnDeprecated: boolean;
+        testEnvironment: string;
+        testEnvironmentOptions: Record<string, unknown>;
+        testFailureExitCode: string | number;
+        testLocationInResults: boolean;
+        testMatch: Array<string>;
+        testNamePattern: string;
+        testPathIgnorePatterns: Array<string>;
+        testRegex: string | Array<string>;
+        testResultsProcessor: string;
+        testRunner: string;
+        testSequencer: string;
+        testTimeout: number;
+        transform: {
+            [regex: string]: string | Config.TransformerConfig;
+        };
+        transformIgnorePatterns: Array<string>;
+        watchPathIgnorePatterns: Array<string>;
+        unmockedModulePathPatterns: Array<string>;
+        updateSnapshot: boolean;
+        useStderr: boolean;
+        verbose?: boolean;
+        watch: boolean;
+        watchAll: boolean;
+        watchman: boolean;
+        watchPlugins: Array<string | [string, Record<string, unknown>]>;
+    }>;
+}
