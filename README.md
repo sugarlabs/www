@@ -316,3 +316,7 @@ In this section, we will guide you through the steps to add new icons. By follow
 
    * Replace `[new-icon-name]` with your new icon name and `[unicode-code]` with its Unicode value.
    * Save the CSS file. Now you can use `[new-icon-name]` to access your brand new icon.
+
+8. **Updating Ion Icons**
+   * Install the latest version of Ion Icons by running the following command:
+   `npm i ionicons@7`
