@@ -5,8 +5,8 @@ date: 2024-05-08
 ---
 
 **CAMBRIDGE, MA, USA -- May 8, 2024 -- Sugar Labs today announced its
-  501(c)(3) nonprofit status as well as its pick for executive
-  director, long-time contributor Devin Ulibarri.**
+501(c)(3) nonprofit status as well as its pick for executive
+director, long-time contributor Devin Ulibarri.**
 
 ## Sugar Labs is a 501(c)(3) nonprofit
 
@@ -36,6 +36,7 @@ former board member, he also played a major role in helping the
 organization achieve its current nonprofit status.
 
 [3]: https://fsf.org
+
 [4]: {{ site.baseurl }}/music-blocks
 
 Of the hiring, Sugar Labs board member and founder Walter Bender said,
@@ -55,16 +56,4 @@ Claudia Urrea, Walter Bender, and Alex Perez.
 
 [5]: https://wiki.sugarlabs.org/go/Oversight_Board
 
-## About Sugar Labs
-
-Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a
-global mission to create educational opportunities in technology to
-youth around the world. Volunteer mentors and contributors work
-together to develop activity-focused software for children. All
-software is developed with learning as the primary goal, necessitating
-the need for source code to be published publicly for study, licensed
-under a Free/Libre license for explicit permission to share and remix,
-and openly worked upon within a community where students are invited
-to make contributions, under guidance of experienced mentors.
-Donations to support the work of Sugar Labs can be made at
-<https://wiki.sugarlabs.org/go/Sugar_Labs/Donate>.
+{% include about_sugar_labs.html %}
