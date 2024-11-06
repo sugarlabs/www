@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Sugar Labs: Past, present, and future"
-date: 2024-05-03
+title: "Musical Squares: From Turtle Blocks to Music Blocks and Beyond"
+date: 2024-05-10
 categories: event
 ---
 
-**Sugar Labs kicks off a series of events with a live online event
-  titled "Sugar Labs: Past, present, and future" on Friday, May 3,
-  2024 at 15:00 ET (19:00 UTC).**
+**Sugar Labs is hosting an event "Learn about Music Blocks, visual
+  programming language with a hands-on activity" on Friday, May 10,
+  2024 at 15:00 ET (19:00 UTC). Join us for a fun and educational
+  introduction Music Blocks.**
 
 ## Event information
 
-Title: Sugar Labs: Past, present, and future
-Date: May 3, 2024
+Title: Musical Squares: From Turtle Blocks to Music Blocks and Beyond
+Date: May 10, 2024
 Time: 15:00 ET (19:00 UTC)
 Link: <https://www.youtube.com/watch?v=jZs-QJNfglc>
 Platform: [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)

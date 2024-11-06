@@ -1,20 +1,23 @@
 ---
 layout: post
-title: "Sugar Labs: Past, present, and future"
-date: 2024-05-03
+title: "Learn to make games with Gameeky!"
+date: 2024-05-17
 categories: event
 ---
 
-**Sugar Labs kicks off a series of events with a live online event
-  titled "Sugar Labs: Past, present, and future" on Friday, May 3,
-  2024 at 15:00 ET (19:00 UTC).**
+**"Learn to make games with Gameeky" will be presented live by
+  developer Martin Abente Lahaye. Get a hands-on tutorial for how to
+  make games with Gameeky. Play, create and learn: Gameeky lets young
+  learners and educators create and explore cooperative games and
+  learning experiences. Watch live on Friday, May 17, 2024 at 15:00 ET
+  (19:00 UTC).**
 
 ## Event information
 
-Title: Sugar Labs: Past, present, and future
-Date: May 3, 2024
+Title: Learn to make games with Gameeky
+Date: May 17, 2024
 Time: 15:00 ET (19:00 UTC)
-Link: <https://www.youtube.com/watch?v=jZs-QJNfglc>
+Link: <https://www.youtube.com/watch?v=vLiCumKjofc>
 Platform: [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
 
 ## About Sugar Labs

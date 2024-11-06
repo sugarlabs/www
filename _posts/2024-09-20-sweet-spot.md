@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Sugar Labs announces nonprofit status, new executive director"
-date: 2024-05-08
+title: "The Sweet Spot – Issue 001"
+date: 2024-09-20
 categories: community
 ---
-
-# The Sweet Spot – Issue 001
 
 *Recent news for September 20, 2024*
 
@@ -79,7 +77,7 @@ DMP. Sugar Labs will be participating this year in DMP.
  contributors did this summer, you are encouraged to read our blog on
  Medium.*
 
-  * <https://medium.com/@sugarlabs/list/code4govtech-3377e03c6dd5
+  * <https://medium.com/@sugarlabs/list/code4govtech-3377e03c6dd5>
 
 ### Sugar Labs accepted as an org in this year's GSoC, contributors announced
 

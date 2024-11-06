@@ -1,21 +1,24 @@
 ---
 layout: post
-title: "Sugar Labs: Past, present, and future"
-date: 2024-05-03
+title: "GSoC+DMP contributors initial check-in 1 of 2: Music Blocks projects"
+date: 2024-06-07
 categories: event
 ---
 
-**Sugar Labs kicks off a series of events with a live online event
-  titled "Sugar Labs: Past, present, and future" on Friday, May 3,
-  2024 at 15:00 ET (19:00 UTC).**
+**Join Sugar Labs for an introduction to Google Summer of Code (GSoC)
+  and DMP projects this summer, presented by GSoC and DMP interns and
+  facilitated by their mentors, Devin Ulibarri, Walter Bender, and
+  Anindya Kundu. Watch live on Friday, June 7, 2024 at 13:00 ET (17:00
+  UTC).**
 
 ## Event information
 
-Title: Sugar Labs: Past, present, and future
-Date: May 3, 2024
-Time: 15:00 ET (19:00 UTC)
-Link: <https://www.youtube.com/watch?v=jZs-QJNfglc>
+Title: GSoC+DMP contributors initial check-in 1 of 2: Music Blocks projects
+Date: June 7, 2024
+Time: 13:00 ET (17:00 UTC)
+Link: <https://www.youtube.com/watch?v=PeIS3gXPFj0>
 Platform: [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
+
 
 ## About Sugar Labs
 

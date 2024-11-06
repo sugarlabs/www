@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "Sugar Labs: Past, present, and future"
-date: 2024-05-03
+title: "An OLPC update with Lylian Peraza"
+date: 2024-05-24
 categories: event
 ---
 
-**Sugar Labs kicks off a series of events with a live online event
-  titled "Sugar Labs: Past, present, and future" on Friday, May 3,
-  2024 at 15:00 ET (19:00 UTC).**
+**Join Sugar Labs for a discussion with Lylian Peraza, Vice President
+  of Project Development at OLPC. Watch live on Friday, May 24, 2024
+  at 15:00 ET (19:00 UTC).**
 
 ## Event information
 
-Title: Sugar Labs: Past, present, and future
-Date: May 3, 2024
+Title: An OLPC update with Lylian Peraza
+Date: May 24, 2024
 Time: 15:00 ET (19:00 UTC)
-Link: <https://www.youtube.com/watch?v=jZs-QJNfglc>
+Link: <https://www.youtube.com/watch?v=SuOta9MLLnw>
 Platform: [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
 
 ## About Sugar Labs
