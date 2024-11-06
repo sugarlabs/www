@@ -2545,6 +2545,7 @@ input.gsc-input,
 .customParagraphStyle{
   color:#000000 !important;
   font-style: normal !important;
+  text-align: center;
 }
 .customParagraphStyle2{
   margin-left:40px;
