@@ -2,7 +2,7 @@
 layout: post
 title: "Sugar Labs: Past, present, and future"
 date: 2024-05-03
-categories: events
+categories: event
 ---
 
 **Sugar Labs kicks off a series of events with a live online event
