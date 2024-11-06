@@ -27,7 +27,7 @@ permalink: /press/index.html
     <div class="container mt-5 my-2">
         <div class="border-bottom pb-3 mb-3">
             <ol id="postList">
-                {% for post in site.categories.press limit:10 %}
+                {% for post in site.categories.press limit:2 %}
                 <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                     <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
@@ -61,7 +61,7 @@ permalink: /press/index.html
                         isShowingAll = true;
                     } else {
                         postListEl.innerHTML = `
-                            {% for post in site.categories.press limit:10 %}
+                            {% for post in site.categories.press limit:2 %}
                             <li class="listFont">
                                 <a href="{{ post.url }}">{{ post.title }}</a>
                                 <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
