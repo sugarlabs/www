@@ -1,0 +1,32 @@
+---
+layout: default
+title: FAQ - Sugar Labs
+permalink: /FAQ/index.html
+---
+
+<!-- Title section -->
+<div class="section-title1">
+    <span class="tag tag-regular">Frequently Asked Questions</span>
+</div>
+
+<!-- Question & Answere section -->
+<section id="intro">
+    <div class="container mt-5 my-2">
+        <div class="border-bottom pb-3 mb-3">
+            <ol id="faqList">
+                {% for faq in site.faqs  %}
+                <li class="list-item">
+                    <div class="question h5 fw-bold d-flex justify-content-between align-item-centre" onclick="toggleAnswer('answer-{{ forloop.index }}', this)">
+                        {{ faq.question }}
+                        <span class="indicator h5 fw-bold">+</span>
+                    </div>
+                    <div id="answer-{{ forloop.index }}" class="answer d-none">
+                        {{ faq.answer }}
+                    </div>
+                    <hr>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</section>

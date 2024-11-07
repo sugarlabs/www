@@ -1,0 +1,13 @@
+/*This file contains all the custom new changes in the css in Sugarlabs official website*/
+/*Also add proper comment for every section you add in this custom.css file*/
+
+/*This is for the reference video section in Music Blocks landing page */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-container div {
+  margin: 0 10px;
+}

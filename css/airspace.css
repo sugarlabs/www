@@ -2430,20 +2430,6 @@ h1:before {
     position: relative;
 }
 
-@media only screen and (max-width: 990px) and (min-width: 768px) {
-  #secondHeader a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-      content: '\25BC';
-      display: block;
-      position: absolute;
-      right: 20px;
-      font-family: 'Varela Round';
-      font-size: 0.6em;
-  }
-  #secondHeader a[aria-expanded="true"]::before {
-      content: '\25B2';
-  }
-}
-
 #secondHeader ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
@@ -2559,6 +2545,7 @@ input.gsc-input,
 .customParagraphStyle{
   color:#000000 !important;
   font-style: normal !important;
+  text-align: center;
 }
 .customParagraphStyle2{
   margin-left:40px;
