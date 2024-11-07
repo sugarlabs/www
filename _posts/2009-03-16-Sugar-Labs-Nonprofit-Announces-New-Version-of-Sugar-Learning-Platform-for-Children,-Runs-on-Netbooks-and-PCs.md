@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs Nonprofit Announces New Version of Sugar Learning Platform for Children, Runs on Netbooks and PCs"
 date: 2009-03-16
+categories: press
 ---
 
 

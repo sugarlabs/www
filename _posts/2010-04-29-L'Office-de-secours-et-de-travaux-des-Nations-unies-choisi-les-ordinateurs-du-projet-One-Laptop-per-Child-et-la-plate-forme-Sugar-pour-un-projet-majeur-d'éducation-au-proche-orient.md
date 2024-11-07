@@ -2,6 +2,7 @@
 layout: post
 title: "L'Office de secours et de travaux des Nations unies choisi les ordinateurs du projet One Laptop per Child et la plate-forme Sugar pour un projet majeur d'éducation au proche orient"
 date: 2010-04-29
+categories: press
 ---
 
 

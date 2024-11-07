@@ -2,6 +2,7 @@
 layout: post
 title: "Une foule d'enfants programmeurs participe à la 1ère Journée Internationale TurtleArt"
 date: 2013-10-12
+categories: press
 ---
 
 

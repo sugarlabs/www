@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs joins the Software Freedom Conservancy"
 date: 2008-12-09
+categories: press
 ---
 
 

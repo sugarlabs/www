@@ -2,6 +2,7 @@
 layout: post
 title: "Sugar Labs gibt die Veröffentlichung von Sugar on a Stick bekannt; die Lernplattform läuft auf jedem PC oder Netbook im Klassenzimmer."
 date: 2009-06-24
+categories: press
 ---
 
 

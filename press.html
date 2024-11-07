@@ -13,19 +13,11 @@ permalink: /press/index.html
     <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12" >
-	    <h2 >NEWSLETTER</h2>
-	    <p>Subscribe to our newsletter to get the most up-to-date Sugar Labs news in your inbox.</p>
-	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
-	      <p>Sign up for our mailing list to receive regular news and updates from Sugar Labs.</p>
-	      <label for="email">Email</label>
-	      <input type="email" name="email" placeholder="you@example.com" />
-	      <input type="hidden" value="1" name="embed" />
-	      <input type="submit" value="Subscribe" />
-	    </form><br>
+            <span>To be added to our press list, email us at <a href="mailto:pr@sugarlabs.org">pr@sugarlabs.org</a></span>
           </div>
         </div>
     </div>
-</section>		 
+</section>	
 
 <!-- "Press information" section -->
 <section id="intro">
@@ -35,7 +27,7 @@ permalink: /press/index.html
     <div class="container mt-5 my-2">
         <div class="border-bottom pb-3 mb-3">
             <ol id="postList">
-                {% for post in site.posts limit:10 %}
+                {% for post in site.categories.press limit:2 %}
                 <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                     <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
@@ -57,7 +49,7 @@ permalink: /press/index.html
                 function togglePost() {
                     if (!isShowingAll) {
                         postListEl.innerHTML = `
-                            {% for post in site.posts %}
+                            {% for post in site.categories.press %}
                             <li class="listFont">
                                 <a href="{{ post.url }}">{{ post.title }}</a>
                                 <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
@@ -69,7 +61,7 @@ permalink: /press/index.html
                         isShowingAll = true;
                     } else {
                         postListEl.innerHTML = `
-                            {% for post in site.posts limit:10 %}
+                            {% for post in site.categories.press limit:2 %}
                             <li class="listFont">
                                 <a href="{{ post.url }}">{{ post.title }}</a>
                                 <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>

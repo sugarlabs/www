@@ -2,6 +2,7 @@
 layout: post
 title: "New foundation focused on taking the Sugar user interface to the next level of usability and utility"
 date: 2008-05-15
+categories: press
 ---
 
 

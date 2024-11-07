@@ -2,6 +2,7 @@
 layout: post
 title: "Gemeinnütziges Sugar Labs gibt zweite Version von Sugar-on-a-Stick frei mit verbesserter E-Book-Unterstützung, macht aus jedem USB-Stick eine Lernumgebung für Kinder; Partnerschaft mit Nexcopy, Inc."
 date: 2009-12-08
+categories: press
 ---
 
 
