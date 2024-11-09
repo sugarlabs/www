@@ -66,6 +66,13 @@
                 $(".loader").fadeOut("slow");
             })
         </script>
+        <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+           paginationSpeed : 500, singleItem:true, autoPlay: 3000,
+            });
+         });
+        </script>
     </head>
     <body {{ page.bodyExt }}>
 
