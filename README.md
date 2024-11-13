@@ -342,7 +342,7 @@ In this section, we will guide you through the steps for creating a new blog pos
    ---
    ```
 
-   * At the moment we have only three categories (press, event, community)
+   * We have three categories: press, event, and community.
 
 4. **Write your content:**
    * Below the Front Matter, write the content for your blog post in Markdown. You can add headings, images, links, lists, and more using Markdown syntax.
