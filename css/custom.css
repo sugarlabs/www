@@ -15,3 +15,10 @@
 .intro_img>.container>div>div>div>p {
   padding: 0 10px;
 }
+
+/* this css is added to change the color of dropdown-item, and making it
+   consistent in all screen sizes.
+ */
+.dropdown-item {
+  color: #007bff;
+}
