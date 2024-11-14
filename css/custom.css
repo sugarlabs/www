@@ -11,3 +11,7 @@
 .video-container div {
   margin: 0 10px;
 }
+
+.intro_img>.container>div>div>div>p {
+  padding: 0 10px;
+}
