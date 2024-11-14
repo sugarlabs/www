@@ -130,10 +130,10 @@ bundle update
 1. Whenever the code is changed, please ensure that the relevant code changes are reflected in **main.js** file (For example, if a slideshow is disabled, make sure the id of the slideshow element/section is also disabled in the **main.js** file if it exists).
 2. Few dependencies/libraries do not work well with other dependencies/libraries, so make sure to test before updating the dependencies/libraries.
 3. Whenever the website hosting is shifted to another url/domain, please ensure to change the internal url references and also the **sitemap.txt** file.
-4. Do check **Answers to a few questions** section to get answers to a few of the questions you might have or for steps to be followed.
+4. Do check **[Answers to Few Questions](#answers-to-few-questions)** section to get answers to a few of the questions you might have or for steps to be followed.
 5. Be careful when changing the cache control code present in the **.htaccess** file.
 6. Whenever the dependency/library versions are changed, please update the local files of those dependencies as these local files are referenced when the cdn does not work.
-7. The current website uses customized versions of a few social media icons (service provided by [Ion Icons](https://ionicons.com)). We do our customizations in a scss file (**/css/ion_icon_customization.scss** file in our case). Please be careful when updating this file. (Also refer to **How to change social media icon colors?** the subsection in **Answers to few questions** section)
+7. The current website uses customized versions of a few social media icons (service provided by [Ion Icons](https://ionicons.com)). We do our customizations in a scss file (**/css/ion_icon_customization.scss** file in our case). Please be careful when updating this file. (Also refer to **[How to change social media icon colors?](#how-to-change-social-media-icon-colors)** the subsection in **[Answers to Few Questions](#answers-to-few-questions)** section)
 
 ## Some Developer Notes
 All internal URLs are referenced through absolute paths and not relative paths. This website primaritally uses HTML, (S)CSS, Javascript, JQuery, and Bootstrap.
