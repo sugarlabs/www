@@ -319,4 +319,4 @@ In this section, we will guide you through the steps to add new icons. By follow
 
 8. **Updating Ion Icons**
    * Install the latest version of Ion Icons by running the following command:
-   `npm i ionicons@7`
+`npm i ionicons@7`
