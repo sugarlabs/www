@@ -34,7 +34,7 @@ $instagram-background-hover: linear-gradient(color.adjust(#4c4bdb85, $lightness:
 
 // Youtube colors
 $youtube-color: white;
-$youtube-color-hover: color.adjust($youtube-color, $lightness: $darken-percent);
+$youtube-color-hover: color.adjust($youtube-color, $lightness: -$darken-percent);
 $youtube-background: red;
 $youtube-background-hover: color.adjust($youtube-background, $lightness: -$darken-percent);
 
