@@ -82,11 +82,13 @@ cd www
 ### Installation
 Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
 
-    bundle install;
+    bundle install
 ### Running
 Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
 
-    bundle exec jekyll serve --incremental;
+`jekyll serve`: rebuilds the entire website from scratch each time.
+
+`bundle exec jekyll serve --incremental`:Only regenerates changed files since the last build, making development faster and more efficient but does not render posts (i.e. FAQ, blog, news, and events).
 
 Then open [http://localhost:4000](http://localhost:4000)
 ### Note
