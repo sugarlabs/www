@@ -330,6 +330,9 @@ In this section, we will guide you through the steps for creating a new blog pos
 2. **Create a New Markdown File:**
    * Create a new file in the _posts folder. Name the file in the format `YYYY-MM-DD-title.md`.
 
+3. **Add Front Matter:**
+   * At the top of your new file, add front matter between `---` lines. This metadata tells Jekyll how to handle the post. Here’s a basic template:
+
    ```
    ---
    layout: post
