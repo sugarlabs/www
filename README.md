@@ -320,3 +320,32 @@ In this section, we will guide you through the steps to add new icons. By follow
 8. **Updating Ion Icons**
    * Install the latest version of Ion Icons by running the following command:
    `npm i ionicons@7`
+
+### How to make a blog post?
+In this section, we will guide you through the steps for creating a new blog post.
+
+1. **Navigate to the _post directory:**
+   * In the site's main directory, open the _post folder. This is where all your blog posts are stored.
+
+2. **Create a New Markdown File:**
+   * Create a new file in the _posts folder. Name the file in the format `YYYY-MM-DD-title.md`.
+
+3. **Add Front Matter:**
+   * At the top of your new file, add front matter between `---` lines. This metadata tells Jekyll how to handle the post. Here’s a basic template:
+
+   ```
+   ---
+   layout: post
+   title: "How to Make a Blog Post?"
+   date: YYYY-MM-DD
+   categories: press
+   ---
+   ```
+
+   * We have three categories: press, event, and community.
+
+4. **Write your content:**
+   * Below the Front Matter, write the content for your blog post in Markdown. You can add headings, images, links, lists, and more using Markdown syntax.
+
+5. **Save and Preview:**
+   * Save the file, then run `jekyll serve` in your terminal to start the local server. Visit `http://localhost:4000` to preview your blog post.
