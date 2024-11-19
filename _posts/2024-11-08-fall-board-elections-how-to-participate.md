@@ -28,7 +28,7 @@ to vote.
 
 For those of you who would like to run for a board position, you will
 need to add your name and statement to the list on
-<https://wiki.sugarlabs.org/go/Oversight\_Board/2025-2026-candidates>. If
+<https://wiki.sugarlabs.org/go/Oversight_Board/2025-2026-candidates>. If
 you need any technical assistance with the wiki, please contact
 [elections@sugarlabs.org](mailto:elections@sugarlabs.org).
 
