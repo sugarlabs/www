@@ -49,18 +49,14 @@ contributions, so no other steps are necessary on your part.
 
 ### Current members must vote in this election in order to maintain their membership status
 
-If you are receiving this message, it may be because you are currently
-considered a member of Sugar Labs according to our most recent
-membership list, which may be found here:
-<https://wiki.sugarlabs.org/go/Sugar_Labs/Members/List>. If you do not
-apply for a ballot to vote in this election, then we will consider
-your membership to be rescinded and your membership will be made
-inactive. Because [our bylaws require a majority vote from members to
-pass certain amendments][5] we need to ensure that our current
-membership list is up-to-date with active members. Your email address
-will nonetheless remain subscribed to this mailing list unless you
-unsubscribe, which you may do at any time by following the
-instructions at the bottom of this message.
+Our most recent membership list may be found here:
+<https://wiki.sugarlabs.org/go/Sugar_Labs/Members/List>. If you are
+currently a member but you do not apply for a ballot to vote in this
+election, then we will consider your membership to be rescinded and
+your membership will be made inactive. Because [our bylaws require a
+majority vote from members to pass certain amendments][5] we need to
+ensure that our current membership list is up-to-date with active
+members.
 
 [5]: https://wiki.sugarlabs.org/go/Sugar_Labs/Governance#ARTICLE_XI
 
