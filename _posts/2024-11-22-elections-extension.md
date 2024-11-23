@@ -28,7 +28,7 @@ the [board of directors][3].
 
 Since we made [our initial announcement][4], one of the most
 frequently asked questions has been *what determines eligibility for
-participating in the election*. Participation in the election is open
+participating in the election?* Participation in the election is open
 to any member of Sugar Labs, and the eligibility requirements for
 membership are published on
 <https://wiki.sugarlabs.org/go/Sugar_Labs/Members>. The main gist,
