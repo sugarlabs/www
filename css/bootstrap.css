@@ -3272,8 +3272,8 @@ tbody.collapse.show {
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
-  border: 0;
   color: #0099ff;
+  border: 0;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
