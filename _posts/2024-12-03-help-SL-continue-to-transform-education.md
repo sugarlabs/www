@@ -20,10 +20,13 @@ to Sugar Labs][1] as we move into our next phase.
 
 [1]: https://www.paypal.com/donate?campaign_id=NEAV3YL4H6B5S
 
-![Image that has a picture of volunteers at a desk with computers, a
+<figure>
+  <img src="{{ site.baseurl }}/assets/donation-banner.png" alt="Image that has a picture of volunteers at a desk with computers, a
  teacher in a class with everyone hands raised, and a teacher
  overlooking two kids at their
- computers.](https://assets.buttondown.email/images/209eca38-5697-4407-8d46-beb7ce2dc5cb.png?w=960&fit=max)=
+ computers." style="width:100%">
+  <figcaption>The Sugar Labs community is a global network of students, teachers, and developers.</figcaption>
+</figure> 
 
 I stepped into the executive director position in January of this
 year. I did so because I believe in Sugar Labs’s mission to create
