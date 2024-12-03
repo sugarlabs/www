@@ -1,0 +1,21 @@
+  <body title="Donation ask.">
+    <div class="d-flex">
+      <p style="padding:10px 5% 0 5%;">Our goal is $25k this fall, and every contribution counts! Whether you give $3 or more, your tax-deductible donation will help us continue to provide a unique learning environment where youth can solve authentic tasks and learn by doing. <a href="https://www.paypal.com/donate?campaign_id=NEAV3YL4H6B5S">Donate today!</a></p>
+      <!-- Paypal Start -->
+      <div id="donate-button-container">
+	<div id="donate-button"></div>
+	<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+	<script>
+	  PayPal.Donation.Button({
+	      env:'production',
+	      hosted_button_id:'PTEFYZE5PUWNL',
+	      image: {
+		  src:'https://www.paypalobjects.com/images/Debit_Credit_APM.svg',
+		  alt:'Donate with PayPal button',
+		  title:'Donate to Sugar Labs today!',
+	      }
+	  }).render('#donate-button');
+	</script>
+      </div>
+      <!-- Paypal End -->
+    </div>
