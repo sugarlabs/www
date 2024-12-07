@@ -37,6 +37,21 @@ title: Sugar Labs
       </div>
     </div>
   </div>
+  <script>
+    window.addEventListener('load', function() {
+      adjustContentPadding();
+    });
+  
+    window.addEventListener('resize', function() {
+      adjustContentPadding();
+    });
+  
+    function adjustContentPadding() {
+      var navbarHeight = document.querySelector('.navbar').offsetHeight;
+      document.getElementById('slider').style.paddingTop = navbarHeight + 'px';
+    }
+  </script>
+  
 </section>
 
 <!-- Sugar Labs mission section -->
