@@ -6,7 +6,7 @@
     
 </div>
 
-## Aims
+## 📌 Aims
 
 * to announce our vision and mission,
 * to invite potential users of Sugar Labs software,
@@ -14,7 +14,7 @@
 * to provide links to software downloads, and;
 * to invite potential developers to the source code we hold in trust.
 
-## Contributing
+## 📝 Contributing
 
 Content on the site; that is information about Sugar, Sugarizer, or Music Blocks, is _way more important_ than the style or appearance.
 
@@ -44,7 +44,7 @@ Feedback/Suggestions are always welcome and do mention any issues found. They ca
 
 ## Credits
 
-### License Information
+### 📜 LicenseInformation
 The license information of all the dependencies/libraries used in the code can be found in the **LicenseInformation.txt** file in the root folder.
 
 ### Usage of code snippets:
@@ -62,33 +62,140 @@ For a few parts of the code, I have used code snippets available online. The lis
 ### Base template:
 Base template has been designed and developed by Themefisher. For a preview, check out this link - [https://luminousrubyist.github.io/airspace-jekyll/](https://luminousrubyist.github.io/airspace-jekyll/)
 
-### Code and Contribution
+### 📝 Code and Contribution
 The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
 
 ## How to run the code
-### Getting the code
+## 🚀 Getting Started
 
-1. Fork this Repository.
+Follow the steps below to set up and run the Sugar Labs website on your local machine.
 
-2. Clone your forked copy of the project.
+---
+
+### 📥 Cloning the Repository
+
+1. **Fork this Repository**  
+   Click the "Fork" button on the top right of this repository to create your copy.
+
+2. **Clone Your Forked Copy**  
+   Replace `<your_user_name>` with your GitHub username in the following command:  
+   ```bash
+   git clone https://github.com/<your_user_name>/www.git
+   ```
+
+3. **Navigate to the Project Directory**  
+   ```bash
+   cd www
+   ```
+
+---
+
+### 💻 Prerequisites
+
+Ensure the following software is installed on your system:
+
+- **Ruby** (version 2.7 or later)
+- **Bundler** (Gem package manager)
+- **Node.js** (for Jekyll dependencies)
+
+---
+
+## 🔧 Installation Instructions
+
+### Linux
+
+#### Debian-based Systems (Ubuntu, Pop!_OS, etc.)
+```bash
+# Install Ruby and Bundler
+sudo apt-get update
+sudo apt-get install -y ruby-full build-essential zlib1g-dev
+
+# Add Ruby gems to PATH
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# Install Jekyll and Bundler
+gem install jekyll bundler
 ```
-git clone https://github.com/<your_user_name>/www.git
+
+#### Arch-based Systems (Manjaro, EndeavourOS, etc.)
+```bash
+# Install Ruby and Bundler
+sudo pacman -Syu ruby base-devel
+
+# Add Ruby gems to PATH
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# Install Jekyll and Bundler
+gem install jekyll bundler
 ```
-3. Navigate to the project directory 📁.
+
+#### Fedora-based Systems (Fedora, RHEL, CentOS, etc.)
+```bash
+# Install Ruby and Bundler
+sudo dnf install ruby ruby-devel make gcc gcc-c++ zlib-devel redhat-rpm-config
+
+# Add Ruby gems to PATH
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# Install Jekyll and Bundler
+gem install jekyll bundler
 ```
-cd www
-```
 
-### Installation
-Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
+### Windows
 
-    bundle install;
-### Running
-Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
+1. **Install Ruby:**  
+   Download and install Ruby from [RubyInstaller](https://rubyinstaller.org/). Ensure to check the option *Add Ruby executables to your PATH*.  
 
-    bundle exec jekyll serve --incremental;
+2. **Install DevKit:**  
+   Follow the instructions to install DevKit for building native extensions.  
 
-Then open [http://localhost:4000](http://localhost:4000)
+3. **Install Jekyll and Bundler:**  
+   Open a terminal and run:  
+   ```bash
+   gem install jekyll bundler
+   ```
+
+---
+
+### macOS
+
+1. **Install Homebrew** (if not already installed):  
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+2. **Install Ruby and Bundler:**  
+   ```bash
+   brew install ruby
+   echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+   source ~/.bash_profile
+   gem install jekyll bundler
+   ```
+
+---
+
+### 🛠️ Running the Project
+
+1. Install dependencies:  
+   ```bash
+   bundle install
+   ```
+
+2. Run the local development server:  
+   ```bash
+   bundle exec jekyll serve --incremental
+   ```
+
+3. Open [http://localhost:4000](http://localhost:4000) in your browser.
+
+---
+
 ### Note
 If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
 
@@ -278,7 +385,7 @@ The relevant pages can be checked to adopt a similar design.
 3. Change the variable here only.
 4. Do not change the code below the variables unless you wish to add or remove a color instead of changing a color.
 
-### How to add new icons
+### How to add new icons 🌟 
 In this section, we will guide you through the steps to add new icons. By following these steps, you will be able to customize icons.
 
 1. **Install FontForge:**
@@ -350,7 +457,7 @@ In this section, we will guide you through the steps for creating a new blog pos
 5. **Save and Preview:**
    * Save the file, then run `jekyll serve` in your terminal to start the local server. Visit `http://localhost:4000` to preview your blog post.
 
-### How to create a FAQ?
+### How to create a 📖 FAQs?
 In this section, we will guide you through the steps for creating a new FAQ.
 
 1. **Navigate to the _faqs directory:**
