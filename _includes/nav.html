@@ -183,9 +183,28 @@
             >Volunteer</a
           >
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="{{ site.baseurl }}/#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Donate
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ site.baseurl }}/donate"
+              >Donate</a
+            >
+            <a class="dropdown-item" href="https://www.bonfire.com/store/sugar-labs-merch/"
+              >Store</a
+            >
+          </div>
         </li>
+      </li>
       </ul>
     </div>
   </nav>
