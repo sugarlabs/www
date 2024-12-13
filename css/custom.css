@@ -15,3 +15,8 @@
 .intro_img>.container>div>div>div>p {
   padding: 0 10px;
 }
+
+/*This is for navLogo of navbar */
+#navLogo {
+  margin-top: 6px;
+}
