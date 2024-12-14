@@ -22,50 +22,6 @@ Please concentrate on updating the content of the site, and not the style or app
 
 For your pull requests or issues to be taken seriously, you must be a user or developer of one of our software products; Sugar, Sugarizer, or Music Blocks.
 
-## History
-
-The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than the relevance or accuracy of the content.  Since then, we have decided to concentrate on keeping the content updated.
-
-----
-
-# GSOC 2017 redesigned "www.sugarlabs.org"
-
-These notes were part of a project that has since been merged.
-
-## Introduction
-This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
-
-### Major Services
-We have integrated one major feature with the help of a third-party service:
-1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track users on the website and get a more detailed analysis of the user's usage.
-
-### Feedback/Suggestions and Issues
-Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
-
-## Credits
-
-### License Information
-The license information of all the dependencies/libraries used in the code can be found in the **LicenseInformation.txt** file in the root folder.
-
-### Usage of code snippets:
-For a few parts of the code, I have used code snippets available online. The list of all the code snippets which I referred to are:
-1. [CodePen-Martinvd](https://codepen.io/martinvd/pen/xbQJom)
-2. [Bootstrapious](https://bootstrapious.com/p/bootstrap-sidebar)
-3. [Bootsnipp](https://bootsnipp.com/snippets/1mo8Z)
-4. [W3schools](https://www.w3schools.com/howto/howto_js_slideshow.asp)
-5. [Hongkiat](http://www.hongkiat.com/blog/css-reflection/)
-6. [Codepen-Zachsaffrin](https://codepen.io/zachsaffrin/pen/zrxsc)
-7. [CodePen-Yewnork](https://codepen.io/yewnork/pen/Kpaqeq)
-8. [Fiddle](http://fiddle.jshell.net/jrjacobs24/u76Ltw92/8/light/)
-9. [Pixelflips](https://pixelflips.com/blog/anchor-links-with-a-fixed-header)
-
-### Base template:
-Base template has been designed and developed by Themefisher. For a preview, check out this link - [https://luminousrubyist.github.io/airspace-jekyll/](https://luminousrubyist.github.io/airspace-jekyll/)
-
-### Code and Contribution
-The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
-
-## How to run the code
 ### Getting the code
 
 1. Fork this repository,
@@ -133,6 +89,49 @@ gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sass-converter
 bundle update
 ```
 *Ref: <https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n>*
+
+## History
+
+The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than the relevance or accuracy of the content.  Since then, we have decided to concentrate on keeping the content updated.
+
+----
+
+# GSOC 2017 redesigned "www.sugarlabs.org"
+
+These notes were part of a project that has since been merged.
+
+## Introduction
+This repository contains the code for the redesigned version of "www.sugarlabs.org". This repository code base was used for the development of the GSOC 2017 project **Giving Sugar Labs Website a New Look** under the organization **Sugar Labs**. The changes, made by Pericherla Seetarama Raju and overseen by Samson Goddy, Hrishi Patel, and Walter Bender during the 2017 **GSOC** period, can be viewed at [https://github.com/sugarlabs/www/issues/63](https://github.com/sugarlabs/www/issues/63). The work during **GSOC** was done in the repository [https://github.com/geekrypter/sugarLabsWebsiteRedesign](https://github.com/geekrypter/sugarLabsWebsiteRedesign). The code uses the same Jekyll environment as that of the original website's code. Do check out the code!
+
+### Major Services
+We have integrated one major feature with the help of a third-party service:
+1. Website users tracking - We have used the [Google Analytics](https://analytics.google.com/) service to track users on the website and get a more detailed analysis of the user's usage.
+
+### Feedback/Suggestions and Issues
+Feedback/Suggestions are always welcome and do mention any issues found. They can be provided through the Issues section of this repository
+
+## Credits
+
+### License Information
+The license information of all the dependencies/libraries used in the code can be found in the **LicenseInformation.txt** file in the root folder.
+
+### Usage of code snippets:
+For a few parts of the code, I have used code snippets available online. The list of all the code snippets which I referred to are:
+1. [CodePen-Martinvd](https://codepen.io/martinvd/pen/xbQJom)
+2. [Bootstrapious](https://bootstrapious.com/p/bootstrap-sidebar)
+3. [Bootsnipp](https://bootsnipp.com/snippets/1mo8Z)
+4. [W3schools](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+5. [Hongkiat](http://www.hongkiat.com/blog/css-reflection/)
+6. [Codepen-Zachsaffrin](https://codepen.io/zachsaffrin/pen/zrxsc)
+7. [CodePen-Yewnork](https://codepen.io/yewnork/pen/Kpaqeq)
+8. [Fiddle](http://fiddle.jshell.net/jrjacobs24/u76Ltw92/8/light/)
+9. [Pixelflips](https://pixelflips.com/blog/anchor-links-with-a-fixed-header)
+
+### Base template:
+Base template has been designed and developed by Themefisher. For a preview, check out this link - [https://luminousrubyist.github.io/airspace-jekyll/](https://luminousrubyist.github.io/airspace-jekyll/)
+
+### Code and Contribution
+The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
 
 ## Important points to be noted
 
