@@ -68,25 +68,34 @@ The code has been restructured, unnecessary code has been removed, comments were
 ## How to run the code
 ### Getting the code
 
-1. Fork this Repository.
+1. Fork this repository,
 
-2. Clone your forked copy of the project.
-```
+2. Clone your forked copy of the project;
+
+```bash
 git clone https://github.com/<your_user_name>/www.git
 ```
-3. Navigate to the project directory 📁.
-```
+3. Change to the project directory;
+
+```bash
 cd www
 ```
 
 ### Installation
-Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
 
-    bundle install;
+Install Ruby and Bundler, the Gem package manager.
+Install `jekyll` and its related packages.
+
+```bash
+bundle install
+```
+
 ### Running
 Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
 
-    bundle exec jekyll serve --incremental;
+```bash
+bundle exec jekyll serve --incremental
+```
 
 Then open [http://localhost:4000](http://localhost:4000)
 ### Note
