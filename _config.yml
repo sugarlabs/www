@@ -9,3 +9,4 @@ sass:
 collections:
   faqs:
     output: true
+show_fundraiser_banner: true
