@@ -15,3 +15,41 @@
 .intro_img>.container>div>div>div>p {
   padding: 0 10px;
 }
+
+/*--
+  service Start
+--*/
+#service .service-item {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  min-height: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#service .service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+#service .service-item img{
+  height: 50%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 576px) {
+  #service .service-item {
+    height: auto;
+  }
+  #service .service-item img{
+    height: 50vw;
+  }
+}
