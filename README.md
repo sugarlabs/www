@@ -22,6 +22,74 @@ Please concentrate on updating the content of the site, and not the style or app
 
 For your pull requests or issues to be taken seriously, you must be a user or developer of one of our software products; Sugar, Sugarizer, or Music Blocks.
 
+### Getting the code
+
+1. Fork this repository,
+
+2. Clone your forked copy of the project;
+
+```bash
+git clone https://github.com/<your_user_name>/www.git
+```
+3. Change to the project directory;
+
+```bash
+cd www
+```
+
+### Installation
+
+Install Ruby and Bundler, the Gem package manager.
+Install `jekyll` and its related packages.
+
+```bash
+bundle install
+```
+
+### Running
+Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
+
+```bash
+bundle exec jekyll serve --incremental
+```
+
+Then open [http://localhost:4000](http://localhost:4000)
+### Note
+If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
+
+### Troubleshooting for Debian-based systems
+
+You might try the following to prepare your dev environment on a Debian-based system:
+
+Install Ruby and dependencies:
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
+Tell BASH where to look when you run Ruby, while having an installation directory associated with your user account (not root):
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Install Jekyll and Bundler (not through sudo apt)
+```
+gem install jekyll bundler
+```
+*Ref: <https://jekyllrb.com/docs/installation/ubuntu/>*
+
+If you already installed Jekyll and Bundler via sudo apt, you may need to do the following:
+```
+PACKAGES="$(dpkg -l |grep jekyll|cut -d" " -f3|xargs )"
+sudo apt remove --purge $PACKAGES
+sudo apt autoremove
+gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sass-converter jekyll-coffeescript
+bundle update
+```
+*Ref: <https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n>*
+
 ## History
 
 The site was redesigned during Google Summer of Code in 2017, and then informally reviewed by untainted readers in Google Code-in 2017.  Many issues were created then, but most did not have consensus.  Most of the issues addressed style and appearance rather than the relevance or accuracy of the content.  Since then, we have decided to concentrate on keeping the content updated.
@@ -64,66 +132,6 @@ Base template has been designed and developed by Themefisher. For a preview, che
 
 ### Code and Contribution
 The code has been restructured, unnecessary code has been removed, comments were added wherever required, proper indentation was provided, and simple names were used which makes it a contributor-friendly codebase. So, hope on and contribute now!
-
-## How to run the code
-### Getting the code
-
-1. Fork this Repository.
-
-2. Clone your forked copy of the project.
-```
-git clone https://github.com/<your_user_name>/www.git
-```
-3. Navigate to the project directory 📁.
-```
-cd www
-```
-
-### Installation
-Install Ruby and the Gem package manager (pre-installed in Mac OS X) and install `jekyll` and its related packages available in the Github hosted version by running, from this directory:
-
-    bundle install;
-### Running
-Jekyll can run a local web server that rebuilds each time you save a page while editing (Execute the below command from root directory):
-
-    bundle exec jekyll serve --incremental;
-
-Then open [http://localhost:4000](http://localhost:4000)
-### Note
-If some changes are not visible (after saving a page while editing), please restart the Jekyll local web server and reload [http://localhost:4000](http://localhost:4000).
-
-### Troubleshooting for Debian-based systems
-
-You might try the following to prepare your dev environment on a Debian-based system:
-
-Install Ruby and dependencies:
-```
-sudo apt-get install ruby-full build-essential zlib1g-dev
-```
-
-Tell BASH where to look when you run Ruby, while having an installation directory associated with your user account (not root):
-```
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-```
-
-Install Jekyll and Bundler (not through sudo apt)
-```
-gem install jekyll bundler
-```
-*Ref: <https://jekyllrb.com/docs/installation/ubuntu/>*
-
-If you already installed Jekyll and Bundler via sudo apt, you may need to do the following:
-```
-PACKAGES="$(dpkg -l |grep jekyll|cut -d" " -f3|xargs )"
-sudo apt remove --purge $PACKAGES
-sudo apt autoremove
-gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sass-converter jekyll-coffeescript
-bundle update
-```
-*Ref: <https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n>*
 
 ## Important points to be noted
 

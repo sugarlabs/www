@@ -16,6 +16,11 @@
   padding: 0 10px;
 }
 
+/*This is for navLogo of navbar */
+#navLogo {
+  margin-top: 6px;
+}
+
 /*--
   service Start
 --*/
