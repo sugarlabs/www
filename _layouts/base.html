@@ -39,7 +39,6 @@
             } 
         </script>
         <!-- CSS files-->
-        <link rel="stylesheet"  href="{{ site.baseurl }}/assets/css/banner.css"/>
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/airspace.css" />
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/custom.css" />
@@ -76,11 +75,6 @@
         </script>
     </head>
     <body {{ page.bodyExt }}>
-        {% if site.show_fundraiser_banner %}
-        {% include banner.html %}
-    {% endif %}
-       
-        
 
     {{ content }}
 
