@@ -7,10 +7,19 @@
       </div>
 
       <nav class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between     pb-0  pt-0">
+<<<<<<< HEAD
         <div class="logo1" id="navLogo">
           <a href="{{ site.baseurl }}/">{% include logo.svg %}</a>
         </div>
 
+=======
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Sugar Labs logo" height="90" width="270">
+        </a>
+	<div>
+	  {% include banner.html %}
+	</div>
+>>>>>>> 289d256 (Revert "Restore colour-changing logo")
         <div class="d-flex justify-content-center">
           <div class="zeroMarPadBtm ">
             <ul class="mr-5  navbar-nav" id="menuBar">
@@ -101,9 +110,9 @@
 <!-- Header for screens with width <= 1215px -->
 <div class="sticky-top bg-white container-fluid flex-fill w-100" id="secondHeader">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="logo2">
-      <a href="{{ site.baseurl }}/">{% include logo.svg %}</a> 
-    </div>
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Sugar Labs logo" height="80" width="240">
+    </a>
     <button
       class="navbar-toggler"
       type="button"
