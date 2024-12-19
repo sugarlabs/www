@@ -48,9 +48,17 @@ title: Sugar Labs
   
     function adjustContentPadding() {
       var navbarHeight = document.querySelector('.navbar').offsetHeight;
-      document.getElementById('slider').style.paddingTop = navbarHeight + 'px';
+      var slider = document.getElementById('slider');
+  
+      if (window.innerWidth <= 1215) {
+        slider.style.paddingTop = (navbarHeight + 100) + 'px';
+
+      } else {
+        slider.style.paddingTop = navbarHeight + 'px';
+      }
     }
   </script>
+  
   
 </section>
 
