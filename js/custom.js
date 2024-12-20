@@ -63,3 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(counter); // Observe each counter
     });
 });
+
+const donateBanner = document.getElementById("donation-banner");
+const closeBtn = document.getElementById("close-button");
+
+closeBtn.addEventListener("click", function() {
+    donateBanner.style.display = "none";
+});
