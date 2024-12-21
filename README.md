@@ -37,7 +37,22 @@ git clone https://github.com/<your_user_name>/www.git
 cd www
 ```
 
-### Installation
+## Working with the Code
+
+### Using Docker
+
+
+1. [Install Docker](https://docs.docker.com/engine/install/).
+
+2. Fork and clone the repository. For solely local testing, just cloning will do.
+
+3. Ensure port `4000` is unused, or change the line `4000:4000` to `{your_desired_port}:4000` in `docker-compose.yml`.
+
+4. `cd` into the repo and run `docker compose up`. You may also need to try `docker-compose up` or give `sudo` access depending on your platform.
+
+5. Open `localhost:4000`. (`localhost:{your_desired_port}` if you changed the port in `docker-compose.yml`.)
+
+### Testing Locally
 
 Install Ruby and Bundler, the Gem package manager.
 Install `jekyll` and its related packages.
