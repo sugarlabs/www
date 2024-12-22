@@ -72,9 +72,14 @@
 #social-media-logos-section .social-media-logos-img {
   padding-left: 44%;
 }
-
 .donation-bar {
   background-color: white;
   margin-top: 90px;
   padding: 10px 0; 
+}
+#slider {
+  padding-top: 20%;
+}
+.section-title1 {
+  padding-top: 10%;
 }
