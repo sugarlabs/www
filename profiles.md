@@ -4,12 +4,12 @@ title: Sugar Labs Contributors
 date: 2018-06-25
 ---
 
-
+/n
 ### A
 
 * [C. Scott Ananian](https://wiki.sugarlabs.org/go/User:CScott){:target="_blank"}
-    * **Home Page**: [http://cscott.net](http://cscott.net){:target="_blank" .link}
-    * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is [http://cscott.net](http://cscott.net){:target="_blank" .link}
+    * **Home Page**: [http://cscott.net](http://cscott.net)
+    * **About**: C. Scott Ananian is a software developer who was employed at OLPC in Cambridge, MA until January 2009. He then worked for litl, LLC for two years, and rejoined OLPC in March 2011 as Director, New Technologies. His home page is [http://cscott.net](http://cscott.net)
 
 ### B
 
@@ -20,7 +20,7 @@ date: 2018-06-25
 * Manveer Singh Basra
 * [Walter Bender](https://wiki.sugarlabs.org/go/User:Walter){:target="_blank"}
     * [GitHub](https://github.com/walterbender){:target="_blank" .link} (many Activities here)
-    * **E-mail**: walter AT sugarlabs DOT org  
+    * [E-mail](mailto:walter.bender@gmail.com){:.link}  
     * **Freenode IRC nickname**: walterbender    
     * **About**: Walter Bender is founder of Sugar Labs, which develops educational software used by more than three-million children in more than forty countries. Sugar Labs was a member project of the non-profit foundation Software Freedom Conservancy. In 2006, Bender co-founded the One Laptop per Child, a non-profit association with Nicholas Negroponte and Seymour Papert. As director of the MIT Media Laboratory from 2000 to 2006, Bender led a team of researchers in fields as varied as tangible media to affective computing to lifelong kindergarten. In 1992, Bender founded the MIT News in the Future consortium, which launched the era of digital news. Currently, he is launching a new initiative at MIT, the Open Learning Program, a forum for collaborative research among universities globally.
 
@@ -80,7 +80,7 @@ date: 2018-06-25
     * [LinkedIn](https://www.linkedin.com/in/samsongoddy){:target="_blank" .link}
     * [Github](https://github.com/samswag){:target="_blank" .link}
     * [Facebook](https://www.facebook.com/SamsonGoddy){:target="_blank" .link}
-    * **E-mail**: samsongoddy AT gmail DOT com
+    * [E-mail](mailto:samsongoddy@gmail.com){:.link}: samsongoddy@gmail.com
     * **Freenode IRC nickname**: samsongoddy
     * **About**: Hello reader, the name is Samson Goddy, very special Nigerian kid. Love open-source. I grew up with Sugar Learning Environment, now a happy contributor at Sugar Labs, Thanks to the OLPC effort in Nigeria.
 
@@ -111,7 +111,7 @@ date: 2018-06-25
 ### J
 
 * [Alex Jones](https://wiki.sugarlabs.org/go/User:Acj3840){:target="_blank"}  
-    * **E-mail**: acj3840 AT rit DOT edu   
+    * **[E-mail](mailto:samsongoddy@gmail.com){:.link}**: acj3840@rit.edu   
     * **Freenode IRC nickname**: Boe08
     * **About**: Worked on the Teacher's Tools activity
 
