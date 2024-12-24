@@ -4,7 +4,7 @@ title: Sugar Labs Contributors
 date: 2018-06-25
 ---
 
-/n 
+&nbsp;
 
 ### A
 
