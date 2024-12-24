@@ -78,3 +78,13 @@
   margin-top: 90px;
   padding: 10px 0; 
 }
+
+.d-flex p {
+  line-height: 1.25rem;
+}
+
+@media (max-width: 767px) {
+  #slider p {
+    line-height: 1.25rem !important;
+  }
+}
