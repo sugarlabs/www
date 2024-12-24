@@ -88,3 +88,47 @@
     line-height: 1.25rem !important;
   }
 }
+
+/* For screens above 993 and  below 1217px, activate the hamburger menu */
+@media (min-width: 993px) and (max-width: 1216px) {
+  .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-toggler {
+    display: block !important;
+    position: absolute;
+    right: 0;
+  }
+
+  .navbar-collapse.collapse.show {
+    display: flex !important;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+
+  .navbar-nav {
+    display: none; 
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    display: block; 
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    text-align: left;
+  }
+}
