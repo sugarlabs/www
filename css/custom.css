@@ -217,3 +217,18 @@
   }
   
 }
+
+@media (max-width: 767px) {
+  #slider p {
+    line-height: 1.4rem !important;
+    font-weight:800;
+
+  }
+  .donate-button{
+    height:40px;
+    margin:5px;
+    font-size: 0.7rem;
+    padding-top:5px;
+    padding-bottom:3px;
+  }
+}
