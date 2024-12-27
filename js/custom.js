@@ -1,11 +1,11 @@
 //show answer and change indicator for /FAQ page
 function toggleAnswer(answerId, element) {
     const answer = document.getElementById(answerId);
-    const indicator = element.querySelector('.indicator'); 
+    const indicator = element.querySelector('.indicator');
 
     if (answer) {
         answer.classList.toggle('d-none');
-        
+
         if (answer.classList.contains('d-none')) {
             indicator.innerHTML = '+';
         } else {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to animate the counter
     function animateCounter(counter) {
         const target = +counter.getAttribute('data-target');
-        const speed = 200; 
+        const speed = 200;
 
         const updateCount = () => {
             const current = +counter.innerText.replace(/,/g, '');
@@ -33,6 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 counter.innerText = target.toLocaleString();
             } else {
                 counter.innerText = target.toLocaleString() + '+';
+                if (target === 170) {
+                    counter.innerText = `${target}`;
+                } else {
+                    counter.innerText = `${target}+`;
+                }
             }
         };
 
@@ -40,8 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const observerOptions = {
-        root: null, 
-        threshold: 0.3 
+        root: null,
+        threshold: 0.3
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -56,4 +61,20 @@ document.addEventListener('DOMContentLoaded', () => {
     counters.forEach(counter => {
         observer.observe(counter);
     });
+});
+
+//Donation Banner 
+// Ensures that the buttons have loaded correctly before executing code
+document.addEventListener('DOMContentLoaded', () => {
+
+    const donateBanner = document.getElementById("donation-banner");
+    const closeBtn = document.getElementById("close-icon");
+
+    if (closeBtn) {
+        closeBtn.addEventListener("click", () => {
+            if (donateBanner) {
+                donateBanner.style.display = "none"; // Hide the banner on click
+            }
+        });
+    }
 });
