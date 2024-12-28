@@ -6,24 +6,27 @@ layout: default
     <div class="container text-center">
       <h1 class="display-4 mb-0">{{ page.title }}</h1>
       <p class="lead">{{ page.date | date: "%b %-d %Y" }}</p> 
+
+      <!-- Author Display -->
+      <p class="lead">by <span class="fw-bold">{{ page.author }}</span></p>
     </div>
 </div>
 
- <!-- Content Section -->
+<!-- Content Section -->
 <div class="container my-5">
     <div class="bg-white p-4 rounded shadow-sm">
       {{ content }}
     </div>
 </div>
 
+<!-- Footer Section with Links -->
 <div class="bg-light py-4">
      <div class="container text-center">
       <p class="mb-2">
         <a href="/press" class="btn btn-outline-secondary btn-sm text-decoration-none">Return to press information</a>
-     </p>
+      </p>
       <p>
         <a href="/" class="btn btn-outline-secondary btn-sm text-decoration-none">Return to main page</a>
       </p>
     </div>
 </div>
-  
