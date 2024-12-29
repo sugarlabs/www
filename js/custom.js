@@ -17,53 +17,47 @@ function toggleAnswer(answerId, element) {
 // Counter Animation of the home page 
 document.addEventListener('DOMContentLoaded', () => {
     const counters = document.querySelectorAll('.count');
-
     // Function to animate the counter
     function animateCounter(counter) {
         const target = +counter.getAttribute('data-target');
-        const speed = 200;
+        const speed = 200; 
 
         const updateCount = () => {
-            const current = +counter.innerText;
-            const increment = target / speed;
+            const current = +counter.innerText.replace(/,/g, '');
+            const increment = Math.ceil(target / speed);
 
             if (current < target) {
-                counter.innerText = Math.ceil(current + increment);
-                setTimeout(updateCount, 10); // Repeat every 10ms
+                counter.innerText = Math.min(current + increment, target).toLocaleString();
+                setTimeout(updateCount, 10);
+            } else if (target === 170) {
+                counter.innerText = target.toLocaleString();
             } else {
-
-                if (target === 170) {
-                    counter.innerText = `${target}`;
-                } else {
-                    counter.innerText = `${target}+`;
-                }
-
+                counter.innerText = target.toLocaleString() + '+';
             }
         };
 
         updateCount();
     }
 
-    // Use IntersectionObserver to detect when the element comes into view
     const observerOptions = {
-        root: null,
-        threshold: 0.3
+        root: null, 
+        threshold: 0.3 
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                animateCounter(entry.target); // Start animation
-                observer.unobserve(entry.target); // Stop observing after animation starts
+                animateCounter(entry.target); 
+                observer.unobserve(entry.target);
             }
         });
     }, observerOptions);
 
     counters.forEach(counter => {
-        observer.observe(counter); // Observe each counter
+        observer.observe(counter);
     });
-
 });
+
 
 //Donation Banner 
 // Ensures that the buttons have loaded correctly before executing code
