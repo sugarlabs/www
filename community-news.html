@@ -38,7 +38,10 @@ permalink: /community-news/index.html
                 {% for post in site.categories.community limit:10 %}
                 <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
-                    <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                    <div>
+                        <span class="fw-bold me-3" style="font-size: 15px;">{{ post.author }}</span>
+                        <span class="text-muted" style="font-size: 12px;">{{ post.date | date: "%b %-d %Y" }}</span>
+                    </div>
                     <hr>
                 </li>
                 {% endfor %}
