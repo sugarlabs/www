@@ -16,7 +16,24 @@ $(document).ready(function () {
     if (logoID < 10) {
         logoID = "0" + logoID;
     }
-    document.querySelector('#defaultIcon1').href = 'https://www.sugarlabs.org/assets/favicon_' + logoID + '.png';
+
+    var defaultIcon = document.querySelector('#defaultIcon1');
+    if (defaultIcon) {
+        // Use absolute path for favicon
+        var faviconPath = '/assets/favicon_' + logoID + '.png';
+        
+        // Test if favicon exists before setting
+        var img = new Image();
+        img.onload = function() {
+            defaultIcon.href = faviconPath;
+        };
+        img.onerror = function() {
+            // Fallback to default favicon
+            defaultIcon.href = '/assets/favicon.png';
+        };
+        img.src = faviconPath;
+    }
+
     var h = document.querySelector('.logo1').innerHTML;
     h = h.replace(/033cd2/g, selectedColors[0]);
     h = h.replace(/78e600/g, selectedColors[1]);
