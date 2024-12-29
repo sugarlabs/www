@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: story
 title: "The connection between Sugar - Students - Teachers"
 date: 2016-05-15
+author: "Devin"
 categories: stories
 ---
 

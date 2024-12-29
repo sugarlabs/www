@@ -18,6 +18,9 @@ permalink: /sugar-stories/index.html
                 <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                     <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                    {% if post.author %}
+                    <i style="display: block;">By {{ post.author }}</i>
+                    {% endif %}
                     <hr>
                 </li>
                 {% endfor %}
