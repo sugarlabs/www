@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Sweet Spot – Issue 001"
+author: "Sugar Labs"
 date: 2024-09-20
 categories: community
 ---

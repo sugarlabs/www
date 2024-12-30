@@ -1,6 +1,12 @@
 <!-- Footer -->
 <footer  style="background-color:#282828;padding-top:5px;">
-    <h5 style="text-align:right;margin-right:20px;"><a href="#top" class="hrefCustomColor">Back to top&nbsp<i class="icon ion-arrow-up-c"></i></a></h5>
+    <h5 style="text-align:right;margin-right:20px;">
+        <a href="#top" class="hrefCustomColor" id="scrollToTopBtn" style="display:none;">
+            <svg width="24" height="15" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <polygon points="16,14 6,24 7.4,25.4 16,16.8 24.6,25.4 26,24" class="arrow" fill="white" stroke="black" stroke-width="3"/>
+            </svg>                             
+        </a>
+    </h5>
     <div class="container">
         <div class="row">
             <div class="col-md-12" >
@@ -113,9 +119,9 @@ if (typeof jQuery.waypoints == 'undefined') {
 
 <!-- Inline Javascript scripts -->
 <script  type="text/javascript">
-	$(document).on('click', "a[href='#top']", function (e) {
-        $('html, body').animate({ scrollTop: 0 }, 'slow');
-        return false;
+    $(document).on('click', "a[href='#top'], #scrollToTopBtn", function (e) {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+    return false;
     })
     $(document).ready(function () {
         $('#dismiss, .overlay').on('click', function () {
@@ -158,13 +164,18 @@ if (typeof jQuery.waypoints == 'undefined') {
     return false;
     });
     $(document).on("scroll", function () {
-        if ($(document).scrollTop() > 10) {
-            $("header").removeClass("large").addClass("small");
-        }
-        else {
-            $("header").removeClass("small").addClass("large");
-        }
-    });
+    var scrollPosition = $(document).scrollTop();
+    var windowHeight = $(window).height();
+    var documentHeight = $(document).height();
+    var thirtyPercentOfPage = (documentHeight - windowHeight) * 0.3;
+
+    if (scrollPosition > thirtyPercentOfPage) {
+        $('#scrollToTopBtn').fadeIn();
+    } 
+    else {
+        $('#scrollToTopBtn').fadeOut();
+    }
+});
 </script>
 
 <!-- Google analytics code -->
