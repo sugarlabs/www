@@ -31,9 +31,7 @@ permalink: /press/index.html
                 <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                     <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
-                    {% if post.author %}
-                    <i style="display: block;">By {{ post.author }}</i>
-                    {% endif %}
+                    <i class="display:block;" >By {{ post.author | default: "Sugar Community Member" }}</i>
                     <hr>
                 </li>
                 {% endfor %}
