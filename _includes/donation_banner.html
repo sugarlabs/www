@@ -20,6 +20,71 @@
             <button class="close-button" id="close-icon">
                 <img src="../assets/entry-stop.svg" alt="Close Banner" />
             </button>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
+
+  <div id="donate-popup-banner">
+    <div class="donate-container">
+        <img aria-hidden="true" class="donate-icon" src="../assets/sparkles.svg" alt="Donation Icon">
+      <div class="donate-text-container">
+        <p class="donate-text">
+          Our goal is $25k this fall, and every contribution counts! Whether you give $3 or more, your
+          tax-deductible donation will help us continue to provide a unique learning environment where youth can
+          solve authentic tasks and learn by doing.
+          <a href="{{ site.baseurl }}/community/2024/12/03/help-SL-continue-to-transform-education"> Read more
+          </a> about how we can make a difference together and donate today!
+        </p>
+      </div>
+      <button class="donate-button" id="donate-button"><a
+        href="https://www.paypal.com/donate?campaign_id=NEAV3YL4H6B5S">DONATE NOW</a></button><div class="donate-close-button">
+            <button class="close-button btn" id="close-icon">
+                <img src="../assets/entry-stop.svg" alt="Close Banner" />
+            </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Popup Trigger and Vertical Donate Button -->
+  <button id="vertical-donate-button" style="display: none;">D<br>O<br>N<br>A<br>T<br>E</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const banner = document.getElementById('donation-banner');
+    const closeButton = banner.querySelector('.close-button');
+    const popupBanner = document.getElementById('donate-popup-banner');
+    const verticalButton = document.getElementById('vertical-donate-button');
+
+    closeButton.addEventListener('click', function () {
+      banner.classList.add('hidden');
+      verticalButton.style.display = 'block';
+    });
+    verticalButton.addEventListener('click', function () {
+      if (popupBanner.style.display === 'none' || popupBanner.style.display === '') {
+        popupBanner.style.display = 'block';
+      } else {
+        popupBanner.style.display = 'none';
+      }
+    });
+    popupBanner.querySelector('.btn').addEventListener('click', function () {
+      popupBanner.style.display = 'none';
+    });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          verticalButton.style.display = 'block';
+        } else {
+          verticalButton.style.display = 'none';
+        }
+      });
+    }, {
+      rootMargin: '0px',
+      threshold: 0.1
+    });
+    observer.observe(banner);
+  });
+</script>
+
+</body>
+</html>
