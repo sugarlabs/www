@@ -347,6 +347,7 @@ In this section, we will guide you through the steps for creating a new blog pos
    title: "How to Make a Blog Post?"
    date: YYYY-MM-DD
    categories: press
+   author: sugarlabs
    ---
    ```
 
