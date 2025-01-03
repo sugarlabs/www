@@ -2788,3 +2788,116 @@ table, th, td {
 .count{
 /* Nothing related to styling needed to be described for this  */
 }
+
+/* General styles */
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3b4f; /* Matching the dark theme */
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+#call-to-action h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Form container for better structure */
+.embeddable-buttondown-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.embeddable-buttondown-form label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ccc;
+    text-align: center;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-style: bold;
+    font-size: 1rem; /* Adjusted font size for better readability */
+    width: 100%;
+    max-width: 350px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.embeddable-buttondown-form input[type="email"]:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px #ffcc00(255, 208, 0, 0.7);
+    outline: none;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+    background: linear-gradient(90deg, #ffcc00, #ffdb4d);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: #3b3b4f;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 2px 10px rgba(255, 204, 0, 0.3);
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+    background: linear-gradient(90deg, #ffdb4d, #ffcc00);
+    box-shadow: 0 5px 20px rgba(255, 204, 0, 0.5);
+    transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .embeddable-buttondown-form input[type="email"],
+    .embeddable-buttondown-form input[type="submit"] {
+        width: auto;
+    }
+
+    .embeddable-buttondown-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Additional enhancements */
+#call-to-action h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.embeddable-buttondown-form input[type="email"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+    font-size: 0.9rem; /* Adjusted placeholder font size */
+}
+
+.embeddable-buttondown-form input[type="submit"]:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(255, 204, 0, 0.4);
+}
