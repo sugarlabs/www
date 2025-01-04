@@ -19,19 +19,11 @@ $(document).ready(function () {
 
     var defaultIcon = document.querySelector('#defaultIcon1');
     if (defaultIcon) {
-        // Use absolute path for favicon
-        var faviconPath = '/assets/favicon_' + logoID + '.png';
-        
-        // Test if favicon exists before setting
-        var img = new Image();
-        img.onload = function() {
-            defaultIcon.href = faviconPath;
-        };
-        img.onerror = function() {
-            // Fallback to default favicon
-            defaultIcon.href = '/assets/favicon.png';
-        };
-        img.src = faviconPath;
+        var logoID = colorIndex + 1;
+        if (logoID < 10) {
+            logoID = "0" + logoID;
+        }
+        defaultIcon.href = 'assets/favicon_' + logoID + '.png';
     }
 
     var h = document.querySelector('.logo1').innerHTML;
