@@ -32,7 +32,15 @@ Kai, helping one of my students get up and running in Sugar for her first time.
 
 Of course, I kept reading books to him, which is still invaluable to a child’s development, but I am confident that the Speak Activity helped Kai become a more independent reader. The following year, Kai entered Kindergarten, where he learned phonics and he’s been a solid reader ever since. He’s now in second grade, and he often carries a few books around with him every day, everywhere he goes.
 
-Reflections as a teacher in 2024
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+ Reflections as a teacher in 2024
 ================================
 
 This year, I had a few memorable moments as a teacher in the classroom. This year, I mentored high school students in git version control, mentored another teacher in leading a Music Blocks class, and I even taught a group class for kids ages five and six on the Sugar Learning Platform. I’ll share a little bit of what I learned from each experience here.
@@ -59,7 +67,7 @@ Two of my students, smiling during their second class, using the Sugar Learning 
 
 One of the things that strikes me the most from this particular class is the _joy_ that the kids show as they’re working on their activities. It reminds me of a study I read by Bloom, described in Robert J. Trotter’s article for _Psychology Today_, July 1986, “The Mystery of Mastery”. Studying how people achieve mastery, Bloom observed a few common factors among those who became experts as adults. The children who later became experts were introduced to the field as a playful activity, and learning at this stage was “like a game.” As for Sugar, the kids in my class are learning a lot of things in the class, such as spelling, typing, and language, but the playfulness they exhibit is developmentally appropriate. This is consistent with the research on human development, and I’ve found it to hold true during my own work in the classroom.
 
-<img src="/assets/stories/process.jpg" alt="Process" class="img-fluid" width="60%" style="float: right; margin-left: 20px;"/>
+<img src="/assets/stories/process.jpg" alt="Process" class="img-fluid" width="100%" style="float: right; margin-left: 20px;"/>
 
 Here are the notes I took in college that I used to reference the above paragraph. I add it here because I no longer have access to the original article, and I could not find a copy online. If you find a link to a electronic copy, please drop it into the comments below.
 
@@ -68,7 +76,7 @@ Conclusions
 
 As I alluded to earlier, I have sometimes heard criticism of the Sugar Learning Platform, suspecting that it may be out of touch with the needs of the students. The criticism is typically accompanied by an argument that youth should be preparing for job skills by using a platform more similar to what an office worker uses (e.g. _Shouldn’t the kids be taught how to use Microsoft Word instead?_). However, as an educator, I’ve never bought that argument. And now that I’ve spent ten years with Sugar — both as an educator and as a parent — I wholly reject it. I can say confidently that youth learn very important skills through their engagement with Sugar. And perhaps most importantly, they are introduced to concepts in stages that are appropriate to their development.
 
-<img src="/assets/stories/student5.jpg" alt="Student 5" class="img-fluid" width="60%" style="float: left; margin-right: 20px;"/>
+<img src="/assets/stories/student5.jpg" alt="Student 5" class="img-fluid" width="100%" style=" margin-right: 20px;"/>
 
 One of the students in my Sugar class. She surprised me by coming in with this hand-drawn computer, which she made just a few days after taking one of her first classes.
 
