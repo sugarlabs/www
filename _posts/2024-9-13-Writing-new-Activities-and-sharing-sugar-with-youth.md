@@ -1,12 +1,12 @@
 ---
 layout: story
-title: "Writing-new-Activities-and-sharing-sugar-with-youthclassroom"
+title: "Writing new Activities and sharing sugar with Youth"
 date: 2024-9-13
 author: "James Simmons"
 categories: stories
 ---
 
-Writing new Activities and sharing Sugar with youth
+Writing new Activities and sharing Sugar with Youth
 ================================================================================
 
 
