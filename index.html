@@ -4,6 +4,56 @@ title: Sugar Labs
 ---
 {% include nav.html %}
 
+<style>
+  .embeddable-buttondown-form {
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+  }
+
+  .email-input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .email-input:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  .submit-button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  .submit-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .submit-button:active {
+    background-color: #004085;
+  }
+  .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+  }
+</style>
 <!-- Loader -->
 <div id="loaderDiv" class="loader" >
     <div class="loader2">
@@ -96,23 +146,25 @@ title: Sugar Labs
 <section id="call-to-action">
   <div class="container">
     <div class="row">
-      <div class="col-md-12" >
+      <div class="col-md-12">
         <div class="row justify-content-center">
-          <div class="col-md-6 col-md-push-3" >
-            <h2 >EXCITED?</h2>
+          <div class="col-md-6 col-md-push-3">
+            <h2>EXCITED?</h2>
             <p>The simplest way to get involved is to join our newsletter.</p>
-	    <br>
-	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
-	      <p>Sign up for our mailing list to receive regular
-		news and updates from Sugar Labs.</p>
-	      <label for="email">Email</label>
-	      <input type="email" name="email" placeholder="you@example.com" />
-	      <input type="hidden" value="1" name="embed" />
-	      <input type="submit" value="Subscribe" />
-	    </form>
-	    <br>
-	  </div>
-	</div>
+            <br>
+            <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post"
+              class="embeddable-buttondown-form">
+              <p>Sign up for our mailing list to receive regular news and updates from Sugar
+                Labs.</p>
+              <label for="email" class="form-label">Email</label>
+              <div style="display: flex; align-items: flex-start; column-gap: 20px;">
+                <input type="email" name="email" class="email-input" placeholder="you@example.com"/>
+                <input style="max-width: 25%;" type="submit" class="submit-button" value="Subscribe" />
+              </div>
+            </form>
+            <br>
+          </div>
+        </div>
       </div>
     </div>
   </div>
