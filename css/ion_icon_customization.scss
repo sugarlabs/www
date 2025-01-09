@@ -3,57 +3,59 @@
 // Colors to use with ion icons
 // Somewhat based off Social Share Kit - https://github.com/darklow/social-share-kit/blob/master/dist/css/social-share-kit.css
 
+@use "sass:color";
+
 // By default the hover color is darkened. You can set the percent below
 $darken-percent: 10%;
 
 // Facebook colors
 $facebook-color: white;
-$facebook-color-hover: darken($facebook-color, $darken-percent);
+$facebook-color-hover: color.adjust($facebook-color, $lightness: -$darken-percent);
 $facebook-background: #1877f2;
-$facebook-background-hover: darken($facebook-background, $darken-percent);
+$facebook-background-hover: color.adjust($facebook-background, $lightness: -$darken-percent);
 
 // Github colors
 $github-color: white;
-$github-color-hover: darken($github-color, $darken-percent);
+$github-color-hover: color.adjust($github-color, $lightness: -$darken-percent);
 $github-background: black;
-$github-background-hover: darken($github-background, $darken-percent);
+$github-background-hover: color.adjust($github-background, $lightness: -$darken-percent);
 
 // X colors
 $X-color: white;
-$X-color-hover: darken($X-color, $darken-percent);
+$X-color-hover: color.adjust($X-color, $lightness: -$darken-percent);
 $X-background: black;
-$X-background-hover: darken($X-background, $darken-percent);
+$X-background-hover: color.adjust($X-background, $lightness: -$darken-percent);
 
 // Instagram colors
 // Instagram uses the background on both for both sticky and non sticky icons
 $instagram-color: white;
 $instagram-color-hover: #d9a1f1;
 $instagram-background: linear-gradient(#4c4bdb85, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
-$instagram-background-hover: linear-gradient(darken(#4c4bdb85, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
+$instagram-background-hover: linear-gradient(color.adjust(#4c4bdb85, $lightness: -$darken-percent), color.adjust(transparent, $lightness: -$darken-percent)), linear-gradient(60deg, color.adjust(#ffff00, $lightness: -$darken-percent), color.adjust(#ff00d3, $lightness: $darken-percent), color.adjust(#0e39dc, $lightness: -$darken-percent));
 
 // Youtube colors
 $youtube-color: white;
-$youtube-color-hover: darken($youtube-color, $darken-percent);
+$youtube-color-hover: color.adjust($youtube-color, $lightness: -$darken-percent);
 $youtube-background: red;
-$youtube-background-hover: darken($youtube-background, $darken-percent);
+$youtube-background-hover: color.adjust($youtube-background, $lightness: -$darken-percent);
 
 // Mastodon colors
 $mastodon-color: white;
-$mastodon-color-hover: darken($mastodon-color, $darken-percent);
+$mastodon-color-hover: color.adjust($mastodon-color, $lightness: -$darken-percent);
 $mastodon-background: #3088d4;
-$mastodon-background-hover: darken($mastodon-background, $darken-percent);
+$mastodon-background-hover: color.adjust($mastodon-background, $lightness: -$darken-percent);
 
 // LinkedIn colors
 $linkedin-color: white;
-$linkedin-color-hover: darken($linkedin-color, $darken-percent);
+$linkedin-color-hover: color.adjust($linkedin-color, $lightness: -$darken-percent);
 $linkedin-background: #0077b5;
-$linkedin-background-hover: darken($linkedin-background, $darken-percent);
+$linkedin-background-hover: color.adjust($linkedin-background, $lightness: -$darken-percent);
 
 // Medium colors
 $medium-color: white;
-$medium-color-hover: darken($medium-color, $darken-percent);
+$medium-color-hover: color.adjust($medium-color, $lightness: -$darken-percent);
 $medium-background: black;
-$medium-background-hover: darken($medium-background, $darken-percent);
+$medium-background-hover: color.adjust($medium-background, $lightness: -$darken-percent);
 
 .ion-sticky {
   top: 50%;
