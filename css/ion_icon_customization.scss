@@ -1,5 +1,3 @@
----
----
 // Colors to use with ion icons
 // Somewhat based off Social Share Kit - https://github.com/darklow/social-share-kit/blob/master/dist/css/social-share-kit.css
 
@@ -8,60 +6,55 @@ $darken-percent: 10%;
 
 // Facebook colors
 $facebook-color: white;
-$facebook-color-hover: darken($facebook-color, $darken-percent);
+$facebook-color-hover: color.adjust($facebook-color, $darken-percent);
 $facebook-background: #1877f2;
-$facebook-background-hover: darken($facebook-background, $darken-percent);
+$facebook-background-hover: color.adjust($facebook-background, $darken-percent);
 
 // Github colors
 $github-color: white;
-$github-color-hover: darken($github-color, $darken-percent);
+$github-color-hover: color.adjust($github-color, $darken-percent);
 $github-background: black;
-$github-background-hover: darken($github-background, $darken-percent);
+$github-background-hover: color.adjust($github-background, $darken-percent);
 
 // X colors
 $X-color: white;
-$X-color-hover: darken($X-color, $darken-percent);
+$X-color-hover: color.adjust($X-color, $darken-percent);
 $X-background: black;
-$X-background-hover: darken($X-background, $darken-percent);
+$X-background-hover: color.adjust($X-background, $darken-percent);
 
 // Instagram colors
-// Instagram uses the background on both for both sticky and non sticky icons
 $instagram-color: white;
 $instagram-color-hover: #d9a1f1;
 $instagram-background: linear-gradient(#4c4bdb85, transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
-$instagram-background-hover: linear-gradient(darken(#4c4bdb85, $darken-percent), darken(transparent, $darken-percent)), linear-gradient(60deg, darken(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), darken(#0e39dc, $darken-percent));
+$instagram-background-hover: linear-gradient(color.adjust(#4c4bdb85, $darken-percent), color.adjust(transparent, $darken-percent)), linear-gradient(60deg, color.adjust(#ffff00, $darken-percent), darken(#ff00d3, $darken-percent), color.adjust(#0e39dc, $darken-percent));
 
 // Youtube colors
 $youtube-color: white;
-$youtube-color-hover: darken($youtube-color, $darken-percent);
+$youtube-color-hover: color.adjust($youtube-color, $darken-percent);
 $youtube-background: red;
-$youtube-background-hover: darken($youtube-background, $darken-percent);
+$youtube-background-hover: color.adjust($youtube-background, $darken-percent);
 
 // Mastodon colors
 $mastodon-color: white;
-$mastodon-color-hover: darken($mastodon-color, $darken-percent);
+$mastodon-color-hover: color.adjust($mastodon-color, $darken-percent);
 $mastodon-background: #3088d4;
-$mastodon-background-hover: darken($mastodon-background, $darken-percent);
+$mastodon-background-hover: color.adjust($mastodon-background, $darken-percent);
 
 // LinkedIn colors
 $linkedin-color: white;
-$linkedin-color-hover: darken($linkedin-color, $darken-percent);
+$linkedin-color-hover: color.adjust($linkedin-color, $darken-percent);
 $linkedin-background: #0077b5;
-$linkedin-background-hover: darken($linkedin-background, $darken-percent);
+$linkedin-background-hover: color.adjust($linkedin-background, $darken-percent);
 
 // Medium colors
 $medium-color: white;
-$medium-color-hover: darken($medium-color, $darken-percent);
+$medium-color-hover: color.adjust($medium-color, $darken-percent);
 $medium-background: black;
-$medium-background-hover: darken($medium-background, $darken-percent);
+$medium-background-hover: color.adjust($medium-background, $darken-percent);
 
 .ion-sticky {
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   left: 0;
   position: fixed;
   z-index: 2147483647;
@@ -72,10 +65,6 @@ $medium-background-hover: darken($medium-background, $darken-percent);
   display: block;
   clear: both;
   transition: padding 0.1s ease-out;
-  -webkit-transition: padding 0.1s ease-out;
-  -moz-transition: padding 0.1s ease-out;
-  -ms-transition: padding 0.1s ease-out;
-  -o-transition: padding 0.1s ease-out;
   margin: 0;
   padding: 9px;
   color: white;
@@ -106,7 +95,7 @@ $medium-background-hover: darken($medium-background, $darken-percent);
         background: $github-background;
       }
     }
-      
+
     &X {
       background: $X-background;
       text-indent: 1px;
@@ -116,7 +105,7 @@ $medium-background-hover: darken($medium-background, $darken-percent);
         background: $X-background-hover;
       }
     }
-      
+
     &instagram {
       background: $instagram-background;
       text-indent: 2px;
@@ -127,7 +116,7 @@ $medium-background-hover: darken($medium-background, $darken-percent);
         background: $instagram-background-hover;
       }
     }
-      
+
     &youtube {
       background: $youtube-background;
       border-radius: 0 0 0.25em 0;
@@ -199,12 +188,12 @@ $medium-background-hover: darken($medium-background, $darken-percent);
       display: flex;
       justify-content: center;
       align-items: center;
-      
+
       &:hover {
         color: $github-color-hover;
       }
     }
-      
+
     &X {
       color: $X-color;
       border: 1px solid $X-background;
@@ -215,14 +204,13 @@ $medium-background-hover: darken($medium-background, $darken-percent);
       display: flex;
       align-items: center;
       justify-content: center;
-      
+
       &:hover {
         color: $X-color-hover;
       }
     }
-             
+
     &instagram {
-      // Instagram uses background color
       color: $instagram-color;
       background: $instagram-background;
       font-size: 2rem;
@@ -231,12 +219,12 @@ $medium-background-hover: darken($medium-background, $darken-percent);
       display: flex;
       align-items: center;
       justify-content: center;
-    
+
       &:hover {
         color: $instagram-color-hover;
       }
     }
-      
+
     &youtube {
       color: $youtube-color;
       background-color: $youtube-background;
@@ -288,8 +276,8 @@ $medium-background-hover: darken($medium-background, $darken-percent);
     &medium {
       color: $medium-color;
       font-size: 3rem;
-      height: 3rem;     
-      width: 3rem;      
+      height: 3rem;
+      width: 3rem;
       display: flex;
       align-items: center;
       justify-content: center;
