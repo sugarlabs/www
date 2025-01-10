@@ -23,7 +23,13 @@ $(document).ready(function () {
         if (logoID < 10) {
             logoID = "0" + logoID;
         }
-        defaultIcon.href = 'assets/favicon_' + logoID + '.png';
+
+        // Extract the base path from the current favicon href
+        var currentHref = defaultIcon.getAttribute('href');
+        var basePath = currentHref.substring(0, currentHref.lastIndexOf('/') + 1);
+        
+        // Update only the filename portion while keeping the original path
+        defaultIcon.href = basePath + 'favicon_' + logoID + '.png';
     }
 
     var h = document.querySelector('.logo1').innerHTML;
