@@ -18,6 +18,7 @@ permalink: /event/index.html
                 <li class="listFont">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                     <i style="display: block;">{{ post.date | date: "%b %-d %Y" }}</i>
+                    <i class="display:block;">By {{ page.author | default: "Sugar Community Member" }}</i>
                     <hr>
                 </li>
                 {% endfor %}
