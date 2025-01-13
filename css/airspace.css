@@ -990,8 +990,10 @@ footer .footer-manu ul li a:hover {
     text-align: center;
 }
      .widget_content{
-        display:flex;
-        justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
     .active .widget_content{
       display: flex;
@@ -1016,8 +1018,10 @@ footer .footer-manu ul li a:hover {
 }
 @media (min-width: 576px) {
   .grid-two-columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 }
 .listFont{
@@ -2570,6 +2574,7 @@ input.gsc-input,
 }
 .leftAlign{
   text-align: left;
+  padding-left: 0;
 }
 .boxDownload2{
   height: 670px;
