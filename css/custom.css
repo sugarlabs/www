@@ -283,6 +283,5 @@
 
 /* fix list rendering */
 ul {
-  padding: revert;
   list-style: inherit;
 }
