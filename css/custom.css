@@ -358,3 +358,73 @@ ul {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
+
+/* Specific styles for Roadmap list */
+
+.roadmap-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.roadmap-list li::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #000000;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.roadmap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This is for project section in about page */
+
+#projects{
+  padding: 100px 0;
+}
+
+#projects .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  height: auto;
+  text-align: center; 
+}
+
+#projects .project-card h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#projects .project-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+#projects .project-card .btn-custom {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#projects .btn-custom {
+  margin-top: 1rem; 
+}
+
