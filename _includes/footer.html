@@ -1,6 +1,12 @@
 <!-- Footer -->
 <footer  style="background-color:#282828;padding-top:5px;">
-    <h5 style="text-align:right;margin-right:20px;"><a href="#top" class="hrefCustomColor">Back to top&nbsp<i class="icon ion-arrow-up-c"></i></a></h5>
+    <h5 style="text-align:right;margin-right:20px;">
+        <a href="#top" class="hrefCustomColor" id="scrollToTopBtn" style="display:none;">
+            <svg width="24" height="15" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <polygon points="16,14 6,24 7.4,25.4 16,16.8 24.6,25.4 26,24" class="arrow" fill="white" stroke="black" stroke-width="3"/>
+            </svg>                             
+        </a>
+    </h5>
     <div class="container">
         <div class="row">
             <div class="col-md-12" >
@@ -56,7 +62,7 @@
                             <li class="footerListStyle"><a href="https://help.sugarlabs.org/en/">Documentation</a></li>
                             <li class="footerListStyle"><a href="https://matrix.to/#/#sugar:matrix.org">Chat with us on Matrix</a></li>
                             <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/go/Development_Team/Source_Code">Development code</a></li>
-                            <li class="footerListStyle"><a href="http://translate.sugarlabs.org">Translation Platform</a></li>
+                            <li class="footerListStyle"><a href="https://translate.sugarlabs.org">Translation Platform</a></li>
                             <li class="footerListStyle"><a href="https://wiki.sugarlabs.org/">Sugar Labs Wiki</a></li>
 			    <li class="footerListStyle"><a href="{{ site.baseurl }}/profiles">Contributor Profiles</a></li>
                           </ul>
@@ -92,7 +98,7 @@
                 <div class="row" >
                     <div class="col-md-12" style="margin-top:12px;">
                         <p style="font-size:13px;" class='text-center-md'>
-                        Copyright &copy; 2024 Sugar Labs&reg; available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA)</a>.</br>
+                        Copyright &copy; 2025 Sugar Labs&reg; available under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA)</a>.</br>
                         Website design credit: Base template <a href="https://github.com/themefisher/airspace-jekyll">Airspace</a> by Themefisher was used for this site.
                         </p>
                     </div>
@@ -113,9 +119,9 @@ if (typeof jQuery.waypoints == 'undefined') {
 
 <!-- Inline Javascript scripts -->
 <script  type="text/javascript">
-	$(document).on('click', "a[href='#top']", function (e) {
-        $('html, body').animate({ scrollTop: 0 }, 'slow');
-        return false;
+    $(document).on('click', "a[href='#top'], #scrollToTopBtn", function (e) {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+    return false;
     })
     $(document).ready(function () {
         $('#dismiss, .overlay').on('click', function () {
@@ -158,13 +164,18 @@ if (typeof jQuery.waypoints == 'undefined') {
     return false;
     });
     $(document).on("scroll", function () {
-        if ($(document).scrollTop() > 10) {
-            $("header").removeClass("large").addClass("small");
-        }
-        else {
-            $("header").removeClass("small").addClass("large");
-        }
-    });
+    var scrollPosition = $(document).scrollTop();
+    var windowHeight = $(window).height();
+    var documentHeight = $(document).height();
+    var thirtyPercentOfPage = (documentHeight - windowHeight) * 0.3;
+
+    if (scrollPosition > thirtyPercentOfPage) {
+        $('#scrollToTopBtn').fadeIn();
+    } 
+    else {
+        $('#scrollToTopBtn').fadeOut();
+    }
+});
 </script>
 
 <!-- Google analytics code -->
