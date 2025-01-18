@@ -2,109 +2,53 @@
 <header class="large" id="firstHeader">
   <div class="row">
     <div class="container">
-      <nav class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between     pb-0  pt-0">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Sugar Labs logo" height="90" width="270">
-        </a>
+      <nav
+        class="navbar navbar-default navbar-expand-lg fixed-top align-items-center d-flex justify-content-between     pb-0  pt-0">
+        <div class="logo1" id="navLogo">
+          <a href="{{ site.baseurl }}/">{% include logo.svg %}</a>
+        </div>
         <div class="d-flex justify-content-center">
           <div class="zeroMarPadBtm ">
             <ul class="mr-5  navbar-nav" id="menuBar">
               <li class="nav-item dropdown align-self-center">
-                <a
-                  href="{{ site.baseurl }}/#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >About us<span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="{{ site.baseurl }}/about-us"
-                      >About us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="{{ site.baseurl }}/about-us/#mission"
-                      >Our mission</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="{{ site.baseurl }}/leadership"
-                      >Leadership and governance</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="{{ site.baseurl }}/contact-us"
-                      >Contact us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="{{ site.baseurl }}/FAQ"
-                      >FAQs</a
-                    >
-                  </li>
-                </ul>
+                <a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="{{ site.baseurl }}/about-us">About us</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission">Our mission</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/leadership">Leadership and governance</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/contact-us">Contact us</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/FAQ">FAQs</a>
+                </div>
               </li>
 
 
               <li class="nav-item dropdown align-self-center">
-                <a
-                  href="{{ site.baseurl }}/#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >News<span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="{{ site.baseurl }}/community-news"
-                      >Community News</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="{{ site.baseurl }}/event"
-                      >Events</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="{{ site.baseurl }}/press"
-                      >Press Release</a
-                    >
-                  </li>
-                </ul>
+                <a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">News<span class="caret"></span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="{{ site.baseurl }}/community-news">Community News</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/event">Events</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/press">Press Release</a>
+                </div>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/develop"
-                  >Join development</a
-                >
+                <a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/volunteering"
-                  >Volunteer</a
-                >
+                <a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a>
+              <li class="nav-item dropdown align-self-center">
+                <a href="{{ site.baseurl }}/#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">Donate<span class="caret"></span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="{{ site.baseurl }}/donate">Donate</a>
+                  <a class="dropdown-item" href="https://www.bonfire.com/store/sugar-labs-merch/">Store</a>
+                </div>
               </li>
             </ul>
           </div>
@@ -117,93 +61,62 @@
 <!-- Header for screens with width <= 1215px -->
 <div class="sticky-top bg-white container-fluid flex-fill w-100" id="secondHeader">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/logoOpt.png" alt="Sugar Labs logo" height="80" width="240">
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#mainNav"
-      aria-controls="mainNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <div class="logo2">
+      <a href="{{ site.baseurl }}/">{% include logo.svg %}</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="{{ site.baseurl }}/#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             About us
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{ site.baseurl }}/about-us"
-              >About us</a
-            >
-            <a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission"
-              >Our mission</a
-            >
-            <a class="dropdown-item" href="{{ site.baseurl }}/leadership"
-              >Leadership and governance</a
-            >
-            <a class="dropdown-item" href="{{ site.baseurl }}/contact-us"
-              >Contact us</a
-            >
-            <a class="dropdown-item" href="{{ site.baseurl }}/FAQ"
-              >FAQs</a
-            >
+            <a class="dropdown-item" href="{{ site.baseurl }}/about-us">About us</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/about-us/#mission">Our mission</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/leadership">Leadership and governance</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/contact-us">Contact us</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/FAQ">FAQs</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="{{ site.baseurl }}/#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             News
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{ site.baseurl }}/community-news"
-              >Community News</a
-            >
-            <a class="dropdown-item" href="{{ site.baseurl }}/event"
-              >Events</a
-            >
-            <a class="dropdown-item" href="{{ site.baseurl }}/press"
-              >Press Release</a
-            >
+            <a class="dropdown-item" href="{{ site.baseurl }}/community-news">Community News</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/event">Events</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/press">Press Release</a>
           </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ site.baseurl }}/#try">Try now</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/develop"
-            >Join development</a
-          >
+          <a class="nav-link" href="{{ site.baseurl }}/develop">Join development</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/volunteering"
-            >Volunteer</a
-          >
+          <a class="nav-link" href="{{ site.baseurl }}/volunteering">Volunteer</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/donate">Donate</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Donate
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ site.baseurl }}/donate">Donate</a>
+            <a class="dropdown-item" href="https://www.bonfire.com/store/sugar-labs-merch/">Store</a>
+          </div>
         </li>
       </ul>
     </div>
   </nav>
+</div>
+<div>
+  {% include donation_banner.html %}
 </div>
