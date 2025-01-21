@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get and gift Sugar by purchasing Sugar on a Stick USBs"
+title: "Get and gift Sugar: Purchase new Sugar on a Stick USBs"
 author: "Sugar Labs Outreach Team and Marketing Team"
 date: 2025-01-21
 categories: community
@@ -8,7 +8,7 @@ categories: community
 
 A few times in recent months, we received questions from folks about
 how to buy Sugar. Until now, the only response we had was that we
-didn't offer them for sale, but that you could [create your own by
+didn't offer them for sale but that you could [create your own by
 following our instructions][1]. If you wanted to [run Sugar on a
 Stick][2], you had to flash a USB drive yourself before using it.
 
