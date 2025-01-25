@@ -23,5 +23,6 @@ https://www.sugarlabs.org/sugar-for-raspbian/
 https://www.sugarlabs.org/sugar-for-raspberry-pi/
 https://www.sugarlabs.org/flatpak/
 https://www.sugarlabs.org/profiles/
+https://www.sugarlabs.org/product/
 {% for post in site.posts %}https://www.sugarlabs.org{{ post.url }}
 {% endfor %}
