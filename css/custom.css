@@ -430,61 +430,96 @@ ul {
 
 /* Styles for Newsletter Section */
 
+/* Newsletter Section Styles */
 #cta-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3b3b4f; /* Matching the dark theme */
+  background-color: #474354;
   padding: 50px 20px;
   color: white;
   text-align: center;
 }
 
-#cta-section .cta-heading {
+.cta-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.cta-col {
+  flex: 0 0 100%;
+  max-width: 720px;
+  padding: 0 15px;
+}
+
+#cta-section .cta-heading,
+.cta-heading {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#cta-section .cta-description {
+#cta-section .cta-description,
+.cta-description {
   font-size: 1.2rem;
-  margin-bottom: 0px;
-  line-height: 1.6;
-  text-align: center;
+  margin-bottom: 8px;
+  line-height: 1;
 }
 
-/* Ensuring proper layout for label and input */
+.cta-form-text {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #d3d3d3;
+}
+
+/* Form Layout */
 .cta-d-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
+  gap: 15px;
 }
 
-.cta-d-flex label {
+.cta-d-flex label,
+.cta-label {
   text-align: center;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   color: rgb(171, 169, 169);
-  font-weight: bold;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
+/* Form Controls */
 .cta-form-control {
+  width: 100%;
+  max-width: 350px;
   border-radius: 30px;
   padding: 12px 20px;
-  margin: 0px;
   border: 2px solid #ccc;
   font-size: 1rem;
   transition: all 0.3s ease-in-out;
-  width: 100%;
-  max-width: 350px;
-  margin-bottom: 20px;
+  background: #ffffff;
+  color: #3b3b4f;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .cta-form-control:focus {
@@ -493,11 +528,16 @@ ul {
   outline: none;
 }
 
+.cta-form-control::placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Button Styles */
 .cta-btn-primary {
   background: linear-gradient(90deg, #ffcc00, #ffdb4d);
   border: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
   border-radius: 30px;
   padding: 12px 25px;
   font-size: 1.1rem;
@@ -507,6 +547,7 @@ ul {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   box-shadow: 0 2px 10px rgba(255, 204, 0, 0.3);
+  margin-top: 5px;
 }
 
 .cta-btn-primary:hover {
@@ -520,41 +561,51 @@ ul {
   box-shadow: 0 2px 5px rgba(255, 204, 0, 0.4);
 }
 
-/* Responsive design for Newsletter Section */
+/* Responsive Design */
 @media (max-width: 768px) {
   .cta-buttondown-form input[type="email"],
   .cta-buttondown-form input[type="submit"] {
     width: auto;
   }
 
-  /* Adjust form layout for smaller screens */
   .cta-buttondown-form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cta-heading {
+    font-size: 2.25rem;
+  }
+
+  .cta-description {
+    font-size: 1rem;
+  }
+
+  .cta-d-flex {
     flex-direction: column;
     gap: 20px;
   }
 
   .cta-form-control {
     max-width: 90%;
+    margin: 0 auto;
   }
 
   .cta-btn-primary {
-    width: auto;
+    width: 100%;
     max-width: 90%;
   }
 }
 
-/* Additional enhancements */
-#cta-section .cta-heading {
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Added text shadow for better contrast and visibility */
+@media (min-width: 992px) {
+  .cta-container {
+    max-width: 960px;
+  }
 }
 
-.cta-buttondown-form input[type="email"]::placeholder {
-  color: #aaa; /* Lightens placeholder text */
-  font-style: italic; /* Makes the placeholder text italic for better visibility */
-  font-size: 0.9rem; /* Adjusted font size for better readability */
-}
-
+/* Additional Enhancements */
 .cta-buttondown-form input[type="submit"]:active {
-  transform: translateY(1px); /* Makes the button appear pressed when clicked */
-  box-shadow: 0 2px 5px rgba(255, 204, 0, 0.4); /* Adds a subtle shadow effect when the button is active */
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(255, 204, 0, 0.4);
 }
+
