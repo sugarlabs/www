@@ -93,35 +93,37 @@ title: Sugar Labs
 </section>
 
 <!-- Newsletter CTA section -->
-<section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12" >
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-md-push-3" >
-            <h2 >EXCITED?</h2>
-            <p>The simplest way to get involved is to join our newsletter.</p>
-	    <br>
-	    <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="embeddable-buttondown-form">
-	      <p>Sign up for our mailing list to receive regular
-		news and updates from Sugar Labs.</p>
-	      <label for="email">Email</label>
-	      <input type="email" name="email" placeholder="you@example.com" />
-	      <input type="hidden" value="1" name="embed" />
-	      <input type="submit" value="Subscribe" />
-	    </form>
-	    <br>
-	  </div>
-	</div>
+<section id="cta-section">
+  <div class="cta-container">
+    <div class="cta-row">
+      <div class="cta-col">
+        <div class="cta-inner-row justify-content-center">
+          <div class="cta-form-col">
+            <h2 class="cta-heading">EXCITED?</h2>
+            <p class="cta-description">The simplest way to get involved is to join our newsletter.</p>
+            <br>
+            <form action="https://buttondown.com/api/emails/embed-subscribe/sugarlabs" method="post" class="cta-buttondown-form">
+              <p class="cta-signup-description">Sign up for our mailing list to receive regular news and updates from Sugar Labs.</p>
+              <div class="cta-d-flex align-items-center justify-content-center w-100">
+                <label for="email" class="cta-label">Enter Your Email Address</label>
+                <input type="email" name="email" placeholder="you@example.com" class="cta-form-control w-100 col-md-8 m-2" />
+                <input type="hidden" value="1" name="embed" />
+              </div>
+              <input type="submit" value="Subscribe" class="cta-btn-primary" />
+            </form>
+            <br>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+
 <!-- By the numbers -->
 <section id="testimonial" class="customPadding5">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row"> -->
       <div class="col-md-12">
         <div class="row justify-content-center">
           <div class="col-md-8 col-md-push-2">
@@ -132,40 +134,52 @@ title: Sugar Labs
           </div>
         </div>
         <div class="row justify-content-around">
-          <div class="col-md-5 col-md-push-1">
+          <div class="col-md-4 col-md-push-1">
             <div class="block">
               <ul class="counter-box clearfix" style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0; list-style-type: none;">
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
+                <li style="flex-basis: 100%; margin-bottom: 20px;">
                   <div class="block" style="text-align: center;">
                     <h4 data-target="55" class="count">0</h4>
                     <span>Mentors helping youth learn in programs like Google Code-In (GCI) and Google Summer of Code</span>
                   </div>
                 </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
+                <li style="flex-basis: 100%; margin-bottom: 20px;">
                   <div class="block" style="text-align: center;">
                     <h4 data-target="1450" class="count">0</h4>
                     <span>Problem-solving tasks completed by students ages 13-17.</span>
                   </div>
                 </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-push-1">
+            <div class="block">
+              <ul class="counter-box clearfix" style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0; list-style-type: none;">
+                <li style="flex-basis: 100%; margin-bottom: 20px;">
                   <div class="block" style="text-align: center;">
                     <h4 data-target="344" class="count">0</h4>
                     <span>Projects for teaching and learning created by Sugar Labs students and teachers.</span>
                   </div>
                 </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
+                <li style="flex-basis: 100%; margin-bottom: 20px;">
                   <div class="block" style="text-align: center;">
                     <h4 data-target="11531321" class="count">0</h4>
                     <span>Activities Downloaded</span>
                   </div>
                 </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-push-1">
+            <div class="block">
+              <ul class="counter-box clearfix" style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0; list-style-type: none;">
+                <li style="flex-basis: 100%; margin-bottom: 20px;">
                   <div class="block" style="text-align: center;">
                     <h4 data-target="3000000" class="count">0</h4>
-                   <span>Kids whose lives have been enriched by using the Sugar Learning Platform</span>
+                    <span>Kids whose lives have been enriched by using the Sugar Learning Platform</span>
                   </div>
                 </li>
-                <li style="flex-basis: 45%; margin-bottom: 20px;">
+                <li style="flex-basis: 100%; margin-bottom: 20px;">
                   <div class="block" style="text-align: center;">
                     <h4 data-target="170" class="count">0</h4> 
                     <span>Languages our educational software has been translated into</span>
@@ -176,7 +190,7 @@ title: Sugar Labs
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 </section>
 

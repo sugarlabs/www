@@ -40,6 +40,8 @@ Here is a detailed list of all eleven projects:
 |Maintain and Port 12 Sugar Activities to Flatpak |	SudoSu-bham |	tchx84|
 |Sugarizer VueJS App |	UtkarshSiddhpura |	Lionel Laské |
 
+<div style="margin-bottom: 1.5rem;"></div>
+
 ## Where to find more information about Sugar Labs and GSoC
 
 GSoC publishes full details about each organization and their
