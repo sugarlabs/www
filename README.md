@@ -380,3 +380,28 @@ In this section, we will guide you through the steps for creating a new FAQ.
 4. **Save and Preview:**
    * Save the file, then run `jekyll serve` in your terminal to start the local server. Visit `http://localhost:4000` to preview your FAQ.
 
+### How to give redirects?
+In this section, we will guide you through the steps for giving a redirect. 
+
+1. **Navigate to the html page from which you want to redirect:**
+    * In the site main directory, open the html page from  which you want user to redirect.
+   
+3. **Javascript based redirect:**
+    * In the html file use the script:
+ ```
+ `<script>
+    window.location.href = "/yourUrl";
+  </script>`
+ ```
+   * This part uses Javascript to immediately set the `window.location.href` to `/yourUrl`, redirecting the user.
+   
+3. **Non-Javascript fallback:**
+   * In the html file if the Javascript is disabled for the browser use:
+```
+ `<noscript>
+    <meta http-equiv="refresh" content="0; url=/yourUrl">
+  </noscript>`
+```
+   * The `<noscript>`block activates, and the `<meta>` tag trigger a refresh to `/yourUrl` with a delay of 0 second.
+
+This approach ensures seamless redirection regardless of whether Javascript is enabled or not.
