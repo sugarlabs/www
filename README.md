@@ -389,18 +389,18 @@ In this section, we will guide you through the steps for giving a redirect.
 3. **Javascript based redirect:**
     * In the html file use the script:
  ```
- `<script>
+  <script>
     window.location.href = "/yourUrl";
-  </script>`
+  </script>
  ```
    * This part uses Javascript to immediately set the `window.location.href` to `/yourUrl`, redirecting the user.
    
 3. **Non-Javascript fallback:**
    * In the html file if the Javascript is disabled for the browser use:
 ```
- `<noscript>
+  <noscript>
     <meta http-equiv="refresh" content="0; url=/yourUrl">
-  </noscript>`
+  </noscript>
 ```
    * The `<noscript>`block activates, and the `<meta>` tag trigger a refresh to `/yourUrl` with a delay of 0 second.
 
