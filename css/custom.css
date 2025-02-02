@@ -558,6 +558,169 @@ ul {
   transform: translateY(1px); /* Makes the button appear pressed when clicked */
   box-shadow: 0 2px 5px rgba(255, 204, 0, 0.4); /* Adds a subtle shadow effect when the button is active */
 }
+
+/* Testimonial Styling */
+#testimonials {
+  background-color: #3b3b4f; /* Change the background color */
+  padding: 5rem 0;
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.testimonials-subtitle {
+  font-size: 1.1rem;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.testimonial-carousel-wrapper {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  margin: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-content {
+  position: relative;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: #4a5568;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.testimonial-text::before {
+  content: "“";
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+  font-size: 4rem;
+  color: #48bb78;
+  font-family: Georgia, serif;
+  opacity: 0.3;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author-name {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+.author-role {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+/* Owl Carousel Customization */
+.owl-dots {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.owl-dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #cbd5e0 !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  background: #48bb78 !important;
+  transform: scale(1.2);
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #48bb78 !important;
+  font-size: 1.5rem !important;
+}
+
+.owl-nav button:hover {
+  background: #48bb78 !important;
+  color: white !important;
+}
+
+.owl-prev {
+  left: -50px;
+}
+
+.owl-next {
+  right: -50px;
+}
+
+@media (max-width: 768px) {
+  .testimonials-title {
+    font-size: 2rem;
+  }
+  
+  .testimonial-card {
+    padding: 1.5rem;
+    margin: 0.5rem;
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .owl-nav button {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem !important;
+  }
+}
 /* Chat with the Community Page */
 .join-mat {
   display:inline-block;
