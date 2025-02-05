@@ -2777,13 +2777,14 @@ font-size:30px;
 .try-mb:active {
   top:0.1em;
   color: #fff !important;
-}   
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
   align-items: center;
 }
+
 .count{
 /* Nothing related to styling needed to be described for this  */
 }
