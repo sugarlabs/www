@@ -393,6 +393,7 @@ In this section, we will guide you through the steps for giving a redirect.
     window.location.href = "/yourUrl";
   </script>
  ```
+   * If the URL is "https://sugarlabs.org/my/target/link.html" then the path "/my/target/link" is yourUrl.
    * This part uses Javascript to immediately set the `window.location.href` to `/yourUrl`, redirecting the user.
    
 3. **Non-Javascript fallback:**
@@ -402,6 +403,7 @@ In this section, we will guide you through the steps for giving a redirect.
     <meta http-equiv="refresh" content="0; url=/yourUrl">
   </noscript>
 ```
+   * If the URL is "https://sugarlabs.org/my/target/link.html" then the path "/my/target/link" is yourUrl.
    * The `<noscript>`block activates, and the `<meta>` tag trigger a refresh to `/yourUrl` with a delay of 0 second.
 
 This approach ensures seamless redirection regardless of whether Javascript is enabled or not.
