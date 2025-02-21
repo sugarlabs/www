@@ -1,0 +1,125 @@
+{
+    "$schema": "https://floss.fund/schema/v1.0.0/funding.schema.json#",
+    "version": "v1.0.0",
+    "entity": {
+        "type": "nonprofit organization",
+        "role": "education",
+        "name": "Sugar Labs Inc.",
+        "email": "info@sugarlabs.org",
+        "phone": "+1 (617) 702-4088",
+        "description": "Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a Free/Libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.",
+        "webpageUrl": {
+            "url": "https://www.sugarlabs.org",
+            "wellKnown": ""
+        }
+    },
+    "projects": [{
+        "guid": "sugar-dle",
+        "name": "Sugar Desktop Learning Environment",
+        "description": "Sugar is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, Sugar Activities are used every school day by children in more than forty countries.\n\nOriginally developed for the One Laptop per Child XO-1 netbook, Sugar can run on most computers.\n\nSugar is free/libre and open-source software.",
+        "webpageUrl": {
+            "url": "https://www.sugarlabs.org/booting-soas/"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/sugarlabs/sugar",
+            "wellKnown": "https://github.com/example/zombo-app/blob/main/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["spdx:AGPL-3.0"],
+        "tags": ["education", "free-desktop", "learning", "gnu-linux"]
+    },
+    {
+        "guid": "sugarizer",
+        "name": "Sugarizer",
+        "description": "Sugarizer is a free/libre learning platform. The Sugarizer UI uses ergonomic principles from The Sugar platform, developed for the One Laptop per Child project and used by more than 2 million children around the world.\n\nSugarizer runs on every device: laptops, desktops, tiny computers, tablets or smartphones.\n\nSugarizer includes a large set of pedagogic activities thought for children, see here for a full list.\n\nSugarizer is available as an application -- an installable app for every operating system -- and a web Application --a web application that runs in modern web browsers.",
+        "webpageUrl": {
+            "url": "https://sugarizer.org/"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/sugarlabs/sugarizer/",
+            "wellKnown": "https://github.com/example/vb-gooey-ip-tracer/blob/main/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["spdx:MIT"],
+        "tags": ["multi-platform", "web", "education", "learning"]
+            {
+        "guid": "music-blocks",
+        "name": "Music Blocks",
+        "description": "Music Blocks is a Visual Programming Language and collection of manipulative tools for exploring musical and mathematical concepts in an integrative and entertaining way.",
+        "webpageUrl": {
+            "url": "http://sugarlabs.github.io/musicblocks/"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/sugarlabs/musicblocks/",
+            "wellKnown": "https://github.com/example/vb-gooey-ip-tracer/blob/main/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["spdx:MIT"],
+        "tags": ["multi-platform", "web", "music", "programming-language", "logo", "education", "learning"]
+	},
+    }],
+    "funding": {
+        "channels": [
+            {
+                "guid": "sugarlabs-bank",
+                "type": "bank",
+                "address": "2028 E Ben White Blvd STE 240 PMB 1271\n\nAUSTIN, TX 78741\n\nUSA",
+                "description": "You may send checks to our mailing address."
+            },
+            {
+                "guid": "paypal",
+                "type": "payment-provider",
+                "address": "https://www.paypal.com/paypalme/sugarlabsinc",
+                "description": "Pay with your debit/credit card or via PayPal through this gateway."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "hosting-monthly",
+                "status": "active",
+                "name": "Hosting support",
+                "description": "This will cover the monthly server hosting costs for the projects.",
+                "amount": 250,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["sugarlabs-bank", "paypal"]
+            },
+	    {
+                "guid": "project-growth",
+                "status": "active",
+                "name": "Grow and manage the organization",
+                "description": "Our projects require constant management in order to sustain and grow. Please consider helping us continue to grow.",
+                "amount": 500,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["sugarlabs-bank", "paypal"]
+            },
+            {
+                "guid": "developer-time",
+                "status": "active",
+                "name": "Developer compensation",
+                "description": "This will cover the cost of one developer working part-time on the projects.",
+                "amount": 1000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["sugarlabs-bank", "paypal"]
+            },
+            {
+                "guid": "angel-plan",
+                "status": "active",
+                "name": "Goodwill plan",
+                "description": "Pay anything you wish to show your goodwill for the project.",
+                "amount": 0,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["sugarlabs-bank", "paypal"]
+            }
+        ],
+"history": [
+           {"year": 2019, "income": 20000, "expenses": 2343, "taxes": 0, "currency": "USD", "description": "We applied for nonprofit status and received $20,000 to the new entity from the Software Freedom Conservancy, our former fiscal sponsor, in the form of a grant."},
+            {"year": 2020, "income": 8100, "expenses": 12454, "taxes": 0, "currency": "USD", "description": "The higher expenses this year were due to legal and accounting expenses required to start as a new organization, newly separated from the Software Freedom Conservancy."},
+            {"year": 2021, "income": 3200, "expenses": 5730, "taxes": 0, "currency": "USD", "description": ""},
+            {"year": 2022, "income": 92569, "expenses": 5283, "taxes": 0, "currency": "USD", "description": "We received the remainder of our financial assets from Software Freedom Conservancy as a grant."},
+            {"year": 2023, "income": 4500, "expenses": 8855, "taxes": 0, "currency": "USD", "description": ""}
+        ]
+    }
+}
+
+
