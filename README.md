@@ -390,20 +390,18 @@ In this section, we will guide you through the steps for giving a redirect.
     * In the html file use the script:
  ```
   <script>
-    window.location.href = "/yourUrl";
+    window.location.href = "/urlSlug";
   </script>
  ```
-   * If the URL is "https://sugarlabs.org/my/target/link.html" then the path "/my/target/link" is yourUrl.
-   * This part uses Javascript to immediately set the `window.location.href` to `/yourUrl`, redirecting the user.
+   * This part uses Javascript to immediately set the `window.location.href` to `/urlSlug`, redirecting the user.
    
 3. **Non-Javascript fallback:**
    * In the html file if the Javascript is disabled for the browser use:
 ```
   <noscript>
-    <meta http-equiv="refresh" content="0; url=/yourUrl">
+    <meta http-equiv="refresh" content="0; url=/urlSlug">
   </noscript>
 ```
-   * If the URL is "https://sugarlabs.org/my/target/link.html" then the path "/my/target/link" is yourUrl.
-   * The `<noscript>`block activates, and the `<meta>` tag trigger a refresh to `/yourUrl` with a delay of 0 second.
+   * The `<noscript>`block activates, and the `<meta>` tag trigger a refresh to `/urlSlug` with a delay of 0 second.
 
 This approach ensures seamless redirection regardless of whether Javascript is enabled or not.
