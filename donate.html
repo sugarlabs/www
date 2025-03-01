@@ -289,9 +289,35 @@ permalink: /donate/index.html
 	      <h3 >DONATE TO SUGAR LABS</h3>
 	      <p>Help Sugar Labs fulfill its mission by making a
 	      	one-time or recurring tax-deductable donation.</p>
-	      <form action="https://www.every.org/sugar-labs?amount=17&frequency=ONCE#donate" method="post" target="_top">
-		    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="Every.org - The safer, easier way to pay online!" alt="Donate with Every.org button" />
-	      </form>
+              <form action="https://www.every.org/sugar-labs?amount=17&frequency=ONCE#donate" method="post" target="_top">
+                <div className="donate-container" style="margin-bottom: 2rem;">
+                  <button style="background-color: #fbd04f; color: black; font-size: 1.125rem; font-weight:600; padding: 8px 24px; border-radius: 50px; cursor: pointer; border: none;">Donate</button>
+                  <div className="payment-methods-text">Accepted payment methods:</div>
+                  <div className="credit-cards">
+                    <Image
+                      src="/assets/paypal.svg?height=30&width=48"
+                      alt="Visa"
+                      id="credit-card-image"
+                    />
+                    <Image
+                      src="/assets/visa.svg?height=30&width=48"
+                      alt="visa"
+                      id="credit-card-image"
+                    />
+                    <Image
+                      src="/assets/mastercard.svg?height=30&width=48"
+                      alt="American Express"
+                      id="credit-card-image"
+                    />
+                    <Image
+                      src="/assets/amex.svg?height=30&width=48"
+                      alt="Discover"
+                      id="credit-card-image"
+                    />
+                  </div>
+                </div>
+        
+              </form>
 	    </div>
 	  </div>
 	</div>
