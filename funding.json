@@ -2,7 +2,7 @@
     "$schema": "https://floss.fund/schema/v1.0.0/funding.schema.json#",
     "version": "v1.0.0",
     "entity": {
-        "type": "nonprofit organization",
+        "type": "organisation",
         "role": "education",
         "name": "Sugar Labs Inc.",
         "email": "info@sugarlabs.org",
@@ -31,7 +31,7 @@
         "name": "Sugarizer",
         "description": "Sugarizer is a free/libre learning platform. The Sugarizer UI uses ergonomic principles from The Sugar platform, developed for the One Laptop per Child project and used by more than 2 million children around the world.\n\nSugarizer runs on every device: laptops, desktops, tiny computers, tablets or smartphones.\n\nSugarizer includes a large set of pedagogic activities thought for children, see here for a full list.\n\nSugarizer is available as an application -- an installable app for every operating system -- and a web Application --a web application that runs in modern web browsers.",
         "webpageUrl": {
-            "url": "https://sugarizer.org/"
+            "url": "https://www.sugarlabs.org/sugarizer/"
         },
         "repositoryUrl": {
             "url": "https://github.com/sugarlabs/sugarizer/",
@@ -44,7 +44,7 @@
         "name": "Music Blocks",
         "description": "Music Blocks is a visual programming language and collection of manipulative tools for exploring musical and mathematical concepts in an integrative and entertaining way.",
         "webpageUrl": {
-            "url": "https://musicblocks.sugarlabs.org/"
+            "url": "https://www.sugarlabs.org/music-blocks/"
         },
         "repositoryUrl": {
             "url": "https://github.com/sugarlabs/musicblocks/",
