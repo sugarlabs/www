@@ -7,7 +7,7 @@
         "name": "Sugar Labs Inc.",
         "email": "info@sugarlabs.org",
         "phone": "1-617-702-4088",
-        "description": "Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a Free/Libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.",
+        "description": "Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study. Licensed under a free/Libre/open-source license, students and teachers are empowered with explicit permission to share and remix all of our learning tools. Our community works in the open, where students make contributions together with experienced mentors.",
         "webpageUrl": {
             "url": "https://www.sugarlabs.org"
         }
@@ -15,7 +15,7 @@
     "projects": [{
         "guid": "sugar-dle",
         "name": "Sugar Desktop Learning Environment",
-        "description": "Sugar is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, Sugar Activities are used every school day by children in more than forty countries.\n\nOriginally developed for the One Laptop per Child XO-1 netbook, Sugar can run on most computers.\n\nSugar is free/libre and open-source software.",
+        "description": "Sugar Desktop Learning Environment (Sugar DLE) is the desktop environment component of a worldwide effort to provide every child with an equal opportunity for a quality education. Available in more than twenty-five languages, children in more than forty countries use Sugar DLE every day at school.\n\nOriginally developed for the One Laptop per Child XO-1 netbook, Sugar DLE can run on most computers.\n\nSugar is free/libre and open-source software.",
         "webpageUrl": {
             "url": "https://www.sugarlabs.org/booting-soas/"
         },
@@ -29,7 +29,7 @@
     {
         "guid": "sugarizer",
         "name": "Sugarizer",
-        "description": "Sugarizer is a free/libre learning platform. The Sugarizer UI uses ergonomic principles from The Sugar platform, developed for the One Laptop per Child project and used by more than 2 million children around the world.\n\nSugarizer runs on every device: laptops, desktops, tiny computers, tablets or smartphones.\n\nSugarizer includes a large set of pedagogic activities thought for children, see here for a full list.\n\nSugarizer is available as an application -- an installable app for every operating system -- and a web Application --a web application that runs in modern web browsers.",
+        "description": "Sugarizer is a free/libre/open-source learning platform, based on the Sugar Desktop Learning Environment (Sugar DLE) platform, developed for the One Laptop per Child (OLPC) project and used by more than three million children around the world.\n\nSugarizer runs on every device -- laptops, desktops, tiny computers, tablets, and smartphones.\n\nSugarizer includes a large set of learning activities for children.\n\nSugarizer is available as an app for every operating system (OS), installable from your OS's app store, or it can be run as a web application from  your browser.",
         "webpageUrl": {
             "url": "https://www.sugarlabs.org/sugarizer/"
         },
@@ -42,7 +42,7 @@
             {
         "guid": "music-blocks",
         "name": "Music Blocks",
-        "description": "Music Blocks is a visual programming language and collection of manipulative tools for exploring musical and mathematical concepts in an integrative and entertaining way.",
+        "description": "Music Blocks is a visual programming language and collection of manipulative tools for exploring musical and mathematical concepts in an integrative and entertaining way. Music Blocks has been adopted as an official educational tool by the governments of Japan and Peru.",
         "webpageUrl": {
             "url": "https://www.sugarlabs.org/music-blocks/"
         },
