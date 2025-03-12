@@ -90,7 +90,7 @@
                 "amount": 250,
                 "currency": "USD",
                 "frequency": "monthly",
-                "channels": ["sugarlabs-bank", "paypal"]
+                "channels": ["sugarlabs-bank", "paypal", "every-org"]
             },
 	    {
                 "guid": "project-growth",
@@ -100,7 +100,7 @@
                 "amount": 500,
                 "currency": "USD",
                 "frequency": "monthly",
-                "channels": ["sugarlabs-bank", "paypal"]
+                "channels": ["sugarlabs-bank", "paypal", "every-org"]
             },
             {
                 "guid": "developer-time",
@@ -110,7 +110,7 @@
                 "amount": 1000,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["sugarlabs-bank", "paypal"]
+                "channels": ["sugarlabs-bank", "paypal", "every-org"]
             },
             {
                 "guid": "angel-plan",
@@ -120,7 +120,7 @@
                 "amount": 0,
                 "currency": "USD",
                 "frequency": "one-time",
-                "channels": ["sugarlabs-bank", "paypal"]
+                "channels": ["sugarlabs-bank", "paypal", "every-org"]
             }
         ],
 "history": [
