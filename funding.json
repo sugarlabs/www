@@ -77,7 +77,7 @@
             {
                 "guid": "paypal",
                 "type": "payment-provider",
-                "address": "https://www.paypal.com/paypalme/sugarlabsinc",
+                "address": "https://www.paypal.com/us/fundraiser/charity/4357440",
                 "description": "Pay with your debit/credit card or via PayPal through this gateway."
             }
         ],
