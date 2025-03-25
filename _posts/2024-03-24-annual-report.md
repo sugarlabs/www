@@ -476,6 +476,21 @@ Blocks to an audience of educators and technologists.
 
 ### Music Blocks
 
+This year marked a lot of progress in research and development for
+Music Blocks visual programming language. In tandem with the coding we
+did as GSoC over the summer, I found as many ways as possible to bring
+the new features to students, teachers, and classrooms.
+
+I worked together with one of my students, Nathan, who has studied
+music with me for about a decade and has also taken over a year of
+Music Blocks classes directly from Walter Bender. Together, we tested
+the new AI features, such as MIDI import, as well as experimental
+features, such as music transcription and lesson plan generators.
+
+At around the same time, I worked together with teachers who were
+preparing innovative Music Blocks lessons and reporting any bugs they
+found and feature requests.
+
 <section id="intro" class="customMarPadCombo2">
   <div class="container">
     <div class="row">
