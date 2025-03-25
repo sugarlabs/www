@@ -23,6 +23,32 @@ implementing new features, fixing bugs, and making our learning
 software available on more platforms. We did all this and more in
 2024, which I detail in more detail below.
 
+In many aspects, this report is highly personal. I share about my own
+journeys to conferences, photos of the people I met, and the students
+to whom I introduce Sugar. In 2024, I became Sugar Labs’s first
+full-time staff member, which helped me to fully dedicate myself to
+many aspects of the organization. We were also able to sponsor
+community members like Anindya Kundu to represent Sugar Labs
+internationally. As you read this report, please understand that the
+vision for Sugar Labs as a nonprofit organization is to grow to be
+able to support more and more people like myself, so that we can have
+an even wider reach. And, that said, Sugar Labs, being a
+free/libre/open source community-driven project, makes its tools
+available to the public under free licenses, so that anyone may use
+what we’ve created to support teachers and classrooms in their
+respective communities, regardless of their “status” within the
+organization.
+
+In other words, Sugar Labs is *not* a one-man-band. Instead, it’s a
+community of orchestras and ensembles. The organization is meant to
+support those orchestras and ensembles, comprised of teachers and
+learners, listening to and responding to their needs. It is my hope
+that 2025’s annual report includes even more stories and photos from
+the broader Sugar Labs community.  Sugar Labs welcomes your interest,
+support, and contributions. I encourage you to join our community of
+teachers, learners, and parents working together to create better
+tools and a supportive environment for learning.
+
 I hope that the annual publication of our work in the form of an
 executive summary will serve as a benchmark as we work toward
 continuous self-improvement as a nonprofit dedicated to serving our
