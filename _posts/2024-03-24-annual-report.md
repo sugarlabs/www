@@ -9,19 +9,19 @@ categories: community
 # Annual report for 2024
 
 This report is meant to be an overview of the work Sugar Labs did in
-2024\. Looking back at 2024, we did a lot of work – we participated in
-events in the US and India, we mentored more than a dozen students
+2024\. Looking back at 2024, we did a lot of work. We participated in
+events in the US and India. We mentored more than a dozen students
 over the length of the summer for Google Summer of Code and Dedicated
-Mentorship Program, which we participated in for the first time last
-year. We launched a series of online videos to showcase our work to
-the public, while simultaneously giving a platform for young
-contributors to reflect upon their progress and to be introduced to a
-larger developer community. We created a handful of entirely new
-software projects for learning, such as new math games and Sugarizer
-activities. And we improved our existing software – implementing new
-features, fixing bugs, and making our learning software available on
-more platforms. We did all this and more in 2024, which I detail in
-more detail below.
+Mentorship Program, the latter of which we participated in for the
+first time last year. We launched a series of online videos to
+showcase our work to the public while simultaneously giving a platform
+for young contributors to reflect upon their progress and to be
+introduced to a larger developer community. We created a handful of
+entirely new software projects for learning, such as new math games
+and Sugarizer activities. And we improved our existing software –
+implementing new features, fixing bugs, and making our learning
+software available on more platforms. We did all this and more in
+2024, which I detail in more detail below.
 
 I hope that the annual publication of our work in the form of an
 executive summary will serve as a benchmark as we work toward
@@ -721,7 +721,7 @@ developed over the summer.
 
 We had a little bit of fun in our fundraising efforts last
 year. Inspired by people reaching out to us about merchandise and
-questions about \*how to buy Sugar\*, we now offer a variety of
+questions about *how to buy Sugar*, we now offer a variety of
 merchandise, including clothing items such as hoodies and t-shirts in
 different colors. We also have SoaS (Sugar on a Stick) USBs available
 for purchase. In order to offer these products with the least amount
@@ -764,11 +764,11 @@ software for education through Constructionist principles.
   </div>
 </section>
 
-To view and purchase our merchandise, please go to:
-<https://www.sugarlabs.org/products/>
+*To view and purchase our merchandise, please go to:
+<https://www.sugarlabs.org/products/>.*
 
-Read more about the launch of our products:
-<https://www.sugarlabs.org/community/2025/01/21/SoaS-USB-announcement/>
+*Read more about the launch of our products:
+<https://www.sugarlabs.org/community/2025/01/21/SoaS-USB-announcement/>.*
 
 ## 2024 accounting details: Revenue and expenses
 
@@ -850,5 +850,5 @@ Labs's website:
 
 [Devin Ulibarri stepped into the role of executive
 director](https://www.sugarlabs.org/press/2024/05/08/Sugar-Labs-announces-nonprofit-status-new-executive-director/)
-in 2024, and, as mentioned in “Elections” above, Sugar Labs members
+in 2024, and, as mentioned in “Election” above, Sugar Labs members
 voted three new members to the board, filling one vacancy.
