@@ -9,19 +9,45 @@ categories: community
 # Annual report for 2024
 
 This report is meant to be an overview of the work Sugar Labs did in
-2024\. Looking back at 2024, we did a lot of work – we participated in
-events in the US and India, we mentored more than a dozen students
+2024\. Looking back at 2024, we did a lot of work. We participated in
+events in the US and India. We mentored more than a dozen students
 over the length of the summer for Google Summer of Code and Dedicated
-Mentorship Program, which we participated in for the first time last
-year. We launched a series of online videos to showcase our work to
-the public, while simultaneously giving a platform for young
-contributors to reflect upon their progress and to be introduced to a
-larger developer community. We created a handful of entirely new
-software projects for learning, such as new math games and Sugarizer
-activities. And we improved our existing software – implementing new
-features, fixing bugs, and making our learning software available on
-more platforms. We did all this and more in 2024, which I detail in
-more detail below.
+Mentorship Program, the latter of which we participated in for the
+first time last year. We launched a series of online videos to
+showcase our work to the public while simultaneously giving a platform
+for young contributors to reflect upon their progress and to be
+introduced to a larger developer community. We created a handful of
+entirely new software projects for learning, such as new math games
+and Sugarizer activities. And we improved our existing software –
+implementing new features, fixing bugs, and making our learning
+software available on more platforms. We did all this and more in
+2024, which I detail in more detail below.
+
+In many aspects, this report is highly personal. I share about my own
+journeys to conferences, photos of the people I met, and the students
+to whom I introduce Sugar. In 2024, I became Sugar Labs’s first
+full-time staff member, which helped me to fully dedicate myself to
+many aspects of the organization. We were also able to sponsor
+community members like Anindya Kundu to represent Sugar Labs
+internationally. As you read this report, please understand that the
+vision for Sugar Labs as a nonprofit organization is to grow to be
+able to support more and more people like myself, so that we can have
+an even wider reach. And, that said, Sugar Labs, being a
+free/libre/open source community-driven project, makes its tools
+available to the public under free licenses, so that anyone may use
+what we’ve created to support teachers and classrooms in their
+respective communities, regardless of their “status” within the
+organization.
+
+In other words, Sugar Labs is *not* a one-man-band. Instead, it’s a
+community of orchestras and ensembles. The organization is meant to
+support those orchestras and ensembles, comprised of teachers and
+learners, listening to and responding to their needs. It is my hope
+that 2025’s annual report includes even more stories and photos from
+the broader Sugar Labs community.  Sugar Labs welcomes your interest,
+support, and contributions. I encourage you to join our community of
+teachers, learners, and parents working together to create better
+tools and a supportive environment for learning.
 
 I hope that the annual publication of our work in the form of an
 executive summary will serve as a benchmark as we work toward
@@ -476,6 +502,21 @@ Blocks to an audience of educators and technologists.
 
 ### Music Blocks
 
+This year marked a lot of progress in research and development for
+Music Blocks visual programming language. In tandem with the coding we
+did as GSoC over the summer, I found as many ways as possible to bring
+the new features to students, teachers, and classrooms.
+
+I worked together with one of my students, Nathan, who has studied
+music with me for about a decade and has also taken over a year of
+Music Blocks classes directly from Walter Bender. Together, we tested
+the new AI features, such as MIDI import, as well as experimental
+features, such as music transcription and lesson plan generators.
+
+At around the same time, I worked together with teachers who were
+preparing innovative Music Blocks lessons and reporting any bugs they
+found and feature requests.
+
 <section id="intro" class="customMarPadCombo2">
   <div class="container">
     <div class="row">
@@ -706,7 +747,7 @@ developed over the summer.
 
 We had a little bit of fun in our fundraising efforts last
 year. Inspired by people reaching out to us about merchandise and
-questions about \*how to buy Sugar\*, we now offer a variety of
+questions about *how to buy Sugar*, we now offer a variety of
 merchandise, including clothing items such as hoodies and t-shirts in
 different colors. We also have SoaS (Sugar on a Stick) USBs available
 for purchase. In order to offer these products with the least amount
@@ -749,11 +790,11 @@ software for education through Constructionist principles.
   </div>
 </section>
 
-To view and purchase our merchandise, please go to:
-<https://www.sugarlabs.org/products/>
+*To view and purchase our merchandise, please go to:
+<https://www.sugarlabs.org/products/>.*
 
-Read more about the launch of our products:
-<https://www.sugarlabs.org/community/2025/01/21/SoaS-USB-announcement/>
+*Read more about the launch of our products:
+<https://www.sugarlabs.org/community/2025/01/21/SoaS-USB-announcement/>.*
 
 ## 2024 accounting details: Revenue and expenses
 
@@ -835,5 +876,5 @@ Labs's website:
 
 [Devin Ulibarri stepped into the role of executive
 director](https://www.sugarlabs.org/press/2024/05/08/Sugar-Labs-announces-nonprofit-status-new-executive-director/)
-in 2024, and, as mentioned in “Elections” above, Sugar Labs members
+in 2024, and, as mentioned in “Election” above, Sugar Labs members
 voted three new members to the board, filling one vacancy.
