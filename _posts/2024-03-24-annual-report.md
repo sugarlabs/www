@@ -401,7 +401,7 @@ an internet connection.
               <p>Internet-in-a-Box (IIAB) is a solution for communities that do not have internet access. It acts as a server with educational software and services pre-installed.</p>
             </div>
             <div>
-              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image20.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image39.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
               <h3 class="text-center">Sugarizer</h3>
               <p>Sugarizer is one of the programs that comes pre-installed on IIAB.</p>
             </div>
