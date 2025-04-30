@@ -12,18 +12,13 @@ $(document).ready(function () {
     var selectedColors = COLORS[colorIndex];
 
     //Apply selected colors to the Sugarlabs logo
-    var logoID = colorIndex + 1;
-    if (logoID < 10) {
-        logoID = "0" + logoID;
-    }
-
     var defaultIcon = document.querySelector('#defaultIcon1');
     if (defaultIcon) {
         var logoID = colorIndex + 1;
         if (logoID < 10) {
             logoID = "0" + logoID;
         }
-        
+    
         var rootUrl = '';
         var baseTag = document.querySelector('base');
         if (baseTag && baseTag.href) {
@@ -31,8 +26,12 @@ $(document).ready(function () {
         } else {
             rootUrl = window.location.protocol + '//' + window.location.host + '/';
         }
-        
-        defaultIcon.href = rootUrl + 'assets/favicon_' + logoID + '.png';
+    
+        // Update the favicon
+        var newFaviconUrl = rootUrl + 'assets/favicon_' + logoID + '.png';
+        if (defaultIcon.href !== newFaviconUrl) {
+            defaultIcon.href = newFaviconUrl;
+        }
     }
 
     var h = document.querySelector('.logo1').innerHTML;
