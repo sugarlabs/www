@@ -1,0 +1,201 @@
+.ion-sticky {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  position: fixed;
+  z-index: 2147483647;
+}
+
+.ion-sticky-icon {
+  float: left;
+  display: block;
+  clear: both;
+  transition: padding 0.1s ease-out;
+  margin: 0;
+  padding: 9px;
+  color: white;
+}
+.ion-sticky-icon:hover {
+  padding-left: 15px;
+  color: white;
+}
+.ion-sticky-icon.ion-logo-facebook {
+  background: #1877f2;
+  text-indent: 3px;
+  margin-right: -1.5px;
+  border-radius: 0 0.25em 0 0;
+}
+.ion-sticky-icon.ion-logo-facebook:hover {
+  background: rgb(11.4549180328, 95.1639344262, 203.5450819672);
+}
+.ion-sticky-icon.ion-logo-github {
+  background: black;
+  text-indent: 1.5px;
+  margin-right: -1.5px;
+}
+.ion-sticky-icon.ion-logo-github:hover {
+  background: black;
+}
+.ion-sticky-icon.ion-logo-X {
+  background: black;
+  text-indent: 1px;
+  margin-right: -1px;
+}
+.ion-sticky-icon.ion-logo-X:hover {
+  background: black;
+}
+.ion-sticky-icon.ion-logo-instagram {
+  background: linear-gradient(rgba(76, 75, 219, 0.5215686275), transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
+  text-indent: 2px;
+  margin-right: -3.5px;
+  font-size: 2rem;
+}
+.ion-sticky-icon.ion-logo-instagram:hover {
+  background: linear-gradient(rgba(41.625, 40.5, 202.5, 0.5215686275), rgba(0, 0, 0, 0)), linear-gradient(60deg, #cccc00, rgb(204, 0, 168.8), rgb(10.9487179487, 44.5769230769, 172.0512820513));
+}
+.ion-sticky-icon.ion-logo-youtube {
+  background: red;
+  border-radius: 0 0 0.25em 0;
+}
+.ion-sticky-icon.ion-logo-youtube:hover {
+  background: #cc0000;
+}
+.ion-sticky-icon.ion-logo-mastodon {
+  background: #3088d4;
+  text-indent: 1px;
+  margin-right: -1px;
+}
+.ion-sticky-icon.ion-logo-mastodon:hover {
+  background: rgb(35.948, 109.516, 173.052);
+}
+.ion-sticky-icon.ion-logo-linkedin {
+  background: #0077b5;
+  text-indent: 1px;
+  margin-right: -1px;
+}
+.ion-sticky-icon.ion-logo-linkedin:hover {
+  background: rgb(0, 85.4696132597, 130);
+}
+.ion-sticky-icon.ion-logo-medium {
+  background: black;
+  text-indent: 1.5px;
+  margin-right: -1.5px;
+}
+.ion-sticky-icon.ion-logo-medium:hover {
+  background: black;
+}
+
+.ion-icon {
+  padding: 1px 4px;
+  margin: 0.5rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+.ion-icon.ion-logo-facebook {
+  color: white;
+  border: 1px solid #1877f2;
+  padding: 0.3rem 1rem;
+  background-color: #1877f2;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-facebook:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+.ion-icon.ion-logo-github {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ion-icon.ion-logo-github:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+.ion-icon.ion-logo-X {
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-X:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+.ion-icon.ion-logo-instagram {
+  color: white;
+  background: linear-gradient(rgba(76, 75, 219, 0.5215686275), transparent), linear-gradient(60deg, #ffff00, #ff00d3, #0e39dc);
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-instagram:hover {
+  color: #d9a1f1;
+}
+.ion-icon.ion-logo-youtube {
+  color: white;
+  background-color: red;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-youtube:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+.ion-icon.ion-logo-mastodon {
+  color: white;
+  border: 1px solid #3088d4;
+  padding: 0.3rem 1rem;
+  background-color: #3088d4;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-mastodon:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+.ion-icon.ion-logo-linkedin {
+  color: white;
+  border: 1px solid #0077b5;
+  background-color: #0077b5;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-linkedin:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+.ion-icon.ion-logo-medium {
+  color: white;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ion-icon.ion-logo-medium:hover {
+  color: rgb(229.5, 229.5, 229.5);
+}
+
+/*# sourceMappingURL=ion_icon_customization.css.map */
